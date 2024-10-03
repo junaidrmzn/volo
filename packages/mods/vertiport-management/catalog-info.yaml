@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.vertiport-management.ui
+  title: vertiport management UI
+  tags:
+  - javascript
+spec:
+  type: micro-frontend
+  lifecycle: production
+  owner: voloiq-air-ops-team
+  system: voloiq.vertiport-management
+  consumesApis:
+  - voloiq.vertiport-management.api

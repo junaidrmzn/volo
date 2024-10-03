@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.flight-planning.ui
+  title: flight planning UI
+  tags:
+  - javascript
+spec:
+  type: micro-frontend
+  lifecycle: production
+  owner: voloiq-flight-planning-team
+  system: voloiq.flight-planning
+  consumesApis:
+  - voloiq.flight-planning.api

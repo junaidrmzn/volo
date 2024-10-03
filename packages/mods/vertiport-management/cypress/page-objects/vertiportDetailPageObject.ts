@@ -1,0 +1,15 @@
+export const VertiportDetailPage = {
+    returnToListButton: () => cy.findByRole("button", { name: "Return to list" }),
+    editButton: () => cy.findByRole("button", { name: "Edit" }),
+    generalTab: () => cy.findByRole("tab", { name: "General" }),
+    locationTab: () => cy.findByRole("tab", { name: "Location" }),
+    operationsTab: () => cy.findByRole("tab", { name: "Operations" }),
+    localiisationTab: () => cy.findByRole("tab", { name: "Localisation" }),
+    resourcesTab: () => cy.findByRole("tab", { name: "Resources" }),
+    fatoStandTab: () => cy.findByRole("tab", { name: "FATOs & Stands" }),
+    addFatoStandButton: () => cy.findAllByRole("button", { name: "Add FATO / Stand" }),
+    actionsForFatoStands: () => cy.findByRole("button", { name: "FATO / Stands Actions" }),
+    equipmentTab: () => cy.findByRole("tab", { name: "Equipment" }),
+    addEquipmentButton: () => cy.findAllByRole("button", { name: "Add Equipment" }),
+    actionsForEquipments: () => cy.findByRole("button", { name: "Equipment Actions" }),
+};

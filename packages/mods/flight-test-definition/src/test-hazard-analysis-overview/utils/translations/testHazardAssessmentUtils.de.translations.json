@@ -1,0 +1,18 @@
+{
+    "risk-levels": {
+        "low": "LOW",
+        "medium": "MEDIUM",
+        "high": "HIGH",
+        "very-high": "VERY HIGH"
+    },
+    "hazard-group": {
+        "title": "Gefährdungsgruppe",
+        "generic-hazard": "Allgemeine Gefährdungen",
+        "test-point-specific-hazards": "Prüfpunkt Spezifische Gefährdungen"
+    },
+    "applicability": {
+        "title": "Anwendbarkeit",
+        "manned": "Bemannt",
+        "unmanned": "Unbemannte"
+    }
+}

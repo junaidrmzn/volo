@@ -1,0 +1,46 @@
+{
+  "notAvailable": "n.a.",
+  "edit": "Edit",
+  "scenario": "Scenario",
+  "feasibility": "Feasibility",
+  "common": {
+    "select": "Select",
+    "cancel": "Cancel",
+    "done": "Done",
+    "segment": "Segment",
+    "typeofconnection": {
+      "direct": "Direct",
+      "arc": "Arc",
+      "invert": "Invert"
+    }
+  },
+  "weatherScenario": {
+    "title": "Weather Scenario",
+    "type": {
+      "standard": "Standard",
+      "specific": "Specific",
+      "live": "Live"
+    }
+  },
+  "aircraft": "Aircraft",
+  "settings": {
+   "parameterSet": "Name of parameter Set",
+    "title": "Settings",
+    "type": {
+      "standard": "Standard"
+    }
+  },
+  "editSegment": {
+    "nm": "NM",
+    "segmentFrom": "Segment from",
+    "segment": "segment",
+    "distance": "Distance",
+    "pointToPoint": "point-to-point",
+    "typeOfConnection": "Type of connection",
+    "curveRadius":"Curve Radius"
+  },
+  "validity": {
+    "title": "Validity",
+    "recalculate": "Recalculate"
+  }
+}

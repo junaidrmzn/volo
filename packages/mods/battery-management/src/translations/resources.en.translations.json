@@ -1,0 +1,401 @@
+{
+    "generic": {
+        "generate report button": "Generate Report",
+        "generate raw measurement": "Raw Data for all ESUs (zip)",
+        "save button": "Save",
+        "create button": "Add",
+        "add button": "Add",
+        "edit button": "Edit",
+        "confirm button": "Confirm",
+        "details button": "Details",
+        "delete button": "Delete",
+        "cancel button": "Cancel",
+        "back button": "Back",
+        "dropdown placeholder": "Please choose",
+        "dropdown error": "Please select a valid option",
+        "required error": "Please fill this field",
+        "maxLength error": "Please use at most ${max} characters",
+        "pagination": {
+            "ariaLabel": "pagination",
+            "nextPageAriaLabel": "Next page",
+            "previousPageAriaLabel": "Previous page"
+        },
+        "delete-modal": {
+            "heading": "Delete {entityName}",
+            "body": "Do you really want to delete this {entityName}?",
+            "body-with-id": "Do you really want to delete the {entityName} {entityId}?",
+            "cancel": "Cancel",
+            "delete": "Delete"
+        }
+    },
+    "success": {
+        "header": "All ok.",
+        "report generate": "Report generated",
+        "raw measurement report generate": "Zip has been created"
+    },
+    "error": {
+        "An error occurred": "Uh-oh! An error occurred."
+    },
+    "esu-type": {
+        "model": {
+            "name": "Name",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "chargingMode": {
+                "label": "Charging mode",
+                "manual": "Manual charging",
+                "manualShort": "Manual",
+                "automatic": "Automatic charging",
+                "automaticShort": "Automatic"
+            },
+            "aircraftTypes": "Aircraft Types"
+        },
+        "overview": {
+            "heading": "Resources",
+            "subheading": "ESU Type",
+            "listLabel": "ESU Types",
+            "add button": "Add",
+            "create button": "Add",
+            "cancel button": "Cancel"
+        },
+        "create": {
+            "heading": "Add ESU Type",
+            "success": "ESU Type has been created successful"
+        },
+        "edit": {
+            "heading": "Edit ESU Type",
+            "update": "Update",
+            "success": "ESU Type has been edited successful"
+        }
+    },
+    "esu": {
+        "model": {
+            "name": "Name",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "aircraftTypes": "Aircraft Types",
+            "status": "Status",
+            "technicalStatus": "Technical Status",
+            "manufacturer": "Manufacturer",
+            "batch": "Batch",
+            "serial": "Serial Number",
+            "weight": "Weight (kg)",
+            "weight-negative": "Negative weights are not allowed",
+            "chargingCycles": "Charging Cycles",
+            "usageCycles": "Usage Cycles",
+            "position": "Position",
+            "flightPermits": "Flight Permit",
+            "battery": "Battery",
+            "type": "Esu Type",
+            "location": "Location",
+            "chargingProfile": "Charging Profile"
+        },
+        "overview": {
+            "heading": "Resources",
+            "subheading": "ESUs",
+            "listLabel": "ESUs",
+            "add button": "Add",
+            "create button": "Add",
+            "cancel button": "Cancel"
+        },
+        "create": {
+            "heading": "Add ESU",
+            "success": "ESU has been created successful"
+        },
+        "edit": {
+            "heading": "Edit ESU",
+            "update": "Update",
+            "success": "ESU has been edited successful"
+        },
+        "status": {
+            "aircraft_connected": "AIRCRAFT CONNECTED",
+            "post_flight": "POST FLIGHT",
+            "pre_flight": "PRE FLIGHT",
+            "charging": "CHARGING",
+            "ready_for_flight": "READY FOR FLIGHT",
+            "soh_cycle": "SOH CYCLE",
+            "inspection": "INSPECTION",
+            "deactivated": "DEACTIVATED"
+        },
+        "technicalStatus": {
+            "serviceable": "SERVICEABLE",
+            "unserviceable": "UNSERVICEABLE",
+            "serviceable_with_limitations": "SERVICEABLE WITH LIMITATIONS"
+        },
+        "flightPermits": {
+            "manned": "MANNED",
+            "unmanned": "UNMANNED",
+            "ground": "GROUND",
+            "secondlife": "SECONDLIFE",
+            "no_usage": "NO USAGE",
+            "not_approved": "NOT APPROVED"
+        }
+    },
+    "battery": {
+        "model": {
+            "name": "Name",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "actstatus": "Status",
+            "technicalStatus": "Technical Status",
+            "firstusagetime": "First used",
+            "flightpermits": "Flight permit",
+            "batteryid": "Battery ID",
+            "batterytypeid": "ID of the associated EsuType",
+            "lastchargetime": "Last charged",
+            "location": "Location",
+            "maxchargingtime": "Maximum charging time (s)",
+            "maxcellvoltage": "Maximum voltage (V)",
+            "mincellvoltage": "Minimum voltage (V)",
+            "nrchargingcycles": "Charging cycles",
+            "nrusagecycles": "Usage Cycles",
+            "numberofesus": "Maximum number of ESUs in battery",
+            "weight": "Weight (kg)"
+        },
+        "overview": {
+            "heading": "Resources",
+            "subheading": "Batteries",
+            "listLabel": "Batteries",
+            "add button": "Add",
+            "create button": "Add",
+            "cancel button": "Cancel"
+        },
+        "create": {
+            "heading": "Add battery",
+            "success": "Battery has been created successful"
+        },
+        "edit": {
+            "heading": "Edit battery",
+            "success": "Battery has been edited successful",
+            "update": "update",
+            "generalTab": "Details",
+            "assignEsuTab": "Assigned ESUs",
+            "unassignEsuTab": "Unassigned ESUs",
+            "assign button": "Assign",
+            "unassign button": "Unassign",
+            "assign success": "ESU has been assigned successful",
+            "unassign success": "ESU has been unassigned successful",
+            "assign multiple success": "ESUs have been assigned successful",
+            "unassign multiple success": "ESUs have been unassigned successful",
+            "esu count": "ESU count:",
+            "next": "Next",
+            "pagination": "Pagination",
+            "previous": "Previous"
+        },
+        "esuAssignmentTable": {
+            "name": "Name",
+            "status": "Status",
+            "technicalStatus": "Technical Status",
+            "location": "Location",
+            "flightPermit": "Flight Permit"
+        },
+        "status": {
+            "charging": "CHARGING",
+            "discharging": "DISCHARGING",
+            "deactivated": "DEACTIVATED",
+            "full": "FULL",
+            "incomplete": "INCOMPLETE",
+            "inspection": "INSPECTION",
+            "in_vtol": "IN VTOL",
+            "post_flight": "POST FLIGHT",
+            "ready_for_flight": "READY FOR FLIGHT",
+            "inconsistent": "INCONSISTENT"
+        },
+        "flightPermits": {
+            "manned": "MANNED",
+            "unmanned": "UNMANNED",
+            "ground": "GROUND",
+            "secondlife": "SECOND LIFE",
+            "no_usage": "NO USAGE",
+            "not_approved": "NOT APPROVED"
+        },
+        "technicalStatus": {
+            "serviceable_with_limitations": "SERVICEABLE WITH LIMITATIONS",
+            "serviceable": "SERVICEABLE",
+            "unserviceable": "UNSERVICEABLE"
+        }
+    },
+    "charging-profile": {
+        "model": {
+            "name": "Name",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "chargingType": "Charging Type",
+            "createTime": "Create Time",
+            "updateTime": "Update time",
+            "currentCharMax": "Max. allowed charging current (A)",
+            "currentCharMin": "Min. allowed charging current (A)",
+            "currentDiscMax": "Max. allowed discharge current (A)",
+            "currentDiscMin": "Min. allowed discharge current (A)",
+            "tempCellHigh": "Upper cell temperature threshold (charging current) (°C)",
+            "tempCellLow": "Lower cell temperature threshold (charging current) (°C)",
+            "tempCellMax": "Alarm level for max. cell temperature (°C)",
+            "tempCellMin": "Alarm level for min. cell temperature (°C)",
+            "voltageCellBal": "Min. voltage level single cell to start balancing  (V)",
+            "voltageDescriptionFull": "Voltage level for single cell at 100% :",
+            "voltageCellHigh": "Max. cell voltage (V)",
+            "voltageCellLow": "Min. cell voltage (V)",
+            "voltageDescriptionIdle": "Voltage level for single cell (idle current) :",
+            "voltageCellMax": "Upper cell voltage threshold (V)",
+            "voltageCellMin": "Lower cell voltage threshold (V)"
+        },
+        "overview": {
+            "heading": "Resources",
+            "subheading": "Charging Profiles",
+            "listLabel": "Charging Profiles",
+            "add button": "Add",
+            "create button": "Add",
+            "cancel button": "Cancel"
+        },
+        "create": {
+            "heading": "Add Charging Profile",
+            "success": "Charging profile has been created successful"
+        },
+        "edit": {
+            "heading": "Edit Charging Profile",
+            "success": "Charging profile has been edited successful",
+            "update": "Update",
+            "generalTab": "Details",
+            "next": "Next",
+            "pagination": "Pagination",
+            "previous": "Previous"
+        }
+    },
+    "charging-station": {
+        "model": {
+            "name": "Name",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "status": "Status",
+            "vertiport": "Vertiport",
+            "facilityId": "Facility ID",
+            "edgeDeviceId": "Edge Device ID",
+            "location": "Location",
+            "id": "ID",
+            "transferTimeVtol": "Transfer Time VTOL (s)",
+            "transferTimeStorage": "Transfer Time Storage (s)",
+            "transferTimeStorageTooLow": "Transfer Time Storage is too low (min 2)",
+            "transferTimeVtolTooLow": "Transfer Time Vtol is too low (min 2)",
+            "maxPower": "Max Power (kW)",
+            "nrSlots": "Number of Slots"
+        },
+        "overview": {
+            "heading": "Resources",
+            "general": "General",
+            "statistics": "Statistics",
+            "subheading": "Charging Station",
+            "resourceLabel": "Charging Station",
+            "listAriaLabel": "Charging station config entries",
+            "listLabel": "Charging Stations",
+            "add button": "Add",
+            "create button": "Add",
+            "cancel button": "Cancel",
+            "deleteableHint": "Only charging stations with no assigned slots can be deleted"
+        },
+        "status": {
+            "in_operation": "In Operation",
+            "off": "Off",
+            "defect": "Defect",
+            "deactivated": "Deactivated"
+        },
+        "create": {
+            "heading": "Add Charging Station",
+            "success": "Charging station has been created successful"
+        },
+        "edit": {
+            "heading": "Edit Charging Station",
+            "success": "Charging station has been edited successful",
+            "update": "Update",
+            "generalTab": "Details",
+            "next": "Next",
+            "pagination": "Pagination",
+            "previous": "Previous",
+            "transferTimeVtol-negative": "Negative transfer time to VTOL is not allowed",
+            "transferTimeStorage-negative": "Negative transfer time to storage is not allowed",
+            "maxPower-negative": "Negative max power is not allowed",
+            "nrSlots-negative": "Negative number of slots are not allowed"
+        }
+    },
+    "charging-log": {
+        "model": {
+            "name": "Name",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "id": "ID",
+            "chargingCycleId": "Charging Cycle ID",
+            "chargingStationName": "Charging Station",
+            "chargingStationSlotName": "Charging Station Slot",
+            "chargingType": "Charging Type",
+            "chargingSlotEsuNumber": "Serial Numbers",
+            "eventType": "Event Type",
+            "uploadStatus": "Upload Status",
+            "eventTimestampStart": "Event Timestamp Start",
+            "eventTimestampEnd": "Event Timestamp End",
+            "eventDuration": "Event Duration",
+            "logName": "Facility / Event ID"
+        },
+        "overview": {
+            "heading": "Resources",
+            "general": "General",
+            "statistics": "Statistics",
+            "subheading": "Charging Log",
+            "resourceLabel": "Charging Log",
+            "listAriaLabel": "Charging log config entries",
+            "listLabel": "Charging Logs",
+            "add button": "Add",
+            "create button": "Add",
+            "cancel button": "Cancel",
+            "esuSerials": "Serial numbers of charged ESUs",
+            "esuSerialSelection": "Select ESU to generate report"
+        }
+    },
+    "charging-station-slot": {
+        "model": {
+            "name": "Name",
+            "validFrom": "Valid From",
+            "validTo": "Valid To",
+            "id": "ID",
+            "status": "Status",
+            "charging-station-numberslots": "Number of slots in the Charging Station",
+            "charging-station-slot-unique-number": "Number of the Charging Slot (unique)",
+            "charging-station-slot-status": "Charging Station Slot status",
+            "max-number-esus-charged-parallel": "Maximum number of ESUs charged in parallel",
+            "charging-station-slot-supported-esutypes": "List of supported Esu Types",
+            "minimal-number-error-esus-parallel": "Minimal count of ESUs charged in parallel is 1",
+            "charging-station": "Charging Station"
+
+        },
+        "overview": {
+            "heading": "Resources",
+            "general": "General",
+            "statistics": "Statistics",
+            "subheading": "Charging Station Slots",
+            "resourceLabel": "Charging Station Slot",
+            "listAriaLabel": "Charging Station Slots config entries",
+            "listLabel": "Charging Station Slots",
+            "add button": "Add",
+            "create button": "Add",
+            "cancel button": "Cancel",
+            "deleteableHint": "Only Charging Station Slots without present logs can be deleted"
+        },
+        "status": {
+            "in_operation": "In Operation",
+            "off": "Off",
+            "defect": "Defect",
+            "deactivated": "Deactivated"
+        },
+        "create": {
+            "heading": "Add Charging Station Slot",
+            "success": "Charging Station Slot has been created successful"
+        },
+        "edit": {
+            "heading": "Edit Charging Station Slot",
+            "success": "Charging Station Slot has been edited successful",
+            "update": "Update",
+            "generalTab": "Details",
+            "next": "Next",
+            "pagination": "Pagination",
+            "previous": "Previous"
+        }
+    }
+}

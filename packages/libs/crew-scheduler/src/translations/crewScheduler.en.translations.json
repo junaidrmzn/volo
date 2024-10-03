@@ -1,0 +1,11 @@
+{
+    "reportOn": "Report On",
+    "reportOff": "Report Off",
+    "schedule": "Schedule",
+    "ftlChecked": "FTL Checked",
+    "ftlExceeded": "FTL Exceeded",
+    "goToResource": "Go To Resource",
+    "restTime": "Rest: {time}",
+    "cockpitCount": "Cockpit Count: {count}",
+    "noScheduleMessage": "No Schedule"
+}

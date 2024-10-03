@@ -1,0 +1,24 @@
+{
+    "general": "General",
+    "title": "Test Hazard Title",
+    "hazard-group": {
+        "title": "Hazard Group",
+        "generic-hazard": "Generic Hazards",
+        "test-point-specific-hazards": "Test Point Specific Hazards"
+    },
+    "applicability": {
+        "title": "Applicability",
+        "manned": "Manned",
+        "unmanned": "Unmanned"
+    },
+    "risk-level-pre-mitigation": "Risk Level (Pre-mitigation)",
+    "risk-level-residual": "Risk Level (Residual)",
+    "created-by": "Created by",
+    "ftd-linked": "FTD Linked to the hazard ({count})",
+    "risk-levels": {
+        "low": "LOW",
+        "medium": "MEDIUM",
+        "high": "HIGH",
+        "very-high": "VERY HIGH"
+    }
+}

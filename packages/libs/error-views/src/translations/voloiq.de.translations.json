@@ -1,0 +1,21 @@
+{
+    "components": {
+        "unauthorizedPage": {
+            "title": "Sie haben keine Berechtigung zum Zugriff auf die angeforderte Seite",
+            "description": "Gehen Sie entweder zurück zur vorherigen Seite oder melden Sie sich als anderer Benutzer an.",
+            "loginAsADifferentUserButton": "Als anderer Benutzer anmelden",
+            "goBackButton": "Zurückgehen"
+        },
+        "notFoundPage": {
+            "heading": "Die gesuchte Seite konnte nicht gefunden werden",
+            "description": "Überprüfen Sie die Webadresse und versuchen Sie es erneut. Oder gehen Sie zurück zur vorherigen Seite.",
+            "button": "Zurück"
+        },
+        "technicalError": {
+            "heading": "Ups!",
+            "description": "Etwas ging schief. Bitte versuchen Sie es erneut.",
+            "error": "Fehler: {error}",
+            "tryAgainButton": "Erneut versuchen"
+        }
+    }
+}

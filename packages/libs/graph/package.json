@@ -1,0 +1,23 @@
+{
+    "name": "@voloiq/graph",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "clean": "rimraf ./dist ./build-statistics ./coverage",
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@voloiq/testing": "1.0.0",
+        "cross-env": "7.0.3",
+        "eslint": "7.32.0",
+        "jest": "27.4.7",
+        "rimraf": "3.0.2",
+        "typescript": "4.5.5"
+    },
+    "dependencies": {
+        "echarts": "5.4.0",
+        "react": "17.0.2"
+    }
+}

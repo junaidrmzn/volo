@@ -1,0 +1,257 @@
+{
+    "moduleName": "Engineering",
+    "overviewName": "Logbook",
+    "resourceLabel": "Log",
+    "Log preview": "Log Vorschau",
+    "list": {
+        "listAriaLabel": "Log"
+    },
+    "form": {
+        "select": {
+            "placeholder": "Wählen Sie eine Option",
+            "requiredErrorMessage": "Bitte wählen Sie eine Option"
+        },
+        "multiSelect": {
+            "placeholder": "Wählen Sie Optionen"
+        },
+        "fileInput": {
+            "deleteFileAriaLabel": "Löschen",
+            "selectFilesLabel": "Wählen Sie eine Datei aus",
+            "selectMultipleFilesLabel": "Wählen Sie Dateien aus",
+            "dropFileLabel": "Legen Sie eine Datei hier ab",
+            "dropMultipleFilesLabel": "Legen Sie Dateien hier ab",
+            "orLabel": "oder",
+            "rejectedFilesErrorMessage": "Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie Dateien der folgenden Typen: {acceptedFiles}.",
+            "requiredErrorMessage": "Bitte wählen Sie einen Anhang",
+            "requiredMultipleErrorMessage": "Bitte wählen Sie mindestens einen Anhang"
+        },
+        "dateTimePicker": {
+            "placeholder": "Wählen Sie ein Datum (UTC)"
+        }
+    },
+    "sortingPanel": {
+        "title": "SORTIEREN",
+        "applyButtonLabel": "Bewerbung",
+        "backButtonAriaLabel": "Zurück",
+        "cancelButtonLabel": "Abbrechen",
+        "dateOption": "Datum",
+        "createTimeOption": "Erstellungsdatum",
+        "msn": "MSN",
+        "location": "Standort",
+        "flightDuration": "Flugdauer",
+        "maxAltitude": "Max. Höhe",
+        "maxVelocity": "Max. Geschwindigkeit",
+        "ascendingLabel": "Aufsteigend",
+        "descendingLabel": "Absteigend"
+    },
+    "filterPanel": {
+        "title": "Filter",
+        "applyButtonLabel": "Übernehmen",
+        "backButtonAriaLabel": "Zurück",
+        "cancelButtonLabel": "Abbrechen",
+        "filterTagListLabel": "Filter Menu Filter Marke Liste",
+        "flightTestOrderTextFilter": {
+            "displayName": "Flugtestauftrag"
+        },
+        "dateRangeFilter": {
+            "fromLabel": "von",
+            "toLabel": "bis",
+            "displayName": "Flug-Zeitpunkt"
+        },
+        "maxVelocityRangeFilter": {
+            "fromLabel": "von",
+            "toLabel": "bis",
+            "displayName": "Max. Geschwindigkeit (m/s)"
+        },
+        "maxAltitudeRangeFilter": {
+            "fromLabel": "von",
+            "toLabel": "bis",
+            "displayName": "Max. Höhe (m)"
+        },
+        "totalFlightDurationRangeFilter": {
+            "fromLabel": "von",
+            "toLabel": "bis",
+            "displayName": "Flugdauer (s)"
+        },
+        "selectAircraftFilter": {
+            "displayName": "Flugzeug"
+        },
+        "selectLocationFilter": {
+            "displayName": "Standort"
+        },
+        "selectPilotFilter": {
+            "displayName": "Pilot"
+        },
+        "selectSupervisorFilter": {
+            "displayName": "Aufsichtspersonen"
+        },
+        "selectDataStateFilter": {
+            "displayName": "Data State"
+        }
+    },
+    "fileUpload": {
+        "cancelUploadModal": {
+            "title": "Upload abbrechen?",
+            "cancelButtonLabel": "Upload fortsetzen",
+            "confirmButtonLabel": "Upload abbrechen"
+        },
+        "fileEntryListOld": {
+            "ariaLabel": "Ausgewählte Logdatei-Einträge",
+            "emptyListLabel": "Die Liste ist leer.",
+            "deleteButtonTooltip": "Löschen"
+        },
+        "fileEntryList": {
+            "emptyListLabel": "Die Liste ist leer."
+        },
+        "uploadProgress": {
+            "text": "Datei wird hochgeladen: {fileName} ({current}/{total})",
+            "cancelButtonLabel": "Abbrechen"
+        },
+        "duplicateName": "Es wurde bereits eine Datei mit dem Namen {fileName} hinzugefügt.",
+        "duplicateNameSelect": "Ausgewählte Dateien müssen einen eindeutigen Namen haben. Datei {fileName} wurde mehrfach ausgewählt.",
+        "preexistingFileError": "Eine Datei mit dem Namen {fileName} wurde bereits auf dieses Protokoll hochgeladen.",
+        "typeLabel": "Typ",
+        "attachmentLabel": "Anlage",
+        "autoTypeDetection": "Automatische Erkennung",
+        "uploadCancelledTitle": "Upload abgebrochen",
+        "iadsLabel": "IADS - VoloCity export"
+    },
+    "overview": {
+        "header": {
+            "title": "Übersicht",
+            "createButton": "Hinzufügen",
+            "sortButton": "Sortieren",
+            "filterButton": "Filtern"
+        },
+        "filterTagListAriaLabel": "Protokoll Filter Tags",
+        "listAriaLabel": "Protokolleinträge",
+        "listItemAriaLabel": "Protokolleintrag",
+        "pagination": {
+            "ariaLabel": "Protokolleinträge Seiten",
+            "nextPageAriaLabel": "Nächste Seite",
+            "previousPageAriaLabel": "Vorherige Seite"
+        },
+        "logEntryList": {
+            "pilotLabel": "Pilot",
+            "msnLabel": "MSN",
+            "locationLabel": "Standort",
+            "unknownValue": "K.A.",
+            "totalFlightDuration": "Flugdauer",
+            "flightTestOrder": "Flugtestauftrag",
+            "maxAltitude": "Max. Höhe",
+            "altitudeText": "{altitude} m",
+            "maxVelocity": "Max. Geschwindigkeit",
+            "velocityText": "{velocity} m/s",
+            "closeButton": "Schließen",
+            "statusIndicator": {
+                "pendingAriaLabel": "In Arbeit...",
+                "pendingBadge": "Verarbeite Datei",
+                "pendingHeader": "In Arbeit",
+                "pendingDescriptionSingular": "1 Datei wird noch verarbeitet. Öffnen Sie das Protokoll für weitere Informationen.",
+                "pendingDescriptionPlural": "{fileCount} Dateien sind noch in Bearbeitung. Öffnen Sie das Protokoll für weitere Informationen.",
+                "uploadRequestedAriaLabel": "Hochladen läuft...",
+                "uploadRequestedBadge": "Datei wird hochgeladen",
+                "uploadRequestedHeader": "Hochladen läuft",
+                "uploadRequestedDescriptionSingular": "1 Datei wird noch hochgeladen. Öffnen Sie das Protokoll für weitere Informationen.",
+                "uploadRequestedDescriptionPlural": "{fileCount} Dateien sind noch am hochladen. Öffnen Sie das Protokoll für weitere Informationen.",
+                "errorAriaLabel": "Fehler",
+                "errorBadge": "Fehler",
+                "errorHeader": "Fehler",
+                "errorDescriptionSingular": "1 Datei konnte nicht verarbeitet werden. Öffnen Sie das Protokoll für weitere Informationen.",
+                "errorDescriptionPlural": "{fileCount} Dateien konnten nicht verarbeitet werdend. Öffnen Sie das Protokoll für weitere Informationen.",
+                "telemetryData": "TM Daten",
+                "telemetryDataDescription": "Telemetrie Daten sind verfügbar.",
+                "telemetryHeader": "Telemetrie Daten",
+                "onBoardData": "Bordseitige Daten",
+                "onBoardDataDescription": "Bordseitig aufgezeichnete Daten sind verfügbar.",
+                "onBoardDataHeader": "Bordseitig aufgezeichnete Daten"
+            }
+        },
+        "headerBar": {
+            "entryCountLabel": "Einträge: {entryCount}"
+        },
+        "emptyState": {
+            "title": "Es wurde kein Protokoll gefunden",
+            "description": "Passen Sie Ihre Filter an, um Ergebnisse zu erhalten.",
+            "buttonText": "Protokoll hinzufügen"
+        },
+        "deletionModal": {
+            "header": "Protokoll-Löschung",
+            "body": "Sind Sie sicher, dass Sie dieses Protokoll endgültig löschen wollen?"
+        }
+    },
+    "errorManagement": {
+        "title": "Fehler",
+        "technicalError": "Ein technischer Fehler ist aufgetreten, bitte versuchen Sie es zu einem späteren Zeitpunkt erneut."
+    },
+    "logDetails": {
+        "header": {
+            "uploadFileButton": "Dateien hochladen",
+            "backButtonTooltip": "Zurück navigieren",
+            "title": "Protokoll - {productLine} - {aircraftType} - {aircraftMsn}",
+            "parentTitle": "Übersicht"
+        },
+        "deleteModal": {
+            "deleteError": "Der Eintrag konnte nicht gelöscht werden.",
+            "descriptionText": "Sie werden diesen Protokolleintrag löschen! Dies kann in VoloIQ nicht selbst rückgängig gemacht werden. Bitte kontaktieren Sie den Support, wenn Sie dieses Protokoll wiederherstellen möchten.",
+            "title": "Protokolleintrag löschen",
+            "confirmButton": "Löschen",
+            "cancelButton": "Abbrechen",
+            "successToastTitle": "Erfolgreich",
+            "successToastDescription": "Das Protokoll wurde erfolgreich gelöscht."
+        },
+        "tabs": {
+            "general": {
+                "title": "Allgemeines",
+                "timeOfFlightLabel": "Flug-Zeitpunkt",
+                "aircraftLabel": "Flugzeug",
+                "fcSoftwareLabel": "FC Software",
+                "locationLabel": "Standort",
+                "crewGroupLabel": "Besatzung",
+                "crewPilotLabel": "Piloten",
+                "crewSupervisorLabel": "Aufsichtspersonen",
+                "remarksLabel": "Anmerkung",
+                "attachmentsLabel": "Anhänge",
+                "flightTestOrder": "Flugtestauftrag"
+            },
+            "statistics": {
+                "title": "Statistiken",
+                "unknownValue": "K/A",
+                "flightDuration": "Flugdauer",
+                "maxAltitude": "Max. Höhe",
+                "altitudeText": "{altitude} m",
+                "maxVelocity": "Max. Geschwindigkeit",
+                "velocityText": "{velocity} m/s",
+                "pendingText": "Statistiken werden verfügbar sein, wenn alle Protokolldateien verarbeitet wurden."
+            },
+            "files": {
+                "title": "Dateien",
+                "noFiles": "Es sind keine Dateien verfügbar",
+                "fileCardInfo": {
+                    "type": "Typ",
+                    "createTime": "Erstellt am",
+                    "updateTime": "Verändert am",
+                    "infoIconTooltip": "Weitere Informationen",
+                    "pendingAriaLabel": "In Arbeit...",
+                    "pendingHeader": "In Arbeit",
+                    "pendingDescription": "Diese Datei wird derzeit bearbeitet und steht in Kürze zur Verfügung.",
+                    "errorAriaLabel": "Fehler",
+                    "errorHeader": "Fehler",
+                    "retryButtonText": "Zur erneuten Bearbeitung einreichen",
+                    "retrySuccessTitle": "Erfolg",
+                    "retrySuccessDescription": "Die Datei wurde in die Warteschlange gestellt."
+                }
+            }
+        }
+    },
+    "toast": {
+        "error": {
+            "title": "Es ist ein Fehler aufgetreten"
+        },
+        "success": {
+            "title": "Erfolg"
+        }
+    },
+    "Logs": "Logs",
+    "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+}

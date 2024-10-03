@@ -1,0 +1,146 @@
+{
+    "model": {
+        "general": "General",
+        "name": "Aircraft",
+        "registration": "Aircraft registration",
+        "msn": "MSN",
+        "service": "Service",
+        "service Passenger": "Passenger",
+        "service Cargo": "Cargo",
+        "service Test": "Test",
+        "service Training": "Training",
+        "service FerryFlight": "Ferry flight",
+        "service Carpool": "Carpool",
+        "aircraftType": "Aircraft type",
+        "technicalStatus": "Technical status",
+        "technicalStatus serviceable": "Serviceable",
+        "technicalStatus unserviceable": "Unserviceable",
+        "technicalStatus serviceableWithLimitations": "Serviceable with limitations",
+        "homebase": "Homebase",
+        "crewConfiguration": "Crew configuration",
+        "crewConfiguration crewed": "Crewed",
+        "crewConfiguration uncrewed": "Uncrewed",
+        "validFrom": "Valid from",
+        "validTo": "Valid to",
+        "passengerSeats": "Passenger seats",
+        "createBy": "Created by",
+        "createTime": "Created at",
+        "updatedBy": "Updated by",
+        "updateTime": "Updated at",
+        "unknown": "Unknown",
+        "services": "Services",
+        "property": "Property",
+        "changeTo": "Change to"
+    },
+    "create": {
+        "heading": "Add Aircraft",
+        "msn error numbers-only": "MSN shall contain numbers only",
+        "checkbox": "Overwrite aircraft type data"
+    },
+    "detail": {
+        "heading aircraft": "Aircraft Details - {msn}",
+        "heading aircrafttype": "Aircraft Type Details {name}",
+        "tabs": {
+            "general": "General",
+            "maintenance": "Maintenance",
+            "timeline": "Timeline events",
+            "other": "Other"
+        }
+    },
+    "edit": {
+        "heading": "Edit Aircraft",
+        "reset": "Reset aircraft type data"
+    },
+    "preview": {
+        "heading": "Aircraft Preview"
+    },
+    "filter": {
+        "listAriaLabel": "Filter Tag List",
+        "heading": "Filter",
+        "fromLabel": "from",
+        "toLabel": "to"
+    },
+    "overview": {
+        "title-primary": "Resources",
+        "title-secondary": "Aircraft overview",
+        "empty-list": "No AircraftS found",
+        "empty-list-second": "Change your filter settings or add Aircrafts to VoloIQ by pressing the ADD button in the action menu.",
+        "pagination": {
+            "ariaLabel": "pagination",
+            "nextPageAriaLabel": "Next page",
+            "previousPageAriaLabel": "Previous page"
+        }
+    },
+    "sortingPanel": {
+        "title": "Sort",
+        "applyButtonLabel": "Apply",
+        "backButtonAriaLabel": "Back",
+        "cancelButtonLabel": "Cancel",
+        "createdOnOption": "Created on",
+        "ascendingLabel": "Ascending",
+        "descendingLabel": "Descending",
+        "options.aircraftType": {
+            "name": "Type",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "productLine": "Product line"
+        },
+        "options.aircraft": {
+            "registration": "Registration",
+            "msn": "MSN",
+            "service": "Service",
+            "productLine": "Product line",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "technicalStatus": "Technical status",
+            "crewConfiguration": "Crew configuration"
+        }
+    },
+    "filteringPanel": {
+        "listAriaLabel": "Filter Tag List",
+        "heading": "Filter",
+        "fromLabel": "from",
+        "toLabel": "to",
+        "productLineLabel": {
+            "volocity": "VoloCity",
+            "volodrone": "VoloDrone",
+            "voloregion": "VoloRegion",
+            "2x": "2X"
+        }
+    },
+    "buttons": {
+        "filter": "Filter",
+        "sort": "Sort",
+        "add": "Add",
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "details": "Details",
+        "delete": "Remove",
+        "back": "Back",
+        "apply": "Apply"
+    },
+    "Zoom in": "Zoom in",
+    "Zoom out": "Zoom out",
+    "Scroll left": "Scroll left",
+    "Scroll right": "Scroll right",
+    "closeButton": "close",
+    "title": "Go To Date",
+    "go": "Go",
+    "emptyState": {
+        "title": "No entries found",
+        "description": "Are you sure there are entries?"
+    },
+    "reservationType": {
+        "event": "Event",
+        "mission": "Mission",
+        "vertiport": "Vertiport",
+        "unknown": "Unknown"
+    },
+    "deleteModal": {
+        "heading": "Delete {entityName}",
+        "body": "Do you really want to delete this {entityName}?"
+    },
+    "leon": "LEON",
+    "source": "Source",
+    "lastSynchronizedAt": "Last Synchronized At"
+}

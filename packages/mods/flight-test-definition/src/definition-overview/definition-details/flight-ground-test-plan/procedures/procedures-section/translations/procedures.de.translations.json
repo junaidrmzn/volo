@@ -1,0 +1,12 @@
+{
+    "Procedure": "Procedure",
+    "Procedures": "Procedures",
+    "Title": "Title",
+    "Test Point Parameters": "Test Point Parameters",
+    "Please provide at least one test point parameter": "Please provide at least one test point parameter",
+    "Procedure {title}": "Procedure {title}",
+    "{numberOfTestpoints} Testpoints": "{numberOfTestpoints} Testpoints",
+    "1 Testpoint": "1 Testpoint",
+    "Objectives": "Objectives",
+    "You have to add test point parameters before you can add a procedure": "You have to add test point parameters before you can add a procedure"
+}

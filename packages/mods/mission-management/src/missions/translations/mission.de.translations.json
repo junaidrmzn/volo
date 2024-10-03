@@ -1,0 +1,493 @@
+{
+    "Type": "Typ",
+    "Flight number": "Flugnummer",
+    "FTO number": "FTO nummer",
+    "Type of operation": "Art des Vorgangs",
+    "Service": "Leistung",
+    "Boarding Status": "Status des Boardings",
+    "Bookings": "Bookings",
+    "Passenger": "Passagier",
+    "noBookings": "Keine Buchungen",
+    "RouteOption": "Routenoption",
+    "MbStatus": "M&B Status",
+    "Conflicts": "Konflikte",
+    "Arrival": "Ankunft",
+    "Arrival vertiport": "Ankunftsvertiport",
+    "Arrival date": "Geplante Ankunftszeit",
+    "Arrival actual": "Aktuelle Ankunftszeit",
+    "Arrival estimated": "Geschätzte Ankunftszeit",
+    "Departure": "Abflug",
+    "Departure vertiport": "Abflugsvertiport",
+    "Departure date": "Geplante Abflugszeit",
+    "Departure actual": "Aktuelle Abflugszeit",
+    "Departure estimated": "Geschätzte Abflugszeit",
+    "Delay Reason": "Grund für die Verzögerung",
+    "EstimatedArrival error": "Bitte wählen Sie ein Datum nach \"Geschätzte Abflugszeit\"",
+    "routeOption error": "Es sind leider keine aktiven Routenoptionen für diese Vertiport-Verbindung verfügbar",
+    "actualDeparture error": "Bitte wählen Sie ein Datum aus, das nach dem tatsächlichen Abreisedatum {actualArrivalDate} liegt",
+    "Mission": "Mission",
+    "Missions": "Missionen",
+    "Mission title": "Mission {title}",
+    "Please choose": "Bitte auswählen",
+    "Please select a valid option": "Bitte wähle eine valide Option aus",
+    "Test": "Test",
+    "Training": "Ausbildung",
+    "FerryFlight": "Flug mit der Fähre",
+    "Cancel Mission": "Mission {mission} absagen?",
+    "Do you really want to cancel mission": "Soll die Mission {mission} wirklich abgesagt werden?",
+    "Cancellation Code": "Stornierungscode",
+    "Reason": "Grund",
+    "Cancel": "Absagen",
+    "Yes": "Ja",
+    "No": "Nein",
+    "Mission cancelled": "Mission abgesagt",
+    "dropdown error": "Bitte wählen Sie einen gültigen Eintrag",
+    "dropdown placeholder": "Bitte wählen",
+    "aircraft": "Fluggerät",
+    "fato": "FATO",
+    "stand": "Stand",
+    "crewMember": "Crew-Mitglied",
+    "crewMembers": "Crew-Mitglieder",
+    "assignedPilot": "Zugewiesener Pilot",
+    "assignedCrewMembers": "Zugewiesene Crew-Mitglieder",
+    "assignedAircraft": "Zugewiesenes Flugzeug",
+    "assignedBattery": "Zugewiesener Akku",
+    "resourceAssigned": "Ressource zugewiesen",
+    "airlineAcceptance": "Akzeptanz bei Fluggesellschaften",
+    "paxCheckedIn": "Pax eingecheckt",
+    "flightPlanFiled": "Flugplan eingereicht",
+    "pilotBriefingAcceptance": "Annahme des Piloten-Briefings",
+    "checkInStatus": "Check-In Status",
+    "conflictDetected": "Konflikt erkannt",
+    "MissionCardLabel": "Mission {flightNumber}",
+    "airOperations": "Flugbetrieb",
+    "missionList": "Missionsliste",
+    "delayed": "verzögert",
+    "early": "früh",
+    "onTime": "pünktlich",
+    "noAssignment": "Keine Zuordnung",
+    "generalInformation": "Allgemeine Informationen",
+    "departureArrival": "Abfahrt Ankunft",
+    "pickTimePlaceholder": "Wählen Sie Zeit",
+    "vertiportPlaceholder": "Wählen Sie Vertiport",
+    "divertedArrivalVertiport": "Umgeleiteter Ankunfts-Vertiport",
+    "scheduledDepartureVertiport": "Geplanter Abflug Vertiport",
+    "scheduledArrivalVertiport": "Geplante Ankunft in Vertiport",
+    "arrivalFato": "Ankunft Fato",
+    "arrivalStand": "Ankunft Stand",
+    "departureFato": "Abreise Fato",
+    "departureStand": "Stand für Abreise",
+    "property": "Eigentum",
+    "changeTo": "Wechseln zu",
+    "boardingStatus": {
+        "open": "Öffnen Sie",
+        "pending": "Anhängig",
+        "closed": "Geschlossen",
+        "unknown": "Unbekannt"
+    },
+    "missionActions": {
+        "label": "Missionsaktionen",
+        "missionLabel": "Mission {mission}",
+        "assignAircraft": "Flugzeug zuweisen",
+        "unAssignAircraft": "Flugzeug nicht zuordnen",
+        "assignRouteOption": "Routenoption zuweisen",
+        "reAssignRouteOption": "Option Route neu zuweisen",
+        "reassignAircraft": "Flugzeug neu zuweisen",
+        "assignCrew": "Besatzung zuweisen",
+        "updateSchedule": "Zeitplan aktualisieren",
+        "cancel": "Stornieren Mission ",
+        "update": "Aktualisieren",
+        "schedule": "Zeitplan",
+        "assignPilot": "Pilot zuweisen",
+        "reassignPilot": "Pilot neu zuweisen",
+        "fileFlightPlan": "Flugplan einreichen",
+        "divertMission": "Divert Mission",
+        "assignArrivalFato": "Ankunft FATO zuweisen",
+        "reassignArrivalFato": "Neuzuweisung Ankunft FATO",
+        "assignDepartureFato": "Abflug FATO zuweisen",
+        "reassignDepartureFato": "Abflug FATO neu zuordnen",
+        "assignArrivalStand": "Ankunftsstand zuweisen",
+        "reassignArrivalStand": "Ankunftsstand neu zuweisen",
+        "assignDepartureStand": "Abfahrtsstand zuweisen",
+        "reassignDepartureStand": "Abfahrtsstand neu zuweisen",
+        "acceptMission": "Mission annehmen",
+        "createIqsms": "IQSMS-Bericht erstellen"
+    },
+    "missionAssignments": {
+        "label": "Missionsaktionen",
+        "missionLabel": "Mission {mission}",
+        "assignAircraft": "Flugzeug zuweisen",
+        "assignPilot": "Pilot zuweisen",
+        "assignCrew": "Besatzung zuweisen",
+        "reassignAircraft": "Flugzeug neu zuweisen",
+        "reassignPilot": "Pilot neu zuweisen",
+        "reassignCrew": "Crewmitglied neu zuordnen",
+        "assignFato": "FATO zuweisen",
+        "reassignFato": "FATO neu zuweisen",
+        "assignStand": "Stand zuweisen",
+        "reassignStand": "Stand neu zuweisen",
+        "unassignAircraft": "Flugzeug nicht zuordnen",
+        "unassignPilot": "Pilot nicht zuordnen",
+        "unassignCrew": "Crew nicht zuordnen",
+        "unassignFato": "FATO nicht zuordnen",
+        "unassignStand": "Stand nicht zuordnen",
+        "update": "Aktualisieren",
+        "goToResource": "Zur Ressource gehen"
+    },
+    "buttons": {
+        "no": "NEIN",
+        "yes": "Ja",
+        "done": "Erledigt",
+        "close": "Schließen",
+        "assign": "Zuordnen",
+        "add": "Hinzufügen",
+        "details": "Details",
+        "confirm": "Bestätigen",
+        "save": "Speichern",
+        "cancel": "Stornieren",
+        "addNote": "Notiz hinzufügen",
+        "refetch weather forecast": "Wettervorhersage erneut abrufen"
+    },
+    "pilot": "Pilot",
+    "routeOptions": "Routenoption",
+    "pilot assignment.aircraft required": "Bitte zuerst ein Fluggerät zuweisen",
+    "pilot assignment unknown": "Unbekannter Pilot",
+    "moduleName": "Missionsmanagement",
+    "battery": "Batterie",
+    "battery assignment unknown": "Batterie nicht zugewiesen",
+    "validity": "Gültigkeit",
+    "mission-status": {
+        "caption": "Missionstatus",
+        "CANCELLED": "Abgebrochen",
+        "CLOSED": "Abgeschlossen",
+        "PLANNED": "Geplant",
+        "BOARDING": "Einsteigen",
+        "FLYING": "Fliegend",
+        "DIVERTED": "Umgeleitet",
+        "PERFORMED": "Ausgeführt",
+        "UNKNOWN": "Unbekannt"
+    },
+    "mission-assignment-conflicts": {
+        "AIRCRAFT_UNSERVICEABLE": "Fluggerät nicht betriebsfähig"
+    },
+    "type-of-operation": {
+        "PILOTED": "Pilotiert",
+        "REMOTE_PILOTED": "Ferngesteuert",
+        "UNKNOWN": "Unbekannt"
+    },
+    "service": {
+        "PASSENGER": "Passagier",
+        "CARGO": "Fracht",
+        "TEST": "Test",
+        "TRAINING": "Ausbildung",
+        "FERRY_FLIGHT": "Flug mit der Fähre",
+        "CARPOOL": "Fahrgemeinschaft",
+        "UNKNOWN": "Unbekannt"
+    },
+    "mbStatus": {
+        "OK": "OK",
+        "NOT OK": "NICHT OK",
+        "TOTAL_TAKE_OFF_WEIGHT_EXCEEDED": "Gesamtstartgewicht überschritten",
+        "MASS_AND_BALANCE_OUT_OF_LIMITS": "Masse und Schwerpunktlage außerhalb des Grenzwertes",
+        "PILOT_WITHOUT_PILOT_SEAT_ASSIGNMENT": "Pilot ohne Pilotensitzplatzzuweisung",
+        "AIRCRAFT_ASSIGNMENT_INCOMPLETE": "Fluggerätzuweisung unvollständig",
+        "PILOT_ASSIGNMENT_INCOMPLETE": "Pilotenzuweisung unvollständig",
+        "UNKNOWN": "Unbekannt",
+        "AIRCRAFT_UNSERVICEABLE": "Flugzeug unbrauchbar",
+        "AIRCRAFT_SERVICE_TYPE_INVALID": "Flugzeugdienstart ungültig",
+        "BOOKINGS_EXCEED_SEAT_NUMBER": "Die Buchungen überschreiten die Sitzplatzanzahl",
+        "VERTIPORT_DELETED": "Vertiport gelöscht",
+        "WEATHER_OUT_OF_LIMITS": "Wetter außerhalb der Grenzen",
+        "NOTAMS_INCOMPLETE": "NOTAMs unvollständig",
+        "ROUTE_OPTION_ASSIGNMENT_INCOMPLETE": "RouteOption-Zuweisung unvollständig",
+        "ROUTE_OPTION_VALIDATION_INCOMPLETE": "RouteOption-Validierung unvollständig",
+        "PAD_ASSIGNMENT_INCOMPLETE": "Pad-Belegung unvollständig",
+        "MISSION_DURATION_MISMATCH_WITH_FLIGHT_PLAN": "Missionsdauer stimmt nicht mit Flugplan überein"
+    },
+    "booking": {
+        "error": "Es gibt einen Fehler in den Details der angeforderten Buchung"
+    },
+    "mission-management": {
+        "additionalInfo": {
+            "flightNumber": "Geben Sie eine von Menschen lesbare Flugnummer für diese Mission ein. In der Regel mit VC als Präfix und gefolgt von einer 0-4-stelligen Zahl. (z. B. VC0001)",
+            "ftoNumber": "Für Flugtestmissionen können Sie eine Flugtestauftragsnummer angeben",
+            "scheduledDeparture": "Wählen Sie das Datum und die Uhrzeit aus, zu der der Einsatz abgebrochen werden soll.",
+            "departureVertiport": "Wählen Sie aus, von wo aus die Mission starten soll",
+            "scheduledArrival": "Wählen Sie das Datum und die Uhrzeit, zu der diese Mission blockiert werden soll",
+            "arrivalVertiport": "Wählen Sie das geplante Ziel für diese Mission",
+            "typeOfOperation": "Wählen Sie, ob diese Mission mit einem Piloten an Bord durchgeführt wird",
+            "service": "Wählen Sie die Art des Einsatzes aus. Passagiereinsätze, die in der Kunden-App buchbar sind, können nur im kommerziellen Flugplan erstellt werden"
+        }
+    },
+    "conflict": "Konflikt",
+    "not found": "Nicht gefunden",
+    "Create OFP": "OFP erstellen",
+    "OFP created": "OFP erstellt",
+    "Overview": "Überblick",
+    "General": "Allgemein",
+    "Assignments": "Zuweisungen",
+    "groundOperations": "Boden-OPs",
+    "DispatcherNotes": "Notizen des Disponenten",
+    "Success": "Erfolg",
+    "Routing": "Weiterleitung",
+    "flightPlan": "Flugplan",
+    "Successfully published assignments": "Ressourcen erfolgreich zugewiesen.",
+    "Publish assignments": "Zuweisungen anwenden",
+    "Pilot assignment conflict.title": "Konflikt",
+    "Pilot assignment conflict.description": "Dieser Pilot wurde bereits zugewiesen",
+    "This mission cannot be cancelled because it is already terminated": "Diese Mission kann nicht abgebrochen werden, da sie bereits beendet ist",
+    "Some data failed to load": "Einige Daten konnten nicht geladen werden",
+    "Try again later": "Versuchen Sie es später noch einmal",
+    "Oh Snap": "Hoppla!",
+    "Mission assignment.aircraft failed": "Zuweisung des Aircrafts fehlgeschlagen.",
+    "Mission assignment.pilot failed": "Zuweisung des Pilots fehlgeschlagen.",
+    "Mission assignment.confirmation failed": "Bestätigung der Ressourcenzuweisung fehlgeschlagen.",
+    "Mission assignment.aircraftUnserviceable failed": "Bestätigung der Ressourcenzuweisung fehlgeschlagen wegen einem unserviceable Aircraft.",
+    "Aircraft failed to fetch": "Aircraft konnte nicht abgerufen werden.",
+    "datetime range filter.from": "Seit",
+    "datetime range filter.to": "Bis",
+    "required error": "Bitte füllen Sie dieses Feld aus",
+    "generic": {
+        "scheduledDeparture error": "Bitte wählen Sie ein Datum nach {minScheduledDepartureDate}",
+        "scheduledArrial error": "Bitte wählen Sie ein Datum nach {minScheduledArrivalDate}",
+        "maxLength error": "Bitte nutzen Sie nicht mehr als ${max} Zeichen",
+        "pattern error": "Die FTO-Nummer sollte nur Buchstaben, Zahlen, Leerzeichen, Bindestriche und Punkte enthalten",
+        "flightNumber error": "Die Flugnummer sollte mit zwei Großbuchstaben beginnen, gefolgt von einer Ziffer zwischen 1 und 9, und kann bis zu drei zusätzliche Ziffern enthalten"
+    },
+    "technicalStatus": {
+        "SERVICEABLE": "Wartungsfähig",
+        "UNSERVICEABLE": "Nicht Wartungsfähig",
+        "SERVICEABLE_WITH_LIMITATIONS": "Wartungsfähig mit Einschränkungen",
+        "UNKNOWN": "Unbekannt"
+    },
+    "aircrafAssignment": {
+        "filters": {
+            "registration": "Flugzeugregistrierung",
+            "msn": "MSN",
+            "aircraftType": "Flugzeugtyp",
+            "technicalStatus": "Technischer Status",
+            "region": "Region"
+        },
+        "conflictToggle": "alle anzeigen (auch mit Konflikten)",
+        "toggleLabel": "Konflikte umschalten",
+        "seats": "{seatCount} Sitzplätze",
+        "seat": "{seatCount} Sitzplatz"
+    },
+    "crewAssignment": {
+        "filters": {
+            "firstName": "Vorname",
+            "surName": "Nachname",
+            "email": "Email",
+            "roles": "Rollen",
+            "homeBase": "Heimatbasis"
+        },
+        "conflictToggle": "alle anzeigen (auch mit Konflikten)",
+        "toggleLabel": "Konflikte umschalten",
+        "rolePlaceholder": "Bitte wählen Sie Rolle aus",
+        "roleLabel": "Rolle:",
+        "reservedTime": "{time} Stunden geplant"
+    },
+    "routeOptionAssignment": {
+        "filters": {
+            "name": "Name",
+            "validForOperation": {
+                "isValid": "Gültig für den Betrieb",
+                "isNotValid": "Nicht gültig für den Betrieb"
+            },
+            "departureVertiportId": "Abreise Vertiport",
+            "arrivalVertiportId": "Ankunft Vertiport"
+        }
+    },
+    "missionMessage": "Nachricht",
+    "by": "von",
+    "available": "Verfügbar",
+    "unavailable": "Nicht verfügbar",
+    "calendar": {
+        "header": "Kalender",
+        "No crew member found": "Kein Crew Mitglied gefunden",
+        "Zoom in": "Vergößern",
+        "Zoom out": "Verkleinern",
+        "Scroll left": "Nach links bewegen",
+        "Scroll right": "Nach rechts bewegen",
+        "closeButton": "schließen",
+        "title": "Gehen Sie zum Datum",
+        "go": "Gehen"
+    },
+    "divertMission": {
+        "label": "Umleiten",
+        "confirm": "Bestätigen",
+        "diversion": "Umleitung",
+        "confirmationMessage": "Indem Sie die Umleitung der Mission {mission} bestätigen, bestätigen Sie, dass diese Mission und ihre Flugzeuge und Ressourcen um {divertedTime} am Vertiport {divertedVertiport} gelandet sind und nicht um {arrivalTime} am Vertiport {arrivalVertiport}."
+    },
+    "acceptMission": {
+        "label": "Akzeptieren",
+        "confirm": "Bestätigen",
+        "acceptance": "Annahme",
+        "confirmationMessage": "Willst du die Mission {Mission} wirklich annehmen?"
+    },
+    "FTL": {
+        "reportOn": "Bericht über",
+        "reportOff": "Bericht aus",
+        "schedule": "Zeitplan",
+        "ftlChecked": "FTL Geprüft",
+        "ftlExceeded": "FTL Überschritten",
+        "goToResource": "Zur Ressource gehen"
+    },
+    "unAssignResource": {
+        "label": "Aufheben der Zuweisung",
+        "confirm": "Bestätigen Sie",
+        "unAssignment": "Nichtzuordnung",
+        "confirmationMessage": "Sind Sie sicher, dass Sie die Zuweisung der Ressource {resourceType} - {resourceName} von Mission {missionName} aufheben möchten?"
+    },
+    "popover": {
+        "aircraft": "Flugzeug Popover",
+        "pilot": "Pilot Popover",
+        "crewMember": "Crew-Mitglied Popover",
+        "fato": "FATO Popover",
+        "stand": "Ständer Popover",
+        "general": "Allgemein Popover",
+        "groundOps": "Popover für Boden-OPs"
+    },
+    "resourceCards": {
+        "technicalStatus": {
+            "serviceable_with_limitations": "DIENSTTAUGLICH MIT EINSCHRÄNKUNGEN",
+            "serviceable": "DIENSTTAUGLICH",
+            "unserviceable": "DIENSTUNTAUGLICH",
+            "unknown": "Unbekannt"
+        },
+        "notAssigned": "Nicht zugewiesen",
+        "assigned": "Zugewiesen"
+    },
+    "vertiport": {
+        "model": {
+            "name": "Name",
+            "validFrom": "Gültig von",
+            "validTo": "Gültig bis",
+            "publicFrom": "Öffentlich sichtbar von",
+            "publicTo": "Öffentlich sichtbar bis",
+            "iataCode": "IATA Code",
+            "icaoCode": "ICAO Code",
+            "code": "Code",
+            "regionId": "Region ID",
+            "regionName": "Region",
+            "services": "Services"
+        }
+    },
+    "passangerTab": {
+        "bookings": {
+            "header": "Buchung",
+            "pickup": "Abholen",
+            "luggage": "Reisegepäck",
+            "specialDetails": "Besondere Details"
+        },
+        "passangerInformation": {
+            "header": "Informationen für Passagiere",
+            "checkIn": "Einchecken",
+            "weight": "Gewicht",
+            "height": "Höhe"
+        },
+        "status": {
+            "checked": "geprüft",
+            "notChecked": "nicht geprüft",
+            "handled": "behandelt",
+            "notHandled": "nicht bearbeitet",
+            "checkedIn": "eingecheckt",
+            "notCheckedIn": "nicht eingecheckt",
+            "exceeding": "übersteigt"
+        },
+        "messages": {
+            "passangerCheckedIn": "Passagier eingecheckt durch Ground Ops",
+            "weightCalculated": "Masse und Bilanz berechnet",
+            "heightCalculated": "Höhe Berechnet"
+        }
+    },
+    "padAssignment": {
+        "errorEmpty": "Leider sind derzeit keine FATO oder Stände für diese Mission verfügbar."
+    },
+    "An error occurred": "Hoppla! Es ist ein Fehler aufgetreten.",
+    "aircraftTab": {
+        "aircraftInformation": "Informationen zum Luftfahrzeug",
+        "aircraftSpecs": "Flugzeug-Specs",
+        "configuration": "Konfiguration",
+        "homebase": "Homebase",
+        "headerActions": {
+            "assign": "Zuordnen",
+            "reassign": "Neu zuordnen",
+            "unassign": "Aufheben der Zuweisung"
+        },
+        "crewConfiguration": {
+            "crewed": "CREWED",
+            "uncrewed": "UNCREWED",
+            "unknown": "UNKNOWN"
+        },
+        "maintenance": {
+            "maintenanceHeader": "Wartungsarbeiten",
+            "requestMaintenance": "Wartung anfordern"
+        },
+        "massAndBalanceCalculation": {
+            "header": "Masse- und Bilanzberechnung",
+            "inLimits": "innerhalb von Grenzen",
+            "outOfLimits": "außerhalb der Grenzen"
+        },
+        "longitudinalEnvelope": {
+            "header": "Längsschnittlicher Umschlag",
+            "yaxisLabel": "Gewicht (kg)",
+            "xaxisLabel": "CoG-Referenz - Mittelpunkt der Betätigung"
+        },
+        "lateralEnvelope": {
+            "header": "Seitlicher Umschlag",
+            "yaxisLabel": "Gewicht (kg)",
+            "xaxisLabel": "CoG-Referenz - Mittelpunkt der Betätigung"
+        }
+    },
+    "messageSources": {
+        "GENERAL": "Allgemein",
+        "AIRCRAFT": "Flugzeug",
+        "BATTERY": "Batterie",
+        "CREW": "Crew",
+        "FLIGHT_PLAN": "Flugplan",
+        "GROUND_OPERATION": "Bodenoperationen",
+        "PASSENGER": "Passagier",
+        "NOTAMS": "NOTAMs",
+        "WEATHER": "Wetter",
+        "UNKNOWN": "Unbekannt"
+    },
+    "messagePlaceholder": "Meine Anmerkung...",
+    "generalTab": {
+        "mapBox": {
+            "valid": "Gültig",
+            "notValid": "Nicht gültig"
+        }
+    },
+    "departureGround": "Abflugplatz",
+    "arrivalGround": "Ankunftsgelände",
+    "groundHandlingMission": "Bodenabfertigungsmission",
+    "booked": "gebucht",
+    "leon": "LEON",
+    "emptyState": {
+        "title": "Noch keine Buchungen für diese Mission",
+        "description": "Sind Sie sicher, dass es für diese Mission Buchungen gibt?"
+    },
+    "massAndBalanceGraph": {
+        "bem": "BEM",
+        "battery": "BEW + Batterie",
+        "pilot": "BEW + Batterie + Pilot",
+        "passanger": "BEW + Batterie + Pilot + Beifahrer",
+        "luggage": "BEW + Batterie + Pilot + Beifahrer + Reisegepäck"
+    },
+    "crew": "Besatzung",
+    "onDutyToday": "Heute im Dienst",
+    "pilotAssignment": {
+        "emptyError": "Kein Pilotenauftrag",
+        "emptyDescription": "Bitte weisen Sie den Piloten der Mission zu."
+    },
+    "blockingEntitiesErrorMessage": "Zur gleichen Zeit sind {count} andere Veranstaltungen geplant.",
+    "blockingEntityErrorMessage": "Zur gleichen Zeit sind {count} weitere Veranstaltungen geplant.",
+    "pendingReservationMessage": "Warten auf Bestätigung der Ressourcenverfügbarkeit.",
+    "acceptedReservationMessage": "Diese Ressource wurde bestätigt.",
+    "resourceNotFoundReservationMessage": "Keine Ressource gefunden",
+    "unknownReservationMessage": "Unbekannt",
+    "noFilteredResourceFound": "Es sind keine Ressourcen verfügbar, die der Filteranfrage oder den Missionsanforderungen entsprechen.",
+    "Weather forecast refreshed successfully": "Wettervorhersage erfolgreich aktualisiert",
+    "Last updated": "Zuletzt aktualisiert"
+}

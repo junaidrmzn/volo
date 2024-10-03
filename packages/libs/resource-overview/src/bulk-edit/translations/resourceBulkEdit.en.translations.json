@@ -1,0 +1,19 @@
+{
+    "Bulk Edit": "Bulk Edit",
+    "Edit Properties": "Edit Properties",
+    "Archive": "Archive",
+    "Multi Edit": "Multi Edit",
+    "Confirm": "Confirm",
+    "Cancel": "Cancel",
+    "Done": "Done",
+    "You are about to edit multiple resources": "You are about to edit multiple resources",
+    "entries": "{entries} entries",
+    "Are you sure? You can’t undo this action afterwards": "Are you sure? You can’t undo this action afterwards.",
+    "Matching your filter and about to be edited": "matching your filter and about to be edited.",
+    "Success": "Success",
+    "Error": "Error",
+    "Resource change saved": "The {resource} changes have been saved",
+    "Something went wrong": "Something went wrong. Please try again later.",
+    "Some form fields are incorrect or invalid": "Some form fields are incorrect or invalid. Please correct them and try again.",
+    "An entry with the given unique constraints already exists.": "An entry with the given unique constraints already exists."
+}

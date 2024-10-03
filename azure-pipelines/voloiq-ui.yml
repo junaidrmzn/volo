@@ -1,0 +1,405 @@
+pr:
+    branches:
+        include:
+            - "main"
+trigger:
+    batch: "true"
+    branches:
+        include:
+            - "main"
+
+parameters:
+    # Defining as parameter, as variables can not be arrays
+    # Environments to deploy after deploying to DEV
+    - name: promoted_environments
+      type: object
+      default: ["qa", "alpha"]
+    - name: micro_frontends
+      type: object
+      default:
+          - name: "@voloiq/app"
+            location: ./packages/apps/voloiq/build/Dockerfile.app
+            # Pacticipant field needs to be explicitly set for each micro frontend, no matter if it is empty
+            pacticipant:
+          - name: "@voloiq/aircraft-management"
+            location: ./packages/mods/aircraft-management/build/Dockerfile.app
+            pacticipant: voloiq.aircraft-management.ui
+          - name: "@voloiq/booking-management"
+            location: ./packages/mods/booking-management/build/Dockerfile.app
+            pacticipant: voloiq.booking-management.ui
+          - name: "@voloiq/commercial-scheduling"
+            location: ./packages/mods/commercial-scheduling/build/Dockerfile.app
+            pacticipant: voloiq.commercial-scheduling.ui
+          - name: "@voloiq/crew-management"
+            location: ./packages/mods/crew-management/build/Dockerfile.app
+            pacticipant: voloiq.crew-management.ui
+          - name: "@voloiq/flight-planning"
+            location: ./packages/mods/flight-planning/build/Dockerfile.app
+            pacticipant: voloiq.flight-planning.ui
+          - name: "@voloiq/flight-test-definition"
+            location: ./packages/mods/flight-test-definition/build/Dockerfile.app
+            pacticipant: voloiq.flight-test-definition.ui
+          - name: "@voloiq/flight-test-instrumentation"
+            location: ./packages/mods/flight-test-instrumentation/build/Dockerfile.app
+            pacticipant:
+          - name: "@voloiq/logbook"
+            location: ./packages/mods/logbook/build/Dockerfile.app
+            pacticipant:
+          - name: "@voloiq/mission-management"
+            location: ./packages/mods/mission-management/build/Dockerfile.app
+            pacticipant: voloiq.mission-management.ui
+          - name: "@voloiq/network-scheduling"
+            location: ./packages/mods/network-scheduling/build/Dockerfile.app
+            pacticipant: voloiq.network-scheduling.ui
+          - name: "@voloiq/notifications"
+            location: ./packages/mods/notifications/build/Dockerfile.app
+            pacticipant:
+          - name: "@voloiq/vertiport-management"
+            location: ./packages/mods/vertiport-management/build/Dockerfile.app
+            pacticipant: voloiq.vertiport-management.ui
+pool: self-hosted-nodejs
+
+resources:
+    repositories:
+        - repository: templates
+          type: github
+          name: volocopter-internal/azure-devops-templates
+          endpoint: volocopter-internal
+          ref: refs/tags/v1.27.1
+        - repository: mod-flight-planning
+          type: github
+          name: volocopter-internal/mod-flight-planning
+          endpoint: volocopter-internal
+          ref: refs/heads/main
+        - repository: devops-voloiq-services-appconfig
+          type: github
+          name: volocopter-internal/devops-voloiq-services-appconfig
+          endpoint: volocopter-internal
+
+variables:
+    project_name: voloiq-ui
+    isMain: ${{ eq(variables['Build.SourceBranch'], 'refs/heads/main') }}
+    containerWorkDirectory: /voloiq
+    ${{ if eq(variables['Build.Reason'], 'PullRequest') }}:
+        TARGET_BRANCH: $[format('remotes/origin/{0}', variables['System.PullRequest.TargetBranchName'])]
+
+stages:
+    - stage: setup
+      jobs:
+          - job: pull_pipeline_docker_base_image
+            displayName: "Pull Pipeline Docker Base Image"
+            steps:
+                - task: Docker@2
+                  displayName: Login to ACR
+                  inputs:
+                      command: login
+                      containerRegistry: "acr-vcdoprod-azuredevops"
+                - bash: docker pull vcdoprodcrdevops.azurecr.io/voloiq-ui-pipeline:latest
+                  displayName: Pulling docker image
+
+          - job: build_pipeline_docker_base_image
+            dependsOn: pull_pipeline_docker_base_image
+            displayName: "Build Pipeline Docker Base Image"
+            steps:
+                - template: templates/docker-build-and-push-yarn.yml@templates
+                  parameters:
+                      dockerfile: $(Build.SourcesDirectory)/azure-pipelines/Dockerfile.pipeline
+                      repository: voloiq-ui-pipeline
+                      build_args: --cache-from vcdoprodcrdevops.azurecr.io/voloiq-ui-pipeline:latest --build-arg BUILDKIT_INLINE_CACHE=1
+                      ${{ if eq(variables.isMain, 'true') }}:
+                          tags: |
+                              latest
+                              $(Build.BuildId)
+                          no_lock_tags: latest
+                      generate_sbom: false
+
+    - stage: validate
+      condition: and(succeeded(), eq(variables.isMain, 'false'))
+      jobs:
+          - job: validate_linting
+            displayName: "Validate Linting"
+            timeoutInMinutes: 120
+            container:
+                image: voloiq-ui-pipeline:$(Build.BuildId)
+                endpoint: acr-vcdoprod-azuredevops
+            steps:
+                - bash: git config --global --add safe.directory ${{ variables.containerWorkDirectory }}
+ 
+                - bash: yarn lint
+                  displayName: "ESLint"
+                  condition: succeededOrFailed()
+                  workingDirectory: ${{ variables.containerWorkDirectory }}
+
+                - bash: yarn typecheck
+                  displayName: "Typecheck"
+                  condition: succeededOrFailed()
+                  workingDirectory: ${{ variables.containerWorkDirectory }}
+
+          - job: validate_tests
+            displayName: "Validate Tests"
+            timeoutInMinutes: 120
+            container:
+                image: voloiq-ui-pipeline:$(Build.BuildId)
+                endpoint: acr-vcdoprod-azuredevops
+            steps:
+                - bash: git config --global --add safe.directory ${{ variables.containerWorkDirectory }}
+
+                - bash: ./node_modules/.bin/cypress install
+                  displayName: "Install Cypress binary"
+                  workingDirectory: ${{ variables.containerWorkDirectory }}
+
+                - bash: yarn test
+                  displayName: "Test"
+                  workingDirectory: ${{ variables.containerWorkDirectory }}
+
+                - task: CopyFiles@2
+                  condition: failed()
+                  inputs:
+                      contents: ${{ variables.containerWorkDirectory }}/**/cypress/screenshots/*
+                      targetFolder: $(Build.ArtifactStagingDirectory)/screenshots
+
+                - task: CopyFiles@2
+                  condition: failed()
+                  inputs:
+                      contents: ${{ variables.containerWorkDirectory }}/**/cypress/videos/*
+                      targetFolder: $(Build.ArtifactStagingDirectory)/videos
+
+                - task: PublishBuildArtifacts@1
+                  condition: failed()
+                  displayName: "Publish Cypress Test Artifacts"
+
+    - stage: publish_pacts
+      displayName: "Run & Publish Pact Consumer Tests"
+      dependsOn: setup
+      jobs:
+          - job: publish_pacts
+            displayName: "Run & Publish Pact Consumer Tests"
+            container:
+                image: voloiq-ui-pipeline:$(Build.BuildId)
+                endpoint: acr-vcdoprod-azuredevops
+            variables:
+                - group: pact-secrets
+                - name: branchName
+                  value: $[coalesce(variables['System.PullRequest.SourceBranch'], replace(variables['Build.SourceBranch'], 'refs/heads/', ''))]
+            steps:
+                - checkout: none
+
+                - bash: git config --global --add safe.directory ${{ variables.containerWorkDirectory }}
+
+                - bash: yarn test:pact
+                  displayName: "Run Pact Tests"
+                  workingDirectory: ${{ variables.containerWorkDirectory }}
+
+                - bash: |
+                      echo "Publishing pacts for branch "$(branchName)
+                      pact-broker publish \
+                        "${PWD}/**/pact/pacts/*.json" \
+                        --consumer-app-version $(Build.SourceVersion) \
+                        --tag $(Build.BuildId) \
+                        --branch $(branchName) \
+                        --broker-base-url $(PACT_HOST) \
+                        --broker-username $(PACT_USERNAME) \
+                        --broker-password $(PACT_PASSWORD)
+                  displayName: "Publish Pacts to Broker"
+                  workingDirectory: ${{ variables.containerWorkDirectory }}
+          - job: can_I_merge_to_main
+            dependsOn: publish_pacts
+            displayName: "Can I merge to main?"
+            container:
+                image: voloiq-ui-pipeline:$(Build.BuildId)
+                endpoint: acr-vcdoprod-azuredevops
+            variables:
+                - group: pact-secrets       
+            steps:           
+                - ${{ each frontend in parameters.micro_frontends }}:
+                    - template: templates/pact/can-i-merge.yml@templates
+                      parameters:
+                          pacticipant: ${{ frontend.pacticipant }}
+                          version:  $(Build.SourceVersion)
+                          pact_base_url: $(PACT_HOST)
+                          pact_username: $(PACT_USERNAME)
+                          pact_password: $(PACT_PASSWORD)
+                          continue_on_error: true
+
+    - stage: build
+      dependsOn: setup
+      condition: and(succeeded(), eq(variables.isMain, 'true'))
+      variables:
+          - group: pact-secrets
+      jobs:
+          - job: what_needs_to_be_build
+            container:
+                image: voloiq-ui-pipeline:$(Build.BuildId)
+                endpoint: acr-vcdoprod-azuredevops
+            steps:
+                - checkout: none
+                - bash: git config --global --add safe.directory ${{ variables.containerWorkDirectory }}
+                - bash: |
+                      echo "== Using bash version $BASH_VERSION"
+                      echo "== Detecting the changed packages comparing with branch:$TARGET_BRANCH"
+                      if [ "$isMain" = true ]; then
+                        GIT_REVISION=$(git rev-parse @~1)
+                      else
+                        GIT_REVISION=$(git merge-base $TARGET_BRANCH HEAD)
+                      fi
+                      echo "Git Revision: $GIT_REVISION"
+
+                      CHANGED_PACKAGES=$(yarn lerna list --since $GIT_REVISION)
+                      echo "=== Changed Packages: $CHANGED_PACKAGES"
+
+                      echo "== Detecting the changed micro frontends..."
+                      MICRO_FRONTEND_PACKAGES=$(echo $'${{ join('\n', parameters.micro_frontends.*.name) }}')
+
+                      # intersect the CHANGED_PACKAGES with MICRO_FRONTEND_PACKAGES
+                      CHANGED_FRONTEND_PACKAGES=$(comm -12 <(echo "$CHANGED_PACKAGES" | sort) <(echo "$MICRO_FRONTEND_PACKAGES" | sort))
+                      echo "=== Changed micro-frontend packages: $CHANGED_FRONTEND_PACKAGES"
+
+                      RENAMED_PACKAGES=${CHANGED_FRONTEND_PACKAGES//"@voloiq/"/"voloiq-ui-"}
+                      RENAMED_PACKAGES=${RENAMED_PACKAGES//voloiq-ui-app$'\n'/"voloiq-ui"$'\n'}
+                      # for some reasons, IFS=$'\n' did not work, so we are replacing \n with space and split by space
+                      RENAMED_PACKAGES=${RENAMED_PACKAGES//$'\n'/" "}
+                      IFS=" " read -r -a APPS_TO_DEPLOY <<< "$RENAMED_PACKAGES"
+                      echo "=== APPS_TO_DEPLOY=${APPS_TO_DEPLOY[*]}"
+
+                      echo "== Detecting the corresponding pacticipants"
+                      # we iterate on 2 parallel arrays and skip those without pacticipant
+                      ## we join using 2 chars to ease detecting empty spots when parallelizing the arrays
+                      str_micro_frontends=$(echo $'${{ join(':_', parameters.micro_frontends.*.name) }}')
+                      arr_micro_frontends=(${str_micro_frontends//:/ })
+                      for mfe in "${arr_micro_frontends[@]}":
+                      do
+                        if [ "$mfe" != "@voloiq/app" ]
+                        then
+                          arr_micro_frontends_but_voloapp+=(${mfe//:/})
+                        fi
+                      done
+                      echo "=== Configured micro-frontends: ${arr_micro_frontends_but_voloapp[@]}"
+
+                      str_pacticipants=$(echo $'${{ join(':_', parameters.micro_frontends.*.pacticipant) }}')
+                      arr_pacticipants=(${str_pacticipants//:/ })
+                      echo "=== Configured pacticipants: ${arr_pacticipants[*]}"
+
+                      for i in $(seq ${#arr_micro_frontends_but_voloapp[@]})
+                      do 
+                        micro_frontend=${arr_micro_frontends_but_voloapp[$i]/_/}
+                        pacticipant=${arr_pacticipants[$i]/_/}
+
+                        echo "--> $micro_frontend $pacticipant"
+
+                        if [[ $CHANGED_FRONTEND_PACKAGES == *"$micro_frontend"* ]]
+                        then
+                          if [ -z "$pacticipant" ]
+                          then
+                            echo "No pacticipant name associated to $micro_frontend"
+                          else
+                            echo "Adding pacticipant $pacticipant associated to $micro_frontend"
+                            PACTICIPANTS+=($pacticipant)
+                          fi
+                        fi
+                      done
+                      echo "PACTICIPANTS=${PACTICIPANTS[*]}"
+
+                      echo "##vso[task.setvariable variable=changed_packages;isoutput=true]${CHANGED_FRONTEND_PACKAGES//$'\n'/" "}"
+                      echo "##vso[task.setvariable variable=APPS_TO_DEPLOY;isOutput=true]${APPS_TO_DEPLOY[*]}"
+                      echo "##vso[task.setvariable variable=PACTICIPANTS;isOutput=true]${PACTICIPANTS[*]}"
+                  name: what_has_changed
+                  workingDirectory: ${{ variables.containerWorkDirectory }}
+          - ${{ each frontend in parameters.micro_frontends }}:
+                - template: micro-frontend/build.yaml
+                  parameters:
+                      name: ${{ frontend.name }}
+                      location: ${{ frontend.location }}
+                      micro_frontends_to_build_var: dependencies.what_needs_to_be_build.outputs['what_has_changed.changed_packages']
+                      container_working_directory: ${{ variables.containerWorkDirectory }}
+
+    - stage: deploy
+      dependsOn: build
+      condition: and(succeeded(), eq(variables.isMain, 'true'), ne(dependencies.build.outputs['what_needs_to_be_build.what_has_changed.APPS_TO_DEPLOY'], ''))
+      variables:
+          - group: pact-secrets
+          - name: APPS_TO_DEPLOY
+            value: $[stageDependencies.build.what_needs_to_be_build.outputs['what_has_changed.APPS_TO_DEPLOY']]
+          - name: PACTICIPANTS
+            value: $[stageDependencies.build.what_needs_to_be_build.outputs['what_has_changed.PACTICIPANTS']]
+      jobs:
+          - template: templates/pact/deploy-with-pact.yml@templates
+            parameters:
+                project: voloiq
+                pacticipants: $(PACTICIPANTS)
+                pact_version: $(Build.SourceVersion)
+                pact_environment: voloiq-dev
+                pact_base_url: $(PACT_HOST)
+                pact_username: $(PACT_USERNAME)
+                pact_password: $(PACT_PASSWORD)
+                environment: dev
+                application_names: $(APPS_TO_DEPLOY)
+                configuration_repository: devops-voloiq-services-appconfig
+                # FIXME: enable once all Pact contracts are passing
+                pact_can_i_deploy_continue_on_error: true
+
+    - stage: cypress_e2e_test
+      # for now this is specific to flight planning as flight planning may require additional users being added to the cypress parameters.
+      # once flight planning is moved to the per-domain repo this step will disappear anyway
+      condition: and(succeeded(), eq(variables.isMain, 'true'), contains(dependencies.build.outputs['what_needs_to_be_build.what_has_changed.APPS_TO_DEPLOY'], 'flight-planning'), eq(variables.skipCypressE2ETest, 'false'))
+      displayName: Cypress module end-to-end test
+      variables:
+          - group: vargrp-e2e-tests
+          - name: skipCypressE2ETest #Temporarily deactivated due to flight-planning test failure
+            value: true #Change to false if you would like to trigger cypress e2e test
+          
+      jobs:
+          - template: templates/cypress/run-e2e-test.yml@templates
+            parameters:
+                pre_steps:
+                    - checkout: mod-flight-planning
+                      path: e2e
+                tenant_id: $(TENANT_ID)
+                client_id: $(CLIENT_ID)
+                client_secret: $(CLIENT_SECRET)
+                base_url: https://app.dev.voloiq.io/
+                working_directory: $(Agent.BuildDirectory)/e2e/end-to-end/tests
+                cypress_parameters:
+                    user_anyone: $(USERNAME)
+                    pwd_anyone: $(PASSWORD)
+
+    - ${{ each environment in parameters.promoted_environments }}:
+          - stage: manual_validation_${{ environment }}
+            displayName: "Validate ${{ environment }} deployment of ${{ variables.project_name }}"
+            condition: and(succeeded(), eq(variables.isMain, 'true'), ne(dependencies.build.outputs['what_needs_to_be_build.what_has_changed.APPS_TO_DEPLOY'], ''))
+            jobs:
+                - job: manual_validation
+                  displayName: "Manual validation"
+                  pool: server
+                  steps:
+                      - task: ManualValidation@0
+                        inputs:
+                            notifyUsers: |
+                                $(Build.RequestedForEmail)
+                            instructions: "Approve this manual intervention task to trigger the deployment of ${{ variables.project_name }} to ${{ environment }}"
+
+          - stage: deploy_${{ environment }}
+            displayName: "Deploy ${{ variables.project_name }} to ${{ environment }} environment"
+            dependsOn:
+                - manual_validation_${{ environment }}
+            condition: and(succeeded(), eq(variables.isMain, 'true'), ne(dependencies.build.outputs['what_needs_to_be_build.what_has_changed.APPS_TO_DEPLOY'], ''))
+            variables:
+                - group: pact-secrets
+                - name: APPS_TO_DEPLOY
+                  value: $[stageDependencies.build.what_needs_to_be_build.outputs['what_has_changed.APPS_TO_DEPLOY']]
+                - name: PACTICIPANTS
+                  value: $[stageDependencies.build.what_needs_to_be_build.outputs['what_has_changed.PACTICIPANTS']]
+            jobs:
+                - template: templates/pact/deploy-with-pact.yml@templates
+                  parameters:
+                      project: voloiq
+                      pacticipants: $(PACTICIPANTS)
+                      pact_version: $(Build.SourceVersion)
+                      pact_environment: voloiq-${{ environment }}
+                      pact_base_url: $(PACT_HOST)
+                      pact_username: $(PACT_USERNAME)
+                      pact_password: $(PACT_PASSWORD)
+                      environment: ${{ environment }}
+                      application_names: $(APPS_TO_DEPLOY)
+                      configuration_repository: devops-voloiq-services-appconfig
+                      # FIXME: enable once all Pact contracts are passing
+                      pact_can_i_deploy_continue_on_error: true

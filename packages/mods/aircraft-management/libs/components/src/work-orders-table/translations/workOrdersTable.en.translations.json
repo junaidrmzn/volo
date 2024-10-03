@@ -1,0 +1,11 @@
+{
+    "state": "State",
+    "dueDate": "Due Date",
+    "workOrderPackageName": "Package Name",
+    "ataChapterNumber": "ATA Chapter number",
+    "aogClassification": "AOG Classification",
+    "defectClassification": "Defect Classification",
+    "priority": "Priority",
+    "issueSign": "Issue Sign",
+    "workStepsTitle": "Work Steps Title"
+}

@@ -1,0 +1,43 @@
+{
+    "fileUploadStep": {
+        "heading": "Datei Upload erstellen",
+        "createButtonLabel": "Erstellen"
+    },
+    "enterMetadataStep": {
+        "timeOfFlight": "Flug-Zeitpunkt",
+        "aircraft": "Flugzeug",
+        "location": "Standort",
+        "crewGroup": "Besatzung",
+        "crewPilotLabel": "Piloten",
+        "crewSupervisorLabel": "Aufsichtspersonen",
+        "remarks": "Anmerkung",
+        "selectErrorMessage": "Bitte wählen Sie eine der Optionen",
+        "dateTimeReminderModal": {
+            "headline": "Voreingestellte Flugzeit erkannt",
+            "description": "Es scheint, dass die Standardzeit {timeOfFlight} nicht angepasst wurde. Sind Sie sicher, dass es die richtige Flugzeit ist?",
+            "confirmButton": "Fortfahren"
+        }
+    },
+    "createLogPage": {
+        "fileUploadStep": "Dateien Wählen",
+        "enterMetadataStep": "Metadaten Eingeben",
+        "selectProductLineStep": "Produktlinie auswählen",
+        "finishStep": "Abschließen",
+        "backButton": "Zurück",
+        "nextButton": "Weiter",
+        "viewCreatedLogButton": "Erstelltes Protokoll anzeigen",
+        "backToOverviewButton": "Zurück zur Übersicht",
+        "createLog": "Protokoll erstellen",
+        "parentTitle": "Übersicht",
+        "finished": "abgeschlossen",
+        "finishedText": "Protokoll erfolgreich erstellt",
+        "finishedPartiallyText": "Protokoll teilweise erstellt",
+        "erroneousFilesText": "Die folgenden Dateien konnten nicht korrekt hochgeladen werden:",
+        "erroneousFilesRetryText": "Bitte versuchen Sie es erneut, indem Sie dem erstellten Protokoll Dateien hinzufügen.",
+        "createLogProgressText": "Protokoll wird erstellt",
+        "uploadCancelledDescription": "Das Protokoll wurde erstellt und die restlichen Dateien wurden nicht hochgeladen."
+    },
+    "cancelUploadModal": {
+        "description": "Das Protokoll bleibt mit den bereits hochgeladenen Dateien zugänglich."
+    }
+}

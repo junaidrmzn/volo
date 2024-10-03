@@ -1,0 +1,35 @@
+{
+    "Mission Title": "Mission Title",
+    "Aircraft MSN": "Aircraft MSN",
+    "Select Master Model": "Select Master Model",
+    "Select Msn": "Select MSN",
+    "Dropdown Error": "Please select {label}",
+    "Master Model": {
+        "Name": "Master Model",
+        "2X": "2X",
+        "VC2-1": "VC2-1",
+        "VD150": "VD150"
+    },
+    "MSN": {
+        "2X": {
+            "01": "01",
+            "02": "02",
+            "03": "03",
+            "04": "04",
+            "05": "05"
+        },
+        "VC2-1": {
+            "B0-01": "B0-01",
+            "B0-02": "B0-02",
+            "MSN01": "MSN01",
+            "MSN03": "MSN03",
+            "MSN04": "MSN04",
+            "MSN05": "MSN05",
+            "MSN06": "MSN06"
+        },
+        "VD150": {
+            "01": "01",
+            "02": "02"
+        }
+    }
+}

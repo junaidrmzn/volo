@@ -1,0 +1,7 @@
+{
+    "changeHistoryRevision": {
+        "Revision {revisionName} {isReleased}": "Revision {revisionName} {isReleased}",
+        "See document in this revision": "See document in this revision"
+    },
+    "Change list after current revision": "Change list after current revision"
+}

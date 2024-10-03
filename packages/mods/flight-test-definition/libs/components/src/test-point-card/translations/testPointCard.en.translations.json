@@ -1,0 +1,17 @@
+{
+    "Comments": "Comments",
+    "Applicability": "Applicability",
+    "Development": "Development",
+    "Certification": "Certification",
+    "Agency": "Agency",
+    "Build Up": "Build Up",
+    "Unassigned": "Unassigned",
+    "Gross Weight": "Gross Weight",
+    "C.G.": "C.G.",
+    "Expand test point card button": "Expand test point card button",
+    "status": {
+        "label": "Status",
+        "IN WORK": "In Work",
+        "READY": "Ready"
+    }
+}

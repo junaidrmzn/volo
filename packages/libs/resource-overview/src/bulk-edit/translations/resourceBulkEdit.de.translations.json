@@ -1,0 +1,19 @@
+{
+    "Bulk Edit": "Zusammen bearbeiten",
+    "Edit Properties": "Eigenschaften bearbeiten",
+    "Archive": "Archiv",
+    "Multi Edit": "Mehrfachbearbeitung",
+    "Confirm": "Bestätigen Sie",
+    "Done": "Erledigt",
+    "Cancel": "Abbrechen",
+    "You are about to edit multiple resources": "Sie sind dabei, mehrere Ressourcen zu bearbeiten",
+    "entries": "{entries} einträge",
+    "Are you sure? You can’t undo this action afterwards": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
+    "Matching your filter and about to be edited": "die Ihrem Filter entsprechen und gerade bearbeitet werden.",
+    "Success": "Erfolg",
+    "Error": "Fehler",
+    "Resource change saved": "Die Änderungen an {resource} wurde gespeichert.",
+    "Something went wrong": "Etwas ist schief gelaufen. Bitte versuchen Sie es später noch einmal.",
+    "Some form fields are incorrect or invalid": "Einige Formularfelder sind nicht korrekt oder ungültig. Bitte korrigieren Sie sie und versuchen Sie es erneut.",
+    "An entry with the given unique constraints already exists.": "Ein Eintrag mit den angegebenen Werten existiert bereits."
+}

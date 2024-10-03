@@ -1,0 +1,7 @@
+{
+    "extends": "../../../tsconfig.json",
+    "include": ["src", "./config/jest.setup.ts", "global.d.ts", "config",
+      "./config/cypress.config.ts"
+    ],
+    "exclude": ["**/src/api/**"]
+}

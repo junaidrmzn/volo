@@ -1,0 +1,72 @@
+{
+    "missions": "Missionen",
+    "scheduledMissions": "Geplante Missionen",
+    "information": "In diesem Modul finden Sie alle Missionen für Ihre Regionen. Sie können neue hinzufügen oder tiefer in bestehende eintauchen. Sie werden sehen, ob Ihre Missionen auf dem richtigen Weg sind oder ob Handlungsbedarf besteht.",
+    "timeSchedular": {
+        "zoomIn": "Hineinzoomen",
+        "zoomOut": "Rauszoomen",
+        "scrollLeft": "Nach links scrollen",
+        "scrollRight": "Nach rechts scrollen",
+        "closeButton": "schließen",
+        "title": "Gehen Sie zum Datum",
+        "go": "Gehen"
+    },
+    "emptyState": {
+        "title": "Keine Einträge gefunden",
+        "description": "Bist du sicher, dass Einträge vorhanden sind?"
+    },
+    "flightNumber": "Flugnummer",
+    "missionStatus": {
+        "label": "Missionstatus",
+        "CANCELLED": "Abgebrochen",
+        "CLOSED": "Abgeschlossen",
+        "PLANNED": "Geplant",
+        "BOARDING": "Einsteigen",
+        "FLYING": "Fliegend",
+        "DIVERTED": "Umgeleitet",
+        "PERFORMED": "Ausgeführt",
+        "UNKNOWN": "Unbekannt"
+    },
+    "aircraft": "Flugzeug",
+    "aircraftType": "Flugzeugtyp",
+    "departureRegion": "Abflugregion",
+    "arrivalRegion": "Ankunftsregion",
+    "departureVertiport": "Abfahrt Vertiport",
+    "arrivalVertiport": "Ankunft Vertiport",
+    "quickFilters": {
+        "today": "Heute",
+        "tomorrow": "Morgen",
+        "customDate": {
+            "tagLabel": "Benutzerdefiniert",
+            "title": "Ziel-Termin",
+            "go": "Weiter",
+            "closeButton": "Schaltfläche Schließen"
+        }
+    },
+    "actions": {
+        "missionDetails": "Details zur Mission",
+        "actionsPopover": "Mission Aktionen Popover"
+    },
+    "todos": {
+        "todosText": "{totalToDos} To Dos",
+        "bulletListAriaLabel": "BulletList-Symbol"
+    },
+    "missionActions": {
+        "headerLabel": "Missionsaktionen",
+        "closeButtonAriaLabel": "Schließen",
+        "title": "Ungültige Aktion",
+        "emptyList": "Für Mission - {flightNumber} sind derzeit keine Aktionen verfügbar"
+    },
+    "modulesList": {
+        "aircraft": "Luftfahrzeug",
+        "battery": "Batterie",
+        "crew": "Crew",
+        "flightPlan": "Flugplan",
+        "general": "Allgemein",
+        "groundOps": "Bodenoperationen",
+        "passanger": "Passagier",
+        "notams": "NOTAMs",
+        "weather": "Wetter",
+        "unknown": "Unbekannt"
+    }
+}

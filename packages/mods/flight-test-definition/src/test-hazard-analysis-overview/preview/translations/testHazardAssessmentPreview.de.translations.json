@@ -1,0 +1,24 @@
+{
+    "general": "Allgemein",
+    "title": "Test Gefährdung Titel",
+    "hazard-group": {
+        "title": "Gefährdungsgruppe",
+        "generic-hazard": "Allgemeine Gefährdungen",
+        "test-point-specific-hazards": "Prüfpunkt Spezifische Gefährdungen"
+    },
+    "applicability": {
+        "title": "Anwendbarkeit",
+        "manned": "Bemannt",
+        "unmanned": "Unbemannte"
+    },
+    "risk-level-pre-mitigation": "Risikostufe (vor Abhilfemaßnahmen)",
+    "risk-level-residual": "Risikostufe (Restrisiko)",
+    "created-by": "Erstellt von",
+    "ftd-linked": "FTD im Zusammenhang mit der Gefahr ({count})",
+    "risk-levels": {
+        "low": "LOW",
+        "medium": "MEDIUM",
+        "high": "HIGH",
+        "very-high": "VERY HIGH"
+    }
+}

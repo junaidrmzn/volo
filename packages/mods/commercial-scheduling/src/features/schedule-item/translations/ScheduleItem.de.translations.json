@@ -1,0 +1,36 @@
+{
+    "title": "Kommerzieller Zeitplan",
+    "heading": "Zeitplan",
+    "filterPanel": {
+        "Filters": "Filter",
+        "Departure Vertiport": "Abfahrt Vertiport",
+        "Arrival Vertiport": "Ankunft Vertiport",
+        "Departure Date": "Abreisedatum",
+        "from": "von",
+        "to": "bis",
+        "Aircraft Type": "Flugzeugtyp"
+    },
+    "actions": {
+        "publish": {
+            "toast": {
+                "success": {
+                    "description": "Der Zeitplan wurde erfolgreich veröffentlicht"
+                },
+                "error": {
+                    "description": "Der Zeitplan kann zur Zeit nicht veröffentlicht werden"
+                }
+            }
+        }
+    },
+    "overview": {
+        "listLabel": "Planelemente",
+        "cardLabel": "Zeitplanelement",
+        "actionsAriaLabel": "Aktionen",
+        "detailsAriaLabel": "Einzelheiten",
+        "placeAirlineOrder": "Airline Bestellung aufgeben",
+        "price": "Preis",
+        "category": "Kategorie",
+        "booking": "Buchung",
+        "information": "Dies ist das Detail des Netzwerkplans für den kommerziellen Plan “{planName}”. Hier finden Sie alle bestellten, gebuchten und durchgeführten Einsätze für dieses kommerzielle Setup."
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "@voloiq/aircraft-management-api",
+    "version": "1.0.0",
+    "exports": {
+        "./helpers": "./src/helpers/index.ts",
+        "./v1": "./src/v1/index.ts"
+    },
+    "typesVersions": {
+        "*": {
+            "helpers": [
+                "./src/helpers/index.ts"
+            ],
+            "v1": [
+                "./src/v1/index.ts"
+            ]
+        }
+    },
+    "scripts": {
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit",
+        "test:jest": "cross-env NODE_ENV=testing jest --config ./config/jest.config.ts --passWithNoTests",
+        "test:pact": "yarn test:jest 'pacttest'"
+    },
+    "dependencies": {
+        "@tanstack/react-query": "4.26.1",
+        "@voloiq-typescript-api/vertiport-management-types": "4.6.11",
+        "@voloiq/dates": "1.0.0",
+        "@voloiq/feature-flags": "1.0.0",
+        "@voloiq/filter-panel": "1.0.0",
+        "@voloiq/service": "1.0.0",
+        "@voloiq/utils": "1.0.0",
+        "react": "17.0.2"
+    },
+    "devDependencies": {
+        "@pact-foundation/pact": "9.17.3",
+        "@types/react": "17.0.39",
+        "@voloiq/auth": "1.0.0",
+        "@voloiq/i18n": "1.0.0",
+        "@voloiq/testing": "1.0.0",
+        "cross-env": "7.0.3",
+        "eslint": "7.32.0",
+        "jest": "27.4.7",
+        "jest-pact": "0.9.4",
+        "typescript": "4.5.5"
+    }
+}

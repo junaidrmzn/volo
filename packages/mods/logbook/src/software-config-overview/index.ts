@@ -1,0 +1,1 @@
+export { SoftwareConfigurationsPage } from "./SoftwareConfigurationsPage";

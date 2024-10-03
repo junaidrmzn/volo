@@ -1,0 +1,10 @@
+{
+    "filterPanel": {
+        "filters": "Filters",
+        "validFrom": "Valid from",
+        "validTo": "Valid to",
+        "from": "From",
+        "to": "To",
+        "roleKey": "Role Key"
+    }
+}

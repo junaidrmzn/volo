@@ -1,0 +1,11 @@
+{
+    "General": "General",
+    "Objectives": "Objectives",
+    "Prerequisites": "Prerequisites",
+    "Pass/Fail Criteria": "Pass/Fail Criteria",
+    "Safety Approval": "Safety Approval",
+    "Low": "Low",
+    "Medium": "Medium",
+    "High": "High",
+    "Please select a valid safety approval category": "Please select a valid safety approval category"
+}

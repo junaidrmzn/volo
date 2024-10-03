@@ -1,0 +1,9 @@
+{
+    "General": "Allgemein",
+    "statistics": "Statistik",
+    "labels": {
+        "Number of files": "Anzahl an Dateien"
+    },
+    "analyticsButton": "Analysen",
+    "addExportButton": "Export"
+}

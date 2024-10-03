@@ -1,0 +1,46 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  namespace: voloiq
+  name: voloiq-ui-repo
+  title: "Repository: VoloIQ-UI"
+spec:
+  type: url
+  targets:
+    - ./packages/libs/sorting-panel/catalog-info.yaml
+    - ./packages/libs/date-time/catalog-info.yaml
+    - ./packages/libs/form/catalog-info.yaml
+    - ./packages/libs/dates/catalog-info.yaml
+    - ./packages/libs/auth/catalog-info.yaml
+    - ./packages/libs/time-scheduler/catalog-info.yaml
+    - ./packages/libs/feature-flags/catalog-info.yaml
+    - ./packages/libs/template/catalog-info.yaml
+    - ./packages/libs/utils/catalog-info.yaml
+    - ./packages/libs/card-list-item/catalog-info.yaml
+    - ./packages/libs/resource-overview/catalog-info.yaml
+    - ./packages/libs/error-views/catalog-info.yaml
+    - ./packages/libs/testing/catalog-info.yaml
+    - ./packages/libs/map/catalog-info.yaml
+    - ./packages/libs/table/catalog-info.yaml
+    - ./packages/libs/filter-panel/catalog-info.yaml
+    - ./packages/libs/app-shell/catalog-info.yaml
+    - ./packages/libs/routing/catalog-info.yaml
+    - ./packages/libs/service/catalog-info.yaml
+    - ./packages/libs/text-layouts/catalog-info.yaml
+    - ./packages/libs/i18n/catalog-info.yaml
+    - ./packages/libs/date-time-input/catalog-info.yaml
+    - ./packages/libs/file-card/catalog-info.yaml
+    - ./packages/mods/mission-management/catalog-info.yaml
+    - ./packages/mods/flight-monitoring/catalog-info.yaml
+    - ./packages/mods/vertiport-management/catalog-info.yaml
+    - ./packages/mods/flight-test-definition/catalog-info.yaml
+    - ./packages/mods/logbook/catalog-info.yaml
+    - ./packages/mods/commercial-scheduling/catalog-info.yaml
+    - ./packages/mods/battery-management/catalog-info.yaml
+    - ./packages/mods/template/catalog-info.yaml
+    - ./packages/mods/flight-test-instrumentation/catalog-info.yaml
+    - ./packages/mods/booking-management/catalog-info.yaml
+    - ./packages/mods/flight-planning/catalog-info.yaml
+    - ./packages/mods/crew-management/catalog-info.yaml
+    - ./packages/mods/network-scheduling/catalog-info.yaml
+    - ./packages/mods/aircraft-management/catalog-info.yaml

@@ -1,0 +1,57 @@
+{
+    "modal": {
+        "Done": "Done",
+        "Link new FTO": "Link new FTO",
+        "Test point {testPointName}": "Test point {testPointName}",
+        "modalType": "Update test points status",
+        "{testPointId}: {procedureTitle}": "{testPointId}: {procedureTitle}"
+    },
+    "table": {
+        "Edit status number {number}": "Edit status number {number}",
+        "FTO": "FTO",
+        "Date": "Date",
+        "Planning Status": "Planning Status",
+        "Flight Status": "Flight Status",
+        "Evaluation Status": "Evaluation Status",
+        "Eng. Status": "Eng. Status",
+        "Eng. Action Status": "Eng. Action Status"
+    },
+    "form": {
+        "Update Status": "Update Status",
+        "Add New Status": "Add New Status",
+        "FTO": "FTO",
+        "Date": "Date",
+        "Planning Status": {
+            "label": "Planning Status",
+            "IN WORK": "In work",
+            "READY": "Ready",
+            "PLANNED": "Planned"
+        },
+        "Flight Status": {
+            "label": "Flight Status",
+            "ATTEMPTED": "Attempted",
+            "NOT EXECUTED": "Not executed",
+            "EXECUTED": "Executed"
+        },
+        "Flight Test Evaluation Status": {
+            "label": "Flight Test Evaluation Status",
+            "FAIL": "Fail",
+            "DATA ANALYSIS": "Data Analysis",
+            "PASS": "Pass"
+        },
+        "Engineering Status": {
+            "label": "Engineering Status",
+            "NOT ACCEPTED": "Not Accepted",
+            "COMPLETED - PASS": "Completed - Pass",
+            "COMPLETED - FAIL": "Completed - Fail"
+        },
+        "Engineering Action": {
+            "label": "Engineering Action",
+            "Repeat Test Point": "Repeat Test Point",
+            "CANCEL": "Cancel"
+        },
+        "None": "None",
+        "Cancel edit": "Cancel edit",
+        "Submit edit": "Submit edit"
+    }
+}

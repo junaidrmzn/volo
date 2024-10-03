@@ -1,0 +1,32 @@
+{
+    "filterPanel": {
+        "filters": "Filters",
+        "validFrom": "Valid from",
+        "validTo": "Valid to",
+        "registration": "Aircraft registration",
+        "msn": "MSN",
+        "service": {
+            "caption": "Service",
+            "Passenger": "Passenger",
+            "Cargo": "Cargo",
+            "Test": "Test"
+        },
+        "aircraftType": "Aircraft type",
+        "technicalStatus": {
+            "caption": "Technical status",
+            "serviceable": "Serviceable",
+            "unserviceable": "Unserviceable",
+            "serviceableWithLimitations": "Serviceable with limitations"
+        },
+        "homebase": "Homebase",
+        "crewConfiguration": {
+            "caption": "Crew configuration",
+            "crewed": "Crewed",
+            "uncrewed": "Uncrewed"
+        },
+        "from": "From",
+        "to": "To",
+        "leonId": "LEON ID",
+        "nullLabel": "none"
+    }
+}

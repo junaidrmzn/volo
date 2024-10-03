@@ -1,0 +1,38 @@
+{
+    "header": {
+        "parentTitle": "Parameters",
+        "title": "Import",
+        "backButtonTooltip": "Back to overview",
+        "importButton": "Import"
+    },
+    "form": {
+        "aircraftLabel": "Aircraft",
+        "attachmentLabel": "CSV File",
+        "select": {
+            "placeholder": "Please choose",
+            "requiredErrorMessage": "Please select an option"
+        },
+        "fileInput": {
+            "deleteFileAriaLabel": "Delete",
+            "selectFilesLabel": "Select a file",
+            "selectMultipleFilesLabel": "Select files",
+            "dropFileLabel": "Drop a file here",
+            "orLabel": "or",
+            "dropMultipleFilesLabel": "Drop files here",
+            "rejectedFilesErrorMessage": "This file type is not supported. Please select files of the following types: {acceptedFiles}.",
+            "requiredErrorMessage": "Please select an attachment",
+            "requiredMultipleErrorMessage": "Please select at least an attachment"
+        },
+        "multiSelect": {
+            "placeholder": "Please choose"
+        }
+    },
+    "uploadProgress": {
+        "text": "Uploading file {fileName}...",
+        "processingText": "Upload completed. Processing CSV file..."
+    },
+    "successToast": {
+        "title": "Success",
+        "description": "{parameterCount} parameters have been imported"
+    }
+}

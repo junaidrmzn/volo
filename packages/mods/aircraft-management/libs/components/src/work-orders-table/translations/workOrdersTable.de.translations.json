@@ -1,0 +1,11 @@
+{
+    "state": "Zustand",
+    "dueDate": "Fälligkeitsdatum",
+    "workOrderPackageName": "Paketnamen",
+    "ataChapterNumber": "ATA-Kapitelnummer",
+    "aogClassification": "AOG-Klassifizierung",
+    "defectClassification": "Fehlerklassifizierung",
+    "priority": "Priorität",
+    "issueSign": "Ausgabezeichen",
+    "workStepsTitle": "Titel der Arbeitsschritte"
+}

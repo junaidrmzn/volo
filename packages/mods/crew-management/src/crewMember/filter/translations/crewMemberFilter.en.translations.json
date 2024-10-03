@@ -1,0 +1,14 @@
+{
+    "filterPanel": {
+        "filters": "Filters",
+        "validFrom": "Valid from",
+        "validTo": "Valid to",
+        "firstName": "First name",
+        "roles": "Roles",
+        "homeBase": "Home base",
+        "surName": "Last name",
+        "department": "Department",
+        "from": "From",
+        "to": "To"
+    }
+}

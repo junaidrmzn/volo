@@ -1,0 +1,28 @@
+{
+    "Confirmation": "Confirmation",
+    "Confirm": "Confirm",
+    "Request Mission Approval": "Request Mission Approval",
+    "Approve Verification Request": "Approve Verification Request",
+    "Release Mission": "Release Mission",
+    "Mission Executed": "Mission Executed",
+    "Approve Mission": "Approve Mission",
+    "modalContent": {
+        "Request Mission Approval": "You are about to send the {ftoName} for an approval. Do you want to proceed?",
+        "Approve Verification Request": "You are about to approve the {ftoName} request. Do you want to proceed?",
+        "Release Mission": "You are about to release the {ftoName}. Do you want to proceed?",
+        "Mission Executed": "You are about to mark the as executed. Do you want to proceed?"
+    },
+    "Update Status Button": "Update Status Button",
+    "Uh-oh!": "Uh-oh!",
+    "Something went wrong updating the status": "Something went wrong updating the status",
+    "Success": "Success",
+    "Operation Successful": "Operation successful",
+    "Decline": "Decline",
+    "declineModal": {
+        "Decline Request": "Decline Request",
+        "Reject Verification Request": "Reject Verification Request",
+        "modalBody": "You are about to reject the {FTO} request. Do you want to proceed?",
+        "Description Text": "Description Text",
+        "Description Text Placeholder": "Describe the reason of rejection"
+    }
+}

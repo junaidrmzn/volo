@@ -1,0 +1,14 @@
+{
+    "errorToast": {
+        "unknownError": {
+            "title": "Fehler",
+            "description": "Ein unbekannter Fehler ist aufgetreten."
+        },
+        "ServerError": {
+            "title": "Fehler",
+            "description": "Der Service ist momentan nicht verfügbar."
+        }
+    },
+    "Error code": "Fehler Code",
+    "Copy error message": "Fehlermeldung kopieren"
+}

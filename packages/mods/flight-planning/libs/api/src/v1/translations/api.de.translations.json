@@ -1,0 +1,5 @@
+{
+    "errorMessages": {
+        "conductedRouteFileStatusFetchError": "Fehler beim Abrufen des Dateistatus der durchgeführten Route"
+    }
+}

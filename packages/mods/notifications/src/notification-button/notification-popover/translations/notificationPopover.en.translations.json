@@ -1,0 +1,22 @@
+{
+    "open": "open",
+    "resolved": "resolved",
+    "show muted": "show muted",
+    "new": "new",
+    "resolved by {resolverName} {resolvedTime}": "resolved by {resolverName} · {resolvedTime}",
+    "You don't have any open notifications": "You don't have any open notifications",
+    "There are no resolved notifications": "There are no resolved notifications",
+    "Mute": "Mute",
+    "Unmute": "Unmute",
+    "Just Now": "Just Now",
+    "1 minute ago": "1 minute ago",
+    "{minutes} minutes ago": "{minutes} minutes ago",
+    "1 hour ago": "1 hour ago",
+    "{hours} hours ago": "{hours} hours ago",
+    "1 day ago": "1 day ago",
+    "{days} days ago": "{days} days ago",
+    "Longer ago": "Longer ago",
+    "Resolved notifications will be deleted automatically after 30 days": "Resolved notifications will be deleted automatically after 30 days",
+    "Navigate to {entity}": "Navigate to {entity}",
+    "Delete": "Delete"
+}

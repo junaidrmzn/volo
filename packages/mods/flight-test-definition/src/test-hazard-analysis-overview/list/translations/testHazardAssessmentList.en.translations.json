@@ -1,0 +1,18 @@
+{
+    "list": {
+        "applicability": "Applicability",
+        "risk-level-pre-mitigation": "Risk Level (Pre-mitigation)"
+    },
+    "risk-levels": {
+        "low": "LOW",
+        "medium": "MEDIUM",
+        "high": "HIGH",
+        "very-high": "VERY HIGH"
+    },
+    "applicability": {
+        "manned": "Manned",
+        "unmanned": "Unmanned"
+    },
+    "active": "Active",
+    "inactive": "Inactive"
+}

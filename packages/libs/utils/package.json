@@ -1,0 +1,60 @@
+{
+    "name": "@voloiq/utils",
+    "version": "1.0.0",
+    "main": "dist/voloiq-utils.cjs.js",
+    "module": "dist/voloiq-utils.esm.js",
+    "types": "dist/voloiq-utils.cjs.d.ts",
+    "files": [
+        "dist",
+        "src"
+    ],
+    "description": "TypeScript and React utilities",
+    "license": "UNLICENSED",
+    "author": "Milena Neumann <milena.neumann@volocopter.com>",
+    "contributors": [
+        "Andre Clausen <andre.clausen@lhind.dlh.de>",
+        "Calvin Bayer, <calvin.bayer@volocopter.com>",
+        "Hugo Dalboussiere <hugo.dalboussiere@volocopter.com>",
+        "Sergey Wolf <sergey.wolf@lhind.dlh.de>"
+    ],
+    "homepage": "https://dev.azure.com/volocopter/voloiq/_git/voloiq-ui?path=/packages/libs/utils",
+    "repository": {
+        "type": "git",
+        "url": "git+https://volocopter@dev.azure.com/volocopter/voloiq/_git/voloiq-ui.git",
+        "directory": "packages/libs/utils"
+    },
+    "scripts": {
+        "clean": "rimraf ./dist ./build-statistics ./coverage",
+        "build": "preconstruct build",
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit",
+        "test:jsdom": "cross-env NODE_ENV=testing jest --config ./config/jest-jsdom.config.ts --passWithNoTests",
+        "test:tsd": "cross-env NODE_ENV=testing jest --config ./config/jest-tsd.config.ts",
+        "test": "yarn test:jsdom && yarn test:tsd",
+        "test:debug": "cross-env NODE_ENV=testing node --inspect-brk ../../../node_modules/jest/bin/jest.js --runInBand --config ./config/jest.config.ts"
+    },
+    "devDependencies": {
+        "@jest/types": "27.4.2",
+        "@preconstruct/cli": "2.1.5",
+        "@testing-library/react": "12.1.5",
+        "@testing-library/react-hooks": "8.0.1",
+        "@tsd/typescript": "4.5.5",
+        "@types/react": "17.0.39",
+        "cross-env": "7.0.3",
+        "eslint": "7.32.0",
+        "jest": "27.4.7",
+        "jest-runner-tsd": "3.0.0",
+        "jsdom-testing-mocks": "1.6.0",
+        "rimraf": "3.0.2",
+        "tsd-lite": "0.5.3",
+        "typescript": "4.5.5"
+    },
+    "dependencies": {
+        "@tanstack/react-query": "4.26.1",
+        "date-fns": "2.28.0",
+        "date-fns-tz": "1.3.7",
+        "react": "17.0.2",
+        "react-query": "3.39.3"
+    }
+}

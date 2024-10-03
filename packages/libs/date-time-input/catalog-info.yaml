@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.ui.date-time-input
+  title: date time-input
+  tags:
+  - javascript
+spec:
+  type: library
+  lifecycle: production
+  owner: voloiq-swarch-team

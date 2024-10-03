@@ -1,0 +1,13 @@
+{
+    "takeOffLabel": "Take-Off",
+    "inFlightLabel": "In-Flight",
+    "landingLabel": "Landing",
+    "percentageUnit": "%",
+    "kilometerUnit": "km",
+    "temperatureUnit": "°C",
+    "windUnit": "kn,S",
+    "2mLabel": "2m",
+    "10mLabel": "10m",
+    "250mLabel": "250m",
+    "Forecast date": "Forecast date"
+}

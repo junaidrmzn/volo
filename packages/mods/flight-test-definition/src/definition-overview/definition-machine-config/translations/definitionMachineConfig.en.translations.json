@@ -1,0 +1,18 @@
+{
+    "Definition": "Definition",
+    "Definitions": "Definitions",
+    "Flight Test Definition": "Flight Test Definition",
+    "Flight Test": "Flight Test",
+    "Definition Name": "Definition {name}",
+    "Delete Definition Name": "Delete Definition {name}",
+    "Are you sure you want to delete the definition permanently": "Are you sure you want to delete the definition permanently?",
+    "Details": "{name}",
+    "Flight Test Definitions (FTDs)": "Flight Test Definitions (FTDs)",
+    "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "sortingPanel": {
+        "ftdId": "FTD ID",
+        "dateOption": "Date",
+        "title": "Title",
+        "ata": "ATA"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "fileUploadStep": {
+        "heading": "Create file upload",
+        "createButtonLabel": "Create"
+    },
+    "enterMetadataStep": {
+        "timeOfFlight": "Time of flight",
+        "aircraft": "Aircraft",
+        "location": "Location",
+        "crewGroup": "Crew",
+        "crewPilotLabel": "Pilots",
+        "crewSupervisorLabel": "Supervisors",
+        "remarks": "Remarks",
+        "selectErrorMessage": "Please select an option",
+        "dateTimeReminderModal": {
+            "headline": "Default time of flight detected",
+            "description": "It seems like the default time of {timeOfFlight} has not been adapted. Are you sure it is the correct time of flight?",
+            "confirmButton": "Continue"
+        }
+    },
+    "createLogPage": {
+        "fileUploadStep": "Select Files",
+        "enterMetadataStep": "Enter Metadata",
+        "selectProductLineStep": "Select product line",
+        "finishStep": "Finish",
+        "backButton": "Back",
+        "nextButton": "Next",
+        "viewCreatedLogButton": "View created log",
+        "backToOverviewButton": "Back to overview",
+        "createLog": "Create log",
+        "parentTitle": "Overview",
+        "finished": "finished",
+        "finishedText": "Log successfully created",
+        "finishedPartiallyText": "Log partially created",
+        "erroneousFilesText": "The following files could not be uploaded correctly:",
+        "erroneousFilesRetryText": "Please try again by adding files to the created log.",
+        "createLogProgressText": "Creating log",
+        "uploadCancelledDescription": "The log have been created and the remaining files were not uploaded."
+    },
+    "cancelUploadModal": {
+        "description": "The log will still be accessible with the files that have already been uploaded."
+    }
+}

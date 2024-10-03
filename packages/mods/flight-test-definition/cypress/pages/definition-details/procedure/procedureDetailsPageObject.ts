@@ -1,0 +1,15 @@
+export const ProcedureDetailsPage = {
+    editGeneralButton: () => cy.findByRole("button", { name: "Edit General" }),
+    editStepsButton: () => cy.findByRole("button", { name: "Edit Steps" }),
+    addTestPointButton: () => cy.findAllByRole("button", { name: /add test points/i }).first(),
+    addImportantNotesButton: () => cy.findAllByRole("button", { name: "Add Important Notes" }).first(),
+    editImportantNotesButton: () => cy.findByRole("button", { name: "Edit Important Notes" }),
+    addAdditionalCommentsButton: () => cy.findAllByRole("button", { name: "Add Additional Comments" }).first(),
+    editAdditionalCommentsButton: () => cy.findByRole("button", { name: "Edit Additional Comments" }),
+    editApplicableRequirementsButton: () => cy.findByRole("button", { name: "Edit Applicable Requirements" }),
+    backButton: () => cy.findByRole("button", { name: "Back to overview" }),
+    revisionsDropdown: (label: string) => cy.findByLabelText(label),
+    revisionsDropdownOption: (label: string) => cy.findByLabelText(label).parent(),
+    selectOption: (option: string) => cy.findByText(option),
+    changeStatusButton: () => cy.findByRole("button", { name: "Change Status" }),
+};

@@ -1,0 +1,80 @@
+{
+    "title": "Filter",
+    "minValue": {
+        "displayName": "Min. value",
+        "fromLabel": "From",
+        "toLabel": "To"
+    },
+    "maxValue": {
+        "displayName": "Max. value",
+        "fromLabel": "From",
+        "toLabel": "To"
+    },
+    "minimumSamplingFrequency": {
+        "displayName": "Min. sampling frequency",
+        "fromLabel": "From",
+        "toLabel": "To"
+    },
+    "requesterName": {
+        "displayName": "Requester name"
+    },
+    "aircraftZone": {
+        "displayName": "Aircraft zone"
+    },
+    "status": {
+        "displayName": "Status"
+    },
+    "shortDescription": {
+        "displayName": "Short description"
+    },
+    "ftiCode": {
+        "displayName": "FTI code"
+    },
+    "workgroup": {
+        "displayName": "Workgroup"
+    },
+    "parameterSource": {
+        "displayName": "Parameter source"
+    },
+    "ataIspec2200": {
+        "displayName": "ATA iSpec 2200"
+    },
+    "sensorType": {
+        "displayName": "Sensor type"
+    },
+    "accuracy": {
+        "displayName": "Accuracy",
+        "fromLabel": "From",
+        "toLabel": "To"
+    },
+    "description": {
+        "displayName": "Description"
+    },
+    "aircraft": {
+        "displayName": "Aircraft"
+    },
+    "unit": {
+        "displayName": "Unit"
+    },
+    "isSafetyOfFlightCritical": {
+        "displayName": "Safety of Flight (SoF) Critical",
+        "neutralLabel": "Any",
+        "falseLabel": "No",
+        "trueLabel": "Yes"
+    },
+    "msn": {
+        "title": "MSN",
+        "01": "01",
+        "02": "02",
+        "03": "03",
+        "04": "04",
+        "05": "05",
+        "B0-01": "B0-01",
+        "B0-02": "B0-02",
+        "MSN01": "MSN01",
+        "MSN03": "MSN03",
+        "MSN04": "MSN04",
+        "MSN05": "MSN05",
+        "MSN06": "MSN06"
+    }
+}

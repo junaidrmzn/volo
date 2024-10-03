@@ -1,0 +1,112 @@
+{
+    "generic": {
+        "back": "Zurück",
+        "cancel": "Abbrechen",
+        "upload": "Hochladen",
+        "edit": "Bearbeiten"
+    },
+    "title": "Kommerzieller Plan",
+    "overview": {
+        "heading": "Kommerzieller Zeitplan",
+        "subheading": "Pläne und Angebote",
+        "listLabel": "Zeitpläne",
+        "cardLabel": "Zeitplan",
+        "actionsAriaLabel": "Aktionen",
+        "detailAriaLabel": "Einzelheiten",
+        "Upload New Plan": "Neuen Plan hochladen",
+        "Archived": "Archiviert",
+        "Missions Ordered": "Bestellte Missionen",
+        "Valid From": "Gültig ab",
+        "filterPanel": {
+            "Filters": "Filter",
+            "region": "Region"
+        },
+        "actionButtons": {
+            "Archive Plan": "Archivplan",
+            "Edit Plan": "Plan bearbeiten",
+            "Delete Plan": "Plan löschen"
+        },
+        "planArchived": "Plan erfolgreich archiviert!",
+        "information": "In diesem Modul finden Sie alle Geschäftspläne für Ihre Regionen. Sie können neue Pläne hochladen oder in bestehende Pläne eintauchen."
+    },
+    "modal": {
+        "Commercial Plan": "kommerzieller Plan",
+        "Plan Name": "Plan Name",
+        "File": "Datei"
+    },
+    "create": {
+        "heading": "Hochladen",
+        "fileInput": {
+            "deleteAriaLabel": "Datei löschen",
+            "selectFilesLabel": "Wählen Sie eine Datei aus",
+            "dropFilesLabel": "Ziehen Sie Ihre Datei per Drag and Drop hierher",
+            "orLabel": "oder",
+            "allowedFileTypesLabel": "Erlaubte Dateitypen",
+            "maxFileSizeLabel": "maximale Größe 500KB",
+            "rejectedFilesErrorMessage": "Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie Dateien der folgenden Typen aus: {acceptedFiles}"
+        },
+        "process": {
+            "started": "Verarbeitung hat begonnen",
+            "completed": "Verarbeitung ist abgeschlossen"
+        }
+    },
+    "edit": {
+        "heading": "bearbeiten",
+        "Numbers of missions in plan": "Anzahl der Einsätze im Plan",
+        "Start Date": "Startdatum",
+        "End Date": "Enddatum"
+    },
+    "detail": {
+        "publishPlan": {
+            "title": "An Kunden und Fluggesellschaften veröffentlichen",
+            "modal": {
+                "heading": "Konfirmation",
+                "description": "Sie können den Plan jetzt direkt an die Fluggesellschaft und an unsere Kunden veröffentlichen oder dies zu einem späteren Zeitpunkt tun, indem Sie hierher zurückkehren und die Schaltfläche Plan veröffentlichen verwenden.",
+                "note": "Einmal veröffentlicht, kann sie nicht mehr geändert werden.",
+                "question": "Möchten Sie fortfahren?"
+            },
+            "toast": {
+                "success": {
+                    "description": "Sie haben den Geschäftsplan erfolgreich bei Kunden und Fluggesellschaften veröffentlicht"
+                },
+                "error": {
+                    "description": "Der Geschäftsplan kann derzeit nicht für Kunden und Fluggesellschaften veröffentlicht werden"
+                }
+            }
+        },
+        "tabs": {
+            "schedule": "Zeitplan",
+            "pricing": "Preisgestaltung",
+            "offering": "Angebot",
+            "plan": "Plan"
+        }
+    },
+    "errorMessages": {
+        "lineSize": "Ungültiges Dateiformat erkannt. Erforderliche Zeilenlänge ist 200.",
+        "invalidFlightNumberFormat": "Das Format der Flugnummer {value} ist ungültig, es sollte im Format XZ0000 sein.",
+        "departureoffsetDateTimeFormat": "Ungültiges Abflugsdatum/Uhrzeit-Feld ({value}) eingefügt, bitte überprüfen.",
+        "arrivaloffsetDateTimeFormat": "Ungültiges Ankunftsdatum/Uhrzeit-Feld ({value}) eingefügt, bitte überprüfen.",
+        "invalidFileFormat": "Ungültige Datei bereitgestellt.",
+        "duplicateCommercialPlanName": "Dieser Name existiert bereits, versuchen Sie einen anderen Namen für den Zeitplan.",
+        "departureVertiportCodeFormat": "Ungültiges Abflug-Vertiport-Feld ({value}) angegeben.",
+        "arrivalVertiportCodeFormat": "Ungültiges Ankunfts-Vertiport-Feld ({value}) angegeben.",
+        "flightNumberDuplicate": "Flugnummer ist nicht einzigartig pro Tag, {value} wird im Zeitplan {plan} verwendet.",
+        "genConstViolation": "Verstoß gegen die Beschränkungen",
+        "connectionNotFound": "Verbindung ({value}) ist nicht mehr gültig, bitte überprüfen.",
+        "connectionInvalid": "Verbindung ({value}) ist ungültig.",
+        "connectionInconsistentDepArvTime": "Verbindung ({name}) ist für den geplanten Zeitplan nicht mehr gültig, bitte überprüfen.",
+        "vertiportNotFound": "Vertiport {value} ist jetzt ungültig/gelöscht.",
+        "vertiportInvalid": "Vertiport {value} ist ungültig.",
+        "duplicateVertiport": "Es gibt doppelte Vertiport-Codes {value}.",
+        "insufficientConnectionValidity": "Verbindung {value} hat keine ausreichende Gültigkeit.",
+        "insufficientVertiportValidity": "Vertiport {value} hat keine ausreichende Gültigkeit.",
+        "multipleRegionVertiports": "Alle Vertiports sollten in derselben Region sein.",
+        "invalidCommercialPlanStatus": "Ungültiger kommerzieller Planstatus.",
+        "unspecifiedVertiportRegion": "Verbindung ({connection}) hat eine nicht spezifizierte Region für den Vertiport ({vertiport}), bitte überprüfen.",
+        "inconsistentDepArrValidFrom": "Das Startdatum der Verbindung ({connection}) stimmt nicht mit dem Vertiport ({vertiport}) überein.",
+        "inconsistentDepArrValidTo": "Das Enddatum der Verbindung ({connection}) stimmt nicht mit dem Vertiport ({vertiport}) überein.",
+        "departureVertiportNoPassengerService": "Vertiport ({id}) hat ein leeres Feld „Dienste“, bitte überprüfen",
+        "arrivalVertiportNoPassengerService": "Vertiport ({id}) hat ein leeres Feld „Dienste“, bitte überprüfen",
+        "unknownError": "Fehler beim Erstellen des kommerziellen Zeitplans."
+    }
+}

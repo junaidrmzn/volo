@@ -1,0 +1,52 @@
+import type { CsvImportSimulatorMessage } from "@voloiq-typescript-api/flight-planning-types";
+
+export const anyCsvImportSimulatorMessage = (
+    overwrites?: Partial<CsvImportSimulatorMessage>
+): CsvImportSimulatorMessage => ({
+    message: "",
+    csvData: {
+        id: 28,
+        file: "/csv_files/03_Paris_CONOPS_LFPZ-ALT-Taxi_20230109_123827_j4431Yz.csv",
+        createdAt: "2023-04-05T14:23:07.814545Z",
+        routeId: 44,
+    },
+    importedHeaders: [
+        "Atd[0].Time",
+        "EnvModel[0].Outputs.latitude_deg",
+        "EnvModel[0].Outputs.longitude_deg",
+        "AdahrsModel[0].Outputs.altitude_m",
+        "AeroModel[0].Outputs.tas_kt",
+        "EnergyMfdModel[0].remainingEnergy",
+        "AeroModel[0].Outputs.windMag_kt",
+        "AeroModel[0].Outputs.windDir_deg",
+        "AeroModel[0].Outputs.totweight_lbm",
+        "AdahrsModel[0].Outputs.computedAirSpeed_kt",
+        "EnergyMfdModel[0].esuTemperature_[0]",
+        "EnergyMfdModel[0].esuTemperature_[1]",
+        "EnergyMfdModel[0].esuTemperature_[2]",
+        "EnergyMfdModel[0].esuTemperature_[3]",
+        "EnergyMfdModel[0].esuTemperature_[4]",
+        "EnergyMfdModel[0].esuTemperature_[5]",
+        "EnergyMfdModel[0].esuTemperature_[6]",
+        "EnergyMfdModel[0].esuTemperature_[7]",
+        "EnergyMfdModel[0].esuTemperature_[8]",
+    ],
+    sampleRow: {
+        id: 39_312,
+        targetTimeOver: 151.099_999_999_935_08,
+        lat: 48.808_125_922_601_7,
+        lng: 2.073_669_865_226_07,
+        alt: 116.600_000_000_000_01,
+        speed: 9.931_797_977_587_65,
+        remainingEnergy: 35.01,
+        windSpeed: 10,
+        windDir: -100,
+        weight: 2094.391_490_756_36,
+        airDensity: 9.876_388_060_233_71,
+        batteryTemp: 26,
+        scaled: 1,
+        route: 44,
+        csv: 28,
+    },
+    ...overwrites,
+});

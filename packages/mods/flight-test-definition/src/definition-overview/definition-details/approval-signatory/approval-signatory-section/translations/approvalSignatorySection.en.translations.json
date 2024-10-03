@@ -1,0 +1,22 @@
+{
+    "Test Request Approval": "Test Request Approval",
+    "Flight/Ground Test Plan Approval": "Flight/Ground Test Plan Approval",
+    "Flight Test Definition (FTD) Approval": "Flight Test Definition (FTD) Approval",
+    "Table": "Table",
+    "Row": "Row",
+    "Authored (DE)": "Authored (DE)",
+    "Authored (FTE)": "Authored (FTE)",
+    "Reviewed (CVE)": "Reviewed (CVE)",
+    "Reviewed (FTE)": "Reviewed (FTE)",
+    "Reviewed (Eng)": "Reviewed (Eng)",
+    "Approved": "Approved",
+    "Technical Approval": "Technical Approval",
+    "Safety Release (SRB)": "Safety Release (SRB)",
+    "Team": "Team",
+    "Role": "Role",
+    "Name": "Name",
+    "Edit": "Edit",
+    "Add": "Add",
+    "Done": "Done",
+    "Row Form": "Row Form"
+}

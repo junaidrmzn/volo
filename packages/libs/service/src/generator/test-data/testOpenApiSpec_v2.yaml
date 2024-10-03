@@ -1,0 +1,280 @@
+openapi: 3.0.1
+info:
+    title: VoloIQ VTOL management
+    description: "This is the API provided by the VTOL management service."
+    version: 2.0.0
+externalDocs:
+    description: Find out more about Swagger
+    url: http://swagger.io
+servers:
+    - url: https://dev.voloiq.io.io/vtol-management
+tags:
+    - name: VTOL Type Management
+      description: Everything about managing VTOL Types
+      externalDocs:
+          description: Guidelines
+          url: https://confluence.volocopter.org/display/VIQ/API+development+Standard+and+Guideline
+    - name: VTOL Management
+      description: Everything about managing VTOLs
+      externalDocs:
+          description: Guidelines
+          url: https://confluence.volocopter.org/display/VIQ/API+development+Standard+and+Guideline
+paths:
+    /vtoltypes:
+        get:
+            tags:
+                - VTOL Type Management
+            summary: Get all VTOL Types
+            operationId: findAllVtolTypes
+            responses:
+                200:
+                    description: Successful
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/VtolType"
+        post:
+            tags:
+                - VTOL Type Management
+            summary: Add a new VTOL Type
+            operationId: addVtolType
+            requestBody:
+                description: VTOL Type object that needs to be added to the database
+                content:
+                    application/json:
+                        schema:
+                            $ref: "#/components/schemas/VtolTypeCreate"
+                required: true
+            responses:
+                201:
+                    description: Created successfully
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/VtolType"
+                400:
+                    description: Invalid input
+                    content: {}
+            x-codegen-request-body-name: CreateVtolDto
+    /vtoltypes/{id}:
+        get:
+            tags:
+                - VTOL Type Management
+            summary: Get a VTOL Type by id
+            operationId: findVtolTypeById
+            parameters:
+                - name: id
+                  in: path
+                  description: VTOL Type id
+                  required: true
+                  schema:
+                      type: string
+                      format: uuid
+            responses:
+                200:
+                    description: Successful
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/VtolType"
+                400:
+                    description: UUID invalid
+                    content: {}
+                404:
+                    description: VTOL Type not found
+                    content: {}
+        delete:
+            tags:
+                - VTOL Type Management
+            summary: Delete a VTOL Type by id
+            description: ToDo this endpoint is only temporary and will be deleted
+            operationId: deleteVtolTypeById
+            parameters:
+                - name: id
+                  in: path
+                  description: VTOL Type id
+                  required: true
+                  schema:
+                      type: string
+                      format: uuid
+            responses:
+                200:
+                    description: Successful
+                    content: {}
+                400:
+                    description: UUID invalid
+                    content: {}
+                404:
+                    description: VTOL Type not found
+                    content: {}
+    /vtols:
+        get:
+            tags:
+                - VTOL Management
+            summary: Get all VTOL
+            operationId: findAllVtols
+            responses:
+                200:
+                    description: Successful
+                    content:
+                        application/json:
+                            schema:
+                                type: array
+                                items:
+                                    $ref: "#/components/schemas/Vtol"
+        post:
+            tags:
+                - VTOL Management
+            summary: Add a new VTOL
+            operationId: addVtol
+            requestBody:
+                description: VTOL object that needs to be added to the database
+                content:
+                    application/json:
+                        schema:
+                            $ref: "#/components/schemas/VtolCreate"
+                required: true
+            responses:
+                201:
+                    description: Created successfully
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/Vtol"
+                400:
+                    description: Invalid input
+                    content: {}
+            x-codegen-request-body-name: CreateVtolDto
+    /vtols/{id}:
+        get:
+            tags:
+                - VTOL Management
+            summary: Get a VTOL by id
+            operationId: findVtolById
+            parameters:
+                - name: id
+                  in: path
+                  description: VTOL id
+                  required: true
+                  schema:
+                      type: string
+                      format: uuid
+            responses:
+                200:
+                    description: Successful
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/Vtol"
+                400:
+                    description: UUID invalid
+                    content: {}
+                404:
+                    description: VTOL not found
+                    content: {}
+        delete:
+            tags:
+                - VTOL Management
+            summary: Delete a VTOL by id
+            description: ToDo this endpoint is only temporary and will be deleted
+            operationId: deleteVtolById
+            parameters:
+                - name: id
+                  in: path
+                  description: VTOL id
+                  required: true
+                  schema:
+                      type: string
+                      format: uuid
+            responses:
+                200:
+                    description: Successful
+                    content: {}
+                400:
+                    description: UUID invalid
+                    content: {}
+                404:
+                    description: VTOL not found
+                    content: {}
+components:
+    schemas:
+        productLine:
+            type: string
+            enum:
+                - CARGO
+                - PASSENGER
+        technicalStatus:
+            type: string
+            enum:
+                - SERVICABLE
+                - UNSERVICABLE
+                - SERVICABLE_WITH_LIMITATIONS
+        VtolTypeCreate:
+            required:
+                - name
+                - productLine
+            type: object
+            properties:
+                name:
+                    maxLength: 10
+                    type: string
+                productLine:
+                    $ref: "#/components/schemas/productLine"
+        VtolType:
+            required:
+                - id
+                - name
+                - productLine
+            type: object
+            properties:
+                id:
+                    type: string
+                    format: uuid
+                name:
+                    maxLength: 10
+                    type: string
+                productLine:
+                    $ref: "#/components/schemas/productLine"
+        VtolCreate:
+            type: object
+            properties:
+                registration:
+                    maxLength: 8
+                    type: string
+                typeId:
+                    type: string
+                    format: uuid
+                technicalStatus:
+                    $ref: "#/components/schemas/productLine"
+                homebase:
+                    type: string
+                pilotedFlightPermitValidity:
+                    type: string
+                    format: date
+                remotePilotedFlightPermitValidity:
+                    type: string
+                    format: date
+        Vtol:
+            type: object
+            properties:
+                id:
+                    type: string
+                    format: uuid
+                registration:
+                    maxLength: 8
+                    type: string
+                typeId:
+                    type: string
+                    format: uuid
+                technicalStatus:
+                    $ref: "#/components/schemas/productLine"
+                homebase:
+                    type: string
+                pilotedFlightPermitValidity:
+                    type: string
+                    format: date
+                remotePilotedFlightPermitValidity:
+                    type: string
+                    format: date

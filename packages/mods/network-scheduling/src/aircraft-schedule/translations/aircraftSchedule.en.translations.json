@@ -1,0 +1,46 @@
+{
+    "Aircraft type": "Aircraft type",
+    "Schedule": "Schedule",
+    "No aircraft found": "No aircraft found",
+    "Zoom in": "Zoom in",
+    "Zoom out": "Zoom out",
+    "Scroll left": "Scroll left",
+    "Scroll right": "Scroll right",
+    "closeButton": "close",
+    "title": "Go To Date",
+    "go": "Go",
+    "Legend": {
+        "Mission": "Mission",
+        "Event": "Event",
+        "Event blocked for mission": "Event blocked for mission",
+        "Warning": "Warning"
+    },
+    "Service": "Service",
+    "Passenger": "Passenger",
+    "Cargo": "Cargo",
+    "Test": "Test",
+    "Unknown": "Unknown",
+    "Type": "Type",
+    "Crew configuration": "Crew configuration",
+    "Crew conf.": "Config.",
+    "Crew": {
+        "CREWED": "Crewed",
+        "UNCREWED": "Uncrewed"
+    },
+    "MSN": "MSN",
+    "Homebase": "Homebase",
+    "Technical status": {
+        "SERVICEABLE": "Serviceable",
+        "SERVICEABLE_WITH_LIMITATIONS": "Serviceable with limitations",
+        "UNSERVICEABLE": "Unserviceable",
+        "SHORT": {
+            "SERVICEABLE": "Serviceable",
+            "SERVICEABLE_WITH_LIMITATIONS": {
+                "LIMITATIONS": "Limited"
+            },
+            "UNSERVICEABLE": "Unserviceable"
+        }
+    },
+    "Some data failed to load": "Some data failed to load",
+    "Try again later": "Try again later"
+}

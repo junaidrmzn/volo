@@ -1,0 +1,27 @@
+{
+    "Test Hazards": "Test Hazards",
+    "Test Hazard Assessment": "Test Hazard Assessment",
+    "Selected Test Hazard Assessment": "Selected Test Hazard Assessment",
+    "Selected Test Hazard Assessments": "Selected Test Hazard Assessments",
+    "Test Hazard Assessments Search Results": "Test Hazard Assessments Search Results",
+    "Edit": "Edit",
+    "Applicability": "Applicability",
+    "ApplicabilityEnum": {
+        "MANNED": "Manned",
+        "UNMANNED": "Unmanned"
+    },
+    "HazardGroupEnum": {
+        "GENERIC_HAZARDS": "Generic Hazards",
+        "TEST_POINT_SPECIFIC_HAZARDS": "Test Point Specific Hazards"
+    },
+    "Done": "Done",
+    "All": "All",
+    "Selected": "Selected",
+    "Unselect all {hazardGroup} Test Hazards": "Unselect all {hazardGroup} Test Hazards",
+    "Select all {hazardGroup} Test Hazards": "Select all {hazardGroup} Test Hazards",
+    "1 Test Hazard": "1 Test Hazard",
+    "{numberOfTestHazardAssessments} Test Hazards": "{numberOfTestHazardAssessments} Test Hazards",
+    "{numberOfTestHazardAssessments} selected": "{numberOfTestHazardAssessments} selected",
+    "Select \"{hazard}\"": "Select \"{hazard}\"",
+    "Unselect \"{hazard}\"": "Unselect \"{hazard}\""
+}

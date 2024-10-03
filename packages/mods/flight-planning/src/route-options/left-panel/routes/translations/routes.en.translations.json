@@ -1,0 +1,22 @@
+{
+  "notAvailable": "n.a.",
+  "routeOptions": "Route Options",
+  "routeOption": "Route Option",
+  "validity": {
+    "title": "Validity",
+    "recalculate": "Recalculate"
+  },
+  "header": {
+    "status": {
+      "valid": "Valid",
+      "invalid": "Invalid",
+      "not_yet_validated": "Not Validated"
+    },
+    "publish": "PUBLISH",
+    "export": "Export",
+    "upload": "UPLOAD",
+    "validFrom": "Valid from",
+    "backToRoutesOverview": "back to routes overview",
+    "left": "left"
+  }
+}

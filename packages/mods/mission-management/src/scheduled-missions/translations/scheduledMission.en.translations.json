@@ -1,0 +1,72 @@
+{
+    "missions": "Missions",
+    "scheduledMissions": "Scheduled Missions",
+    "information": "In this module you find all the Missions for your Regions. You can add new ones or dive deeper into extisting ones. You will see whether your missions are on track or whether they need some action to be taken.",
+    "timeSchedular": {
+        "zoomIn": "Zoom in",
+        "zoomOut": "Zoom out",
+        "scrollLeft": "Scroll left",
+        "scrollRight": "Scroll right",
+        "closeButton": "close",
+        "title": "Go To Date",
+        "go": "Go"
+    },
+    "emptyState": {
+        "title": "No entries found",
+        "description": "Are you sure there are entries?"
+    },
+    "flightNumber": "Flight number",
+    "missionStatus": {
+        "label": "Mission status",
+        "CANCELLED": "Cancelled",
+        "CLOSED": "Closed",
+        "PLANNED": "Planned",
+        "BOARDING": "Boarding",
+        "FLYING": "Flying",
+        "DIVERTED": "Diverted",
+        "PERFORMED": "Performed",
+        "UNKNOWN": "Unknown"
+    },
+    "aircraft": "Aircraft",
+    "aircraftType": "Aircraft type",
+    "departureRegion": "Departure region",
+    "arrivalRegion": "Arrival region",
+    "departureVertiport": "Departure vertiport",
+    "arrivalVertiport": "Arrival vertiport",
+    "quickFilters": {
+        "today": "Today",
+        "tomorrow": "Tomorrow",
+        "customDate": {
+            "tagLabel": "Custom",
+            "title": "Go-To Date",
+            "go": "Go",
+            "closeButton": "Close Button"
+        }
+    },
+    "actions": {
+        "missionDetails": "Mission Details",
+        "actionsPopover": "Mission Actions Popover"
+    },
+    "todos": {
+        "todosText": "{totalToDos} To Dos",
+        "bulletListAriaLabel": "BulletList Icon"
+    },
+    "missionActions": {
+        "headerLabel": "Mission Actions",
+        "closeButtonAriaLabel": "Close",
+        "title": "Invalid Action",
+        "emptyList": "No Actions currently available for Mission - {flightNumber}"
+    },
+    "modulesList": {
+        "aircraft": "Aircraft",
+        "battery": "Battery",
+        "crew": "Crew",
+        "flightPlan": "Flight Plan",
+        "general": "General",
+        "groundOps": "Ground Operations",
+        "passanger": "Passenger",
+        "notams": "NOTAMs",
+        "weather": "Weather",
+        "unknown": "Unknown"
+    }
+}

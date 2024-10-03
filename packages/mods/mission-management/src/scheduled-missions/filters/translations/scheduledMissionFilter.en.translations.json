@@ -1,0 +1,70 @@
+{
+    "filterPanel": {
+        "filters": "Filters",
+        "flightNumber": "Flight number",
+        "missionStatus": {
+            "caption": "Mission status",
+            "CANCELLED": "Cancelled",
+            "CLOSED": "Closed",
+            "PLANNED": "Planned",
+            "BOARDING": "Boarding",
+            "FLYING": "Flying",
+            "DIVERTED": "Diverted",
+            "PERFORMED": "Performed",
+            "UNKNOWN": "Unknown"
+        },
+
+        "typeOfOperation": {
+            "caption": "Type of operation",
+            "PILOTED": "Piloted",
+            "REMOTE_PILOTED": "Remote piloted",
+            "UNKNOWN": "Unknown"
+        },
+        "mbStatus": {
+            "caption": "Conflicts",
+            "TOTAL_TAKE_OFF_WEIGHT_EXCEEDED": "Total take off weight exceeded",
+            "MASS_AND_BALANCE_OUT_OF_LIMITS": "Mass and balance out of limits",
+            "PILOT_WITHOUT_PILOT_SEAT_ASSIGNMENT": "Pilot without pilot seat assigment",
+            "AIRCRAFT_ASSIGNMENT_INCOMPLETE": "Aircraft assignment incomplete",
+            "PILOT_ASSIGNMENT_INCOMPLETE": "Pilot assignment incomplete",
+            "UNKNOWN": "Unknown",
+            "AIRCRAFT_UNSERVICEABLE": "Aircraft unserviceable",
+            "AIRCRAFT_SERVICE_TYPE_INVALID": "Aircraft service type invalid",
+            "BOOKINGS_EXCEED_SEAT_NUMBER": "Bookings exceed seat number",
+            "VERTIPORT_DELETED": "Vertiport deleted",
+            "WEATHER_OUT_OF_LIMITS": "Weather out of limits",
+            "NOTAMS_INCOMPLETE": "NOTAMs incomplete",
+            "ROUTE_OPTION_ASSIGNMENT_INCOMPLETE": "RouteOption assignment incomplete",
+            "ROUTE_OPTION_VALIDATION_INCOMPLETE": "RouteOption validation incomplete",
+            "PAD_ASSIGNMENT_INCOMPLETE": "Pad assignment incomplete",
+            "MISSION_DURATION_MISMATCH_WITH_FLIGHT_PLAN": "Mission duration mismatch with flight plan"
+        },
+        "service": {
+            "caption": "Service",
+            "PASSENGER": "Passenger",
+            "CARGO": "Cargo",
+            "TEST": "Test",
+            "TRAINING": "Training",
+            "FERRY_FLIGHT": "Ferry flight",
+            "CARPOOL": "Carpool",
+            "UNKNOWN": "Unknown"
+        },
+        "arrivalDate": "Scheduled Arrival",
+        "arrivalActual": "Actual Arrival",
+        "departureDate": "Scheduled Departure",
+        "departureActual": "Actual Departure",
+        "validity": "Validity",
+        "from": "From",
+        "to": "To",
+        "aircraft": "Aircraft",
+        "aircraftType": "Aircraft Type",
+        "pilotEmail": "Assigned Pilot Email",
+        "departureVertiportCode": "Departure Vertiport Code",
+        "arrivalVertiportCode": "Arrival Vertiport Code",
+        "leonId": "Leon ID",
+        "departureRegion": "Departure region",
+        "arrivalRegion": "Arrival region",
+        "departureVertiport": "Departure vertiport",
+        "arrivalVertiport": "Arrival vertiport"
+    }
+}

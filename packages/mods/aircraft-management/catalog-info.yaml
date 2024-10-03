@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.aircraft-management.ui
+  title: aircraft management UI
+  tags:
+  - javascript
+spec:
+  type: micro-frontend
+  lifecycle: production
+  owner: voloiq-air-ops-team
+  system: voloiq.aircraft-management
+  consumesApis:
+  - voloiq.aircraft-management.api

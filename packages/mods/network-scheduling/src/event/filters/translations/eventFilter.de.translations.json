@@ -1,0 +1,18 @@
+{
+    "filterPanel": {
+        "filters": "Filter",
+        "name": "Veranstaltungsname",
+        "startDate": "Startdatum (UTC)",
+        "endDate": "Enddatum (UTC)",
+        "aircraft": "Fluggerät",
+        "blockedForMission": {
+            "caption": "Geblockt für Mission",
+            "true": "Geblockt",
+            "false": "Nicht geblockt",
+            "all": "Alle"
+        },
+        "from": "Seit",
+        "to": "Bis",
+        "description": "Beschreibung"
+    }
+}

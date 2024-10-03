@@ -1,0 +1,50 @@
+{
+    "data": [
+        {
+            "id": "9feb676b-80fa-44a6-85e4-1bdd542c5b3d",
+            "msn": "9265794805580855954127740971035747544095921762",
+            "technicalStatus": "SERVICEABLE",
+            "homebase": "Bruchsal",
+            "validFrom": "2022-05-23T07:41:41.824Z",
+            "crewConfiguration": "CREWED",
+            "service": "PASSENGER",
+            "registration": "D-Test",
+            "typeId": "7fd42689-8dd1-4fd7-9085-998c535f7b51",
+            "validTo": "2023-04-23T07:41:41.824Z",
+            "colorAndMarkingCharacteristics": ["Volocopter Logo", "Kranich"],
+            "survivalEquipmentClassifications": ["S"],
+            "lifeJacketEquipment": ["L"],
+            "surveillanceTransponderTypes": ["A"],
+            "communicationCapabilities": ["E1"],
+            "navigationCapabilities": ["A"],
+            "dryOperatingMass": 200,
+            "nominalRange": 35,
+            "nominalEndurance": 0,
+            "emergencyRadioTypes": ["U"],
+            "performanceBasedNavigationCapabilities": ["A1"]
+        },
+        {
+            "id": "10eb676b-80fa-44a6-85e4-1bdd542c5b3d",
+            "msn": "9265794805580855954127740971035747544095921762",
+            "technicalStatus": "SERVICEABLE",
+            "homebase": "Bruchsal",
+            "validFrom": "2022-05-23T07:41:41.824Z",
+            "crewConfiguration": "CREWED",
+            "service": "PASSENGER",
+            "registration": "D-Volo",
+            "typeId": "7fd42689-8dd1-4fd7-9085-998c535f7b51",
+            "validTo": "2023-04-23T07:41:41.824Z",
+            "colorAndMarkingCharacteristics": ["Volocopter Logo", "Kranich"],
+            "survivalEquipmentClassifications": ["S"],
+            "lifeJacketEquipment": ["L"],
+            "surveillanceTransponderTypes": ["A"],
+            "communicationCapabilities": ["E1"],
+            "navigationCapabilities": ["A"],
+            "dryOperatingMass": 200,
+            "nominalRange": 35,
+            "nominalEndurance": 0,
+            "emergencyRadioTypes": ["U"],
+            "performanceBasedNavigationCapabilities": ["A1"]
+        }
+    ]
+}

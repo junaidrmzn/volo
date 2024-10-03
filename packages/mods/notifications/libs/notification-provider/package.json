@@ -1,0 +1,17 @@
+{
+    "name": "@voloiq/notification-provider",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@voloiq/routing": "1.0.0",
+        "react": "17.0.2"
+    },
+    "devDependencies": {
+        "@types/react": "17.0.39"
+    }
+}

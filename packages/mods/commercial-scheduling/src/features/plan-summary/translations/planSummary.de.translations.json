@@ -1,0 +1,109 @@
+{
+    "generic": {
+        "Cancel": "Abbrechen",
+        "Confirm": "Bestätigen Sie",
+        "dropdown": {
+            "placeholder": "Bitte wählen",
+            "errorMessage": "Bitte wählen Sie einen gültigen Eintrag"
+        }
+    },
+    "overview": {
+        "Plan": "Plan",
+        "ChangeRequest": "Änderungsantrag",
+        "invalid": "Ungültig",
+        "listLabel": "summarische Posten",
+        "cardLabel": "Sammelposten",
+        "actionsAriaLabel": "Aktionen",
+        "editAriaLabel": "bearbeiten",
+        "Price": "Preis",
+        "Offer Runway": "Angebot Startbahn",
+        "noOffer": "Kein Angebot",
+        "filterPanel": {
+            "filters": "Filter",
+            "departureVertiport": "Abfahrt Vertiport",
+            "arrivalVertiport": "Ankunft Vertiport",
+            "departureDate": "Abreisedatum",
+            "from": "von",
+            "to": "bis",
+            "aircraftType": "Flugzeugtyp"
+        },
+        "actions": {
+            "approve": {
+                "title": "Plan genehmigen",
+                "modal": {
+                    "heading": "Bestätigung",
+                    "subheading": "Plan genehmigen",
+                    "description": "Sie stehen kurz davor, den gesamten Plan und seine manuellen Änderungen zu genehmigen. Er wird im Kunden-App nicht angezeigt, solange er nicht \"veröffentlicht\" ist. Möchten Sie fortfahren?",
+                    "Approve": "Genehmigen"
+                },
+                "toast": {
+                    "title": "Handelsplan genehmigt",
+                    "description": "Sie haben den Handelsplan erfolgreich bestätigt."
+                }
+            },
+            "reject": {
+                "title": "Plan ablehnen",
+                "modal": {
+                    "heading": "Bestätigung",
+                    "subheading": "Plan ablehnen",
+                    "description": "Sie stehen kurz davor, den gesamten Plan abzulehnen. Dadurch werden alle manuellen Änderungen am Plan außerhalb des festgelegten Preises und der Laufzeit zurückgesetzt. Möchten Sie fortfahren?",
+                    "placeholder": "Geben Sie eine kurze Nachricht ein",
+                    "Reject": "Ablehnen"
+                },
+                "toast": {
+                    "title": "Handelsplan abgelehnt",
+                    "description": "Sie haben den Handelsplan erfolgreich abgelehnt."
+                }
+            },
+            "request": {
+                "title": "Antrag auf Plangenehmigung",
+                "modal": {
+                    "heading": "Warnung",
+                    "subheading": "Ungültige Artikel",
+                    "description": "Sie sind dabei, einen Plan mit ungültigen Artikeln zu genehmigen. Wollen Sie fortfahren? Wenn Sie den Plan veröffentlichen, werden ungültige Artikel nicht angezeigt und automatisch gelöscht."
+                },
+                "toast": {
+                    "title": "Beantragte Plangenehmigung",
+                    "success": {
+                        "description": "Sie haben erfolgreich die Planfeststellung beantragt"
+                    },
+                    "error": {
+                        "description": "Aufgrund des unvollständigen kommerziellen Preises/Angebots konnte keine Genehmigung für den kommerziellen Plan beantragt werden"
+                    }
+                }
+            }
+        },
+        "sidePanel": {
+            "changeRequests": "Änderungsanträge",
+            "changeHistory": "Geschichte ändern",
+            "approveAll": "Alle genehmigen",
+            "modal": {
+                "heading": "Konfirmation",
+                "approveAllConfirm": "Sie sind dabei, alle Änderungen auf einmal zu genehmigen. Möchten Sie fortfahren?",
+                "approve": "Genehmigen"
+            }
+        },
+        "information": "Dies ist das Detail des Netzwerkplans für den kommerziellen Plan ”{planName}”. Hier finden Sie alle bestellten, gebuchten und durchgeführten Einsätze für dieses kommerzielle Setup."
+    },
+    "modal": {
+        "edit": {
+            "heading": "bearbeiten",
+            "heading overwrite": "Überschreiben Sie",
+            "subheading": "Zeitplanelement",
+            "flightNumber": "Flugnummer",
+            "days": "Tage",
+            "customPrice": "Benutzerdefinierter Preis",
+            "customOfferRunway": "Individuelles Angebot Startbahn",
+            "isNoCustomOffer": "dies nicht in der Kunden-App anbieten",
+            "editComment": "Kommentar bearbeiten",
+            "commentPlaceholder": "Geben Sie eine kleine Nachricht ein, um Ihre Änderungen zu erklären",
+            "resetToDefault": "Auf Standardwerte zurücksetzen"
+        }
+    },
+    "units": {
+        "HOURS": "Stunde(n)",
+        "DAYS": "Tag(e)",
+        "WEEKS": "Woche(n)",
+        "MONTHS": "Monat(e)"
+    }
+}

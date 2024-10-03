@@ -1,0 +1,45 @@
+{
+    "common": { "notFound": "Nicht gefunden" },
+    "flightMonitoring": {
+        "toggleFocusButton": "Fokus",
+        "selectAircraft": "Fluggerät auswählen",
+        "noAircraftSelected": "Kein Fluggerät ausgewählt",
+        "deselect": "Auswahl entfernen"
+    },
+    "telemetryData": {
+        "header": "Telemetriedaten",
+        "airspeed": "Airspeed",
+        "groundspeed": "Groundspeed",
+        "stateOfCharge": "Ladezustand",
+        "altitude": "Höhe",
+        "verticalSpeed": "Steig-/Sinkrate",
+        "remainingEnergy": "Restenergie"
+    },
+    "verticalProfile": {
+        "altitude": "Höhe"
+    },
+    "flightInformation": {
+        "vtolRegistration": "VTOL Registrierung",
+        "flightNumber": "Flugnummer",
+        "vtolType": "VTOL Typ",
+        "startTime": "Startzeit",
+        "scheduledArrivalTime": "Geplante Ankunft"
+    },
+    "errors": {
+        "websocket": {
+            "error": "Fehler beim Verbindungsaufbau"
+        },
+        "webPubSub": {
+            "accessToken": "Fehler beim anfordern des Zugriffstokens für die live Flugdaten",
+            "accessTokenBird": "Fehler beim anfordern des Zugriffstokens für die Birdstrike daten",
+            "joinGroup": "Fehler beim abonnieren der Gruppe '{groupName}'",
+            "leaveGroup": "Fehler beim verlassen der Gruppe '{groupName}'",
+            "flightPath": "Fehler beim holen des Flugpfades"
+        },
+        "flightPlanningApi": {
+            "timeout": "Zeitüberschreitung bei der Anfrage",
+            "noFlightForVtolFound": "Kein kürzlicher Flug des Vtol mit der ID '{vtolId}' gefunden"
+        }
+    },
+    "error": "Fehler"
+}

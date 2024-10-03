@@ -1,0 +1,112 @@
+{
+    "generic": {
+        "back": "Back",
+        "cancel": "Cancel",
+        "upload": "Upload",
+        "edit": "Edit"
+    },
+    "title": "Commercial Plan",
+    "overview": {
+        "heading": "Commercial Manager",
+        "subheading": "Plans & Offers",
+        "listLabel": "Commercial Plans",
+        "cardLabel": "Commercial Plan",
+        "actionsAriaLabel": "Commercial Plan Actions",
+        "detailAriaLabel": "Commercial Plan Detail",
+        "Upload New Plan": "Upload New Plan",
+        "Archived": "Archived",
+        "Missions Ordered": "Missions Ordered",
+        "Valid From": "Valid From",
+        "filterPanel": {
+            "Filters": "Filters",
+            "region": "Region"
+        },
+        "actionButtons": {
+            "Archive Plan": "Archive Plan",
+            "Edit Plan": "Edit Plan",
+            "Delete Plan": "Delete Plan"
+        },
+        "planArchived": "Plan archived successfully!",
+        "information": "In this module you find all the Commercial Plans for your Regions. You can upload new ones or dive deeper into existing ones."
+    },
+    "modal": {
+        "Commercial Plan": "Commercial Plan",
+        "Plan Name": "Plan Name",
+        "File": "File"
+    },
+    "create": {
+        "heading": "Upload",
+        "fileInput": {
+            "deleteAriaLabel": "Delete file",
+            "selectFilesLabel": "Select a file",
+            "dropFilesLabel": "Drag and Drop your File for here",
+            "orLabel": "or",
+            "allowedFileTypesLabel": "allowed file types",
+            "maxFileSizeLabel": "maximum size 500KB",
+            "rejectedFilesErrorMessage": "This file type is not supported. Please select files of the following types: {acceptedFiles}"
+        },
+        "process": {
+            "started": "Processing has started",
+            "completed": "Processing is completed"
+        }
+    },
+    "edit": {
+        "heading": "Edit",
+        "Numbers of missions in plan": "Numbers of missions in plan",
+        "Start Date": "Start Date",
+        "End Date": "End Date"
+    },
+    "detail": {
+        "publishPlan": {
+            "title": "Publish to Customer & Airline",
+            "modal": {
+                "heading": "Confirmation",
+                "description": "You can publish the plan now directly to Airline and our Customers or do it any time later by coming back to this and use the publish plan button.",
+                "note": "Once Published, it cannot be changed again.",
+                "question": "Do you want to Proceed?"
+            },
+            "toast": {
+                "success": {
+                    "description": "You have successfully published the commercial plan to customer & airline"
+                },
+                "error": {
+                    "description": "Can not publish the commercial plan to customer & airline at the moment"
+                }
+            }
+        },
+        "tabs": {
+            "schedule": "Schedule",
+            "pricing": "Pricing",
+            "offering": "Offering",
+            "plan": "Plan"
+        }
+    },
+    "errorMessages": {
+        "lineSize": "Invalid file format encountered. Line length required is 200.",
+        "invalidFlightNumberFormat": "Flight number {value} format is not valid, should be in format of ex. XZ0000",
+        "departureoffsetDateTimeFormat": "Invalid departure date/time field ({value}) inserted, please check.",
+        "arrivaloffsetDateTimeFormat": "Invalid arrival date/time field ({value}) inserted, please check.",
+        "invalidFileFormat": "Invalid file provided.",
+        "duplicateCommercialPlanName": "This name already exists, try another schedule plan name",
+        "departureVertiportCodeFormat": "Invalid departure vertiport field({value}) provided.",
+        "arrivalVertiportCodeFormat": "Invalid arrival vertiport field({value}) provided.",
+        "flightNumberDuplicate": "Flight number is not unique per day, {value} is used in schedule plan {plan}",
+        "genConstViolation": "Const Violation",
+        "connectionNotFound": "Connection ({value}) is no longer valid, please check",
+        "connectionInvalid": "Connection ({value}) is not valid",
+        "connectionInconsistentDepArvTime": "Connection ({name}) is no longer valid for the planned schedule, please check",
+        "vertiportNotFound": "Vertiport {value} is now invalid/deleted",
+        "vertiportInvalid": "Vertiport {value} is not valid.",
+        "duplicateVertiport": "There are duplicate Vertiport {value} codes",
+        "insufficientConnectionValidity": "Connection {value} does have sufficient validity",
+        "insufficientVertiportValidity": "Vertiport {value} does have sufficient validity",
+        "multipleRegionVertiports": "All vertiports should be in the same region",
+        "invalidCommercialPlanStatus": "Invalid Commercial Plan Status",
+        "unspecifiedVertiportRegion": "Connection ({connection}) has unspecified region for the vertiport ({vertiport}), please check",
+        "inconsistentDepArrValidFrom": "Connection ({connection}) starting date is not consistent with vertiport ({vertiport})",
+        "inconsistentDepArrValidTo": "Connection ({connection}) end date is not consistent with vertiport ({vertiport})",
+        "departureVertiportNoPassengerService": "Vertiport ({id}) has an empty 'services' field, please check",
+        "arrivalVertiportNoPassengerService": "Vertiport ({id}) has an empty 'services' field, please check",
+        "unknownError": "Error while creating commercial schedule."
+    }
+}

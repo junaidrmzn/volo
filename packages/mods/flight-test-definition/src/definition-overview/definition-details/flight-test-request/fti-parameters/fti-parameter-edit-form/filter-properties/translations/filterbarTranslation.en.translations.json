@@ -1,0 +1,21 @@
+{
+    "Filter bar": {
+        "Title": "Workflows",
+        "FTI Code": {
+            "label": "FTI Code",
+            "propertyName": "ftiCode"
+        },
+        "Short Description": {
+            "label": "Short Description",
+            "propertyName": "shortDescription"
+        },
+        "Aircraft Zones": {
+            "label": "Aircraft Zones",
+            "propertyName": "aircraftZone.id"
+        },
+        "Work Groups": {
+            "label": "Work Groups",
+            "propertyName": "workgroup.id"
+        }
+    }
+}

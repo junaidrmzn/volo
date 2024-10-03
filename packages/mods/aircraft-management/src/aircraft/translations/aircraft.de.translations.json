@@ -1,0 +1,146 @@
+{
+    "model": {
+        "general": "Allgemein",
+        "name": "Fluggerät",
+        "registration": "Fluggerät registration",
+        "msn": "MSN",
+        "service": "Service",
+        "service Passenger": "Passenger",
+        "service Cargo": "Cargo",
+        "service Test": "Test",
+        "service Training": "Training",
+        "service FerryFlight": "Überführungsflug",
+        "service Carpool": "Carpool",
+        "aircraftType": "Fluggerät type",
+        "technicalStatus": "Technical status",
+        "technicalStatus serviceable": "Serviceable",
+        "technicalStatus unserviceable": "Unserviceable",
+        "technicalStatus serviceableWithLimitations": "Serviceable with limitations",
+        "homebase": "Homebase",
+        "crewConfiguration": "Crew configuration",
+        "crewConfiguration crewed": "Crewed",
+        "crewConfiguration uncrewed": "Uncrewed",
+        "validFrom": "Gültig seit",
+        "validTo": "Gültig bis",
+        "passengerSeats": "Passagiersitzplätze",
+        "createBy": "Erstellt von",
+        "createTime": "Erstellt am",
+        "updatedBy": "Aktualisiert von",
+        "updateTime": "Aktualisiert am",
+        "unknown": "Unbekannt",
+        "services": "Dienstleistungen",
+        "property": "Eigentum",
+        "changeTo": "Wechseln zu"
+    },
+    "create": {
+        "heading": "Fluggerät hinzufügen",
+        "msn error numbers-only": "MSN sollte nur aus Zahlen bestehen",
+        "checkbox": "Daten vom Fluggerät Typ überschreiben"
+    },
+    "detail": {
+        "heading aircraft": "Fluggerät Details - {msn}",
+        "heading aircrafttype": "Fluggerät Typ Details {name}",
+        "tabs": {
+            "general": "Allgemein",
+            "maintenance": "Wartung",
+            "timeline": "Timeline Events",
+            "other": "Sonstiges"
+        }
+    },
+    "edit": {
+        "heading": "Fluggerät editieren",
+        "reset": "Daten vom Fluggerät Typ zurücksetzen"
+    },
+    "preview": {
+        "heading": "Flugzeugvorschau"
+    },
+    "filter": {
+        "listAriaLabel": "Filter Tag Liste",
+        "heading": "Filter",
+        "fromLabel": "von",
+        "toLabel": "bis"
+    },
+    "overview": {
+        "title-primary": "Ressourcen",
+        "title-secondary": "Fluggerät Übersicht",
+        "empty-list": "Keine Fluggeräts gefunden",
+        "empty-list-second": "Ändern Sie ihre Filtereinstellungen oder fügen Sie ein Fluggerät hinzu.",
+        "pagination": {
+            "ariaLabel": "pagination",
+            "nextPageAriaLabel": "Nächste Seite",
+            "previousPageAriaLabel": "Vorherige Seite"
+        }
+    },
+    "sortingPanel": {
+        "title": "Sortieren",
+        "applyButtonLabel": "Anwenden",
+        "backButtonAriaLabel": "Zurück",
+        "cancelButtonLabel": "Abbrechen",
+        "createdOnOption": "Erstellungsdatum",
+        "ascendingLabel": "Aufsteigend",
+        "descendingLabel": "Absteigend",
+        "options.aircraftType": {
+            "name": "Typ",
+            "validFrom": "Gültig seit",
+            "validTo": "Gültig bis",
+            "productLine": "Product line"
+        },
+        "options.aircraft": {
+            "registration": "Registrierung",
+            "msn": "MSN",
+            "service": "Service",
+            "productLine": "Produktlinie",
+            "validFrom": "Gültig seit",
+            "validTo": "Gültig bis",
+            "technicalStatus": "Technischer Status",
+            "crewConfiguration": "Crew Konfiguration"
+        }
+    },
+    "filteringPanel": {
+        "listAriaLabel": "Filter Tag List",
+        "heading": "Filter",
+        "fromLabel": "von",
+        "toLabel": "bis",
+        "productLineLabel": {
+            "volocity": "VoloCity",
+            "volodrone": "VoloDrone",
+            "voloregion": "VoloRegion",
+            "2x": "2X"
+        }
+    },
+    "buttons": {
+        "filter": "Filter",
+        "sort": "Sortierung",
+        "add": "Hinzufügen",
+        "edit": "Bearbeiten",
+        "details": "Details",
+        "delete": "Löschen",
+        "cancel": "Abbrechen",
+        "back": "Zurück",
+        "apply": "Anwenden"
+    },
+    "Zoom in": "Vergößern",
+    "Zoom out": "Verkleinern",
+    "Scroll left": "Nach links bewegen",
+    "Scroll right": "Nach rechts bewegen",
+    "closeButton": "schließen",
+    "title": "Gehen Sie zum Datum",
+    "go": "Gehen",
+    "emptyState": {
+        "title": "Keine Einträge gefunden",
+        "description": "Bist du sicher, dass Einträge vorhanden sind?"
+    },
+    "reservationType": {
+        "event": "Veranstaltung",
+        "mission": "Mission",
+        "vertiport": "Vertiport",
+        "unknown": "Unbekannt"
+    },
+    "deleteModal": {
+        "heading": "{entityName} löschen",
+        "body": "Soll dieser {entityName} wirklich gelöscht werden?"
+    },
+    "leon": "LEON",
+    "source": "Quelle",
+    "lastSynchronizedAt": "Letzte Synchronisierung um"
+}

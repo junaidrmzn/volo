@@ -1,0 +1,6 @@
+{
+    "Revision Read only": "read only",
+    "Revision Unreleased": "unreleased",
+    "Revision Dropdown Aria-label": "revision-dropdown",
+    "Revision Dropdown Option Aria-label": "revision-option-{revision}"
+}

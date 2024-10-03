@@ -1,0 +1,55 @@
+{
+    "header": "Protokoll-Export - {fto}",
+    "placeholder": "Die Exportfunktion ist derzeit nicht verfügbar",
+    "confirmButton": "Bestätigen",
+    "cancelButton": "Abbrechen",
+    "close": "Schließen",
+    "dataPointLimitError": "Der Export von {dataPointCount} Datenpunkten überschreiten die Grenze von 150 Millionen Datenpunkten. Bitte versuchen Sie, den Zeitbereich, die Abtastrate oder die Anzahl der Parameter anzupassen.",
+    "toast": {
+        "successTitle": "Erfolg",
+        "successDescription": "Ein Export wurde erfolgreich beauftragt",
+        "errorTitle": "Fehler",
+        "errorDescription": "Es ist ein Fehler aufgetreten",
+        "emptyWarningTitle": "Warnung",
+        "emptyWarningDescription": "Bitte geben Sie einen Parameter an, bevor Sie einen Export anfordern"
+    },
+    "parameterInput": {
+        "placeholder": "FTI-Codes eingeben",
+        "label": "FTI Parameter",
+        "ariaLabel": "Parameter Eingabe",
+        "validationStatus": {
+            "unknown": "{ftiCode} kann nicht validiert werden",
+            "validating": "{ftiCode} wird validiert",
+            "valid": "{ftiCode} ist gültig",
+            "invalid": "{ftiCode} ist ungültig"
+        }
+    },
+    "tagSelect": {
+        "placeholder": "FTI-Codes eingeben",
+        "label": "FTI Parameter",
+        "ariaLabel": "FTI Parameter",
+        "noResultsText": "Keine Parameter gefunden",
+        "resultCountText": "{count} Ergebnisse",
+        "limitedResult": "100 davon werden angezeigt",
+        "loadEntityErrorText": "Es ist ein Fehler aufgetreten"
+    },
+    "listItem": {
+        "sensorType": "Sensor-Typ",
+        "aircraftZone": "Flugzeug Zone",
+        "parameterSource": "Parameter Quelle",
+        "workgroup": "Arbeitsgruppe",
+        "unit": "Einheit",
+        "accuracy": "Genauigkeit",
+        "minimumSamplingFrequency": "Min. Abtastfrequenz",
+        "ataIspec": "ATA iSpec 2200"
+    },
+    "form": {
+        "startDate": "Start Zeitpunkt",
+        "endDate": "End Zeitpunkt",
+        "exportFileType": "Export Dateityp",
+        "exportFileTypeError": "Unerwarteter Dateityp",
+        "sampleRate": "Abtastrate (Hz)",
+        "description": "Beschreibung",
+        "sampleRateNative": "Die Abtastrate ist nativ für jeden Parameter."
+    }
+}

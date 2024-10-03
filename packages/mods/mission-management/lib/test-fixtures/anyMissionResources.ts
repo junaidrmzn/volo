@@ -1,0 +1,116 @@
+import { TechnicalStatus } from "@voloiq-typescript-api/aircraft-management-types";
+import type { MissionResource } from "@voloiq-typescript-api/network-scheduling-types";
+import { ReservationBlockerType } from "@voloiq-typescript-api/network-scheduling-types";
+import { add } from "date-fns";
+
+export const anyMissionResource = (overwrites?: Partial<MissionResource>) => ({
+    aircraft: {
+        aircraftId: "5e9c3078-34f4-41d8-a3ea-0ef83ebaa924",
+        registration: "sdf",
+        msn: "111",
+        technicalStatus: TechnicalStatus.SERVICEABLE,
+        aircraftTypeId: "00000000-0000-0000-0000-000000000000",
+        aircraftTypeName: "VD200",
+        reservations: [
+            {
+                id: "461af7e4-5d13-4513-8db7-1435094cdd88",
+                reservationType: ReservationBlockerType.MISSION,
+                startDateTime: `${add(new Date(), { hours: 3 })}`,
+                endDateTime: `${add(new Date(), { hours: 5 })}`,
+                alternativeIdentifier: "A11111",
+            },
+        ],
+    },
+    pilot: {
+        id: "9de97bbd-8577-42d5-804d-c575eae36c75",
+        surName: "zzz",
+        firstName: "zz",
+        email: "zzz@gmail.com",
+        available: false,
+        flightHours: 0,
+        roleAssignments: ["FTM"],
+        middleName: "xyz",
+        licenseValidUntil: "2023-05-31T07:00:00.000Z",
+        medicalCertificateValidUntil: "2023-05-31T07:00:00.000Z",
+        languageProficiencyValidUntil: "2023-05-30T07:00:00.000Z",
+        licensedPilotedFlights: true,
+        licensedRemotePilotedFlights: true,
+        phoneNumber: "000",
+        reservations: [
+            {
+                id: "bed51b6f-7460-4c66-acad-d5a10192bdf2",
+                reservationType: ReservationBlockerType.MISSION,
+                startDateTime: `${add(new Date(), { hours: 3 })}`,
+                endDateTime: `${add(new Date(), { hours: 5 })}`,
+                alternativeIdentifier: "TE123",
+            },
+        ],
+    },
+    crewMembers: [
+        {
+            id: "f333f686-98fc-4112-b0e8-ff63f8cdb82e",
+            surName: "Zweig",
+            firstName: "Franziska",
+            email: "Franziska.Zweig@volocopter.com",
+            available: true,
+            flightHours: 0,
+            roleAssignments: ["PIL"],
+            middleName: "U",
+            licenseValidUntil: "2999-12-31T23:59:59.000Z",
+            medicalCertificateValidUntil: "2999-12-31T23:59:59.000Z",
+            languageProficiencyValidUntil: "2999-12-31T23:59:59.000Z",
+            licensedPilotedFlights: true,
+            licensedRemotePilotedFlights: true,
+            phoneNumber: "04347 58 42 42",
+            reservations: [
+                {
+                    id: "461af7e4-5d13-4513-8db7-1435094cdd88",
+                    reservationType: ReservationBlockerType.MISSION,
+                    startDateTime: `${add(new Date(), { hours: 3 })}`,
+                    endDateTime: `${add(new Date(), { hours: 5 })}`,
+                    alternativeIdentifier: "A11111",
+                },
+                {
+                    id: "461af7e4-5d13-4513-8db7-1435094cdd89",
+                    reservationType: ReservationBlockerType.MISSION,
+                    startDateTime: `${add(new Date(), { hours: 3 })}`,
+                    endDateTime: `${add(new Date(), { hours: 5 })}`,
+                    alternativeIdentifier: "A11111",
+                },
+            ],
+        },
+        {
+            id: "f333f686-98fc-4112-b0e8-ff63f8cdb824",
+            surName: "Doe",
+            firstName: "John",
+            email: "john.doe@volocopter.com",
+            available: true,
+            flightHours: 0,
+            roleAssignments: ["PIL"],
+            middleName: "U",
+            licenseValidUntil: "2999-12-31T23:59:59.000Z",
+            medicalCertificateValidUntil: "2999-12-31T23:59:59.000Z",
+            languageProficiencyValidUntil: "2999-12-31T23:59:59.000Z",
+            licensedPilotedFlights: true,
+            licensedRemotePilotedFlights: true,
+            phoneNumber: "04347 58 42 42",
+            reservations: [
+                {
+                    id: "461af7e4-5d13-4513-8db7-1435094cdd88",
+                    reservationType: ReservationBlockerType.MISSION,
+                    startDateTime: `${add(new Date(), { hours: 3 })}`,
+                    endDateTime: `${add(new Date(), { hours: 5 })}`,
+                    alternativeIdentifier: "A11111",
+                },
+                {
+                    id: "461af7e4-5d13-4513-8db7-1435094cdd89",
+                    reservationType: ReservationBlockerType.MISSION,
+                    startDateTime: `${add(new Date(), { hours: 3 })}`,
+                    endDateTime: `${add(new Date(), { hours: 5 })}`,
+                    alternativeIdentifier: "A11111",
+                },
+            ],
+        },
+    ],
+    ...overwrites,
+});

@@ -1,0 +1,7 @@
+{
+    "standBy": "Stand By",
+    "error": {
+        "statusCode": "Status Code: {code}",
+        "An error occurred": "Uh-oh! An error occurred."
+    }
+}

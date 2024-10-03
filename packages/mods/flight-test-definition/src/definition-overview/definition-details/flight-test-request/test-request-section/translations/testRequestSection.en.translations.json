@@ -1,0 +1,25 @@
+{
+    "Test Request Section": "Test Request Section",
+    "Edit Test Request Section": "Edit Test Request Section",
+    "Change Status": "Change Status",
+    "Edit": "Edit",
+    "Title": "Title",
+    "FTD ID": "FTD ID",
+    "ATA": "ATA",
+    "Revision": "Revision",
+    "Master Model": "Master Model",
+    "Model": "Model",
+    "MSN": "MSN",
+    "Test Number": "Test Number",
+    "Test Type": "Test Type",
+    "Date Created": "Date Created",
+    "Created By": "Created By",
+    "Summary": "Summary",
+    "Scope": "Scope",
+    "Test Article": {
+        "Name": "Test Article / Specific Aircraft Configuration",
+        "Subtitle": "added and/or changed from the design baseline"
+    },
+    "Flight": "Flight",
+    "Ground": "Ground"
+}

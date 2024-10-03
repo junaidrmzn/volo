@@ -1,0 +1,21 @@
+{
+  "notAvailable": "n.V.",
+  "edit": "Bearbeiten",
+  "scenario": "Szenario",
+  "feasibility": "Durchführbarkeit",
+  "weatherScenario": {
+    "title": "Wetterszenario",
+    "type": {
+      "standard": "Standard",
+      "specific": "Spezifische",
+      "live": "Live"
+    }
+  },
+  "aircraft": "Luftfahrzeug",
+  "settings": {
+    "title": "Einstellungen",
+    "type": {
+      "standard": "Standard"
+    }
+  }
+}

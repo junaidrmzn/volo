@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: voloiq.booking-management.ui
+    title: Booking Management UI
+    tags:
+        - javascript
+spec:
+    type: micro-frontend
+    lifecycle: production
+    owner: voloiq-ecommerce-team
+    system: voloiq.booking-management
+    consumesApis:
+        - voloiq.e-commerce.booking.api

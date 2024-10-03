@@ -1,0 +1,106 @@
+{
+    "heading": "Pricing",
+    "subheading": "Pricing for this plan",
+    "allRoutes": "All Routes",
+    "priceForAllDays": "price for all days",
+    "information": "Here you find the pricing for your plan.",
+    "labels": {
+        "add": "Add",
+        "back": "Back",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "edit": "Edit",
+        "save": "Save",
+        "validFrom": "Valid From"
+    },
+    "dropdown": {
+        "placeholder": "Please choose",
+        "errorMessage": "Please select a valid option"
+    },
+    "modal": {
+        "add": {
+            "heading": "Add",
+            "subheading": "Pricing for this Schedule",
+            "Validity": "Validity",
+            "all days": "all days",
+            "by days": "by days",
+            "for all routes": "for all routes",
+            "by routes": "by routes",
+            "Currency": "Currency",
+            "Standard Price": "Standard Price",
+            "EuroCurrency": "Euro (Standard for this Region)",
+            "successMessages": {
+                "priceAdded title": "Price Definition Added",
+                "priceAdded desc": "You successfully added the pricing definition."
+            },
+            "errorMessages": {
+                "priceAdded title": "Price Definition not Added",
+                "priceAdded desc": "Error occured while adding the pricing definition."
+            }
+        },
+        "edit": {
+            "heading": "Edit",
+            "subheading": "Pricing for this Schedule",
+            "confirm heading": "Confirm",
+            "confirm subheading": "Editing of a handed in request",
+            "Validity": "Validity",
+            "all days": "all days",
+            "by days": "by days",
+            "for all routes": "for all routes",
+            "by routes": "by routes",
+            "Currency": "Currency",
+            "Standard Price": "Standard Price",
+            "EuroCurrency": "Euro (Standard for this Region)",
+            "confirmation text": "You are about to edit an already handed in Pricing Definition. Editing this will overwrite the status of this pricing definition back to draft. The approval request will be closed and you will have to hand in your new draft again. ",
+            "confirmation question": "Do you want to proceed with editing?",
+            "successMessages": {
+                "priceEdited title": "Price Definition Edited",
+                "priceEdited desc": "You successfully edited the pricing definition."
+            },
+            "errorMessages": {
+                "priceEdited title": "Price Definition not Edited",
+                "priceEdited desc": "Error occured while editing the pricing definition."
+            }
+        }
+    },
+    "actions": {
+        "approve": {
+            "title": "Approve Pricing",
+            "modal": {
+                "heading": "Information",
+                "subheading": "Approve Pricing Definition",
+                "description": "You are about to approve a handed in Pricing Definition. Do you want to proceed?",
+                "Approve": "Approve"
+            },
+            "toast": {
+                "title": "Pricing Definition Approved",
+                "description": "You successfully confirmed the pricing definition"
+            }
+        },
+        "reject": {
+            "title": "Reject Pricing",
+            "modal": {
+                "heading": "Warning",
+                "subheading": "Rejecting Pricing Definition",
+                "description": "You are about to reject a handed in Pricing Definition. Please add a little note for your colleagues so they know what to change.",
+                "placeholder": "Type in a little message",
+                "Reject": "Reject"
+            },
+            "toast": {
+                "title": "Pricing Definition Rejected",
+                "description": "You successfully rejected the pricing definition"
+            }
+        },
+        "request": {
+            "title": "Request Pricing Approval",
+            "toast": {
+                "success": {
+                    "description": "Requested pricing approval successfully"
+                },
+                "error": {
+                    "description": "Can not request pricing approval at the moment"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    $schema: "https://docs.renovatebot.com/renovate-schema.json",
+    extends: ["config:base", ":semanticCommitTypeAll(chore)", ":semanticCommitScopeDisabled"],
+    rebaseWhen: "conflicted",
+    semanticCommits: "enabled",
+    timezone: "Europe/Berlin",
+    separateMajorMinor: false,
+    prHourlyLimit: 5,
+    prConcurrentLimit: 5,
+    // wait to ensure that the package is not vulnerable and to not spam renovate bot
+    stabilityDays: 7,
+    branchPrefix: "chore/renovate-",
+    packageRules: [
+        {
+            matchPackageNames: ["react", "react-dom", "@types/react", "@types/react-dom"],
+            groupName: "React Dependencies",
+            automerge: true,
+            allowedVersions: "<18",
+        },
+    ],
+    lockFileMaintenance: {
+        enabled: true,
+        schedule: "before 6:00am on the first day of the week",
+    },
+}

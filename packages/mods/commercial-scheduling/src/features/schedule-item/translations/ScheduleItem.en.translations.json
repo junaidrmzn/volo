@@ -1,0 +1,36 @@
+{
+    "title": "Commercial Schedule",
+    "heading": "Schedule",
+    "filterPanel": {
+        "Filters": "Filters",
+        "Departure Vertiport": "Departure Vertiport",
+        "Arrival Vertiport": "Arrival Vertiport",
+        "Departure Date": "Departure Date",
+        "from": "from",
+        "to": "to",
+        "Aircraft Type": "Aircraft Type"
+    },
+    "actions": {
+        "publish": {
+            "toast": {
+                "success": {
+                    "description": "Schedule has been published successfully"
+                },
+                "error": {
+                    "description": "Schedule can not be published at the moment"
+                }
+            }
+        }
+    },
+    "overview": {
+        "listLabel": "schedule items",
+        "cardLabel": "schedule item",
+        "actionsAriaLabel": "Actions",
+        "detailsAriaLabel": "Details",
+        "placeAirlineOrder": "Place Airline Order",
+        "price": "Price",
+        "category": "Category",
+        "booking": "Booking",
+        "information": "This is the detail of the Network Schedule for the Commercial Plan “{planName}”. You find all the ordered, booked and performed missions for this commercial setup here."
+    }
+}

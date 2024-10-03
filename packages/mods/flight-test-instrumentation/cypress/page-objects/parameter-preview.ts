@@ -1,0 +1,16 @@
+export const ParameterPreview = {
+    previewPanel: () => cy.findByTestId("preview-sidepanel"),
+    headerText: () => ParameterPreview.previewPanel().findByRole("heading"),
+    editButton: () => ParameterPreview.previewPanel().findByRole("button", { name: /edit/i }),
+    closeButton: () => ParameterPreview.previewPanel().findByRole("button", { name: /close preview/i }),
+    statusSelect: () => ParameterPreview.previewPanel().findByLabelText("Status:*"),
+    timestampSelect: () => ParameterPreview.previewPanel().findByLabelText("Timestamp:*"),
+    saveStatusButton: () => ParameterPreview.previewPanel().findByRole("button", { name: /save status/i }),
+    statusSelectModal: () => cy.findByLabelText("Status:*"),
+    doneButton: () => cy.findByRole("button", { name: /done/i }),
+    changeStatusButton: () => cy.findByRole("button", { name: /status button/i }),
+    changeStatusButtons: () => cy.findAllByRole("button", { name: /status button/i }),
+    statusChangeModal: () => cy.findByRole("dialog"),
+    aircraftCards: () => ParameterPreview.previewPanel().findAllByRole("listitem"),
+    getAircraftCardByIndex: (index: number) => ParameterPreview.aircraftCards().eq(index),
+};

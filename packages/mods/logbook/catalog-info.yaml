@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.logbook.ui
+  title: logbook UI
+  tags:
+  - javascript
+spec:
+  type: micro-frontend
+  lifecycle: production
+  owner: voloiq-aircraft-analytics-team
+  system: voloiq.logbook
+  consumesApis:
+  - voloiq.logbook.api

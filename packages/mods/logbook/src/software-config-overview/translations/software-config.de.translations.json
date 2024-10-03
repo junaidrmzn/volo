@@ -1,0 +1,47 @@
+{
+    "moduleName": "Logbuch",
+    "form": {
+        "select": {
+            "placeholder": "Wählen Sie eine Option",
+            "requiredErrorMessage": "Bitte wählen Sie eine Option"
+        },
+        "multiSelect": {
+            "placeholder": "Wählen Sie Optionen"
+        },
+        "fileInput": {
+            "deleteFileAriaLabel": "Löschen",
+            "selectFilesLabel": "Wählen Sie eine Datei aus",
+            "selectMultipleFilesLabel": "Wählen Sie Dateien aus",
+            "dropFileLabel": "Legen Sie eine Datei hier ab",
+            "dropMultipleFilesLabel": "Legen Sie Dateien hier ab",
+            "orLabel": "oder",
+            "rejectedFilesErrorMessage": "Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie Dateien der folgenden Typen: {acceptedFiles}.",
+            "requiredErrorMessage": "Bitte wählen Sie einen Anhang",
+            "requiredMultipleErrorMessage": "Bitte wählen Sie mindestens einen Anhang"
+        },
+        "dateTimePicker": {
+            "placeholder": "Wählen Sie ein Datum (UTC)"
+        }
+    },
+    "addSoftwareConfiguration": {
+        "configurationTypeLabel": "Software Config Typ",
+        "gitHashLabel": "Git-Hash",
+        "softwareConfigurationFileLabel": "Software Configs Datei",
+        "uploadProgressText": "Laden... {percentage}%"
+    },
+    "resourceLabel": "Software Configs",
+    "headerTitle": "Software Configs",
+    "listAriaLabel": "Software-Konfigurationseinträge",
+    "configTypeLabel": "Software Config Typ",
+    "gitHashLabel": "Git-Hash",
+    "deletionHeader": "Software Config Löschen",
+    "deletionText": "Möchten Sie diese Softwarekonfiguration wirklich löschen?",
+    "delete": "Löschen",
+    "cancel": "Abbrechen",
+    "createTime": "Erstellungsdatum",
+    "preview": {
+        "downloadButton": "Download"
+    },
+    "Software Configurations": "Software Configurations",
+    "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+}

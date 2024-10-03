@@ -1,0 +1,77 @@
+{
+    "Welcome": "Welcome",
+    "Home": "Home",
+    "Logbook": "Logbook",
+    "Flight Test Suite": "Flight Test Suite",
+    "components": {
+        "navigationBar": {
+            "toggleMenuButtonLabel": "Toggle menu",
+            "links": {
+                "resources": "Resources",
+                "esuType": "ESU Type",
+                "esu": "ESU",
+                "batteries": "Batteries",
+                "aircraftManagement": "Aircraft Management",
+                "batteryManagement": "Battery Management",
+                "aircraft": "Aircraft",
+                "aircraftType": "Aircraft Type",
+                "logbook": "Logbook",
+                "overview": "Overview",
+                "softwareConfigurations": "SW Configs",
+                "flightPlanning": "Flight Planning",
+                "flightPlanManagement": "Flight Plan Management",
+                "flightMonitoring": "Flight Monitoring",
+                "schedule": "Schedule",
+                "airOperations": "Air Operations",
+                "event": "Event",
+                "vertiportManagement": "Vertiports and Regions",
+                "regions": "Regions",
+                "vertiports": "Vertiports",
+                "crewApi": "Crew Members and Roles",
+                "crewRoles": "Crew Roles",
+                "crewMembers": "Crew Members",
+                "crewSchedule": "Crew Calendar",
+                "connection": "Connection",
+                "plan": "Plan",
+                "flightTestInstrumentation": "FTI",
+                "mission": "Mission",
+                "weather": "Weather",
+                "liveweather": "Live Weather",
+                "sales": "Sales",
+                "bookings": "Bookings"
+            },
+            "controls": {
+                "language": "Language",
+                "lightMode": "Light Mode",
+                "darkMode": "Dark Mode",
+                "logoutButton": "Logout"
+            }
+        },
+        "unauthorizedPage": {
+            "title": "You do not have permission to access the requested page",
+            "description": "Either go back to the previous page or log in as a different user.",
+            "loginAsADifferentUserButton": "Log in as different user",
+            "goBackButton": "Go back"
+        },
+        "notFoundPage": {
+            "heading": "The page you're looking for couldn't be found",
+            "description": "Check the web address and try again. Or go back to the previous page.",
+            "button": "Go back"
+        }
+    },
+    "parisCountdown": {
+        "description": { "top": "Time left until the Olympic", "bottom": "and Paralympic Games Paris 2024" },
+        "days": "days",
+        "hours": "hours",
+        "minutes": "minutes",
+        "seconds": "seconds"
+    },
+    "Flight Test Definitions": "Flight Test Definitions",
+    "Flight Test Orders": "Flight Test Orders",
+    "Logs": "Logs",
+    "Test Points": "Test Points",
+    "Test Point Parameters": "Test Point Parameters",
+    "Test Hazards": "Test Hazards",
+    "Software Configs": "Software Configs",
+    "FTI Parameters": "FTI Parameters"
+}

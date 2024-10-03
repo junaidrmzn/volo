@@ -1,0 +1,69 @@
+{
+    "generic": {
+        "back": "Back",
+        "cancel": "Cancel",
+        "upload": "Upload",
+        "publish": "Publish"
+    },
+    "promotionItem": {
+        "heading": "Codes",
+        "listLabel": "Codes",
+        "email": "E-Mail Adress",
+        "customer": "Customer",
+        "bookingId": "Booking ID",
+        "discount": "Discount",
+        "access": "Access",
+        "detailAriaLabel": "Promotion Item Validation",
+        "columns": {
+            "status": "Status",
+            "codeNumber": "Code Number",
+            "customer": "Customer",
+            "emailAddress": "Email Address",
+            "bookingId": "Booking ID",
+            "action": "Action"
+        }
+    },
+    "modal": {
+        "invalidate": {
+            "heading": "Confirm",
+            "subheading": "Invalidate a code",
+            "description": "You are about to invalidate this code. This action means it cannot be claimed and used by customers anymore.      Do you want to proceed?",
+            "button": "Invalidate",
+            "toast": {
+                "success": {
+                    "title": "Code Invalidate",
+                    "description": "You have successfully Invalidate the promotion code."
+                },
+                "error": {
+                    "title": "Code is still validated",
+                    "description": "Error occured while invidating promotion code."
+                }
+            }
+        },
+        "revalidate": {
+            "heading": "Confirm",
+            "subheading": "Revalidate a code",
+            "description": "You are about to revalidate this code, which has been invalidated and currently is not usable for redemption by any customer.. This action means it can again be dispatched to a customer and is ready for usage again.      Do you want to proceed?",
+            "button": "Revalidate",
+            "toast": {
+                "success": {
+                    "title": "Code revalidated",
+                    "description": "You have successfully revalidated the promotion code."
+                },
+                "error": {
+                    "title": "Code is still invalid",
+                    "description": "Error occured while relavidating promotion code."
+                }
+            }
+        }
+    },
+    "publish": {
+        "toast": {
+            "title": "Publish Promotion",
+            "success": { "description": "The promotion  was published successfully" },
+            "error": {
+                "description": "Something went wrong"
+            }
+        }
+    }
+}

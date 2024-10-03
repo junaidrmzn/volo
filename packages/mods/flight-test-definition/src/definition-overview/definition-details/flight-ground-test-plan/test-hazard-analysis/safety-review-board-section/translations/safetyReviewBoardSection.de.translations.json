@@ -1,0 +1,17 @@
+{
+    "Flight Test Safety Review Board": "Flight Test Safety Review Board",
+    "Test Hazard Analysis": "Test Hazard Analysis",
+    "Highest Risk Level": "Highest Risk Level",
+    "Highest Risk Level description": "Highest Risk Level description",
+    "Hazard": "Hazard",
+    "Risk Level (Pre-Mitigation)": "Risk Level (Pre-Mitigation)",
+    "Risk Level (Residual)": "Risk Level (Residual)",
+    "Test Hazard Assessments": "Test Hazard Assessments",
+    "No test hazards. Please add the related information.": "No test hazards. Please add the related information.",
+    "RiskLevel": {
+        "VERY_HIGH": "Very High",
+        "HIGH": "High",
+        "LOW": "Low",
+        "MEDIUM": "Medium"
+    }
+}

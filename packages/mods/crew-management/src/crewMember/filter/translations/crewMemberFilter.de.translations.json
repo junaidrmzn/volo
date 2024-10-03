@@ -1,0 +1,14 @@
+{
+    "filterPanel": {
+        "filters": "Filter",
+        "validFrom": "Gültig seit",
+        "validTo": "Gültig bis",
+        "firstName": "Vorname",
+        "roles": "Rollen",
+        "homeBase": "Heimatregion",
+        "surName": "Nachname",
+        "department": "Abteilung",
+        "from": "Seit",
+        "to": "Bis"
+    }
+}

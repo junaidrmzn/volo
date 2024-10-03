@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.crew.ui
+  title: crew management UI
+  tags:
+  - javascript
+spec:
+  type: micro-frontend
+  lifecycle: production
+  owner: voloiq-air-ops-team
+  system: voloiq.crew
+  consumesApis:
+  - voloiq.crew.api

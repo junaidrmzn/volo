@@ -1,0 +1,25 @@
+{
+    "name": "@voloiq/file-card",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "clean": "rimraf ./dist ./build-statistics ./coverage",
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@volocopter/design-library-react": "42.2.0",
+        "@voloiq/dates": "1.0.0",
+        "@voloiq/i18n": "1.0.0",
+        "ts-pattern": "4.0.6"
+    },
+    "devDependencies": {
+        "@storybook/react": "6.5.9",
+        "cross-env": "7.0.3",
+        "eslint": "7.32.0",
+        "jest": "27.4.7",
+        "rimraf": "3.0.2",
+        "typescript": "4.5.5"
+    }
+}

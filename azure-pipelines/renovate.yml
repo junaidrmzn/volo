@@ -1,0 +1,19 @@
+schedules:
+    - cron: "0 0-6/2 * * *" # nightly at 2am, 4am, 6am
+      displayName: "Every two hours"
+      branches:
+          include: [main]
+      always: true
+
+trigger: none
+
+resources:
+    repositories:
+        - repository: templates
+          type: github
+          name: volocopter-internal/azure-devops-templates
+          endpoint: volocopter-internal
+          ref: refs/tags/v0.91.0
+
+extends:
+    template: templates/renovate-bot.yml@templates

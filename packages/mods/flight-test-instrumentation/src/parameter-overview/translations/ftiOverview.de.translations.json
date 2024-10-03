@@ -1,0 +1,39 @@
+{
+    "moduleName": "FTI",
+    "resourceLabel": "Parameter",
+    "header": {
+        "title": "Parameter",
+        "addButton": "Hinzufügen",
+        "importButton": "Importieren",
+        "multiStatusUpdateButtonTitle": "Status aktualisieren"
+    },
+    "pagination": {
+        "ariaLabel": "Parameterliste Seiten",
+        "nextPageAriaLabel": "Nächste Seite",
+        "previousPageAriaLabel": "Vorherige Seite"
+    },
+    "list": {
+        "listItemName": "Parameter - {parameterId}",
+        "listAriaLabel": "Parameter",
+        "aircraft": "Flugzeug",
+        "workgroup": "Arbeitsgruppe",
+        "shortDescription": "Kurzbeschreibung",
+        "ftiCode": "FTI Code",
+        "unknownValue": "K.A."
+    },
+    "SoF": "SoF",
+    "previewTitle": "Parameter",
+    "ftiParameter": "FTI Parameter",
+    "previewTitleWithId": "Parameter - {parameterId}",
+    "multiPreview": {
+        "title": "Status aktualisieren",
+        "buttonTitle": "Status aktualisieren"
+    },
+    "emptyState": {
+        "title": "Keine Parameter gefunden",
+        "description": "Versuchen Sie, Ihre Suche oder Ihre Filter anzupassen, um das zu finden, was Sie suchen."
+    },
+    "parameterNotEditableReason": "Nur Parameter im Status DRAFT oder REQUESTED können bearbeitet werden",
+    "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "Flight Test Instrumentation (FTI) Parameters": "Flight Test Instrumentation (FTI) Parameters"
+}

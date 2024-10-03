@@ -1,0 +1,10 @@
+{
+    "Export to PDF": "Export to PDF",
+    "Definition": "Definition",
+    "Selected Procedures ({procedureCount})": "Selected Procedures ({procedureCount})",
+    "Select Procedure {procedureId}": "Select Procedure {procedureId}",
+    "Export": "Export",
+    "Cancel": "Cancel",
+    "Select All": "Select All",
+    "Clear All": "Clear All"
+}

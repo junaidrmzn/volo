@@ -1,0 +1,10 @@
+{
+    "filterPanel": {
+        "filters": "Filter",
+        "validFrom": "Gültig seit",
+        "validTo": "Gültig bis",
+        "from": "Seit",
+        "to": "Bis",
+        "name": "Name"
+    }
+}

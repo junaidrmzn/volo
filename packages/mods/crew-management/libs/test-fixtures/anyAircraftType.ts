@@ -1,0 +1,33 @@
+import type { AircraftType } from "@voloiq-typescript-api/aircraft-management-types";
+
+export const anyAircraftType = (overwrites?: Partial<AircraftType>): AircraftType => ({
+    airDensity: 13,
+    aircraftResources: [],
+    batterySlots: 13,
+    cloudCeilingHeight: 13,
+    createTime: "2020-11-06T16:34:41.000Z",
+    id: "ce118b6e-d8e1-11e7-9296-cec278b6b50a",
+    massAndBalanceData: {
+        bem: 13,
+        cgPosition: { x: 13, y: 13 },
+        latCgEnvelopePoints: [],
+        longCgEnvelopePoints: [],
+        mtom: 13,
+    },
+    maximumTemperature: 13,
+    minimumTemperature: 13,
+    name: "iloveorange",
+    otherResources: 13,
+    passengerSeats: 13,
+    performanceDataFileVersion: 13,
+    pilotSeats: 13,
+    productLine: "VOLOCITY",
+    rain: 13,
+    relativeHumidity: 13,
+    updateTime: "2020-11-06T16:34:41.000Z",
+    validFrom: "2020-11-06T16:34:41.000Z",
+    validTo: "2020-11-06T16:34:41.000Z",
+    visibility: 13,
+    windSpeed: 13,
+    ...overwrites,
+});

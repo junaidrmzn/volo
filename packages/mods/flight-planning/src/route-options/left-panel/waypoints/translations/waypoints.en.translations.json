@@ -1,0 +1,20 @@
+{
+    "editSegment": "Edit Segment",
+    "edit": "Edit",
+    "expand": "Expand",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "waypoint": "Waypoint",
+    "waypoints": "Waypoints",
+    "icon": "Icon",
+    "cancel": "Cancel",
+    "fields": {
+        "altitudeReference": "Altitude Reference",
+        "transitionType": "Transition Type",
+        "transitionTypeFields": {
+            "flyOver": "Fly Over",
+            "flyBy": "Fly By"
+        }
+    },
+    "deleteMessage": "You are about to delete a waypoint. Do you want to proceed with deletion?"
+}

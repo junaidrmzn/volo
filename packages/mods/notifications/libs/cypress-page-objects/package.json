@@ -1,0 +1,14 @@
+{
+    "name": "@voloiq/notifications-cypress-page-objects",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@testing-library/cypress": "9.0.0",
+        "cypress": "12.3.0"
+    }
+}

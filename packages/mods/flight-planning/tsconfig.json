@@ -1,0 +1,15 @@
+{
+    "extends": "../../../tsconfig.json",
+    "include": [
+        "src",
+        "**/*.ts",
+        "**/*.tsx",
+        "../../libs/graph/*.{ts, tsx}"
+    ],
+    "compilerOptions": {
+        "types": [
+            "cypress",
+            "@testing-library/cypress"
+        ]
+    }
+}

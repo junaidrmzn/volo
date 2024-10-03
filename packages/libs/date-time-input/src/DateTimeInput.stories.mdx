@@ -1,0 +1,30 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+import { DateTimeInput } from "./DateTimeInput";
+import { WithVariants } from "./DateTimeInput.stories";
+
+<Meta title="Date Time Input/How to use the DateTimeInput" />
+
+# How to use the `@voloiq/date-time-input`
+
+When adding a date time input to your UI, you have two options:
+
+-   use the `DateTimeInput` component of `@volocopter/date-time-input-react`([see its story here](https://storybook.dev.voloiq.io/?path=/story/design-system-atoms-date-time-input--basic)) or
+-   use the `DateTimeInput` component of `@voloiq/date-time-input`
+
+In the first one you need to set the locale property manually in order to specify in what language the DateTimeInput is displayed.
+
+The second one uses a provider that wraps around the component to specify the language. You don't need to set the locale property manually.
+
+## Creating a DateTimeInput
+
+<Canvas>
+    <Story id="date-time-input-date-time-input--basic" />
+</Canvas>
+
+You need to wrap the DateTimeInput component with a `DateTimeInputLocaleProvider`. Here you need to set the property `currentLanguage`.
+
+### `currentLanguage`: string
+
+Indicates which language is used to display the calendar.
+
+Everything else works the same in both libraries, so please have a look in the [documentation](https://storybook.dev.voloiq.io/?path=/docs/design-system-atoms-date-time-input--basic) of the DateTimeInput in the `@volocopter/date-time-input-react`.

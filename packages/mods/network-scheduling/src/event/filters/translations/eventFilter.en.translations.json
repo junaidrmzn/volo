@@ -1,0 +1,18 @@
+{
+    "filterPanel": {
+        "filters": "Filters",
+        "name": "Event name",
+        "startDate": "Start date (UTC)",
+        "endDate": "End date (UTC)",
+        "aircraft": "Aircraft",
+        "blockedForMission": {
+            "caption": "Blocked for Mission",
+            "true": "Blocked",
+            "false": "Not blocked",
+            "all": "All"
+        },
+        "from": "From",
+        "to": "To",
+        "description": "Description"
+    }
+}

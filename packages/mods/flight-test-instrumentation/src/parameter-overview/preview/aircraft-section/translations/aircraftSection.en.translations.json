@@ -1,0 +1,27 @@
+{
+    "title": "Assigned Aircraft(s)",
+    "statusButton": "Status Button",
+    "toolTipStatusButton": "Parameter status cannot be changed to 'DRAFT' if sensorType or ataIspec are missing.",
+    "modalType": "Update Status",
+    "modalTitle": "FTI Parameters",
+    "parameterStatusForm": {
+        "selectLabel": "Status",
+        "selectPlaceholder": "Select status",
+        "selectError": "",
+        "datePickerLabel": "Timestamp"
+    },
+    "parameterStatusSelect": {
+        "saveButton": "Save status"
+    },
+    "bulkParametersStatusSelect": {
+        "updateButton": "Update",
+        "cancelButton": "Cancel"
+    },
+    "status": {
+        "REQUESTED": "Requested",
+        "DRAFT": "Draft",
+        "RELEASED": "Released",
+        "CANCELLED": "Cancelled",
+        "FROZEN": "Frozen"
+    }
+}

@@ -1,0 +1,1 @@
+export { useGetRegionsQuery } from "./useGetRegionsQuery";

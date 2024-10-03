@@ -1,0 +1,52 @@
+{
+    "header": {
+        "title": "Create Parameter",
+        "addButton": "Add",
+        "deleteButton": "Delete",
+        "backButtonAriaLabel": "Back to overview",
+        "ftiParameterHeader": "New FTI Parameter {count}",
+        "ftiBulkParameterHeader": "New FTI Parameter"
+    },
+    "emptyList": {
+        "text": "Add a new parameter by using the form below."
+    },
+    "form": {
+        "aircraftLabel": "Aircraft",
+        "aircraftZoneLabel": "Aircraft Zone",
+        "workgroupLabel": "Workgroup",
+        "shortDescriptionLabel": "Short Description",
+        "descriptionLabel": "Description",
+        "parameterSourceLabel": "Parameter Source",
+        "sensorTypeLabel": "Sensor Type",
+        "ataIspec2200Label": "ATA iSpec 2200",
+        "unitLabel": "Unit",
+        "minValueLabel": "Min. Value",
+        "maxValueLabel": "Max. Value",
+        "accuracyValueLabel": "Accuracy",
+        "minimumSamplingFrequencyLabel": "Min. Sampling Frequency",
+        "submitButton": "Add",
+        "addParameters": "Add Parameter"
+    },
+    "preview": {
+        "aircraftLabel": "Aircraft:",
+        "requesterName": "Responsible:",
+        "aircraftZoneLabel": "Aircraft Zone:",
+        "workgroupLabel": "Workgroup:",
+        "shortDescriptionLabel": "Short Description:",
+        "descriptionLabel": "Description:",
+        "parameterSourceLabel": "Parameter Source:",
+        "sensorTypeLabel": "Sensor Type:",
+        "ataIspec2200Label": "ATA iSpec 2200:",
+        "unitLabel": "Unit:",
+        "minValueLabel": "Min. Value:",
+        "maxValueLabel": "Max. Value:",
+        "accuracyValueLabel": "Accuracy:",
+        "minimumSamplingFrequencyLabel": "Min. Sampling Frequency:",
+        "safetyOfFlightLabel": "Safety of Flight (SoF) Critical:",
+        "listAriaLabel": "Create parameters add list"
+    },
+    "successToast": {
+        "title": "Success",
+        "description": "Parameter added"
+    }
+}

@@ -1,0 +1,257 @@
+{
+    "moduleName": "Engineering",
+    "overviewName": "Logbook",
+    "resourceLabel": "Log",
+    "Log preview": "Log preview",
+    "list": {
+        "listAriaLabel": "Log"
+    },
+    "form": {
+        "select": {
+            "placeholder": "Please choose",
+            "requiredErrorMessage": "Please select an option"
+        },
+        "multiSelect": {
+            "placeholder": "Please choose"
+        },
+        "fileInput": {
+            "deleteFileAriaLabel": "Delete",
+            "selectFilesLabel": "Select a file",
+            "selectMultipleFilesLabel": "Select files",
+            "dropFileLabel": "Drop a file here",
+            "dropMultipleFilesLabel": "Drop files here",
+            "orLabel": "or",
+            "rejectedFilesErrorMessage": "This file type is not supported. Please select files of the following types: {acceptedFiles}.",
+            "requiredErrorMessage": "Please select an attachment",
+            "requiredMultipleErrorMessage": "Please select at least an attachment"
+        },
+        "dateTimePicker": {
+            "placeholder": "Select a date (UTC)"
+        }
+    },
+    "sortingPanel": {
+        "title": "SORT",
+        "applyButtonLabel": "Apply",
+        "backButtonAriaLabel": "Back",
+        "cancelButtonLabel": "Cancel",
+        "dateOption": "Date",
+        "createTimeOption": "Created on",
+        "msn": "MSN",
+        "location": "Location",
+        "flightDuration": "Flight Duration",
+        "maxAltitude": "Max. Altitude",
+        "maxVelocity": "Max. Velocity",
+        "ascendingLabel": "Ascending",
+        "descendingLabel": "Descending"
+    },
+    "filterPanel": {
+        "title": "Filter",
+        "applyButtonLabel": "Apply",
+        "backButtonAriaLabel": "Back",
+        "cancelButtonLabel": "Cancel",
+        "filterTagListLabel": "Filter panel filter tag list",
+        "flightTestOrderTextFilter": {
+            "displayName": "Flight Test Order"
+        },
+        "dateRangeFilter": {
+            "fromLabel": "From",
+            "toLabel": "To",
+            "displayName": "Flight date"
+        },
+        "maxVelocityRangeFilter": {
+            "fromLabel": "From",
+            "toLabel": "To",
+            "displayName": "Max. Velocity (m/s)"
+        },
+        "maxAltitudeRangeFilter": {
+            "fromLabel": "From",
+            "toLabel": "To",
+            "displayName": "Max. Altitude (m)"
+        },
+        "totalFlightDurationRangeFilter": {
+            "fromLabel": "From",
+            "toLabel": "To",
+            "displayName": "Flight Duration (s)"
+        },
+        "selectAircraftFilter": {
+            "displayName": "Aircraft"
+        },
+        "selectLocationFilter": {
+            "displayName": "Location"
+        },
+        "selectPilotFilter": {
+            "displayName": "Pilot"
+        },
+        "selectSupervisorFilter": {
+            "displayName": "Supervisor"
+        },
+        "selectDataStateFilter": {
+            "displayName": "Data State"
+        }
+    },
+    "fileUpload": {
+        "cancelUploadModal": {
+            "title": "Cancel Upload?",
+            "cancelButtonLabel": "Continue Upload",
+            "confirmButtonLabel": "Cancel Upload"
+        },
+        "fileEntryListOld": {
+            "ariaLabel": "Selected log file entries",
+            "emptyListLabel": "The list is empty.",
+            "deleteButtonTooltip": "Delete"
+        },
+        "fileEntryList": {
+            "emptyListLabel": "The list is empty."
+        },
+        "uploadProgress": {
+            "text": "Uploading file: {fileName} ({current}/{total})",
+            "cancelButtonLabel": "Cancel"
+        },
+        "duplicateName": "A file with the name {fileName} has already been added.",
+        "duplicateNameSelect": "Selected files must have a unique name. File {fileName} has been selected multiple times.",
+        "preexistingFileError": "A file with the name {fileName} has already been uploaded on this log.",
+        "typeLabel": "Type",
+        "attachmentLabel": "Attachment",
+        "autoTypeDetection": "Automatic detection",
+        "uploadCancelledTitle": "Upload cancelled",
+        "iadsLabel": "IADS - VoloCity export"
+    },
+    "overview": {
+        "header": {
+            "title": "Overview",
+            "createButton": "Add",
+            "sortButton": "Sort",
+            "filterButton": "Filter"
+        },
+        "filterTagListAriaLabel": "Log Filter Tags",
+        "listAriaLabel": "Log entries",
+        "listItemAriaLabel": "Log entry",
+        "pagination": {
+            "ariaLabel": "Log entries pagination",
+            "nextPageAriaLabel": "Next page",
+            "previousPageAriaLabel": "Previous page"
+        },
+        "logEntryList": {
+            "pilotLabel": "Pilot",
+            "msnLabel": "MSN",
+            "locationLabel": "Location",
+            "unknownValue": "N/A",
+            "totalFlightDuration": "Flight Duration",
+            "flightTestOrder": "Flight Test Order",
+            "maxAltitude": "Max. Altitude",
+            "altitudeText": "{altitude} m",
+            "maxVelocity": "Max. Velocity",
+            "velocityText": "{velocity} m/s",
+            "closeButton": "Close",
+            "statusIndicator": {
+                "pendingAriaLabel": "In progress...",
+                "pendingBadge": "In progress",
+                "pendingHeader": "In progress",
+                "pendingDescriptionSingular": "1 file is still being processed. Open the log for more information.",
+                "pendingDescriptionPlural": "{fileCount} files are still being processed. Open the log for more information.",
+                "uploadRequestedAriaLabel": "Upload in progress...",
+                "uploadRequestedBadge": "Upload in progress",
+                "uploadRequestedHeader": "Upload in progress",
+                "uploadRequestedDescriptionSingular": "1 file is still being uploaded. Open the log for more information.",
+                "uploadRequestedDescriptionPlural": "{fileCount} files are still being uploaded. Open the log for more information.",
+                "errorAriaLabel": "Error",
+                "errorBadge": "Error",
+                "errorHeader": "Error",
+                "errorDescriptionSingular": "1 file could not be processed. Open the log for more information.",
+                "errorDescriptionPlural": "{fileCount} files could not be processed. Open the log for more information.",
+                "telemetryData": "TM Data",
+                "telemetryDataDescription": "Telemetry data is available.",
+                "telemetryHeader": "Telemetry Data",
+                "onBoardData": "Onboard Data",
+                "onBoardDataDescription": "Onboard Data is available.",
+                "onBoardDataHeader": "Onboard Data"
+            }
+        },
+        "headerBar": {
+            "entryCountLabel": "Entries: {entryCount}"
+        },
+        "emptyState": {
+            "title": "No logs found",
+            "description": "Try adjusting your search or filters to find what you're looking for.",
+            "buttonText": "Add a log"
+        },
+        "deletionModal": {
+            "header": "Log Deletion",
+            "body": "Are you sure you want to permanently delete this log?"
+        }
+    },
+    "errorManagement": {
+        "title": "Error",
+        "technicalError": "A technical error has occurred, please try again later."
+    },
+    "logDetails": {
+        "header": {
+            "uploadFileButton": "Upload Files",
+            "backButtonTooltip": "Navigate back",
+            "title": "LOG - {productLine} - {aircraftType} - {aircraftMsn}",
+            "parentTitle": "Overview"
+        },
+        "deleteModal": {
+            "deleteError": "We could not delete this entry.",
+            "descriptionText": "You are going to delete this log entry! This can not be reversed in VoloIQ by yourself. Please contact support if you need to restore this log.",
+            "title": "Delete log",
+            "confirmButton": "Delete",
+            "cancelButton": "Cancel",
+            "successToastTitle": "Success",
+            "successToastDescription": "The log was successfully deleted."
+        },
+        "tabs": {
+            "general": {
+                "title": "General",
+                "timeOfFlightLabel": "Time of Flight",
+                "aircraftLabel": "Aircraft",
+                "fcSoftwareLabel": "FC Software",
+                "locationLabel": "Location",
+                "crewGroupLabel": "Crew",
+                "crewPilotLabel": "Pilots",
+                "crewSupervisorLabel": "Supervisors",
+                "remarksLabel": "Remarks",
+                "attachmentsLabel": "Attachments",
+                "flightTestOrder": "Flight Test Order"
+            },
+            "statistics": {
+                "title": "Statistics",
+                "unknownValue": "N/A",
+                "flightDuration": "Flight Duration",
+                "maxAltitude": "Max. Altitude",
+                "altitudeText": "{altitude} m",
+                "maxVelocity": "Max. Velocity",
+                "velocityText": "{velocity} m/s",
+                "pendingText": "Statistics will be available when all log files are processed."
+            },
+            "files": {
+                "title": "Files",
+                "noFiles": "No files available",
+                "fileCardInfo": {
+                    "type": "Type",
+                    "createTime": "Created on",
+                    "updateTime": "Modified on",
+                    "infoIconTooltip": "More information",
+                    "pendingAriaLabel": "In progress...",
+                    "pendingHeader": "In progress",
+                    "pendingDescription": "This file is currently being processed and will soon be available.",
+                    "errorAriaLabel": "Error",
+                    "errorHeader": "Error",
+                    "retryButtonText": "Requeue for processing",
+                    "retrySuccessTitle": "Success",
+                    "retrySuccessDescription": "The file has been queued for processing."
+                }
+            }
+        }
+    },
+    "toast": {
+        "error": {
+            "title": "An error occurred"
+        },
+        "success": {
+            "title": "Success"
+        }
+    },
+    "Logs": "Logs",
+    "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+}

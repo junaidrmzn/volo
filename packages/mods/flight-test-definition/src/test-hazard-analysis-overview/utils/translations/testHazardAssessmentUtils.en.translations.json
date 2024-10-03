@@ -1,0 +1,18 @@
+{
+    "risk-levels": {
+        "low": "LOW",
+        "medium": "MEDIUM",
+        "high": "HIGH",
+        "very-high": "VERY HIGH"
+    },
+    "hazard-group": {
+        "title": "Hazard Group",
+        "generic-hazard": "Generic Hazards",
+        "test-point-specific-hazards": "Test Point Specific Hazards"
+    },
+    "applicability": {
+        "title": "Applicability",
+        "manned": "Manned",
+        "unmanned": "Unmanned"
+    }
+}

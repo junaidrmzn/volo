@@ -1,0 +1,40 @@
+{
+    "name": "@voloiq/commercial-scheduling-components",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit",
+        "test": "yarn cypress:run",
+        "cypress:open": "cross-env NODE_ENV=testing cypress open --component --config-file config/cypress.config.ts",
+        "cypress:run": "cross-env NODE_ENV=testing cypress run --component --config-file config/cypress.config.ts"
+    },
+    "dependencies": {
+        "@chakra-ui/react": "1.8.9",
+        "@emotion/react": "11.7.1",
+        "@emotion/styled": "11.6.0",
+        "@tanstack/react-query": "4.26.1",
+        "@volocopter/design-library-react": "42.2.0",
+        "@voloiq/commercial-scheduling-api": "1.0.0",
+        "@voloiq/commercial-scheduling-utils": "1.0.0",
+        "@voloiq/date-time": "1.0.0",
+        "@voloiq/feature-flags": "1.0.0",
+        "@voloiq/i18n": "1.0.0",
+        "framer-motion": "5.6.0",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "ts-pattern": "4.2.1"
+    },
+    "devDependencies": {
+        "@testing-library/cypress": "9.0.0",
+        "@types/react": "17.0.39",
+        "@types/react-dom": "17.0.11",
+        "@voloiq/app-shell": "1.0.0",
+        "cross-env": "7.0.3",
+        "cypress": "12.3.0",
+        "eslint": "7.32.0",
+        "typescript": "4.5.5",
+        "webpack": "5.68.0"
+    }
+}

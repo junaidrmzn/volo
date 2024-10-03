@@ -1,0 +1,30 @@
+FROM vcdoprodcrdevops.azurecr.io/volocopter-node-build:v0.1.0-node16-cypress-pact
+
+WORKDIR /voloiq
+COPY ["package.json", "yarn.lock", ".yarnrc.yml", "./"]
+
+COPY .yarn/releases .yarn/releases
+COPY packages packages
+COPY scripts scripts
+
+# Delete all files that are not our package.json files
+RUN find packages -type f \( ! -name "package.json" -o -path "*/node_modules/*" \) -delete
+# Delete all symlinks
+RUN find packages -type l -delete 
+# Delete all empty directories
+RUN find packages -type d -empty -delete
+
+FROM vcdoprodcrdevops.azurecr.io/volocopter-node-build:v0.1.0-node16-cypress-pact
+
+WORKDIR /voloiq
+
+COPY --from=0 /voloiq .
+
+RUN --mount=type=secret,id=yarnrc,dst=/root/.yarnrc.yml yarn install
+
+COPY . .
+
+RUN --mount=type=secret,id=yarnrc,dst=/root/.yarnrc.yml yarn setup
+
+# Pipeline does not use root user
+RUN find . -type d -exec chmod 777 {} +

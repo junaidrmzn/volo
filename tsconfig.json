@@ -1,0 +1,51 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ESNEXT",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "allowJs": false,
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "removeComments": true,
+        "jsx": "react-jsx",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "importHelpers": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": ["DOM", "es2017", "DOM.Iterable"],
+        "types": ["node", "webpack-env", "jest"]
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    },
+    "include": ["config", "babel.config.js"],
+    "exclude": [
+        "**/dist/**/*",
+        "**/build-statistics/*",
+        "**/coverage/*",
+        "**/node_modules/**/*",
+        "**/src/api/**",
+        "**/assets/**"
+    ]
+}

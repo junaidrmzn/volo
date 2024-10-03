@@ -1,0 +1,55 @@
+{
+    "header": "Request export - {fto}",
+    "placeholder": "The export function is currently not available",
+    "confirmButton": "Confirm",
+    "cancelButton": "Cancel",
+    "close": "close",
+    "dataPointLimitError": "The exports of {dataPointCount} data points exceed the limit of 150 million data points. Please try to adjust time range, sampling rate or number of parameters.",
+    "toast": {
+        "successTitle": "Success",
+        "successDescription": "An export has been requested successfully",
+        "errorTitle": "Error",
+        "errorDescription": "An error has occurred",
+        "emptyWarningTitle": "Warning",
+        "emptyWarningDescription": "Please enter a parameter before requesting a export"
+    },
+    "parameterInput": {
+        "placeholder": "Enter FTI codes",
+        "label": "FTI Parameters",
+        "ariaLabel": "Parameter Input",
+        "validationStatus": {
+            "unknown": "{ftiCode} can not be validated",
+            "validating": "{ftiCode} is validating",
+            "valid": "{ftiCode} is valid",
+            "invalid": "{ftiCode} is invalid"
+        }
+    },
+    "tagSelect": {
+        "placeholder": "Enter FTI codes",
+        "label": "FTI Parameters",
+        "ariaLabel": "FTI Parameters",
+        "noResultsText": "No parameters found",
+        "resultCountText": "{count} results",
+        "limitedResult": "showing 100 out of",
+        "loadEntityErrorText": "An error has occurred"
+    },
+    "listItem": {
+        "sensorType": "Sensor Type",
+        "aircraftZone": "Aircraft Zone",
+        "parameterSource": "Parameter Source",
+        "workgroup": "Workgroup",
+        "unit": "Unit",
+        "accuracy": "Accuracy",
+        "minimumSamplingFrequency": "Min. Sampling Frequency",
+        "ataIspec": "ATA iSpec 2200"
+    },
+    "form": {
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "exportFileType": "Export File Type",
+        "exportFileTypeError": "Unexpected file type",
+        "sampleRate": "Sample Rate (Hz)",
+        "description": "Description",
+        "sampleRateNative": "The sample rate will be native for each parameter."
+    }
+}

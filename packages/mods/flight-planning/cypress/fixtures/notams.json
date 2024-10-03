@@ -1,0 +1,747 @@
+{
+    "isError": false,
+    "pagination": {
+        "total": null,
+        "limit": null,
+        "offset": null
+    },
+    "error": {},
+    "data": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "GeometryCollection",
+                    "geometries": [
+                        {
+                            "type": "Polygon",
+                            "coordinates": [
+                                [
+                                    [2.45, 49.383],
+                                    [2.3256, 49.3749],
+                                    [2.2061, 49.351],
+                                    [2.0962, 49.3123],
+                                    [2.0002, 49.2602],
+                                    [1.9218, 49.1968],
+                                    [1.8639, 49.1245],
+                                    [1.8288, 49.0462],
+                                    [1.8177, 48.9649],
+                                    [1.8308, 48.8838],
+                                    [1.8677, 48.8059],
+                                    [1.9267, 48.7342],
+                                    [2.0055, 48.6714],
+                                    [2.1011, 48.62],
+                                    [2.2099, 48.5818],
+                                    [2.3276, 48.5583],
+                                    [2.45, 48.5503],
+                                    [2.5724, 48.5583],
+                                    [2.6901, 48.5818],
+                                    [2.7989, 48.62],
+                                    [2.8945, 48.6714],
+                                    [2.9733, 48.7342],
+                                    [3.0323, 48.8059],
+                                    [3.0692, 48.8838],
+                                    [3.0823, 48.9649],
+                                    [3.0712, 49.0462],
+                                    [3.0361, 49.1245],
+                                    [2.9782, 49.1968],
+                                    [2.8998, 49.2602],
+                                    [2.8038, 49.3123],
+                                    [2.6939, 49.351],
+                                    [2.5744, 49.3749],
+                                    [2.45, 49.383]
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                "properties": {
+                    "lon": 2.45,
+                    "lat": 48.966667,
+                    "text": "VOR PART OF VOR/DME BT 116.100MHZ NOT USABLE WITHIN 063/083 SECTOR",
+                    "type": "N",
+                    "year": 2022,
+                    "qcode": "QNVXX",
+                    "scope": "AE",
+                    "issued": "2022-04-25T14:43:00Z",
+                    "number": 672,
+                    "radius": 25,
+                    "series": "F",
+                    "purpose": "NBO",
+                    "traffic": "IV",
+                    "location": "LFPB",
+                    "metadata": {
+                        "geometrySources": ["point_and_radius"],
+                        "lastUpdateTimestamp": "2022-07-06T09:56:05Z"
+                    },
+                    "schedule": null,
+                    "maximumFL": 195,
+                    "minimumFL": 0,
+                    "schedules": null,
+                    "affectedFIR": "LFFF",
+                    "countryCode": "FRA",
+                    "effectiveEnd": "2023-04-01T22:00:00Z",
+                    "publisherNOF": "LFFA",
+                    "relationship": {
+                        "affectedFIR": {
+                            "id": "LFFF",
+                            "href": "https://api.laminardata.aero/v1/icao-prefixes/L/firs/LFFF"
+                        }
+                    },
+                    "translations": [
+                        {
+                            "type": "OTHER:ICAO",
+                            "formattedText": "<html:div xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gts=\"http://www.isotc211.org/2005/gts\" xmlns:gss=\"http://www.isotc211.org/2005/gss\" xmlns:gsr=\"http://www.isotc211.org/2005/gsr\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:fnse=\"http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE\" xmlns:event=\"http://www.aixm.aero/schema/5.1/event\" xmlns:aixm=\"http://www.aixm.aero/schema/5.1\" xmlns=\"http://www.aixm.aero/schema/5.1/message\" xmlns:html=\"http://www.w3.org/1999/xhtml\">&lt;pre&gt;\nF0672/22 NOTAMN\nQ) LFFF/QNVXX/IV/NBO/AE/000/195/4858N00227E025\nA) LFPB B) 2204260400 C) 2304012200\nE) VOR PART OF VOR/DME BT 116.100MHZ NOT USABLE WITHIN 063/083 SECTOR\n&lt;/pre&gt;</html:div>"
+                        }
+                    ],
+                    "effectiveStart": "2022-04-26T04:00:00Z",
+                    "affectedAerodrome": "LFPB",
+                    "affectedEntities": null,
+                    "flightId": 1,
+                    "externalId": "40965c2d-22a5-4ab3-905c-5453703dd254",
+                    "createdAt": "2022-07-28T14:08:51.607219Z"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "GeometryCollection",
+                    "geometries": [
+                        {
+                            "type": "Point",
+                            "coordinates": [2.55, 49.0167]
+                        }
+                    ]
+                },
+                "properties": {
+                    "lon": 2.55,
+                    "lat": 49.0167,
+                    "text": "TRIGGER NOTAM - AIRAC AIP SUP 174/22 WEF 01 SEP TIL 01 DEC 20222 :\nREHABILITATION WORKS OF TWY A3",
+                    "type": "N",
+                    "year": 2022,
+                    "qcode": "QMATT",
+                    "scope": "A",
+                    "issued": "2022-06-30T08:53:00Z",
+                    "number": 3054,
+                    "radius": 5,
+                    "series": "A",
+                    "purpose": "BO",
+                    "traffic": "IV",
+                    "location": "LFPG",
+                    "metadata": {
+                        "geometrySources": ["point_and_radius"],
+                        "lastUpdateTimestamp": "2022-06-30T08:58:01Z"
+                    },
+                    "schedule": null,
+                    "maximumFL": 999,
+                    "minimumFL": 0,
+                    "schedules": null,
+                    "affectedFIR": "LFFF",
+                    "countryCode": "FRA",
+                    "effectiveEnd": "2022-09-14T23:59:00Z",
+                    "publisherNOF": "LFFA",
+                    "relationship": {
+                        "affectedFIR": {
+                            "id": "LFFF",
+                            "href": "https://api.laminardata.aero/v1/icao-prefixes/L/firs/LFFF"
+                        }
+                    },
+                    "translations": [
+                        {
+                            "type": "OTHER:ICAO",
+                            "formattedText": "<html:div xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gts=\"http://www.isotc211.org/2005/gts\" xmlns:gss=\"http://www.isotc211.org/2005/gss\" xmlns:gsr=\"http://www.isotc211.org/2005/gsr\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:fnse=\"http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE\" xmlns:event=\"http://www.aixm.aero/schema/5.1/event\" xmlns:aixm=\"http://www.aixm.aero/schema/5.1\" xmlns=\"http://www.aixm.aero/schema/5.1/message\" xmlns:html=\"http://www.w3.org/1999/xhtml\">&lt;pre&gt;\nA3054/22 NOTAMN\nQ) LFFF/QMATT/IV/BO /A /000/999/4901N00233E005\nA) LFPG B) 2209010300 C) 2209142359\nE) TRIGGER NOTAM - AIRAC AIP SUP 174/22 WEF 01 SEP TIL 01 DEC 20222 :\nREHABILITATION WORKS OF TWY A3\n&lt;/pre&gt;</html:div>"
+                        }
+                    ],
+                    "effectiveStart": "2022-09-01T03:00:00Z",
+                    "affectedAerodrome": "LFPG",
+                    "affectedEntities": null,
+                    "flightId": 1,
+                    "externalId": "007aa3c9-912d-41ce-a6ea-0ad6397d1d74",
+                    "created_at": "2022-07-28T14:08:51.313886Z"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "GeometryCollection",
+                    "geometries": [
+                        {
+                            "type": "Point",
+                            "coordinates": [2.1833, 48.7667]
+                        }
+                    ]
+                },
+                "properties": {
+                    "lon": 2.1833,
+                    "lat": 48.7667,
+                    "text": "VOR MTD 113.650MHZ U/S : \nDO NOT USE, POSSIBLE FALSE INDICATIONS.",
+                    "type": "N",
+                    "year": 2022,
+                    "qcode": "QNVAS",
+                    "scope": "A",
+                    "issued": "2022-07-23T12:38:00Z",
+                    "number": 2257,
+                    "radius": 5,
+                    "series": "M",
+                    "purpose": "BO",
+                    "traffic": "IV",
+                    "location": "LFPV",
+                    "metadata": {
+                        "geometrySources": ["point_and_radius"],
+                        "lastUpdateTimestamp": "2022-07-23T12:42:29Z"
+                    },
+                    "schedule": null,
+                    "maximumFL": 999,
+                    "minimumFL": 0,
+                    "schedules": null,
+                    "affectedFIR": "LFFF",
+                    "countryCode": "FRA",
+                    "effectiveEnd": "2022-08-05T17:00:00Z",
+                    "publisherNOF": "LFFAZXYI",
+                    "relationship": {
+                        "affectedFIR": {
+                            "id": "LFFF",
+                            "href": "https://api.laminardata.aero/v1/icao-prefixes/L/firs/LFFF"
+                        }
+                    },
+                    "translations": [
+                        {
+                            "type": "OTHER:ICAO",
+                            "formattedText": "<html:div xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gts=\"http://www.isotc211.org/2005/gts\" xmlns:gss=\"http://www.isotc211.org/2005/gss\" xmlns:gsr=\"http://www.isotc211.org/2005/gsr\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:fnse=\"http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE\" xmlns:event=\"http://www.aixm.aero/schema/5.1/event\" xmlns:aixm=\"http://www.aixm.aero/schema/5.1\" xmlns=\"http://www.aixm.aero/schema/5.1/message\" xmlns:html=\"http://www.w3.org/1999/xhtml\">&lt;pre&gt;\nM2257/22 NOTAMN\nQ) LFFF/QNVAS/IV/BO /A /000/999/4846N00211E005\nA) LFPV B) 2208010700 C) 2208051700\nE) VOR MTD 113.650MHZ U/S : \nDO NOT USE, POSSIBLE FALSE INDICATIONS.\n&lt;/pre&gt;</html:div>"
+                        }
+                    ],
+                    "effectiveStart": "2022-08-01T07:00:00Z",
+                    "affectedAerodrome": "LFPV",
+                    "affectedEntities": null,
+                    "flightId": 1,
+                    "externalId": "00e2f8f9-7bc8-4aaf-add2-705f4f76099e",
+                    "created_at": "2022-07-28T14:08:51.324129Z"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "GeometryCollection",
+                    "geometries": [
+                        {
+                            "type": "Point",
+                            "coordinates": [2.3833, 48.7167]
+                        }
+                    ]
+                },
+                "properties": {
+                    "lon": 2.3833,
+                    "lat": 48.7167,
+                    "text": "TRIGGER NOTAM - AIRAC AIP SUP 183/22 WEF 08 SEPTEMBER UNTIL 28 \nDECEMBER 2022 : REPAIR WORKS ON THE NORTH INDUSTRIAL ZONE PARKING \nAREA LEADING TO CHANGE IN STANDS.",
+                    "type": "N",
+                    "year": 2022,
+                    "qcode": "QMKTT",
+                    "scope": "A",
+                    "issued": "2022-07-21T11:43:00Z",
+                    "number": 3526,
+                    "radius": 5,
+                    "series": "A",
+                    "purpose": "BO",
+                    "traffic": "IV",
+                    "location": "LFPO",
+                    "metadata": {
+                        "geometrySources": ["point_and_radius"],
+                        "lastUpdateTimestamp": "2022-07-21T11:46:58Z"
+                    },
+                    "schedule": null,
+                    "maximumFL": 999,
+                    "minimumFL": 0,
+                    "schedules": null,
+                    "affectedFIR": "LFFF",
+                    "countryCode": "FRA",
+                    "effectiveEnd": "2022-09-21T23:59:00Z",
+                    "publisherNOF": "LFFA",
+                    "relationship": {
+                        "affectedFIR": {
+                            "id": "LFFF",
+                            "href": "https://api.laminardata.aero/v1/icao-prefixes/L/firs/LFFF"
+                        }
+                    },
+                    "translations": [
+                        {
+                            "type": "OTHER:ICAO",
+                            "formattedText": "<html:div xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gts=\"http://www.isotc211.org/2005/gts\" xmlns:gss=\"http://www.isotc211.org/2005/gss\" xmlns:gsr=\"http://www.isotc211.org/2005/gsr\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:fnse=\"http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE\" xmlns:event=\"http://www.aixm.aero/schema/5.1/event\" xmlns:aixm=\"http://www.aixm.aero/schema/5.1\" xmlns=\"http://www.aixm.aero/schema/5.1/message\" xmlns:html=\"http://www.w3.org/1999/xhtml\">&lt;pre&gt;\nA3526/22 NOTAMN\nQ) LFFF/QMKTT/IV/BO /A /000/999/4843N00223E005\nA) LFPO B) 2209080000 C) 2209212359\nE) TRIGGER NOTAM - AIRAC AIP SUP 183/22 WEF 08 SEPTEMBER UNTIL 28 \nDECEMBER 2022 : REPAIR WORKS ON THE NORTH INDUSTRIAL ZONE PARKING \nAREA LEADING TO CHANGE IN STANDS.\n&lt;/pre&gt;</html:div>"
+                        }
+                    ],
+                    "effectiveStart": "2022-09-08T00:00:00Z",
+                    "affectedAerodrome": "LFPO",
+                    "affectedEntities": null,
+                    "flightId": 1,
+                    "externalId": "0148a4a3-154c-4127-a7a9-2b82096042d0",
+                    "created_at": "2022-07-28T14:08:51.332778Z"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "GeometryCollection",
+                    "geometries": [
+                        {
+                            "type": "Polygon",
+                            "coordinates": [
+                                [
+                                    [2.3167, 49.2499],
+                                    [2.2919, 49.2483],
+                                    [2.268, 49.2436],
+                                    [2.246, 49.2359],
+                                    [2.2268, 49.2255],
+                                    [2.211, 49.2129],
+                                    [2.1993, 49.1985],
+                                    [2.1921, 49.1828],
+                                    [2.1897, 49.1666],
+                                    [2.1922, 49.1504],
+                                    [2.1994, 49.1347],
+                                    [2.2112, 49.1204],
+                                    [2.227, 49.1078],
+                                    [2.2462, 49.0974],
+                                    [2.2682, 49.0897],
+                                    [2.2919, 49.085],
+                                    [2.3167, 49.0834],
+                                    [2.3414, 49.085],
+                                    [2.3652, 49.0897],
+                                    [2.3871, 49.0974],
+                                    [2.4063, 49.1078],
+                                    [2.4221, 49.1204],
+                                    [2.4339, 49.1347],
+                                    [2.4412, 49.1504],
+                                    [2.4436, 49.1666],
+                                    [2.4412, 49.1828],
+                                    [2.4341, 49.1985],
+                                    [2.4223, 49.2129],
+                                    [2.4066, 49.2255],
+                                    [2.3873, 49.2359],
+                                    [2.3653, 49.2436],
+                                    [2.3415, 49.2483],
+                                    [2.3167, 49.2499]
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                "properties": {
+                    "lon": 2.316667,
+                    "lat": 49.166667,
+                    "text": "A/A FREQUENCY CHANGED :\nREAD A/A FREQUENCY : 119.505MHZ INSTEAD OF A/A : 119.500MHZ",
+                    "type": "N",
+                    "year": 2022,
+                    "qcode": "QCACF",
+                    "scope": "A",
+                    "issued": null,
+                    "number": 2316,
+                    "radius": 5,
+                    "series": "E",
+                    "purpose": "B",
+                    "traffic": "IV",
+                    "location": null,
+                    "metadata": {
+                        "geometrySources": ["point_and_radius"],
+                        "lastUpdateTimestamp": "2022-07-06T09:56:02Z"
+                    },
+                    "schedule": null,
+                    "maximumFL": 999,
+                    "minimumFL": 0,
+                    "schedules": null,
+                    "affectedFIR": "LFFF",
+                    "countryCode": "FRA",
+                    "effectiveEnd": null,
+                    "publisherNOF": "LFFA",
+                    "relationship": {
+                        "affectedFIR": {
+                            "id": "LFFF",
+                            "href": "https://api.laminardata.aero/v1/icao-prefixes/L/firs/LFFF"
+                        }
+                    },
+                    "translations": null,
+                    "effectiveStart": "2022-06-14T14:08:00Z",
+                    "affectedAerodrome": null,
+                    "affectedEntities": null,
+                    "flightId": 1,
+                    "externalId": "02213d18-c874-4e2f-9382-bc2597377df1",
+                    "created_at": "2022-07-28T14:08:51.342295Z"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "GeometryCollection",
+                    "geometries": [
+                        {
+                            "type": "Polygon",
+                            "coordinates": [
+                                [
+                                    [2.25, 48.8],
+                                    [2.2451, 48.7996],
+                                    [2.2404, 48.7987],
+                                    [2.236, 48.7971],
+                                    [2.2322, 48.7951],
+                                    [2.229, 48.7926],
+                                    [2.2267, 48.7897],
+                                    [2.2253, 48.7865],
+                                    [2.2248, 48.7833],
+                                    [2.2253, 48.78],
+                                    [2.2267, 48.7769],
+                                    [2.229, 48.774],
+                                    [2.2322, 48.7715],
+                                    [2.236, 48.7695],
+                                    [2.2404, 48.7679],
+                                    [2.2451, 48.767],
+                                    [2.25, 48.7666],
+                                    [2.2549, 48.767],
+                                    [2.2596, 48.7679],
+                                    [2.264, 48.7695],
+                                    [2.2678, 48.7715],
+                                    [2.271, 48.774],
+                                    [2.2733, 48.7769],
+                                    [2.2747, 48.78],
+                                    [2.2752, 48.7833],
+                                    [2.2747, 48.7865],
+                                    [2.2733, 48.7897],
+                                    [2.271, 48.7926],
+                                    [2.2678, 48.7951],
+                                    [2.264, 48.7971],
+                                    [2.2596, 48.7987],
+                                    [2.2549, 48.7996],
+                                    [2.25, 48.8]
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                "properties": {
+                    "lon": 2.25,
+                    "lat": 48.7833,
+                    "text": "LE PLESSIS ROBINSON CENTRE CHIRURGICAL MARIE LANNELONGUE:\nANTENNA ERECTED RDL 286/0.9NM HELISTATION\nPSN: 484721N 0021506E\nHGT 141FT\nELEV 682FT\nMARKING DAY",
+                    "type": "R",
+                    "year": 2022,
+                    "qcode": "QOBCE",
+                    "scope": "AE",
+                    "issued": "2022-07-25T12:37:00Z",
+                    "number": 2477,
+                    "radius": 1,
+                    "series": "P",
+                    "purpose": "M",
+                    "traffic": "IV",
+                    "location": "LFXX",
+                    "metadata": {
+                        "geometrySources": ["point_and_radius"],
+                        "lastUpdateTimestamp": "2022-07-25T12:40:25Z"
+                    },
+                    "schedule": null,
+                    "maximumFL": 7,
+                    "minimumFL": 0,
+                    "schedules": null,
+                    "affectedFIR": "LFFF",
+                    "countryCode": "FRA",
+                    "effectiveEnd": "2022-10-25T23:59:00Z",
+                    "publisherNOF": "LFFA",
+                    "relationship": {
+                        "reference": {
+                            "year": 2022,
+                            "number": 2476,
+                            "series": "P"
+                        },
+                        "affectedFIR": {
+                            "id": "LFFF",
+                            "href": "https://api.laminardata.aero/v1/icao-prefixes/L/firs/LFFF"
+                        }
+                    },
+                    "translations": [
+                        {
+                            "type": "OTHER:ICAO",
+                            "formattedText": "<html:div xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gts=\"http://www.isotc211.org/2005/gts\" xmlns:gss=\"http://www.isotc211.org/2005/gss\" xmlns:gsr=\"http://www.isotc211.org/2005/gsr\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:fnse=\"http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE\" xmlns:event=\"http://www.aixm.aero/schema/5.1/event\" xmlns:aixm=\"http://www.aixm.aero/schema/5.1\" xmlns=\"http://www.aixm.aero/schema/5.1/message\" xmlns:html=\"http://www.w3.org/1999/xhtml\">&lt;pre&gt;\nP2477/22 NOTAMR P2476/22\nQ) LFFF/QOBCE/IV/M  /AE/000/007/4847N00215E001\nA) LFXX B) 2207251218 C) 2210252359\nE) LE PLESSIS ROBINSON CENTRE CHIRURGICAL MARIE LANNELONGUE:\nANTENNA ERECTED RDL 286/0.9NM HELISTATION\nPSN: 484721N 0021506E\nHGT 141FT\nELEV 682FT\nMARKING DAY\n&lt;/pre&gt;</html:div>"
+                        }
+                    ],
+                    "effectiveStart": "2022-07-25T12:18:00Z",
+                    "affectedAerodrome": null,
+                    "affectedEntities": null,
+                    "flightId": 1,
+                    "externalId": "03a76c1f-fdc8-4f7e-b69f-7c9bb0174264",
+                    "created_at": "2022-07-28T14:08:51.351826Z"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "GeometryCollection",
+                    "geometries": [
+                        {
+                            "type": "Polygon",
+                            "coordinates": [
+                                [
+                                    [1.95, 49.3998],
+                                    [1.8704, 49.3946],
+                                    [1.7938, 49.3794],
+                                    [1.7234, 49.3546],
+                                    [1.6618, 49.3214],
+                                    [1.6114, 49.2809],
+                                    [1.5741, 49.2347],
+                                    [1.5513, 49.1846],
+                                    [1.544, 49.1326],
+                                    [1.5522, 49.0807],
+                                    [1.5756, 49.0308],
+                                    [1.6134, 48.9848],
+                                    [1.664, 48.9446],
+                                    [1.7254, 48.9116],
+                                    [1.7954, 48.8871],
+                                    [1.8712, 48.872],
+                                    [1.95, 48.8669],
+                                    [2.0288, 48.872],
+                                    [2.1046, 48.8871],
+                                    [2.1746, 48.9116],
+                                    [2.236, 48.9446],
+                                    [2.2866, 48.9848],
+                                    [2.3244, 49.0308],
+                                    [2.3478, 49.0807],
+                                    [2.356, 49.1326],
+                                    [2.3487, 49.1846],
+                                    [2.3259, 49.2347],
+                                    [2.2886, 49.2809],
+                                    [2.2382, 49.3214],
+                                    [2.1766, 49.3546],
+                                    [2.1062, 49.3794],
+                                    [2.0296, 49.3946],
+                                    [1.95, 49.3998]
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                "properties": {
+                    "lon": 1.95,
+                    "lat": 49.133333,
+                    "text": "ATS HOURS OF OPS : 0700-1800\nOUTSIDE THESE SKED AND ON JUL 20 24-26 28 29 AND AUG 02 04 09 11 \n15-17 22-24 28-30, PONTOISE CTR AND TMA RECLASSIFIED TO CLASS G AND \nAD CONTROL NOT PROVIDED.",
+                    "type": "R",
+                    "year": 2022,
+                    "qcode": "QATCA",
+                    "scope": "AE",
+                    "issued": null,
+                    "number": 2965,
+                    "radius": 16,
+                    "series": "E",
+                    "purpose": "NBO",
+                    "traffic": "IV",
+                    "location": null,
+                    "metadata": {
+                        "geometrySources": ["point_and_radius"],
+                        "lastUpdateTimestamp": "2022-07-20T10:07:17Z"
+                    },
+                    "schedule": null,
+                    "maximumFL": 25,
+                    "minimumFL": 0,
+                    "schedules": null,
+                    "affectedFIR": "LFFF",
+                    "countryCode": "FRA",
+                    "effectiveEnd": "2022-08-31T17:30:00Z",
+                    "publisherNOF": "LFFA",
+                    "relationship": {
+                        "reference": {
+                            "year": 2022,
+                            "number": 2720,
+                            "series": "E"
+                        },
+                        "affectedFIR": {
+                            "id": "LFFF",
+                            "href": "https://api.laminardata.aero/v1/icao-prefixes/L/firs/LFFF"
+                        }
+                    },
+                    "translations": null,
+                    "effectiveStart": "2022-07-20T10:07:00Z",
+                    "affectedAerodrome": null,
+                    "affectedEntities": null,
+                    "flightId": 1,
+                    "externalId": "03c9f27d-807f-4b30-971c-1275bb36247d",
+                    "created_at": "2022-07-28T14:08:51.393992Z"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "GeometryCollection",
+                    "geometries": [
+                        {
+                            "type": "Polygon",
+                            "coordinates": [
+                                [
+                                    [2.25, 48.9],
+                                    [2.2451, 48.8997],
+                                    [2.2403, 48.8987],
+                                    [2.236, 48.8972],
+                                    [2.2321, 48.8951],
+                                    [2.229, 48.8926],
+                                    [2.2267, 48.8897],
+                                    [2.2252, 48.8866],
+                                    [2.2247, 48.8833],
+                                    [2.2252, 48.8801],
+                                    [2.2267, 48.877],
+                                    [2.229, 48.8741],
+                                    [2.2321, 48.8716],
+                                    [2.236, 48.8695],
+                                    [2.2403, 48.8679],
+                                    [2.2451, 48.867],
+                                    [2.25, 48.8667],
+                                    [2.2549, 48.867],
+                                    [2.2597, 48.8679],
+                                    [2.264, 48.8695],
+                                    [2.2679, 48.8716],
+                                    [2.271, 48.8741],
+                                    [2.2733, 48.877],
+                                    [2.2748, 48.8801],
+                                    [2.2753, 48.8833],
+                                    [2.2748, 48.8866],
+                                    [2.2733, 48.8897],
+                                    [2.271, 48.8926],
+                                    [2.2679, 48.8951],
+                                    [2.264, 48.8972],
+                                    [2.2597, 48.8987],
+                                    [2.2549, 48.8997],
+                                    [2.25, 48.9]
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                "properties": {
+                    "lon": 2.25,
+                    "lat": 48.883333,
+                    "text": "TOWER CRANE WITH LUFFING BOOM OPR -'TOUR LINK LA DEFENSE' -\nRDL343/3.41NM LFPI ARP :\n- PSN : 485314N 0021452E,\n- HEIGHT : 413FT,\n- ELEV : 474FT,\n- LIGHTING : NIGHT AND DAY.",
+                    "type": "N",
+                    "year": 2022,
+                    "qcode": "QOBCE",
+                    "scope": "AE",
+                    "issued": "2022-05-20T14:43:00Z",
+                    "number": 1714,
+                    "radius": 1,
+                    "series": "P",
+                    "purpose": "M",
+                    "traffic": "IV",
+                    "location": "LFPI",
+                    "metadata": {
+                        "geometrySources": ["point_and_radius"],
+                        "lastUpdateTimestamp": "2022-07-06T09:56:18Z"
+                    },
+                    "schedule": null,
+                    "maximumFL": 5,
+                    "minimumFL": 0,
+                    "schedules": null,
+                    "affectedFIR": "LFFF",
+                    "countryCode": "FRA",
+                    "effectiveEnd": "2023-03-10T18:00:00Z",
+                    "publisherNOF": "LFFA",
+                    "relationship": {
+                        "affectedFIR": {
+                            "id": "LFFF",
+                            "href": "https://api.laminardata.aero/v1/icao-prefixes/L/firs/LFFF"
+                        }
+                    },
+                    "translations": [
+                        {
+                            "type": "OTHER:ICAO",
+                            "formattedText": "<html:div xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:gts=\"http://www.isotc211.org/2005/gts\" xmlns:gss=\"http://www.isotc211.org/2005/gss\" xmlns:gsr=\"http://www.isotc211.org/2005/gsr\" xmlns:gml=\"http://www.opengis.net/gml/3.2\" xmlns:gmd=\"http://www.isotc211.org/2005/gmd\" xmlns:gco=\"http://www.isotc211.org/2005/gco\" xmlns:fnse=\"http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE\" xmlns:event=\"http://www.aixm.aero/schema/5.1/event\" xmlns:aixm=\"http://www.aixm.aero/schema/5.1\" xmlns=\"http://www.aixm.aero/schema/5.1/message\" xmlns:html=\"http://www.w3.org/1999/xhtml\">&lt;pre&gt;\nP1714/22 NOTAMN\nQ) LFFF/QOBCE/IV/M  /AE/000/005/4853N00215E001\nA) LFPI B) 2205201442 C) 2303101800\nE) TOWER CRANE WITH LUFFING BOOM OPR -&amp;apos;TOUR LINK LA DEFENSE&amp;apos; -\nRDL343/3.41NM LFPI ARP :\n- PSN : 485314N 0021452E,\n- HEIGHT : 413FT,\n- ELEV : 474FT,\n- LIGHTING : NIGHT AND DAY.\n&lt;/pre&gt;</html:div>"
+                        }
+                    ],
+                    "effectiveStart": "2022-05-20T14:42:00Z",
+                    "affectedAerodrome": "LFPI",
+                    "affectedEntities": null,
+                    "flightId": 1,
+                    "externalId": "08813c72-5145-4a79-9b96-fc5edea9f1ea",
+                    "created_at": "2022-07-28T14:08:51.403248Z"
+                }
+            },
+            {
+                "type": "Feature",
+                "geometry": {
+                    "type": "GeometryCollection",
+                    "geometries": [
+                        {
+                            "type": "Polygon",
+                            "coordinates": [
+                                [
+                                    [2.6667, 48.6833],
+                                    [2.6421, 48.6817],
+                                    [2.6185, 48.6769],
+                                    [2.5968, 48.6692],
+                                    [2.5778, 48.6588],
+                                    [2.5622, 48.6462],
+                                    [2.5506, 48.6318],
+                                    [2.5435, 48.6162],
+                                    [2.5411, 48.5999],
+                                    [2.5436, 48.5837],
+                                    [2.5507, 48.5681],
+                                    [2.5624, 48.5537],
+                                    [2.578, 48.5411],
+                                    [2.597, 48.5307],
+                                    [2.6187, 48.5231],
+                                    [2.6422, 48.5183],
+                                    [2.6667, 48.5167],
+                                    [2.6911, 48.5183],
+                                    [2.7146, 48.5231],
+                                    [2.7363, 48.5307],
+                                    [2.7553, 48.5411],
+                                    [2.771, 48.5537],
+                                    [2.7826, 48.5681],
+                                    [2.7898, 48.5837],
+                                    [2.7922, 48.5999],
+                                    [2.7898, 48.6162],
+                                    [2.7827, 48.6318],
+                                    [2.7712, 48.6462],
+                                    [2.7555, 48.6588],
+                                    [2.7365, 48.6692],
+                                    [2.7148, 48.6769],
+                                    [2.6912, 48.6817],
+                                    [2.6667, 48.6833]
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                "properties": {
+                    "lon": 2.666667,
+                    "lat": 48.6,
+                    "text": "GRF SERVICE PROVIDED DURING ATS HOURS OF OPS",
+                    "type": "N",
+                    "year": 2022,
+                    "qcode": "QMAXX",
+                    "scope": "A",
+                    "issued": null,
+                    "number": 2465,
+                    "radius": 5,
+                    "series": "E",
+                    "purpose": "NBO",
+                    "traffic": "IV",
+                    "location": null,
+                    "metadata": {
+                        "geometrySources": ["point_and_radius"],
+                        "lastUpdateTimestamp": "2022-07-06T09:56:02Z"
+                    },
+                    "schedule": null,
+                    "maximumFL": 999,
+                    "minimumFL": 0,
+                    "schedules": null,
+                    "affectedFIR": "LFFF",
+                    "countryCode": "FRA",
+                    "effectiveEnd": "2022-10-29T23:59:00Z",
+                    "publisherNOF": "LFFA",
+                    "relationship": {
+                        "affectedFIR": {
+                            "id": "LFFF",
+                            "href": "https://api.laminardata.aero/v1/icao-prefixes/L/firs/LFFF"
+                        }
+                    },
+                    "translations": null,
+                    "effectiveStart": "2022-06-20T10:49:00Z",
+                    "affectedAerodrome": null,
+                    "affectedEntities": null,
+                    "flightId": 1,
+                    "externalId": "08e05f1d-ac41-40e4-b471-84005d3d4a0d",
+                    "created_at": "2022-07-28T14:08:51.412084Z"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Add": "Hinzufügen",
+    "Add Resource": "{resource} hinzufügen",
+    "Return to list": "Zurück zur Liste",
+    "Save": "Speichern",
+    "Cancel": "Abbrechen",
+    "Success": "Erfolg",
+    "Resource created": "{resource} hinzufügen",
+    "Error": "Fehler",
+    "Something went wrong": "Etwas ist schief gelaufen. Bitte versuchen Sie es später noch einmal.",
+    "Some form fields are incorrect or invalid": "Einige Formularfelder sind nicht korrekt oder ungültig. Bitte korrigieren Sie sie und versuchen Sie es erneut.",
+    "An entry with the given unique constraints already exists.": "Ein Eintrag mit den angegebenen Werten existiert bereits.",
+    "All resources failed": "Hinzufügen von {Ressource} fehlgeschlagen",
+    "Some resource failed": "Hinzufügen einiger {Ressource} fehlgeschlagen",
+    "Create new request failed": "Neue Anfrage erstellen fehlgeschlagen",
+    "Please review the duplicated info": "Bitte überprüfen Sie die duplizierten Informationen"
+}

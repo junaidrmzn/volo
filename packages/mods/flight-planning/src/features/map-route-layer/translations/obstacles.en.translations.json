@@ -1,0 +1,8 @@
+{
+   "highestTerrianCollision":"Highest obstacle ( Terrain collision )",
+   "highestClearanceViolation":"Highest obstacle ( Clearance violation )",
+   "highest":"Highest obstacle",
+   "terrainCollision":"Terrain collision",
+   "clearanceViolation":"Clearance violation",
+   "obstacle": "Obstacle"
+}

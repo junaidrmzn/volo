@@ -1,0 +1,9 @@
+{
+    "General": "General",
+    "statistics": "Statistics",
+    "labels": {
+        "Number of files": "Number of files"
+    },
+    "analyticsButton": "Analytics",
+    "addExportButton": "Export"
+}

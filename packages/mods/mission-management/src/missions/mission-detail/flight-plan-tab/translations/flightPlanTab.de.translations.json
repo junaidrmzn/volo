@@ -1,0 +1,13 @@
+{
+    "No valid routes found": "Keine gültigen Routen gefunden",
+    "There are no valid routes for this mission": "Für diese Mission gibt es keine gültigen Routen",
+    "No invalid routes found": "Keine ungültigen Routen gefunden",
+    "There are no invalid routes for this mission": "Für diese Mission gibt es keine ungültigen Routen",
+    "Valid Routes ({numberOfRoutes})": "Gültige Routen ({numberOfRoutes})",
+    "Invalid Routes ({numberOfRoutes})": "Ungültige Routen ({numberOfRoutes})",
+    "No routes found": "Keine Routen gefunden",
+    "Sorry, we couldn't find any routes for this mission": "Leider konnten wir für diese Mission keine Routen finden",
+    "Route validation is currently running. Please wait to see results": "Die Routenvalidierung läuft derzeit. Bitte warten Sie, bis Sie die Ergebnisse sehen",
+    "Mission Duration mismatch conflict message": "Die Dauer der Route entspricht nicht der Dauer der Mission. Bitte passen Sie den Zeitplan an",
+    "Adjust mission": "Mission anpassen"
+}

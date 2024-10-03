@@ -1,0 +1,47 @@
+{
+    "moduleName": "Engineering",
+    "form": {
+        "select": {
+            "placeholder": "Please choose",
+            "requiredErrorMessage": "Please select an option"
+        },
+        "multiSelect": {
+            "placeholder": "Please choose"
+        },
+        "fileInput": {
+            "deleteFileAriaLabel": "Delete",
+            "selectFilesLabel": "Select a file",
+            "selectMultipleFilesLabel": "Select files",
+            "dropFileLabel": "Drop a file here",
+            "dropMultipleFilesLabel": "Drop files here",
+            "orLabel": "or",
+            "rejectedFilesErrorMessage": "This file type is not supported. Please select files of the following types: {acceptedFiles}.",
+            "requiredErrorMessage": "Please select an attachment",
+            "requiredMultipleErrorMessage": "Please select at least an attachment"
+        },
+        "dateTimePicker": {
+            "placeholder": "Select a date (UTC)"
+        }
+    },
+    "addSoftwareConfiguration": {
+        "configurationTypeLabel": "Software Config Type",
+        "gitHashLabel": "Git Hash",
+        "softwareConfigurationFileLabel": "Software Config File",
+        "uploadProgressText": "Loading... {percentage}%"
+    },
+    "resourceLabel": "Software Config",
+    "headerTitle": "Software Configs",
+    "listAriaLabel": "Software Config entries",
+    "configTypeLabel": "Configuration Type",
+    "gitHashLabel": "Git Hash",
+    "deletionHeader": "Delete Software Config",
+    "deletionText": "Do you really want to delete this Software Config?",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "createTime": "Created on",
+    "preview": {
+        "downloadButton": "Download"
+    },
+    "Software Configurations": "Software Configurations",
+    "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+}

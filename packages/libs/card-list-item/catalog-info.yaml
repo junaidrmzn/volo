@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.ui.card-list-item
+  title: card list-item
+  tags:
+  - javascript
+spec:
+  type: library
+  lifecycle: production
+  owner: voloiq-air-ops-team

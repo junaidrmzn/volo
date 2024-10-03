@@ -1,0 +1,239 @@
+{
+    "generic": {
+        "save button": "Speichern",
+        "add button": "Hinzufügen",
+        "create button": "Hinzufügen",
+        "edit button": "Editieren",
+        "sort button": "Sortieren",
+        "filter button": "Filtern",
+        "confirm button": "Bestätigen",
+        "details button": "Details",
+        "delete button": "Löschen",
+        "apply button": "Anwenden",
+        "cancel button": "Abbrechen",
+        "back button": "Zurück",
+        "not available": "N/A",
+        "dropdown placeholder": "Bitte wählen",
+        "dropdown error": "Bitte wählen Sie einen gültigen Eintrag",
+        "required error": "Bitte füllen Sie dieses Feld aus",
+        "maxLength error": "Bitte nutzen Sie nicht mehr als ${max} Zeichen",
+        "minLength error": "Bitte nutzen Sie mindestens ${min} Zeichen",
+        "maxNumber error": "Bitte nutzen Sie einen Wert unter ${max}",
+        "minNumber error": "Bitte nutzen Sie einen Wert über ${min}",
+        "validFrom error": "Bitte wählen Sie ein Datum nach {minValidFromDate}",
+        "validTo error": "Bitte wählen Sie ein Datum nach {minValidToDate}",
+        "pagination": {
+            "ariaLabel": "pagination",
+            "nextPageAriaLabel": "Nächste Seite",
+            "previousPageAriaLabel": "Vorherige Seite"
+        },
+        "delete-modal": {
+            "heading": "{entityName} löschen",
+            "body": "Soll dieser {entityName} wirklich gelöscht werden?",
+            "body-with-id": "Soll {entityName} {entityId} wirklich gelöscht werden?",
+            "cancel": "Abbrechen",
+            "delete": "Löschen"
+        },
+        "filter": {
+            "listAriaLabel": "Filter Tag Liste",
+            "heading": "Filter",
+            "fromLabel": "von",
+            "toLabel": "bis"
+        },
+        "sortingPanel": {
+            "title": "Sortieren",
+            "applyButtonLabel": "Anwenden",
+            "backButtonAriaLabel": "Zurück",
+            "cancelButtonLabel": "Abbrechen",
+            "createdOnOption": "Erstellungsdatum",
+            "ascendingLabel": "Aufsteigend",
+            "descendingLabel": "Absteigend",
+            "options.crewMember": {
+                "firstName": "Vorname",
+                "surName": "Nachname"
+            }
+        },
+        "restricted": "Eingeschränkt",
+        "informationRestrictionMessage": "Urlaubsdaten von Besatzungsmitgliedern werden nicht angezeigt, da Sie nicht berechtigt sind, diese Informationen anzuzeigen.",
+        "licenseValidationError": "Es muss eine Lizenz für Fernflüge oder bemannte Flüge ausgewählt werden"
+    },
+    "crewRole": {
+        "model": {
+            "roleKey": "Rolle",
+            "validFrom": "Gültig von",
+            "validTo": "Gültig bis",
+            "description": "Beschreibung",
+            "requiresAircraftType": "Flugzeugart benötigt",
+            "requiresWeight": "Gewicht benötigt",
+            "requiresLicense": "Lizens benötigt",
+            "canBecomePilotInCharge": "Möglicher verantwortlicher Pilot",
+            "numberOfAssignments": "Anzahl Mitglieder",
+            "createdBy": "Ersteller",
+            "updatedBy": "Editierer",
+            "createTime": "Hergestellt in",
+            "updateTime": "Aktualisiert am"
+        },
+        "overview": {
+            "heading": "Ressourcen",
+            "subheading": "Crew Rollen",
+            "listLabel": "Rollen",
+            "preview": "Rollen Vorschau",
+            "add button": "Hinzufügen",
+            "create button": "Hinzufügen",
+            "cancel button": "Abbrechen"
+        },
+        "create": {
+            "heading": "Rolle hinzufügen"
+        },
+        "edit": {
+            "heading": " Rolle editieren",
+            "update": "Aktualisieren"
+        },
+        "additionalInfo": {
+            "roleKey": "Geben Sie 3 Großbuchstaben ein, um diese Besatzungsrolle zu identifizieren",
+            "description": "Geben Sie einen erklärenden Text ein, wofür diese Besatzungsrolle verwendet wird und wie sie dieser Rolle zugeordnet ist"
+        }
+    },
+    "crewMember": {
+        "button": {
+            "add": "Neue Musterberechtigungen für ein Besatzungsmitglied hinzufügen",
+            "revert": "Gelöschte Musterberechtigungen wiederherstellen",
+            "delete": "Musterberechtigung löschen",
+            "check": "Musterberechtigung hinzufügen"
+        },
+        "model": {
+            "hrAccountName": "HR-Account Name",
+            "validFrom": "Gültig von",
+            "validTo": "Gültig bis",
+            "publicFrom": "Öffentlich sichtbar von",
+            "publicTo": "Öffentlich sichtbar bis",
+            "surName": "Nachname",
+            "firstName": "Vorname",
+            "middleName": "Zweiter Vorname",
+            "weight": "Gewicht",
+            "roles": "Rollen",
+            "homeBase": "Heimatregion",
+            "licenseValidUntil": "Lizenz ist gültig bis",
+            "medicalCertificateValidUntil": "Medizinisches Zertifikat ist gültig bis",
+            "languageProficiencyValidUntil": "Sprachzertifikat gültig bis",
+            "licensedRemotePilotedFlights": "Lizensiert für Remote-Flüge",
+            "licensedPilotedFlights": "Lizensiert für manuelle Flüge",
+            "email": "Email",
+            "phoneNumber": "Telefonnummer",
+            "department": "Abteilung",
+            "entryDate": "Einstiegsdatum",
+            "exitDate": "Ausstiegsdatum",
+            "createdBy": "Erstellt von",
+            "updatedBy": "Editiert von",
+            "fromHibob": "Mitglied importiert von HiBob",
+            "createTime": "Hergestellt in",
+            "updateTime": "Aktualisiert am",
+            "property": "Eigentum",
+            "changeTo": "Wechseln zu",
+            "licensed": "Lizensiert",
+            "unlicensed": "Nicht lizenziert"
+        },
+        "overview": {
+            "heading": "Ressourcen",
+            "subheading": "Crew Mitglieder",
+            "listLabel": "Crew Mitglieder",
+            "preview": "Crew Mitglied Vorschau",
+            "add button": "Hinzufügen",
+            "create button": "Hinzufügen",
+            "cancel button": "Abbrechen"
+        },
+        "create": {
+            "heading": "Crew Mitglied hinzufügen"
+        },
+        "edit": {
+            "heading": "Crew Mitglied editieren",
+            "update": "Aktualisieren"
+        },
+        "detail": {
+            "heading": "{name}"
+        },
+        "additionalInfo": {
+            "firstName": "Geben Sie den Vornamen des Besatzungsmitglieds ein",
+            "middleName": "Geben Sie den mittleren Namen des Besatzungsmitglieds ein",
+            "lastName": "Geben Sie den Nachnamen des Besatzungsmitglieds ein",
+            "homebase": "Geben Sie den Ort an, an dem dieser Arbeitnehmer beschäftigt ist und seinen Arbeitsvertrag hat. Er kann später noch in verschiedenen Regionen tätig sein",
+            "weight": "Geben Sie das geschätzte Gewicht des Besatzungsmitglieds ein, das für die Massen- und Schwerpunktkontrollen verwendet werden soll.",
+            "licenseIsValidUntil": "Geben Sie das Ablaufdatum für die Crew-Lizenz ein. Kann in der Vergangenheit liegen, wenn sie bereits abgelaufen ist",
+            "email": "Geben Sie die E-Mail-Adresse für dieses Besatzungsmitglied ein, an die die Dienstpläne gesendet werden können"
+        }
+    },
+    "calendar": {
+        "header": "Kalender",
+        "No crew member found": "Kein Crew Mitglied gefunden",
+        "Zoom in": "Vergößern",
+        "Zoom out": "Verkleinern",
+        "Scroll left": "Nach links bewegen",
+        "Scroll right": "Nach rechts bewegen",
+        "closeButton": "schließen",
+        "title": "Gehen Sie zum Datum",
+        "go": "Gehen",
+        "actionButtons": {
+            "headerLabel": "Ereignisaktionen",
+            "add": "Hinzufügen von Ereignissen",
+            "edit": "Editieren von Ereignissen",
+            "delete": "Löschen von Ereignissen",
+            "cancel": "Abbrechen von Ereignissen"
+        },
+        "modal": {
+            "add": "Hinzufügen",
+            "edit": "Editieren",
+            "delete": "Löschen",
+            "event": "Ereignis",
+            "save": "Speichern",
+            "cancel": "Abbrechen",
+            "confirm": "Bestätigen",
+            "deleteConfirmation": "Möchten Sie dieses Ereignis wirklich löschen?",
+            "startUTC": "Start (UTC)",
+            "endUTC": "Ende (UTC)",
+            "blockedForMissiom": "Für Mission blockiert"
+        }
+    },
+    "success": {
+        "header": "Alles ok."
+    },
+    "error": {
+        "statusCode": "Statuscode: {code}",
+        "An error occurred": "Hoppla! Es ist ein Fehler aufgetreten."
+    },
+    "detail": {
+        "details": "Details",
+        "tabs": {
+            "general": "Allgemein",
+            "licenses": "Lizenzen",
+            "roles": "Rollen",
+            "other": "Sonstiges"
+        }
+    },
+    "errorTitle": "Hoppla!",
+    "errorMessages": {
+        "listEmptyError": "Es muss mindestens ein Wert angegeben werden",
+        "maxCharacterError": "Es dürfen nicht mehr als {maxCharacter} Zeichen eingegeben werden",
+        "maxReferencedAttributeValueError": "Dieser Wert ist größer als der Wert von \"{referencedAttributeLabel}\", der {maxValue} beträgt",
+        "maxValueError": "Dieser Wert muss kleiner als {maxValue} sein",
+        "minCharacterError": "Es müssen mehr als {minCharacter} Zeichen eingegeben werden",
+        "minReferencedAttributeValueError": "Dieser Wert ist größer als der Wert von \"{referencedAttributeLabel}\", der {minValue} beträgt",
+        "minValueError": "Dieser Wert muss größer als {minValue} sein",
+        "numericOnlyError": "Dieser Wert muss numerisch sein",
+        "referentialValueDependencyError": "Dieser Wert ist ungültig, da er {referencedEntitiesAttribute} von {referencedEntitiesType} beeinflussen würde",
+        "valueTakenError": "Dieser Wert ist bereits vergeben",
+        "validationFailedError": "Dieser Wert ist ungültig",
+        "maxForeignReferencedAttributeValueError": "Dieser Wert muss kleiner oder gleich dem Wert des \"{referencedEntityAttribute}\" Attributs der referenzierten Entität \"{referencedEntityType}\" sein, welcher {maxForeignValue} beträgt",
+        "minForeignReferencedAttributeValueError": "Dieser Wert muss größer oder gleich dem Wert des \"{referencedEntityAttribute}\"  Attributs der referenzierten Entität \"{referencedEntityType}\" sein, welcher {minForeignValue} beträgt",
+        "unknownError": "Ein unbekannter Fehler ist aufgetreten",
+        "calendar": {
+            "notFound": "Kein Crew Mitglied gefunden"
+        }
+    },
+    "successTitle": "Yayy!",
+    "successMessages": {
+        "operation successful": "Operation successful"
+    },
+    "leon": "LEON",
+    "source": "Quelle",
+    "lastSynchronizedAt": "Letzte Synchronisierung um"
+}

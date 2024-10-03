@@ -1,0 +1,116 @@
+export type Alert = {
+    id: number;
+    message: string;
+    type: string;
+    routeId: number;
+};
+
+export type Waypoint = {
+    id: number;
+    name: string;
+    lat: number;
+    lng: number;
+    alt: number;
+    altAboveRefAlt: number;
+    rnp: number;
+    transitionType: string;
+    transitionRadius: number;
+    sarsId: string;
+    speed: number;
+    heading: number;
+    routeSequenceIndex: number;
+    targetTimeOver: number;
+    routeSegment: string;
+    isVertiport: boolean;
+};
+
+export type Route = {
+    id: number;
+    name: string;
+    description: string;
+    plannedBy: string;
+    createdAt: string;
+    distance: number;
+    duration: number;
+    refAltAmsl: number;
+    remainingEnergy: number;
+    validationStatus?: "invalid" | "valid" | "not_yet_validated" | "valid_with_limitations";
+    validityDate: string;
+    routeOptionId: number;
+    waypoints: Waypoint[];
+    alerts: Alert[];
+    routeEnergySettings: {
+        windSpeed: number;
+        windDirection: number;
+        takeoffMass: number;
+        batteryCycles: number;
+        airDensity: number;
+        ambientTemperature: number;
+        transitionAltitude: number;
+        airspeedCsfl: number;
+        descendAngleCsfl: number;
+        climbTakeoff: number;
+        climbTouchDown: number;
+        maxClimbRate: number;
+        maxDescendRate: number;
+        loiterAltitude: number;
+        loiterTime: number;
+        loiterTimeCsfl: number;
+        batteryCapacityOrig: number;
+        finalReserve: number;
+        unusableEnergy: number;
+        discretionaryEnergy: number;
+        additionalEnergy: number;
+        extraEnergy: number;
+        contingencyEnergy: number;
+        goAroundEnergy: number;
+        integrationTimeStepsSeconds: number;
+        departureTaxiDistance: number;
+        departureTaxiSpeed: number;
+        arrivalTaxiDistance: number;
+        arrivalTaxiSpeed: number;
+        csflEnergyOverhead: number;
+        pdmTwoEfficiencyLoss: number;
+        maxTimeToCsfl: number;
+        cruiseAltitude: number;
+        pathGradient: number;
+        csflCoverageRadius: number;
+        temperatureMinLimit: number;
+        temperatureMaxLimit: number;
+        windSpeedMinLimit: number;
+        windSpeedMaxLimit: number;
+        visibiltyMinLimit: number;
+        cloudCeilingMinLimit: number;
+        precipitationMaxLimit: number;
+        relativeHumidityMaxLimit: number;
+        horizontalObstacleClearance: number;
+        verticalObstacleClearance: number;
+    };
+    isAltitudeProfileGenerated: boolean;
+};
+
+export type RouteOption = {
+    id: number;
+    name: string;
+    arrivalExternalVertiport: {
+        id: number;
+        name: string;
+        lat: number;
+        lng: number;
+        alt: number;
+        externalId: string;
+    };
+    departureExternalVertiport: {
+        id: number;
+        name: string;
+        lat: number;
+        lng: number;
+        alt: number;
+        externalId: string;
+    };
+    aircraftTypeId: string;
+    aircraftType: string;
+    validForOperation: boolean;
+    isCopied: boolean;
+    lastModified: string;
+};

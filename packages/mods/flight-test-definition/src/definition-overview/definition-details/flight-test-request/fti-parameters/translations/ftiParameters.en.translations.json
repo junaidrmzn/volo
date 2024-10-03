@@ -1,0 +1,16 @@
+{
+    "Edit": "Edit",
+    "FTI Parameters": "FTI Parameters",
+    "Edit FTI Parameters": "Edit FTI Parameters",
+    "FTI": "FTI",
+    "Short Description": "Short Description",
+    "Essential": "Essential",
+    "Desirable": "Desirable",
+    "{numberOfFtiParameters} FTI Parameters": "{numberOfFtiParameters} FTI Parameters",
+    "1 FTI Parameter": "1 FTI Parameter",
+    "{numberOfFtiParameters} selected": "{numberOfFtiParameters} selected",
+    "{numberOfFtiParameters} essential": "{numberOfFtiParameters} essential",
+    "Unit": "Unit",
+    "SoF": "SoF",
+    "Safety of Flight Critical": "Safety of Flight Critical"
+}

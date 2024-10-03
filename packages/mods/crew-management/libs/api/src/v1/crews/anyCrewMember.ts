@@ -1,0 +1,25 @@
+import type { CrewMember } from "@voloiq-typescript-api/crew-api-types";
+
+export const anyCrewMember = (overwrites?: Partial<CrewMember>): CrewMember => ({
+    id: "2679f481-1517-4df6-a8e9-debe126fb5a0",
+    firstName: "Simon",
+    surName: "Bayer",
+    weight: 40,
+    homeBase: "2679f481-1517-4df6-a8e9-debe126fb5a000",
+    licenseValidUntil: "2023-03-16T07:00:00.000Z",
+    medicalCertificateValidUntil: "2023-04-01T07:00:00.000Z",
+    languageProficiencyValidUntil: "2023-04-06T07:00:00.000Z",
+    licensedRemotePilotedFlights: true,
+    email: "Simon.Bayer@mail.com",
+    roleAssignments: [],
+    hrAccountName: "david.zimmermann7834",
+    hrId: "8717",
+    createdBy: "Test",
+    updatedBy: "Test",
+    validFrom: "2023-03-31T08:41:31.609Z",
+    validTo: "3023-03-31T08:41:31.609Z",
+    createTime: "2023-03-31T08:41:31.609Z",
+    updateTime: "3023-03-31T08:41:31.609Z",
+    synchronizedWithLeon: false,
+    ...overwrites,
+});

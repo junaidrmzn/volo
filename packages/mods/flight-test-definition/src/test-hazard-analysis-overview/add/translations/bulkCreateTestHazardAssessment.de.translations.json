@@ -1,0 +1,19 @@
+{
+    "header": {
+        "title": "Add Test Hazard Assessment"
+    },
+    "form": {
+        "addTestHazardAssessment": "Add Test Hazard Assessment",
+        "hazard-title": "Test Hazard Title",
+        "preMitigationRiskLevel":"Risk Level (Pre-Mitigation)",
+        "residualRiskLevel":"Risk Level (Residual)",
+        "hazardGroup":"Hazard Group",
+        "applicability":"Applicability",
+        "select": {
+            "placeholder": "Please Select",
+            "requiredErrorMessage": "This field is required"
+        },
+        "addAnotherTestHazard": "Add Another Test Hazard Assessment",
+        "delete": "Delete"
+    }
+}

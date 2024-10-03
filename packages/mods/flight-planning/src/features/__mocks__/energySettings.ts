@@ -1,0 +1,28 @@
+import type { RouteEnergySettings } from "@voloiq-typescript-api/flight-planning-types";
+
+export const anyEnergySettings = (overwrites?: Partial<RouteEnergySettings>): RouteEnergySettings => ({
+    windSpeed: 0,
+    windDirection: 180,
+    takeoffMass: 950,
+    batteryCycles: 100,
+    airDensity: 1.15,
+    ambientTemperature: 20,
+    pdmTwoEfficiencyLoss: 13,
+    maxTimeToCsfl: 6,
+    transitionAltitude: 30,
+    airspeedCsfl: 38,
+    descendAngleCsfl: 6,
+    climbTakeoff: 2.1,
+    climbTouchDown: -2.1,
+    maxClimbRate: 2.1,
+    loiterAltitude: 3,
+    loiterTime: 10,
+    loiterTimeCsfl: 10,
+    batteryCapacityOrig: 48.1,
+    integrationTimeStepsSeconds: 30,
+    departureTaxiDistance: 50,
+    departureTaxiSpeed: 15,
+    arrivalTaxiDistance: 50,
+    arrivalTaxiSpeed: 15,
+    ...overwrites,
+});

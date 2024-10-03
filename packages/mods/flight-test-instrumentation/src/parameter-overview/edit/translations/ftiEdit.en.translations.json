@@ -1,0 +1,33 @@
+{
+    "availabilityInAircraft": "Availability in Aircraft",
+    "addAircraft": "Add Aircraft",
+    "aircraft": "Aircraft",
+    "closeButton": "Close Button",
+    "checkButton": "Check Button",
+    "editableFtiBanner": "Only parameters in status DRAFT or REQUESTED can be edited",
+    "cardContent": {
+        "aircraftZone": "Aircraft Zone",
+        "sensorType": "Sensor Type",
+        "ataIspec2200": "ATA iSpec 2200",
+        "parameterSource": "Parameter Source",
+        "requestedBy": "Requested By",
+        "unit": "Unit",
+        "minValue": "Min. Value",
+        "maxValue": "Max. Value",
+        "accuracy": "Accuracy",
+        "minSamplingFrequency": "Min. Sampling Frequency",
+        "description": "Description",
+        "safetyOfFlight": "Safety of Flight (SoF) Critical",
+        "shortDescription": "Short Description",
+        "workgroup": "Workgroup",
+        "requestedOn": "Requested on"
+    },
+    "status": {
+        "REQUESTED": "Requested",
+        "DRAFT": "Draft",
+        "RELEASED": "Released",
+        "CANCELLED": "Cancelled",
+        "FROZEN": "Frozen"
+    },
+    "parameterInfoCard": "Parameter Info Card"
+}

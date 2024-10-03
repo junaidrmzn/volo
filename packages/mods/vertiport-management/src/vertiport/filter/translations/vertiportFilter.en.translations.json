@@ -1,0 +1,21 @@
+{
+    "filterPanel": {
+        "filters": "Filters",
+        "validFrom": "Valid from",
+        "validTo": "Valid to",
+        "publicFrom": "Public from",
+        "publicTo": "Public to",
+        "name": "Name",
+        "iataCode": "IATA Code",
+        "icaoCode": "ICAO Code",
+        "code": "Code",
+        "regionId": "Region ID",
+        "services": "Services",
+        "from": "From",
+        "to": "To",
+        "leonId": "LEON ID",
+        "nullLabel": "none",
+        "regionName": "Region",
+        "updateTime": "Updated at"
+    }
+}

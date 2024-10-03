@@ -1,0 +1,102 @@
+{
+    "heading": "Offering",
+    "subheading": "Offer Runway for this plan",
+    "information": "Here you find the offering for your plan.",
+    "offeringLeadTime": "offering lead time",
+    "noOffer": "No Offer",
+    "labels": {
+        "add": "Add",
+        "back": "Back",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "edit": "Edit",
+        "save": "Save",
+        "validFrom": "Valid From"
+    },
+    "dropdown": {
+        "placeholder": "Please choose",
+        "errorMessage": "Please select a valid option"
+    },
+    "modal": {
+        "add": {
+            "heading": "Add",
+            "toast": {
+                "success": {
+                    "title": "Offer Runway Added",
+                    "description": "You have successfully added new offer runway."
+                },
+                "error": {
+                    "title": "Offer Runway not Added",
+                    "description": "Error occured while adding new offer runway."
+                }
+            }
+        },
+        "edit": {
+            "heading": "Edit",
+            "subheading": "Offer Runway",
+            "desc": "Automatic offer lead time",
+            "confirm heading": "Confirm",
+            "confirm subheading": "Editing of a handed in request",
+            "confirmation text": "You are about to edit an already submitted Offer Runway. By editing, the status of this price definition will be reset to draft. The approval request will be closed, and you will need to resubmit your new draft.",
+            "confirmation question": "Do you want to proceed with editing?",
+            "successMessages": {
+                "offerEdited title": "Offer Runway Edited",
+                "offerEdited desc": "You have successfully edited the offer runway."
+            },
+            "errorMessages": {
+                "offerEdited title": "Offer Runway not Edited",
+                "offerEdited desc": "Error occured while editing the offer runway."
+            },
+            "fields": {
+                "enterNumber": "Enter Number",
+                "days": "Days"
+            }
+        }
+    },
+    "actions": {
+        "approve": {
+            "title": "Approve Offering",
+            "modal": {
+                "heading": "Information",
+                "subheading": "Approve Offering Definition",
+                "description": "You are about to confirm a handed in Offering Definition. Do you wnat to proceed?",
+                "Approve": "Approve"
+            },
+            "toast": {
+                "title": "Offering Definition Approved",
+                "description": "You successfully confirmed the offering definition"
+            }
+        },
+        "reject": {
+            "title": "Reject Offering",
+            "modal": {
+                "heading": "Warning",
+                "subheading": "Rejecting Offering Definition",
+                "description": "You are about to reject a handed in Offering Definition. Please add a little note for your colleagues so they know what to change.",
+                "placeholder": "Type in a little message",
+                "Reject": "Reject"
+            },
+            "toast": {
+                "title": "Offering Definition Rejected",
+                "description": "You successfully rejected the offering definition"
+            }
+        },
+        "request": {
+            "title": "Request Offering Approval",
+            "toast": {
+                "success": {
+                    "description": "Requested offering approval successfully"
+                },
+                "error": {
+                    "description": "Can not request offering approval at the moment"
+                }
+            }
+        }
+    },
+    "units": {
+        "HOURS": "Hour(s)",
+        "DAYS": "Day(s)",
+        "WEEKS": "Week(s)",
+        "MONTHS": "Month(s)"
+    }
+}

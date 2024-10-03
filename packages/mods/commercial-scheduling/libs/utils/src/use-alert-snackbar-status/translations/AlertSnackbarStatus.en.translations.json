@@ -1,0 +1,7 @@
+{
+    "ErrorTitle": "Current Plan is not ready for publishing.",
+    "ErrorDescription": "All Schedule Items are Invalid for this plan. Please check vertiports/connections validity before you publish",
+    "WarningTitle":"Current Plan has invalid schedule items.",
+    "WarningSingularDescription": "One Schedule Item is Invalid for this plan. Please check vertiport/connection validity before you publish",
+    "WarningPluralDescription": "Some Schedule Items are Invalid for this plan. Please check vertiports/connections validity before you publish"
+}

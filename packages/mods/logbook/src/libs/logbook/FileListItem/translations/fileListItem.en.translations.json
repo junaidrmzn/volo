@@ -1,0 +1,7 @@
+{
+    "dateError": "The timestamp of the log could not be determined",
+    "loadingTimestamp": "Loading timestamp",
+    "editButton": "Edit file type",
+    "deleteButton": "Remove file entry",
+    "submitFileTypeButton": "Submit file type"
+}

@@ -1,0 +1,11 @@
+{
+    "reportOn": "Bericht über",
+    "reportOff": "Bericht aus",
+    "schedule": "Zeitplan",
+    "ftlChecked": "FTL Geprüft",
+    "ftlExceeded": "FTL Überschritten",
+    "goToResource": "Zur Ressource gehen",
+    "restTime": "Ausruhen: {time}",
+    "cockpitCount": "Cockpit-Anzahl: {count}",
+    "noScheduleMessage": "Kein plan"
+}

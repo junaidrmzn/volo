@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.battery-management.ui
+  title: battery management UI
+  tags:
+  - javascript
+spec:
+  type: micro-frontend
+  lifecycle: production
+  owner: voloiq-battery-team
+  system: voloiq.battery-management
+  consumesApis:
+  - voloiq.battery-management.api

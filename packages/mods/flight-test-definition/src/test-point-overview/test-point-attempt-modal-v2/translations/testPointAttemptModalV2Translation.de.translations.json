@@ -1,0 +1,52 @@
+{
+    "modal": {
+        "Done": "Done",
+        "Link new FTO": "Link new FTO",
+        "Test point {testPointName}": "Test point {testPointName}",
+        "modalType": "Update test points status",
+        "{testPointId}: {procedureTitle}": "{testPointId}: {procedureTitle}"
+    },
+    "table": {
+        "Edit status number {number}": "Edit status number {number}",
+        "Test Point Attempt no.": "Test Point Attempt no.",
+        "FTO": "FTO",
+        "FTO Linked": "FTO Linked",
+        "Date": "Date",
+        "Processing Status": "Processing Status",
+        "Flight Test Status": "Flight Test Status",
+        "TP Eng. Status": "TP Eng. Status",
+        "TP Eng. Action": "TP Eng. Action"
+    },
+    "form": {
+        "Update Status": "Update Status",
+        "FTO": "FTO",
+        "Date": "Date",
+        "Processing Status": {
+            "label": "Processing Status",
+            "LINKED": "Linked",
+            "PLANNED": "Planned",
+            "EXECUTED": "Executed",
+            "CANCELLED": "Cancelled"
+        },
+        "Flight Test Status": {
+            "label": "Flight Test Status",
+            "FAIL": "Fail",
+            "DATA ANALYSIS": "Data Analysis",
+            "PASS": "Pass"
+        },
+        "Test Point Engineering Status": {
+            "label": "Test Point Engineering Status",
+            "NOT ACCEPTED": "Not Accepted",
+            "COMPLETED - PASS": "Completed - Pass",
+            "COMPLETED - FAIL": "Completed - Fail"
+        },
+        "Test Point Engineering Action": {
+            "label": "Test Point Engineering Action",
+            "Repeat Test Point": "Repeat Test Point",
+            "CANCEL": "Cancel"
+        },
+        "None": "None",
+        "Cancel edit": "Cancel edit",
+        "Submit edit": "Submit edit"
+    }
+}

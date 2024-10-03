@@ -1,0 +1,14 @@
+{
+    "Edit": "Bearbeiten",
+    "Edit Resource": "{resource} bearbeiten",
+    "Return to list": "Zurück zur Liste",
+    "Save": "Speichern",
+    "Success": "Erfolg",
+    "Cancel": "Abbrechen",
+
+    "Resource change saved": "Die Änderungen an {resource} wurde gespeichert.",
+    "Error": "Fehler",
+    "Something went wrong": "Etwas ist schief gelaufen. Bitte versuchen Sie es später noch einmal.",
+    "Some form fields are incorrect or invalid": "Einige Formularfelder sind nicht korrekt oder ungültig. Bitte korrigieren Sie sie und versuchen Sie es erneut.",
+    "An entry with the given unique constraints already exists.": "Ein Eintrag mit den angegebenen Werten existiert bereits."
+}

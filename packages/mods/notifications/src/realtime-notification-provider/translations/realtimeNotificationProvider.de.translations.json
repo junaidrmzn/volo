@@ -1,0 +1,6 @@
+{
+    "info": "info",
+    "warning": "warning",
+    "alert": "alert",
+    "{resolver} resolved {sender} {notificationType}": "{resolver} resolved {sender} {notificationType}"
+}

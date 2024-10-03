@@ -1,0 +1,17 @@
+{
+    "Add": "Add",
+    "Add Resource": "Add {resource}",
+    "Return to list": "Return to list",
+    "Save": "Save",
+    "Cancel": "Cancel",
+    "Success": "Save",
+    "Resource created": "{resource} added",
+    "Error": "Error",
+    "Something went wrong": "Something went wrong. Please try again later.",
+    "Some form fields are incorrect or invalid": "Some form fields are incorrect or invalid. Please correct them and try again.",
+    "An entry with the given unique constraints already exists.": "An entry with the given unique constraints already exists.",
+    "All resources failed": "Adding {resource} failed",
+    "Some resource failed": "Adding some {resource} failed",
+    "Create new request failed": "Create new request failed",
+    "Please review the duplicated info": "Please review the duplicated info"
+}

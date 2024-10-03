@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.flight-test-definition.ui
+  title: flight test-definition UI
+  tags:
+  - javascript
+spec:
+  type: micro-frontend
+  lifecycle: production
+  owner: voloiq-aircraft-analytics-team
+  system: voloiq.flight-test-definition
+  consumesApis:
+  - voloiq.flight-test-definition.api

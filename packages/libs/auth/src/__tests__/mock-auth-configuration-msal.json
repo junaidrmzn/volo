@@ -1,0 +1,25 @@
+{
+    "domain": "app.qa.voloiq.io",
+    "type": "msal",
+    "authorization": {
+        "mapping": [
+            {
+                "sourceId": "flight-test-supervisor",
+                "targetGroupName": "FlightTestSupervisor"
+            },
+            {
+                "sourceId": "flight-test-engineer",
+                "targetGroupName": "FlightTestEngineer"
+            },
+            {
+                "sourceId": "voloiq-teleport-team",
+                "targetGroupName": "FlightTestSupervisor"
+            }
+        ]
+    },
+    "verificationInfo": {
+        "clientId": "856ab903-e37d-41ed-bba0-427f6250a27d",
+        "authority": "https://login.microsoftonline.com/3fd2cab1-f540-48f1-b76d-55f4d472c837",
+        "redirectUri": "http://localhost:9000"
+    }
+}

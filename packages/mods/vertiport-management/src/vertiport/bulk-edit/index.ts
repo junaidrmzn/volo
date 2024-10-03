@@ -1,0 +1,1 @@
+export { useVertiportBulkEdit } from "./useVertiportBulkEdit";

@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.ui.filter-panel
+  title: filter panel
+  tags:
+  - javascript
+spec:
+  type: library
+  lifecycle: production
+  owner: voloiq-aircraft-analytics-team

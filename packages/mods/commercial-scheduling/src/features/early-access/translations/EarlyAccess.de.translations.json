@@ -1,0 +1,59 @@
+{
+    "generic": {
+        "upload": "Hochladen",
+        "cancel": "Abbrechen"
+    },
+    "overview": {
+        "heading": "Früher Zugang",
+        "information": "Hier finden Sie alle Früher Zugang Werbeaktionen.",
+        "listLabel": "frühe Zugänge",
+        "new": "Neu",
+        "validFrom": "gültig ab",
+        "amountOfCodes": "anzahl der codes",
+        "offerRunwayExtension": "Pistenverlängerung anbieten",
+        "accessType": {
+            "HOURS": "stunden",
+            "DAYS": "tage",
+            "WEEKS": "wochen",
+            "MONTHS": "monate"
+        }
+    },
+    "modal": {
+        "create": {
+            "subheading": "Neue Early-Access-Codes",
+            "promotionName": "Aktion Name",
+            "validFrom": "Gültig von",
+            "validTo": { "label": "Gültig bis", "errorMessage": "Bitte wählen Sie ein Datum später als Gültig ab" },
+            "accessCodeList": "Zugangscode-Liste",
+            "region": {
+                "placeholder": "Region auswählen",
+                "label": "Region",
+                "errorMessage": "Bitte wählen Sie eine gültige Region"
+            },
+            "value": "Angebot Startbahnverlängerung",
+            "offerRunwayUnit": {
+                "label": "Angebot Landebahn Einheit",
+                "placeholder": "Einheit auswählen",
+                "options": {
+                    "units": {
+                        "HOURS": "Stunde(n)",
+                        "DAYS": "Tag(e)",
+                        "WEEKS": "Woche(n)",
+                        "MONTHS": "Monat(e)"
+                    }
+                },
+                "errorMessage": "Bitte wählen Sie eine gültige Einheit"
+            },
+            "toast": {
+                "title": "Early-Access-Codes hochladen",
+                "success": { "description": "Codes für den frühen Zugang erfolgreich hochgeladen" },
+                "error":{
+                    "duplicate": "Duplizierter Aktionscode kann nicht hinzugefügt werden",
+                    "invalid": "Der angegebene Aktionscode ist nicht gültig (nur alphanumerisch)",
+                    "unique": "Dieser Name existiert bereits, versuchen Sie einen anderen Codenamen",
+                    "unknown" :"Unbekannter Fehler ist aufgetreten"
+                }
+            }
+        }
+    }
+}

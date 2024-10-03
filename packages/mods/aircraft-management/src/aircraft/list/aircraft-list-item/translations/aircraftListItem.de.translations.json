@@ -1,0 +1,23 @@
+{
+    "service": "Service",
+    "passenger": "Passagier",
+    "cargo": "Fracht",
+    "test": "Test",
+    "training": "Training",
+    "ferry flight": "Überführungsflug",
+    "carpool": "Carpool",
+    "unknown": "Unbekannt",
+    "technical status": "Technischer Status",
+    "serviceable": "Betriebsfähig",
+    "unserviceable": "Betriebsunfähig",
+    "limited": "Beschränkt",
+    "homebase": "Homebase",
+    "crew configuration": "Konfiguration",
+    "crewed": "Bemannt",
+    "uncrewed": "Unbemannt",
+    "valid from": "Gültig seit",
+    "valid to": "Gültig bis",
+    "registration": "Registrierung",
+    "aircraft type name": "Fluggerät Typ",
+    "msn": "MSN"
+}

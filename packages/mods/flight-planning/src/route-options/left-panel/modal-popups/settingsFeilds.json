@@ -1,0 +1,51 @@
+{
+    "General": {
+        "windSpeed": "Wind Speed",
+        "windDirection": "Wind Direction",
+        "batteryAge": "Battery Age",
+        "airDensity": "Air Density",
+        "ambientTemperature": "Ambient Temperature",
+        "CSFLEnergyOverhead": "CSFL Energy Overhead",
+        "PDM2EfficiencyLoss": "PDM2EfficiencyLoss",
+        "maxTimeToCSFL": "Max Time To CSFL",
+        "cruiseAltitude": "Cruise Altitude",
+        "pathGradient": "Path Gradient",
+        "discretionaryEnergy": "Discretionary Energy",
+        "extraEnergy": "Extra Energy",
+        "additionalEnergy": "Additional Energy",
+        "contigencyEnergy": "Contigency Energy",
+        "goAroundEnergy": "Go Around Energy"
+    },
+    "Taxiing": {
+        "departureTaxiSpeed": "Departure Taxi Speed",
+        "departureTaxiDistance": "Departure Taxi Distance",
+        "arrivalTaxiSpeed": "Arrival Taxi Speed",
+        "arrivalTaxiDistance": "Arrival Taxi Distance"
+    },
+    "Expert": {
+        "transitionAltitude": "Transition Altitude",
+        "airspeedCSFL": "Airspeed CSFL",
+        "descendAngleForCSFL": "Descend Angle For CSFL",
+        "takeOffClimbSpeed": "Takeoff Climb Speed",
+        "touchDownClimbSpeed": "Touchdown Climb Speed",
+        "maxClimbRate": "Max Climb Rate",
+        "maxDescendRate": "Max Descend Rate",
+        "loiterAltitude": "Loiter Altitude",
+        "loiterTime": "Loiter Time",
+        "loiterTimeForCSFL": "Loiter Time For CSFL",
+        "grossBatteryCapacity": "Gross Battery Capacity",
+        "unusableEnergy": "Unusable Energy",
+        "finalReserve": "Final Reserve",
+        "integrationTime": "Integration Time"
+    },
+    "Weather": {
+        "minTemp": "Min Temp",
+        "maxTemp": "Max Temp",
+        "minWindSpeed": "Min Wind Speed",
+        "maxWindSpeed": "Max Wind Speed",
+        "minVisibilty": "Min Visibilty",
+        "minCloudCeiling": "Min Cloud Ceiling",
+        "maxPercipitation": "Max Percipitation",
+        "maxRelativeHumidity": "Max Relative Humidity"
+    }
+}

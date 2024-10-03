@@ -1,0 +1,13 @@
+{
+    "takeOffLabel": "Abheben",
+    "inFlightLabel": "Im Flug",
+    "landingLabel": "Landung",
+    "percentageUnit": "%",
+    "kilometerUnit": "km",
+    "temperatureUnit": "°C",
+    "windUnit": "kn,S",
+    "2mLabel": "2m",
+    "10mLabel": "10m",
+    "250mLabel": "250m",
+    "Forecast date": "Vorhersagedatum"
+}

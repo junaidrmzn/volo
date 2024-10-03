@@ -1,0 +1,21 @@
+{
+    "changeHistoryRevision": {
+        "Revision {revisionName} {isReleased}": "Revision {revisionName} {isReleased}",
+        "See document in this revision": "See document in this revision"
+    },
+    "changeHistoryAfterRevision": {
+        "Edits after Draft status": "Edits after Draft status",
+        "Release as new revision": "Release as new revision"
+    },
+    "revisionInfoBanner": {
+        "Requirements for new revision are not met": "Requirements for new revision are not met",
+        "Safety approval of at least one new/edited procedure and FTQ section required": "Safety approval of at least one new/edited procedure and FTQ section required"
+    },
+    "releaseRevisionModal": {
+        "title": "Revision Information",
+        "type": "Release New Revision"
+    },
+    "Confirm": "Confirm",
+    "Cancel": "Cancel",
+    "Edit Revision Info": "Edit Revision Info"
+}

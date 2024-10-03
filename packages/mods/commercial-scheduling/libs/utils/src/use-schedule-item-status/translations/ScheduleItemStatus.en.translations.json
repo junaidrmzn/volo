@@ -1,0 +1,9 @@
+{
+    "Draft": "Draft",
+    "Ordered": "Ordered",
+    "Planned": "Planned",
+    "Offered": "Offered",
+    "Booked": "Booked",
+    "Cancelled": "Cancelled",
+    "Closed": "Closed"
+}

@@ -1,0 +1,18 @@
+{
+    "Risk Classification": "Risk Classification",
+    "Date Created": "Date Created",
+    "Date Approved": "Date Approved",
+    "Attachments": "Attachments",
+    "Mission Objective": "Mission Objective",
+    "Flight Test Plan ID": "Flight Test Plan ID",
+    "Master Model": "Master Model",
+    "MSN": "MSN",
+    "Low": "Low",
+    "Medium": "Medium",
+    "High": "High",
+    "Attached Files": "Attached Files",
+    "FTO {ftoId}": "FTO {ftoId}",
+    "Flight Test Category": "Flight Test Category",
+    "Created By": "Created By",
+    "Flt#": "Flt#"
+}

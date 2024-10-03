@@ -1,0 +1,127 @@
+{
+    "generic": {
+        "save button": "Speichern",
+        "add button": "Hinzufügen",
+        "create button": "Hinzufügen",
+        "edit button": "Editieren",
+        "confirm button": "Bestätigen",
+        "details button": "Details",
+        "delete button": "Löschen",
+        "cancel button": "Abbrechen",
+        "back button": "Zurück",
+        "not available": "N/A",
+        "apply button": "Anwenden",
+        "filter button": "Filtern",
+        "dropdown placeholder": "Bitte wählen",
+        "dropdown error": "Bitte wählen Sie einen gültigen Eintrag",
+        "required error": "Bitte füllen Sie dieses Feld aus",
+        "maxLength error": "Bitte nutzen Sie nicht mehr als ${max} Zeichen",
+        "minLength error": "Bitte nutzen Sie mindestens ${min} Zeichen",
+        "maxNumber error": "Bitte nutzen Sie eine Nummer unter ${max}",
+        "minNumber error": "Bitte nutzen Sie eine Nummer über ${min}",
+        "timeFormat error": "Bitte nutzen Sie hh:mm Format",
+        "flightNumberFormat error": "Bitte wählen Sie eine gültige Flugnummer. Beispiele für gültige Flugnummern: VC1, VC4320, VC1000, VC9999, V11, 1234",
+        "validTo error": "Bitte wählen Sie ein Datum nach \"Gültig seit\"",
+        "firstDay error": "Bitte wählen Sie ein Datum, das mindestens 1 Stunde in der Zukunft liegt",
+        "lastDay error": "Bitte wählen Sie ein Datum nach \"Erster Tag\"",
+        "loadingData error": "Daten konnten nicht geladen werden.",
+        "duplicate flightNumber error": "Bitte wählen Sie eine andere Flugnummer für diesen Tag",
+        "errorToast": "Fehler",
+        "pagination": {
+            "ariaLabel": "pagination",
+            "nextPageAriaLabel": "Nächste Seite",
+            "previousPageAriaLabel": "Vorherige Seite"
+        },
+        "delete-modal": {
+            "heading": "{entityName} löschen",
+            "body": "Soll dieser {entityName} wirklich gelöscht werden?",
+            "body-with-id": "Soll {entityName} {entityId} wirklich gelöscht werden?",
+            "cancel": "Abbrechen",
+            "delete": "Löschen"
+        },
+        "filteringPanel": {
+            "listAriaLabel": "Filter Tag Liste",
+            "heading": "Filter"
+        }
+    },
+    "model": {
+        "name": "Name",
+        "region": "Region",
+        "departureVertiportId": "Abflug Vertiport",
+        "arrivalVertiportId": "Ankunft Vertiport",
+        "aircraftType": "Flugzeugtyp",
+        "flightDuration": "Dauer",
+        "flightDurationInMin": "Dauer in Minuten",
+        "routeOptionName": "Routenoption",
+        "minutes": "Minuten",
+        "validFrom": "Seit",
+        "validTo": "Bis",
+        "title": "Titel",
+        "subtitle": "Untertitel",
+        "category": "Kategorie",
+        "direct": "DIRECT",
+        "sightseeing": "SIGHTSEEING",
+        "roundtrip": "ROUNDTRIP",
+        "net": "Nettopreis",
+        "vat": "MwSt",
+        "currency": "Währung",
+        "eur": "EUR",
+        "usd": "USD",
+        "yen": "YEN",
+        "gbp": "GBP",
+        "passengerSeats": "Sitzplätze",
+        "routeName": "Routename"
+    },
+    "sort": {
+        "validFrom": "Gültig seit",
+        "validTo": "Gültig bis"
+    },
+    "overview": {
+        "heading": "Kommerzielle Flugplanung",
+        "subheading": "Verbindungen",
+        "listLabel": "Verbindungen"
+    },
+    "create": {
+        "heading": "Verbindung hinzufügen",
+        "passengerSeats": "Verfügbare Sitzplätze: {seats}"
+    },
+    "edit": {
+        "heading": "Verbindung editieren"
+    },
+    "details": {
+        "general": "Allgemein",
+        "price": "Preis",
+        "valid": "Gültig",
+        "flight": "Flug",
+        "routeOptions": "Routenoptionen"
+    },
+    "title": {
+        "Add": "Verbindung hinzufügen",
+        "Edit": "Verbindung bearbeiten",
+        "Delete": "Verbindung löschen"
+    },
+    "successMessages": {
+        "Add": "Verbindung wurde erfolgreich erstellt",
+        "Edit": "Verbindung wurde erfolgreich aktualisiert",
+        "Delete": "Verbindung wurde erfolgreich gelöscht"
+    },
+    "errorMessages": {
+        "Only PlanItems from unreleased Plans can be deleted": "Es können nur Plan positionen aus nicht freigegebenen Plänen gelöscht werden",
+        "Only unreleased plans can be deleted": "Nur unveröffentlichte Pläne können gelöscht werden",
+        "Something went wrong": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal",
+        "The start time of the plan period must be at least one hour in the future": "Die Startzeit des Planungszeitraums muss mindestens eine Stunde in der Zukunft liegen",
+        "Plan already released": "Plan bereits veröffentlicht",
+        "Plan can not be released due to invalid connection(s)": "Plan kann wegen ungültiger Verbindung(en) nicht freigegeben werden",
+        "Selected connection is not valid": "Die ausgewählte Verbindung ist ungültig",
+        "Resource not found": "{resource} nicht gefunden",
+        "unspecifiedVertiportRegion": "Verbindung ({connection}) hat eine nicht spezifizierte Region für den Vertiport ({vertiport}), bitte überprüfen",
+        "inconsistentDepArrValidFrom": "Das Startdatum der Verbindung ({connection}) stimmt nicht mit dem Vertiport ({vertiport}) überein",
+        "inconsistentDepArrValidTo": "Das Enddatum der Verbindung ({connection}) stimmt nicht mit dem Vertiport ({vertiport}) überein",
+        "departureVertiportNoPassengerService": "Vertiport ({id}) hat ein leeres Feld „Dienste“, bitte überprüfen",
+        "arrivalVertiportNoPassengerService": "Vertiport ({id}) hat ein leeres Feld „Dienste“, bitte überprüfen",
+        "connectionUniqueName": "Das Namensfeld sollte eindeutig sein. Versuchen Sie es mit einem anderen Namen",
+        "noServiceDepArv": "Das Feld „Dienste“ des zugehörigen Vertiports ({name}) fehlt, bitte überprüfen",
+        "genericMessage": "Bitte überprüfen Sie die für die jeweiligen Felder angezeigten Fehler.",
+        "uniqueConnectionValidFromTo": "Eine bestehende Verbindung für dieselbe Strecke über diesen Zeitraum existiert bereits, bitte prüfen Sie"
+    }
+}

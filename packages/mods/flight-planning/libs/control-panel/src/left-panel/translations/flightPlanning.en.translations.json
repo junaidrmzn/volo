@@ -1,0 +1,543 @@
+{
+    "Toggle Sidebar": "Toggle Sidebar",
+    "Toggle Map Style": "Toggle Map Style",
+    "common": {
+        "upload": "Upload",
+        "delete": "Delete",
+        "save": "Save",
+        "requiredError": "Please fill out this field",
+        "minError": "{field} must be greater than {min}",
+        "maxError": "{field} must be lower than {max}",
+        "rangeError": "{field} must be in range {min} and {max}",
+        "numberError": "This field must be of type number",
+        "templates": "Templates",
+        "routes": "Routes",
+        "close": "Close",
+        "next": "Next",
+        "back": "Back",
+        "previousStep": "Previous Step",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "set": "Set",
+        "sort": "Sort",
+        "filter": "Filter",
+        "create": "Create",
+        "notAvailable": "n.a.",
+        "any": "Any",
+        "general": "General",
+        "error": "Error"
+    },
+    "routeList": {
+        "add route": "Add Route",
+        "add button label": "Add",
+        "close right panel": "Close Right Panel",
+        "unselect route": "Unselect Route",
+        "select route": "Select Route",
+        "menu": {
+            "exportRouteOptionKml": "Export Route Option Kml",
+            "exportRouteOptionCsv": "Export Route Option CSV",
+            "exportRouteOptionExcel": "Export Route Option Excel",
+            "uploadRouteOptionKml": "Upload Route Kml"
+        }
+    },
+    "routeCreateDialog": {
+        "newRoute": "New Route",
+        "fromTemplate": "From Template"
+    },
+    "routeOption": {
+        "resourceLabel": "RouteOption",
+        "resourceAriaLabel": "RouteOption",
+        "properties": {
+            "name": "Name",
+            "departureVertiport": "Departure Vertiport",
+            "arrivalVertiport": "Arrival Vertiport",
+            "aircraftType": "Aircraft Type",
+            "validForOperation": "Valid For Operation"
+        },
+        "routeOptionDetails": {
+            "fileFlightPlan": "File Flight Plan",
+            "openRouteOption": "Open",
+            "deleteRouteOption": "Delete"
+        },
+        "metaInfo": {
+            "status": "Status",
+            "valid": "Valid",
+            "invalid": "Invalid"
+        },
+        "routeOptionsList": {
+            "moduleTitle": "Flight Planning",
+            "listTitle": "Route Options",
+            "create": "Add",
+            "open": "Open",
+            "confirmDelete": "Confirm deletion"
+        },
+        "aircraftType": {
+            "title": "Aircraft Type",
+            "confirmationText": "Are you sure you want to change aircraft type?"
+        },
+        "kmlFileUpload": {
+            "dropFiles": "Drop a kml file here",
+            "orLabel": "or",
+            "selectFile": "Select file",
+            "rejectedFileErrorMessage": "Only .kml files are supported",
+            "uploadingText": "Uploading file",
+            "cancelled": {
+                "title": "Upload cancelled",
+                "message": "The upload of the kml file was cancelled"
+            },
+            "success": {
+                "title": "Upload successful",
+                "message": "The file was successfully uploaded"
+            },
+            "uploadError": {
+                "title": "Upload error",
+                "message": "An error occurred during the file upload"
+            },
+            "processingError": {
+                "title": "Processing error",
+                "message": "An error occurred during the file processing"
+            }
+        }
+    },
+    "flight": {
+        "waypointAttributes": {
+            "Name": "Name",
+            "TransitionType": "Waypoint Type",
+            "TransitionRadius": "Turn Radius (m)",
+            "Speed": "Target Speed (kn)",
+            "Latitude": "Latitude (deg)",
+            "Longitude": "Longitude (deg)",
+            "Altitude": "Altitude (ft)",
+            "Heading": "Heading (deg)",
+            "Route Sequence Index": "Route Sequence Index",
+            "RNP": "RNP (nm)",
+            "TargetTimeOver": "Target Time Over",
+            "Unnamed": "Unnamed"
+        },
+        "routeSegment": {
+            "headingPrefix": "EDIT",
+            "headingSuffix": "Route Segments",
+            "typeOfConnection": "Type of connection",
+            "labelArcSegmentDirection": "Arc segment direction",
+            "buttonLabelArcSegmentDirection": "Invert",
+            "radius": "Radius (m)",
+            "direct": "Direct",
+            "turn": "Turn",
+            "minimumRadiusError": "Radius is lower than the minimum radius of {minimalRadius}m",
+            "minumumRadiusHint": "Minimum Radius {minimalRadius}m"
+        },
+        "fileFlightPlan": {
+            "title": "File Flight Plan",
+            "flightParameters": "Flight Parameters",
+            "aircraftParameters": "Aircraft Parameters",
+            "preferredRoute": "Preferred Route",
+            "alternativeRoutes": "Alternative Routes",
+            "selectRoutes": "Routes",
+            "submitFlightPlan": "Submit Flight Plan",
+            "sendingFlightPlan": "Sending flight plan to USSP",
+            "utmProvider": "UTM Provider",
+            "attributes": {
+                "Departure": {
+                    "VertiportID": "Departure Vertiport ID"
+                },
+                "Arrival": {
+                    "VertiportID": "Arrival Vertiport ID"
+                },
+                "flightParameters": {
+                    "TimeAndDateOfFiling": "Time and Date of Filing",
+                    "TargetActivationTime": "Target Activation Time",
+                    "ScheduledDepartureTime": "Scheduled Departure Time",
+                    "ScheduledArrivalTime": "Scheduled Arrival Time",
+                    "Type": "Type",
+                    "FlightRules": "Flight Rules",
+                    "NumberOfPAX": "Number of PAX"
+                },
+                "aircraftParameters": {
+                    "SelectAircraft": "Select Aircraft",
+                    "Registration": "Registration",
+                    "Type": "Type",
+                    "ColorAndMarkings": "Colors and Markings",
+                    "SurvivalEquipment": "Survival Equipment",
+                    "Transponder": "Transponder",
+                    "CommunicationCapabilities": "Communication Capabilities",
+                    "Mass": "Mass",
+                    "MassUnit": "Mass unit",
+                    "NominalRange": "Nominal Range",
+                    "RangeUnit": "Range unit",
+                    "NominalEndurance": "Nominal Endurance",
+                    "EnduranceTimeUnit": "Endurance Time unit"
+                },
+                "trajectoryParameters": {
+                    "TrajectoryID": "Trajectory ID",
+                    "Class": "Class",
+                    "ArrivalVertiport": "Arrival Vertiport",
+                    "FlightTime": "Flight Time",
+                    "Distance": "Distance",
+                    "FlightAltitude": "Flight Altitude",
+                    "RFP": "RFP",
+                    "RNP": "RNP",
+                    "EnergyConsumption": "Energy Consumption",
+                    "ChildIDs": "Child IDs",
+                    "Waypoints": "Waypoints",
+                    "PolynomSegments": "Polynom Segments"
+                },
+                "flightPlanWaypoints": {
+                    "WaypointID": "Waypoint ID",
+                    "Latitude": "Latitude",
+                    "Longitude": "Longitude",
+                    "Altitude": "Altitude",
+                    "Heading": "Heading",
+                    "GroundSpeed": "Groundspeed",
+                    "TargetTimeOver": "Target Time Over",
+                    "WaypointClass": "Waypoint Class",
+                    "WXTempForecast": "WX Temperature Forecast",
+                    "WXWindDirForecast": "WX Wind Direction Forecast",
+                    "WXWindSpeedForecast": "WX Windspeed Forecast"
+                }
+            },
+            "errors": {
+                "arrivalBeforeDeparture": "Arrival Time cannot be before Departure Time"
+            }
+        }
+    },
+    "routeTemplates": {
+        "properties": {
+            "name": "Name",
+            "createdAt": "Created at",
+            "distance": "Distance",
+            "validityDate": "Validity Date",
+            "plannedBy": "Planned by"
+        },
+        "routeTemplateList": {
+            "heading": "Route Template List"
+        },
+        "routeTemplateListItem": {
+            "addToFlight": "Add to Flight",
+            "toggleMenu": "Toggle Menu",
+            "deleteRouteTemplate": "Delete Template"
+        }
+    },
+    "routePanel": {
+        "saveAsTemplate": "SAVE AS TEMPLATE",
+        "name": "Name"
+    },
+    "routeDetails": {
+        "back": "Route Details Back",
+        "menu": {
+            "open": "Open Menu",
+            "editName": "Edit Name",
+            "saveAsTemplate": "Save as Template",
+            "deleteRoute": "Delete Route",
+            "uploadSimulatorCSV": "Upload Simulator CSV",
+            "exportRouteKml": "Export Route Kml",
+            "exportRouteCsv": "Export Route CSV",
+            "exportRouteExcel": "Export Route Excel",
+            "computeAltitudeProfile": "Compute Altitude Profile"
+        },
+        "simLogFileUpload": {
+            "dropFiles": "Drop a csv file here",
+            "orLabel": "or",
+            "selectFile": "Select File",
+            "rejectedFileErrorMessage": "Only .csv files are supported",
+            "uploadButton": "Upload",
+            "uploadingText": "Uploading File",
+            "cancelled": {
+                "title": "Upload cancelled",
+                "message": "The upload of the csv file was cancelled."
+            },
+            "success": {
+                "title": "Upload succesful",
+                "message": "The file was successfully uploaded."
+            },
+            "error": {
+                "title": "Upload error",
+                "message": "An error occured during the file upload."
+            }
+        },
+        "computeAltitudeProfile": {
+            "error": {
+                "message": "An error occured while computing altitude profile"
+            }
+        },
+        "flightPlan": {
+            "submit": "Submit Flight Plan",
+            "submitting": "Submitting",
+            "error": "Error submitting Flight Plan"
+        }
+    },
+    "waypointDetails": {
+        "waypoint": "Waypoint",
+        "routeSegments": "Route Segments",
+        "back": "Waypoint Details Back",
+        "menu": {
+            "open": "Open Menu",
+            "deleteWaypoint": "Delete Waypoint"
+        }
+    },
+    "errorPage": {
+        "title": "An error occured"
+    },
+    "stateOfCharge": {
+        "title": "Battery",
+        "batteryCapacity": "Battery Capacity",
+        "batteryTemperature": " Battery Temperature",
+        "operationalLimits": "Operational Limitations",
+        "calculate": "Calculate",
+        "windSpeed": "Wind Speed in kts",
+        "windDirection": "Wind Direction in deg",
+        "settings": {
+            "title": "Settings",
+            "advancedSettings": "Expert Settings",
+            "energySettingsButton": "Energy Settings",
+            "weatherSettings": "Weather Settings",
+            "applyButton": "Apply",
+            "windSpeed": "Wind Speed in kts",
+            "windDirection": "Wind Direction in degrees",
+            "takeoffMass": "Take-Off Mass in kg",
+            "batteryCycles": "Battery Age in Charging Cycles",
+            "airDensity": "Air Density in kg/m3",
+            "pilotEfficiencySafetyBuffer": "Pilot Efficiency Safety Buffer in %",
+            "ambientTemperature": "Ambient Temperature in °C",
+            "csflEnergyOverhead": "CSFL Energy Overhead in %",
+            "pdmTwoEfficiencyLoss": "PDM2 efficiency loss in %",
+            "maxTimeToCsfl": "Max. Time to CSFL in min",
+            "transitionAltitude": "Transition Altitude in m",
+            "airspeedCsfl": "Airspeed CSFL in kts",
+            "descendAngleCsfl": "Descend Angle for CSFL in deg",
+            "climbTakeoff": "Takeoff Climbspeed in m/s",
+            "climbTouchDown": "Touchdown Climbspeed in m/s",
+            "maxClimbRate": "Maximum Climb Rate in ft/min",
+            "maxDescendRate": "Maximum Descend Rate in ft/min",
+            "loiterAltitude": "Loiter Altitude in m",
+            "loiterTime": "Loiter Time in sec",
+            "loiterTimeCsfl": "Loiter Time for CSFL in sec",
+            "batteryCapacityOrig": "Gross Battery Capacity in kWh",
+            "unusableEnergy": "Unusable Energy in kWh",
+            "finalReserve": "Final Reserve in kWh",
+            "integrationTimeStepsSeconds": "Integration Time Step in s",
+            "taxiSettings": "Taxiing",
+            "departureTaxiSpeed": "Departure Taxi Speed in kt",
+            "departureTaxiDistance": "Departure Taxi Distance in m",
+            "arrivalTaxiSpeed": "Arrival Taxi Speed in kt",
+            "arrivalTaxiDistance": "Arrival Taxi Distance in m",
+            "discretionaryEnergy": "Discretionary Energy in kWh",
+            "additionalEnergy": "Additional Energy in kWh",
+            "extraEnergy": "Extra Energy in kWh",
+            "contingencyEnergy": "Contingency Energy in %",
+            "goAroundEnergy": "Go Around Energy in kWh",
+            "minTemperature": "Min Tempterature in °C",
+            "maxTemperature": "Max Tempterature in °C",
+            "minWindSpeed": "Min Wind Speed in kts",
+            "maxWindSpeed": "Max Wind Speed in kts",
+            "visibility": "Min Visibility in ft",
+            "cloudCeiling": "Min Cloud Ceiling in ft",
+            "percipitation": "Max Percipitation in nm/h",
+            "relativeHumidity": "Max Relative Humidity in %",
+            "horizontalObstacleClearance": "Horizontal Obstacle Clearance in m",
+            "verticalObstacleClearance": "Vertical Obstacle Clearance in m"
+        },
+        "calculatingCsflPowerCurve": "Calculating CSFL power curve intervals",
+        "missionReferenceSelection": "Mission progress reference selection",
+        "csfl": "CSFL",
+        "waypoint": "Waypoint"
+    },
+    "chart": {
+        "energyCurve": {
+            "nominalMission": "Nominal Mission",
+            "CSFLNominal": "CSFL Nominal",
+            "CSFLPDM2": "CSFL PDM 2",
+            "unusableEnergy": "Unusable Energy",
+            "finalReserve": "Final Reserve",
+            "additionalEnergy": "Additional Energy",
+            "extraEnergy": "Extra Energy",
+            "discretionaryEnergy": "Discretionary Energy",
+            "energyConductedRoute": "Energy (Conducted Route)",
+            "contingencyEnergy": "Contingency Energy"
+        },
+        "batteryTemperatureCurve": {
+            "nominalMission": "Nominal Mission",
+            "CSFLNominal": "CSFL Nominal",
+            "CSFLPDM2": "CSFL PDM 2",
+            "nominalMaxTemperature": "Nominal Max Temperature",
+            "CSFLMaxTemperature": "CSFL Max Temperature",
+            "temperatureConductedRoute": "Temperature (Conducted Route)"
+        }
+    },
+    "errorMessages": {
+        "preliminaryEnergyFetchError": "Error updating remaining energy",
+        "csflSitesFetchError": "Error updating CSFL sites",
+        "patchSocPanelSettings": "Error while updating the Expert Settings",
+        "conductedRouteEnergyTemperatureFetchError": "Error getting Simulator Data",
+        "reindexingVertiportNotAllowed": "Reindexing of Vertiports is not allowed",
+        "liveWindFetchError": "Error fetching live wind data",
+        "conductedRouteFileStatusFetchError": "Error fetching conducted route file status",
+        "routeComparisonFetchError": "Error fetching route comparison"
+    },
+    "snapDialog": {
+        "header": "Snap Waypoint",
+        "body": "Do you want to join route {route} at this waypoint?",
+        "dontFollow": "Don't Follow",
+        "branchOff": "Follow from departure",
+        "joinOnwards": "Follow to destination"
+    },
+    "mapLayerDialog": {
+        "title": "Map Layers",
+        "type": "Map Type",
+        "satellite": "Satellite",
+        "roadmap": "Roadmap",
+        "weather": "Weather"
+    },
+    "sortingPanel": {
+        "title": "SORT",
+        "applyButtonLabel": "Apply",
+        "backButtonAriaLabel": "Back",
+        "cancelButtonLabel": "Cancel",
+        "ascendingLabel": "Ascending",
+        "descendingLabel": "Descending"
+    },
+    "filterPanel": {
+        "title": "Filter",
+        "applyButtonLabel": "Apply",
+        "backButtonAriaLabel": "Back",
+        "cancelButtonLabel": "Cancel",
+        "filterTagListLabel": "Filter panel filter tag list",
+        "dateRangeFilter": {
+            "fromLabel": "from",
+            "toLabel": "to"
+        },
+        "numberRangeFilter": {
+            "fromLabel": "min",
+            "toLabel": "max"
+        },
+        "filterTagListAriaLabel": "Filter Tags"
+    },
+    "pagination": {
+        "ariaLabel": "pagination",
+        "nextPageAriaLabel": "Next page",
+        "previousPageAriaLabel": "Previous page",
+        "entryCountLabel": "Entries: {entryCount}"
+    },
+    "notam": {
+        "properties": {
+            "effectiveStart": "Effective Start",
+            "effectiveEnd": "Effective End",
+            "schedule": "Schedule"
+        },
+        "list": {
+            "showNotam": "Show NOTAM"
+        },
+        "error": {
+            "message": "Error fetching flights data which results in notams not being able to fetch"
+        }
+    },
+    "csfl": {
+        "details": {
+            "title": "CSFL Site",
+            "remarks": "Remarks",
+            "type": "Type"
+        },
+        "error": {
+            "csflSites": "Error updating CSFL sites",
+            "noCsflSitesFound": "No CSFL sites found"
+        },
+        "success": {
+            "csflSites": "CSFL sites",
+            "csflSitesText": "Successfully update CSFL sites"
+        },
+        "status": {
+            "deleted": "Deleted"
+        }
+    },
+    "vfrLayer": {
+        "cancelUploadModal": {
+            "title": "Cancel Upload?",
+            "cancelButtonLabel": "Continue Upload",
+            "confirmButtonLabel": "Cancel Upload"
+        },
+        "confirmDeleteModal": {
+            "title": "Delete map entry",
+            "description": "Are you sure that you want to delete this map",
+            "cancelButtonLabel": "Cancel",
+            "confirmButtonLabel": "Delete"
+        },
+        "metadata": {
+            "validTo": "Validity",
+            "type": "Select type of VFR layer",
+            "region": "Select region"
+        },
+        "errors": {
+            "patch": "Error while saveing the map informations",
+            "delete": "An error occurred while attempting to delete the VfrMap entry."
+        },
+        "noEntries": "No VfrMap entries were found. Please use the upload function below to add a new entry.",
+        "selectRegion": "Select region filter",
+        "maxSelections": {
+            "title": "Maximum Map Selections",
+            "description": "You have reached the maximum limit of 3 map selections. To make a new selection, please deselect one of your current choices."
+        }
+    },
+    "verticalProfile": {
+        "toasts": {
+            "errorChangingWpAlt": {
+                "title": "Could not change waypoint altitude",
+                "desc": "Please wait for the previous altitude change to take effect."
+            }
+        }
+    },
+    "flightPlanManagement": {
+        "title": "Flight Plan Management",
+        "subtitle": "Active Flight Plans",
+        "aircraftRegistration": "Aircraft Registration",
+        "aircraftType": "Aircraft Type",
+        "scheduledDepartureTime": "Scheduled Departure Time",
+        "scheduledArrivalTime": "Scheduled Arrival Time",
+        "targetActivationTime": "Target Activation Time",
+        "status": "Status",
+        "planStage": "Plan Stage",
+        "conflictStatus": "Conflict Status",
+        "activate": "Activate",
+        "confirmModification": "Resolve conflict and accept change",
+        "log": "Log",
+        "actions": "Actions",
+        "sendingActivationRequest": "Sending activation request to USSP",
+        "sendingConfirmModificationRequest": "Sending confirm modification request to USSP",
+        "flightPlanUpdate": "Flight Plan Update",
+        "receivedFlightPlanStatusUpdate": "received a flight plan status update.",
+        "version": "Flight Plan Version",
+        "resolveConflict": "Your Flight Plan is conflicted, check the logs and resolve the conflict.",
+        "errors": {
+            "submit": "Error submitting flight plan",
+            "activateFlightPlan": "Error activating flight plan",
+            "acceptModification": "Error confirm flight plan modification",
+            "emptyTitle": "No flight plans found",
+            "emptyText": "File a flight plan in the flight planning module first.",
+            "emptyButton": "Go to flight planning"
+        },
+        "success": {
+            "submit": "Flight Plan Submit",
+            "submitText": "Successfully sent flight plan to USSP",
+            "activation": "Flight Plan Activation",
+            "activationText": "Successfully sent activation request to USSP",
+            "modification": "Flight Plan Modification",
+            "modificationText": "Successfully sent modification accept request to USSP"
+        }
+    },
+    "flightStatusBar": {
+        "routeDistance": "Route distance",
+        "flightTime": "Flight time",
+        "remainingBattery": "Remaining battery",
+        "routeValidation": "Route validation",
+        "valid": "VALID",
+        "invalid": "INVALID",
+        "notYetValidated": "NOT VALIDATED",
+        "validWithLimitations": "VALID WITH LIMITATIONS"
+    },
+    "routeComparison": {
+        "conductedRoute": {
+            "title": "Conducted Route"
+        },
+        "deviationFromPlannedRoute": {
+            "title": "Deviation From Planned Route"
+        }
+    }
+}

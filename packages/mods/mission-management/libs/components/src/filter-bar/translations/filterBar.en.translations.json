@@ -1,0 +1,27 @@
+{
+    "apply": "apply",
+    "noResults": "No results",
+    "countLabel": "+ {count} more",
+    "delete": "delete",
+    "inputPlaceholder": "Filter for something",
+    "minNumberPlaceholder": "min",
+    "maxNumberPlaceholder": "max",
+    "minDatePlaceholder": "earliest",
+    "maxDatePlaceholder": "latest",
+    "enterWorkflow": "enter workflow",
+    "leaveWorkflow": "leave workflow",
+    "selectOption": "select option",
+    "comparisonOperator": {
+        "equal": "is",
+        "notEqual": "is not",
+        "contains": "contains",
+        "notContains": "does not contain",
+        "between": "between",
+        "null": "empty"
+    },
+    "sortingConfig": {
+        "sortedBy": "Sorted By",
+        "ascending": "Ascending",
+        "descending": "Descending"
+    }
+}

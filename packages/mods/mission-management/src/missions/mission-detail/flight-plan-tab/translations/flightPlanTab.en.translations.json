@@ -1,0 +1,13 @@
+{
+    "No valid routes found": "No valid routes found",
+    "There are no valid routes for this mission": "There are no valid routes for this mission",
+    "No invalid routes found": "No invalid routes found",
+    "There are no invalid routes for this mission": "There are no invalid routes for this mission",
+    "Valid Routes ({numberOfRoutes})": "Valid Routes ({numberOfRoutes})",
+    "Invalid Routes ({numberOfRoutes})": "Invalid Routes ({numberOfRoutes})",
+    "No routes found": "No routes found",
+    "Sorry, we couldn't find any routes for this mission": "Sorry, we couldn't find any routes for this mission",
+    "Route validation is currently running. Please wait to see results": "Route validation is currently running. Please wait to see results",
+    "Mission Duration mismatch conflict message": "The duration of the route does not match the duration of the mission. Please adjust the schedule",
+    "Adjust mission": "Adjust mission"
+}

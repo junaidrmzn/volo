@@ -1,0 +1,34 @@
+{
+    "name": "@voloiq/auth",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "clean": "rimraf ./dist ./build-statistics ./coverage",
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit",
+        "test": "cross-env NODE_ENV=testing jest --config ./config/jest.config.ts",
+        "test:debug": "cross-env NODE_ENV=testing node --inspect-brk ../../../node_modules/jest/bin/jest.js --runInBand --config ./config/jest.config.ts"
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "5.16.5",
+        "@testing-library/react": "12.1.5",
+        "@testing-library/react-hooks": "8.0.1",
+        "@types/react": "17.0.39",
+        "@types/yup": "0.29.13",
+        "cross-env": "7.0.3",
+        "eslint": "7.32.0",
+        "jest": "27.4.7",
+        "react-router-dom": "6.4.1",
+        "rimraf": "3.0.2",
+        "ts-pattern": "3.3.5",
+        "typescript": "4.5.5"
+    },
+    "dependencies": {
+        "@azure/msal-browser": "2.26.0",
+        "@azure/msal-react": "1.4.2",
+        "loglevel": "1.8.0",
+        "react": "17.0.2",
+        "yup": "0.32.11"
+    }
+}

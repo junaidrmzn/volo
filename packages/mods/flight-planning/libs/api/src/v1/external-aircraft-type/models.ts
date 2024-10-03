@@ -1,0 +1,23 @@
+export type ExternalAircraftType = {
+    createTime: string;
+    externalId: string;
+    name: string;
+    productLine: string;
+    updateTime: string;
+    validFrom: string;
+    maximumTurnRateInCoordinatedFlight?: number;
+    maximumTranslationalAcceleration?: number;
+    maximumAirspeed?: number;
+    maximumLoadFactor?: number;
+    maximumYawAccelerationInHover?: number;
+    maximumTurnAccelerationInCoordinatedFlight?: number;
+    climbAcceleration?: number;
+    climbRate?: number;
+    wakeTurbulenceCategory?: string;
+    descendRate?: number;
+    validTo?: string;
+    serviceCeiling?: number;
+    maximumYawRateInHover?: number;
+    descendAcceleration?: number;
+    performanceModel?: string;
+};

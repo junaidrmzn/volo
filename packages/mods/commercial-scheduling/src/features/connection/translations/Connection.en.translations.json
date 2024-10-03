@@ -1,0 +1,127 @@
+{
+    "generic": {
+        "save button": "Save",
+        "add button": "Add",
+        "create button": "Add",
+        "edit button": "Edit",
+        "confirm button": "Confirm",
+        "details button": "Details",
+        "delete button": "Delete",
+        "cancel button": "Cancel",
+        "back button": "Back",
+        "not available": "N/A",
+        "apply button": "Apply",
+        "filter button": "Filter",
+        "dropdown placeholder": "Please choose",
+        "dropdown error": "Please select a valid option",
+        "required error": "Please fill this field",
+        "maxLength error": "Please use at most ${max} characters",
+        "minLength error": "Please use at least ${min} characters",
+        "maxNumber error": "Please use a number below ${max}",
+        "minNumber error": "Please use a number above ${min}",
+        "timeFormat error": "Please use hh:mm format",
+        "flightNumberFormat error": "Please choose a valid flight number. Examples of valid flight numbers: VC1, VC4320, VC1000, VC9999, V11, 1234",
+        "validTo error": "Please choose a date later than \"Valid from\"",
+        "firstDay error": "Please choose a date that is at least 1 hour in the future",
+        "lastDay error": "Please choose a date later than \"First day\"",
+        "loadingData error": "Could not load data.",
+        "duplicate flightNumber error": "Please choose another flight number for this day",
+        "errorToast": "Error",
+        "pagination": {
+            "ariaLabel": "pagination",
+            "nextPageAriaLabel": "Next page",
+            "previousPageAriaLabel": "Previous page"
+        },
+        "delete-modal": {
+            "heading": "Delete {entityName}",
+            "body": "Do you really want to delete this {entityName}?",
+            "body-with-id": "Do you really want to delete the {entityName} {entityId}?",
+            "cancel": "Cancel",
+            "delete": "Delete"
+        },
+        "filteringPanel": {
+            "listAriaLabel": "Filter Tag List",
+            "heading": "Filter"
+        }
+    },
+    "model": {
+        "name": "Name",
+        "region": "Region",
+        "departureVertiportId": "Departure Vertiport",
+        "arrivalVertiportId": "Arrival Vertiport",
+        "aircraftType": "Aircraft Type",
+        "flightDuration": "Duration",
+        "flightDurationInMin": "Duration in Minutes",
+        "routeOptionName": "Route Option Name",
+        "minutes": "Minutes",
+        "validFrom": "From",
+        "validTo": "To",
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "category": "Category",
+        "direct": "DIRECT",
+        "sightseeing": "SIGHTSEEING",
+        "roundtrip": "ROUNDTRIP",
+        "net": "NET Price",
+        "vat": "VAT",
+        "currency": "Currency",
+        "eur": "EUR",
+        "usd": "USD",
+        "yen": "YEN",
+        "gbp": "GBP",
+        "passengerSeats": "Passenger Seats",
+        "routeName": "Route Name"
+    },
+    "sort": {
+        "validFrom": "Valid from",
+        "validTo": "Valid to"
+    },
+    "overview": {
+        "heading": "Commercial Scheduling",
+        "subheading": "Connections",
+        "listLabel": "Connections"
+    },
+    "create": {
+        "heading": "Add Connection",
+        "passengerSeats": "Available passenger seats: {seats}"
+    },
+    "edit": {
+        "heading": "Edit Connection"
+    },
+    "details": {
+        "general": "General",
+        "price": "Price",
+        "valid": "Valid",
+        "flight": "Flight",
+        "routeOptions": "Route Options"
+    },
+    "title": {
+        "Add": "Add Connection",
+        "Edit": "Edit Connection",
+        "Delete": "Delete Connection"
+    },
+    "successMessages": {
+        "Add": "Connection has been created successfully",
+        "Edit": "Connection has been updated successfully",
+        "Delete": "Connection has been deleted successfully"
+    },
+    "errorMessages": {
+        "Only PlanItems from unreleased Plans can be deleted": "Only plan items from unreleased plans can be deleted",
+        "Only unreleased plans can be deleted": "Only unreleased plans can be deleted",
+        "Something went wrong": "Something went wrong. Please try again later",
+        "The start time of the plan period must be at least one hour in the future": "The start time of the plan period must be at least one hour in the future",
+        "Plan already released": "Plan already released",
+        "Plan can not be released due to invalid connection(s)": "Plan can not be released due to invalid connection(s)",
+        "Selected connection is not valid": "Selected connection is not valid",
+        "Resource not found": "{resource} not found",
+        "unspecifiedVertiportRegion": "Connection ({connection}) has unspecified region for the vertiport ({vertiport}), please check",
+        "inconsistentDepArrValidFrom": "Connection ({connection}) starting date is not consistent with vertiport ({vertiport})",
+        "inconsistentDepArrValidTo": "Connection ({connection}) end date is not consistent with vertiport ({vertiport})",
+        "departureVertiportNoPassengerService": "Vertiport ({id}) has an empty 'services' field, please check",
+        "arrivalVertiportNoPassengerService": "Vertiport ({id}) has an empty 'services' field, please check",
+        "connectionUniqueName": "Name field should be unique, try other name",
+        "noServiceDepArv": "Services field of the associated vertiport ({name}) is missing, please check",
+        "genericMessage": "Please Check the error(s) displayed for respective field(s)",
+        "uniqueConnectionValidFromTo": "An existing connection for same route over this time period already exists, please check"
+    }
+}

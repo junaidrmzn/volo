@@ -1,0 +1,11 @@
+{
+    "type": "static",
+    "authorization": {
+        "mapping": [
+            {
+                "sourceId": "Admin",
+                "targetGroupName": "Admin"
+            }
+        ]
+    }
+}

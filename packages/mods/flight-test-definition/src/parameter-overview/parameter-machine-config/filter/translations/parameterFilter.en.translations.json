@@ -1,0 +1,10 @@
+{
+    "FilterPanel": {
+        "General": "General",
+        "Name": "Name",
+        "Unit": "Unit",
+        "Acronym": "Acronym",
+        "Search": "Search",
+        "Filters": "Filters"
+    }
+}

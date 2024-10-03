@@ -1,0 +1,102 @@
+{
+    "heading": "Das Angebot",
+    "subheading": "Angebot Startbahn für diesen Plan",
+    "information": "Hier finden Sie das Angebot für Ihren Plan.",
+    "offeringLeadTime": "Angebotsvorlaufzeit",
+    "noOffer": "Kein Angebot",
+    "labels": {
+        "add": "hinzufügen",
+        "back": "Zurück",
+        "cancel": "Abbrechen",
+        "confirm": "Bestätigen Sie",
+        "edit": "bearbeiten",
+        "save": "Speichern",
+        "validFrom": "Gültig ab"
+    },
+    "dropdown": {
+        "placeholder": "Bitte wählen",
+        "errorMessage": "Bitte wählen Sie einen gültigen Eintrag"
+    },
+    "modal": {
+        "add": {
+            "heading": "Hinzufügen",
+            "toast": {
+                "success": {
+                    "title": "Angebot Runway hinzugefügt",
+                    "description": "Sie haben erfolgreich einen neuen Angebot Runway hinzugefügt."
+                },
+                "error": {
+                    "title": "Angebot Runway nicht hinzugefügt",
+                    "description": "Es ist ein Fehler aufgetreten beim Hinzufügen eines neuen Angebot Runway."
+                }
+            }
+        },
+        "edit": {
+            "heading": "Angebot bearbeiten",
+            "subheading": "Angebot Runway",
+            "desc": "Automatische Angebotsvorlaufzeit",
+            "confirm heading": "Bestätigen",
+            "confirm subheading": "Bearbeitung eines eingereichten Antrags",
+            "confirmation text": "Sie sind dabei, einen bereits eingereichten Angebot Runway zu bearbeiten. Durch die Bearbeitung wird der Status dieser Preisdefinition auf Entwurf zurückgesetzt. Der Genehmigungsantrag wird geschlossen, und Sie müssen Ihren neuen Entwurf erneut einreichen.",
+            "confirmation question": "Möchten Sie mit der Bearbeitung fortfahren?",
+            "successMessages": {
+                "offerEdited title": "Angebot Runway bearbeitet",
+                "offerEdited desc": "Sie haben die Angebot Runway erfolgreich bearbeitet."
+            },
+            "errorMessages": {
+                "offerEdited title": "Angebot Runway nicht bearbeitet",
+                "offerEdited desc": "Beim Bearbeiten der Angebot Runway ist ein Fehler aufgetreten."
+            },
+            "fields": {
+                "enterNumber": "Nummer eingeben",
+                "days": "Tage"
+            }
+        }
+    },
+    "actions": {
+        "approve": {
+            "title": "Angebot genehmigen",
+            "modal": {
+                "heading": "Information",
+                "subheading": "Angebotsdefinition genehmigen",
+                "description": "Sie stehen kurz davor, eine eingereichte Angebotsdefinition zu bestätigen. Möchten Sie fortfahren?",
+                "Approve": "Genehmigen"
+            },
+            "toast": {
+                "title": "Angebotsdefinition genehmigt",
+                "description": "Sie haben die Angebotsdefinition erfolgreich bestätigt"
+            }
+        },
+        "reject": {
+            "title": "Angebot ablehnen",
+            "modal": {
+                "heading": "Warnung",
+                "subheading": "Angebotsdefinition ablehnen",
+                "description": "Sie stehen kurz davor, eine eingereichte Angebotsdefinition abzulehnen. Bitte fügen Sie eine kurze Notiz für Ihre Kollegen hinzu, damit sie wissen, was zu ändern ist.",
+                "placeholder": "Geben Sie eine kurze Nachricht ein",
+                "Reject": "Ablehnen"
+            },
+            "toast": {
+                "title": "Angebotsdefinition abgelehnt",
+                "description": "Sie haben die Angebotsdefinition erfolgreich abgelehnt"
+            }
+        },
+        "request": {
+            "title": "Antrag auf Angebotsgenehmigung",
+            "toast": {
+                "success": {
+                    "description": "Beantragte Angebotsgenehmigung erfolgreich"
+                },
+                "error": {
+                    "description": "Kann derzeit keine Angebotsgenehmigung anfordern"
+                }
+            }
+        }
+    },
+    "units": {
+        "HOURS": "Stunde(n)",
+        "DAYS": "Tag(e)",
+        "WEEKS": "Woche(n)",
+        "MONTHS": "Monat(e)"
+    }
+}

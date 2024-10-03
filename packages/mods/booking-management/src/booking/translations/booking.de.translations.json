@@ -1,0 +1,93 @@
+{
+    "generic": {
+        "from": "Von",
+        "to": "An",
+        "confirm": "Bestätigen Sie",
+        "cancel": "Abbrechen"
+    },
+    "title": "Buchungen",
+    "overview": {
+        "heading": "Vertrieb",
+        "subheading": "Buchungen",
+        "listLabel": "Buchungen",
+        "cardLabel": "Buchung",
+        "filterPanel": {
+            "Filters": "Filter",
+            "bookingCode": "Buchungscode",
+            "bookingDate": "Buchungsdatum",
+            "connection": "Verbindung",
+            "departureDateTime": "Datum und Uhrzeit der Abreise",
+            "region": "Region",
+            "status": "Status"
+        },
+        "list": {
+            "bookedOn": "Gebucht am"
+        },
+        "detail": {
+            "notSelected": {
+                "title": "Wählen Sie eine Buchung aus, um loszulegen.",
+                "subtitle": "Unten haben wir für Sie die tägliche Übersicht zusammengestellt."
+            },
+            "resendEmailToPassenger": "E-Mail an Passagier erneut senden",
+            "initiateRefund": "Erstattung einleiten",
+            "cancelBooking": "Buchung stornieren",
+            "bookingInformation": {
+                "title": "Informationen zur Buchung",
+                "code": "Code",
+                "codeNumber": "Code-Nummer",
+                "ticketPrice": "Ticketpreis",
+                "paymentMethod": "Zahlungsmethode",
+                "dateOfBooking": "Datum der Buchung",
+                "cancelledBy": "Annulliert von",
+                "dateOfCancellation": "Datum der Annullierung",
+                "refundAmount": "Erstattungsbetrag",
+                "refundInPercentage": "Erstattung in %",
+                "dateOfRefund": "Datum der Erstattung"
+            },
+            "customerInformation": {
+                "title": "Informationen für Kunden",
+                "firstName": "Vorname",
+                "lastName": "Nachname",
+                "email": "E-Mail",
+                "dateOfBirth": "Geburtsdatum",
+                "reason": "Grund",
+                "invoiceAddress": "Adresse der Rechnung",
+                "BookedFor": "Gebucht für"
+            },
+            "flightInformation": {
+                "title": "Fluginformationen",
+                "msn": "MSN",
+                "aircraftType": "Flugzeugtyp",
+                "acRegistration": "AC-Registrierung",
+                "passengerSeats": "Beifahrer-Sitze",
+                "configurations": "Konfigurationen",
+                "homebase": "Homebase",
+                "departureVertiport": "Abreise Vertiport",
+                "arrivalVertiport": "Ankunft Vertiport"
+            },
+            "refundPolicy": {
+                "title": "Erstattungspolitik",
+                "upTo72Hours": "Bis zu 72 Stunden vor der Abreise oder mehr: Erstattung zu 100%",
+                "lessThan72Hours": "weniger als 72 Stunden: Die Buchung wird storniert und es erfolgt keine Rückerstattung",
+                "ifVolocopterCancel": "Wenn Volocopter stornieren muss: Rückerstattung ist 100%"
+            }
+        },
+        "actions": {
+            "cancelBooking": {
+                "title": "Buchung stornieren",
+                "selectionMessage": "Bitte wählen Sie aus, für wen Sie stornieren möchten",
+                "information": "Durch die Bestätigung der Stornierung der Buchung wird die Buchung unwiderruflich storniert.",
+                "subInformation": "Dieser Prozess kann nicht rückgängig gemacht werden.",
+                "cancelForVolocopter": {
+                    "title": "Abbrechen für Volocopter",
+                    "passengerEmailMessage": "Der Fahrgast erhält eine E-Mail mit den nächsten Schritten für die Rückerstattung",
+                    "refundTriggerMessage": "Die Erstattung wird automatisch ausgelöst"
+                },
+                "cancelForPassenger": {
+                    "title": "Abbrechen für Passagier",
+                    "confirmationEmailMessage": "Der Fahrgast erhält eine Bestätigungs-E-Mail"
+                }
+            }
+        }
+    }
+}

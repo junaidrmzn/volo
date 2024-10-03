@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="958">
+        <Style id="961">
+            <IconStyle id="962">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="963"/>
+            </IconStyle>
+        </Style>
+        <Style id="966">
+            <IconStyle id="967">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="968"/>
+            </IconStyle>
+        </Style>
+        <Style id="971">
+            <LabelStyle id="973">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+            <LineStyle id="972">
+                <color>ffebce87</color>
+                <colorMode>normal</colorMode>
+            </LineStyle>
+        </Style>
+        <Style id="976">
+            <IconStyle id="978">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>66.01859065083264</heading>
+                <Icon id="979"/>
+            </IconStyle>
+            <LineStyle id="977">
+                <color>ffebce87</color>
+                <colorMode>normal</colorMode>
+            </LineStyle>
+        </Style>
+        <Style id="982">
+            <IconStyle id="984">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.4086437936473</heading>
+                <Icon id="985"/>
+            </IconStyle>
+            <LineStyle id="983">
+                <color>ffebce87</color>
+                <colorMode>normal</colorMode>
+            </LineStyle>
+        </Style>
+        <Style id="988">
+            <LabelStyle id="990">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+            <LineStyle id="989">
+                <color>ffebce87</color>
+                <colorMode>normal</colorMode>
+            </LineStyle>
+        </Style>
+        <Style id="993">
+            <IconStyle id="994">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>66.01818639002951</heading>
+                <Icon id="995">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="998">
+            <IconStyle id="999">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>66.01805414699729</heading>
+                <Icon id="1000">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1003">
+            <IconStyle id="1004">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>66.01792186696264</heading>
+                <Icon id="1005">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1008">
+            <IconStyle id="1009">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.41065995437134</heading>
+                <Icon id="1010">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1013">
+            <IconStyle id="1014">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.4103966194224</heading>
+                <Icon id="1015">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1018">
+            <IconStyle id="1019">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.41013339150106</heading>
+                <Icon id="1020">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1023">
+            <IconStyle id="1024">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.40987027056616</heading>
+                <Icon id="1025">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1028">
+            <IconStyle id="1029">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.4096072566075</heading>
+                <Icon id="1030">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1033">
+            <IconStyle id="1034">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.40934434970566</heading>
+                <Icon id="1035">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1038">
+            <IconStyle id="1039">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.40908154982424</heading>
+                <Icon id="1040">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1043">
+            <IconStyle id="1044">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.40881885703072</heading>
+                <Icon id="1045">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1048">
+            <IconStyle id="1049">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.40855627103662</heading>
+                <Icon id="1050">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1053">
+            <IconStyle id="1054">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.40829379215307</heading>
+                <Icon id="1055">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1058">
+            <IconStyle id="1059">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.40803142031743</heading>
+                <Icon id="1060">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1063">
+            <IconStyle id="1064">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.40776915541912</heading>
+                <Icon id="1065">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1068">
+            <IconStyle id="1069">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.40750699745638</heading>
+                <Icon id="1070">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1073">
+            <IconStyle id="1074">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.40724494661015</heading>
+                <Icon id="1075">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1078">
+            <IconStyle id="1079">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>136.4069830026959</heading>
+                <Icon id="1080">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1083">
+            <IconStyle id="1084">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>175.77639035909763</heading>
+                <Icon id="1085">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1088">
+            <IconStyle id="1089">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>175.7763368346757</heading>
+                <Icon id="1090">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1093">
+            <IconStyle id="1094">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>175.77628333998524</heading>
+                <Icon id="1095">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1098">
+            <IconStyle id="1099">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>175.7762298750971</heading>
+                <Icon id="1100">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1103">
+            <IconStyle id="1104">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>175.77617643993975</heading>
+                <Icon id="1105">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1108">
+            <IconStyle id="1109">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>175.77612303475294</heading>
+                <Icon id="1110">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1113">
+            <IconStyle id="1114">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>175.77606965929212</heading>
+                <Icon id="1115">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1118">
+            <IconStyle id="1119">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>175.77601631364064</heading>
+                <Icon id="1120">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1123">
+            <IconStyle id="1124">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>175.7759629977186</heading>
+                <Icon id="1125">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1128">
+            <IconStyle id="1129">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>175.77590971177</heading>
+                <Icon id="1130">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1133">
+            <IconStyle id="1134">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>175.7758564555502</heading>
+                <Icon id="1135">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1138">
+            <IconStyle id="1139">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>180.0</heading>
+                <Icon id="1140">
+                    <href>http://earth.google.com/images/kml-icons/track-directional/track-4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="1142">
+            <LineStyle id="1145">
+                <color>ffebce87</color>
+                <colorMode>normal</colorMode>
+                <width>6</width>
+            </LineStyle>
+        </Style>
+        <Style id="1146">
+            <LineStyle id="1149">
+                <color>ffebce87</color>
+                <colorMode>normal</colorMode>
+                <width>6</width>
+            </LineStyle>
+            <PolyStyle id="1141">
+                <color>80ebce87</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Placemark id="960">
+            <name>takeoff transition</name>
+            <description>(latitude:50.111, longitude:8.647, altitude:30.0)</description>
+            <styleUrl>#961</styleUrl>
+            <Point id="959">
+                <coordinates>8.647,50.111,30.0</coordinates>
+                <extrude>1</extrude>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="965">
+            <name>landing transition</name>
+            <description>(latitude:50.041, longitude:8.549, altitude:30.0)</description>
+            <styleUrl>#966</styleUrl>
+            <Point id="964">
+                <coordinates>8.549,50.041,30.0</coordinates>
+                <extrude>1</extrude>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="970">
+            <name>Messe Frankfurt</name>
+            <description>📍 Departure Point (latitude:50.111, longitude:8.647, altitude:0.0)</description>
+            <styleUrl>#971</styleUrl>
+            <Point id="969">
+                <coordinates>8.647,50.111,0.0</coordinates>
+                <extrude>1</extrude>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="975">
+            <name>Unnamed</name>
+            <description>(latitude:50.095022896214005, longitude:8.654026668897217, altitude:150.0)</description>
+            <styleUrl>#976</styleUrl>
+            <Point id="974">
+                <coordinates>8.654026668897217,50.095022896214005,150.0</coordinates>
+                <extrude>1</extrude>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="981">
+            <name>Unnamed</name>
+            <description>(latitude:50.04496117017885, longitude:8.602035562901506, altitude:150.0)</description>
+            <styleUrl>#982</styleUrl>
+            <Point id="980">
+                <coordinates>8.602035562901506,50.04496117017885,150.0</coordinates>
+                <extrude>1</extrude>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="987">
+            <name>Frankfurt Airport</name>
+            <description>📍 Arrival Point (latitude:50.041, longitude:8.549, altitude:0.0)</description>
+            <styleUrl>#988</styleUrl>
+            <Point id="986">
+                <coordinates>8.549,50.041,0.0</coordinates>
+                <extrude>1</extrude>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="992">
+            <description>(latitude:50.111, longitude:8.647, altitude:30.0)</description>
+            <styleUrl>#993</styleUrl>
+            <Point id="991">
+                <coordinates>8.647,50.111,30.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="997">
+            <description>(latitude:50.105674298738, longitude:8.649342222965739, altitude:70.0)</description>
+            <styleUrl>#998</styleUrl>
+            <Point id="996">
+                <coordinates>8.649342222965739,50.105674298738,70.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1002">
+            <description>(latitude:50.100348597476, longitude:8.651684445931478, altitude:110.0)</description>
+            <styleUrl>#1003</styleUrl>
+            <Point id="1001">
+                <coordinates>8.651684445931478,50.100348597476,110.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1007">
+            <description>(latitude:50.095022896214005, longitude:8.654026668897217, altitude:150.0)</description>
+            <styleUrl>#1008</styleUrl>
+            <Point id="1006">
+                <coordinates>8.654026668897217,50.095022896214005,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1012">
+            <description>(latitude:50.09168544781166, longitude:8.650560595164169, altitude:150.0)</description>
+            <styleUrl>#1013</styleUrl>
+            <Point id="1011">
+                <coordinates>8.650560595164169,50.09168544781166,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1017">
+            <description>(latitude:50.08834799940932, longitude:8.647094521431121, altitude:150.0)</description>
+            <styleUrl>#1018</styleUrl>
+            <Point id="1016">
+                <coordinates>8.647094521431121,50.08834799940932,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1022">
+            <description>(latitude:50.08501055100698, longitude:8.643628447698074, altitude:150.0)</description>
+            <styleUrl>#1023</styleUrl>
+            <Point id="1021">
+                <coordinates>8.643628447698074,50.08501055100698,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1027">
+            <description>(latitude:50.08167310260464, longitude:8.640162373965028, altitude:150.0)</description>
+            <styleUrl>#1028</styleUrl>
+            <Point id="1026">
+                <coordinates>8.640162373965028,50.08167310260464,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1032">
+            <description>(latitude:50.07833565420229, longitude:8.63669630023198, altitude:150.0)</description>
+            <styleUrl>#1033</styleUrl>
+            <Point id="1031">
+                <coordinates>8.63669630023198,50.07833565420229,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1037">
+            <description>(latitude:50.07499820579994, longitude:8.633230226498933, altitude:150.0)</description>
+            <styleUrl>#1038</styleUrl>
+            <Point id="1036">
+                <coordinates>8.633230226498933,50.07499820579994,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1042">
+            <description>(latitude:50.071660757397595, longitude:8.629764152765885, altitude:150.0)</description>
+            <styleUrl>#1043</styleUrl>
+            <Point id="1041">
+                <coordinates>8.629764152765885,50.071660757397595,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1047">
+            <description>(latitude:50.06832330899526, longitude:8.626298079032837, altitude:150.0)</description>
+            <styleUrl>#1048</styleUrl>
+            <Point id="1046">
+                <coordinates>8.626298079032837,50.06832330899526,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1052">
+            <description>(latitude:50.06498586059291, longitude:8.62283200529979, altitude:150.0)</description>
+            <styleUrl>#1053</styleUrl>
+            <Point id="1051">
+                <coordinates>8.62283200529979,50.06498586059291,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1057">
+            <description>(latitude:50.061648412190564, longitude:8.619365931566742, altitude:150.0)</description>
+            <styleUrl>#1058</styleUrl>
+            <Point id="1056">
+                <coordinates>8.619365931566742,50.061648412190564,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1062">
+            <description>(latitude:50.05831096378822, longitude:8.615899857833694, altitude:150.0)</description>
+            <styleUrl>#1063</styleUrl>
+            <Point id="1061">
+                <coordinates>8.615899857833694,50.05831096378822,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1067">
+            <description>(latitude:50.05497351538588, longitude:8.612433784100649, altitude:150.0)</description>
+            <styleUrl>#1068</styleUrl>
+            <Point id="1066">
+                <coordinates>8.612433784100649,50.05497351538588,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1072">
+            <description>(latitude:50.051636066983534, longitude:8.608967710367601, altitude:150.0)</description>
+            <styleUrl>#1073</styleUrl>
+            <Point id="1071">
+                <coordinates>8.608967710367601,50.051636066983534,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1077">
+            <description>(latitude:50.04829861858119, longitude:8.605501636634553, altitude:150.0)</description>
+            <styleUrl>#1078</styleUrl>
+            <Point id="1076">
+                <coordinates>8.605501636634553,50.04829861858119,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1082">
+            <description>(latitude:50.04496117017885, longitude:8.602035562901506, altitude:150.0)</description>
+            <styleUrl>#1083</styleUrl>
+            <Point id="1081">
+                <coordinates>8.602035562901506,50.04496117017885,150.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1087">
+            <description>(latitude:50.04460106379895, longitude:8.597214148092277, altitude:139.09090909090907)</description>
+            <styleUrl>#1088</styleUrl>
+            <Point id="1086">
+                <coordinates>8.597214148092277,50.04460106379895,139.09090909090907</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1092">
+            <description>(latitude:50.044240957419056, longitude:8.59239273328305, altitude:128.1818181818182)</description>
+            <styleUrl>#1093</styleUrl>
+            <Point id="1091">
+                <coordinates>8.59239273328305,50.044240957419056,128.1818181818182</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1097">
+            <description>(latitude:50.04388085103916, longitude:8.587571318473822, altitude:117.27272727272728)</description>
+            <styleUrl>#1098</styleUrl>
+            <Point id="1096">
+                <coordinates>8.587571318473822,50.04388085103916,117.27272727272728</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1102">
+            <description>(latitude:50.04352074465927, longitude:8.582749903664595, altitude:106.36363636363636)</description>
+            <styleUrl>#1103</styleUrl>
+            <Point id="1101">
+                <coordinates>8.582749903664595,50.04352074465927,106.36363636363636</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1107">
+            <description>(latitude:50.04316063827937, longitude:8.577928488855367, altitude:95.45454545454545)</description>
+            <styleUrl>#1108</styleUrl>
+            <Point id="1106">
+                <coordinates>8.577928488855367,50.04316063827937,95.45454545454545</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1112">
+            <description>(latitude:50.04280053189947, longitude:8.573107074046138, altitude:84.54545454545455)</description>
+            <styleUrl>#1113</styleUrl>
+            <Point id="1111">
+                <coordinates>8.573107074046138,50.04280053189947,84.54545454545455</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1117">
+            <description>(latitude:50.04244042551958, longitude:8.56828565923691, altitude:73.63636363636364)</description>
+            <styleUrl>#1118</styleUrl>
+            <Point id="1116">
+                <coordinates>8.56828565923691,50.04244042551958,73.63636363636364</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1122">
+            <description>(latitude:50.042080319139686, longitude:8.563464244427683, altitude:62.72727272727273)</description>
+            <styleUrl>#1123</styleUrl>
+            <Point id="1121">
+                <coordinates>8.563464244427683,50.042080319139686,62.72727272727273</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1127">
+            <description>(latitude:50.041720212759785, longitude:8.558642829618455, altitude:51.81818181818181)</description>
+            <styleUrl>#1128</styleUrl>
+            <Point id="1126">
+                <coordinates>8.558642829618455,50.041720212759785,51.81818181818181</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1132">
+            <description>(latitude:50.04136010637989, longitude:8.553821414809228, altitude:40.909090909090914)</description>
+            <styleUrl>#1133</styleUrl>
+            <Point id="1131">
+                <coordinates>8.553821414809228,50.04136010637989,40.909090909090914</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1137">
+            <description>(latitude:50.041, longitude:8.549, altitude:30.0)</description>
+            <styleUrl>#1138</styleUrl>
+            <Point id="1136">
+                <coordinates>8.549,50.041,30.0</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark id="1144">
+            <name>No Waypoints Route</name>
+            <styleUrl>#1142</styleUrl>
+            <LineString id="1143">
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>8.647,50.111,0.0 8.647,50.111,30.0 8.647,50.111,30.0 8.649342222965739,50.105674298738,70.0 8.651684445931478,50.100348597476,110.0 8.654026668897217,50.095022896214005,150.0 8.654026668897217,50.095022896214005,150.0 8.650560595164169,50.09168544781166,150.0 8.647094521431121,50.08834799940932,150.0 8.643628447698074,50.08501055100698,150.0 8.640162373965028,50.08167310260464,150.0 8.63669630023198,50.07833565420229,150.0 8.633230226498933,50.07499820579994,150.0 8.629764152765885,50.071660757397595,150.0 8.626298079032837,50.06832330899526,150.0 8.62283200529979,50.06498586059291,150.0 8.619365931566742,50.061648412190564,150.0 8.615899857833694,50.05831096378822,150.0 8.612433784100649,50.05497351538588,150.0 8.608967710367601,50.051636066983534,150.0 8.605501636634553,50.04829861858119,150.0 8.602035562901506,50.04496117017885,150.0 8.602035562901506,50.04496117017885,150.0 8.597214148092277,50.04460106379895,139.09090909090907 8.59239273328305,50.044240957419056,128.1818181818182 8.587571318473822,50.04388085103916,117.27272727272728 8.582749903664595,50.04352074465927,106.36363636363636 8.577928488855367,50.04316063827937,95.45454545454545 8.573107074046138,50.04280053189947,84.54545454545455 8.56828565923691,50.04244042551958,73.63636363636364 8.563464244427683,50.042080319139686,62.72727272727273 8.558642829618455,50.041720212759785,51.81818181818181 8.553821414809228,50.04136010637989,40.909090909090914 8.549,50.041,30.0 8.549,50.041,30.0 8.549,50.041,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="1148">
+            <styleUrl>#1146</styleUrl>
+            <LineString id="1147">
+                <extrude>1</extrude>
+                <tessellate>1</tessellate>
+                <altitudeMode>absolute</altitudeMode>
+                <coordinates>8.647,50.111,0.0 8.647,50.111,30.0 8.654026668897217,50.095022896214005,150.0 8.602035562901506,50.04496117017885,150.0 8.549,50.041,30.0 8.549,50.041,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Document id="1150">
+            <name>Volocopter Flight-Planning</name>
+        </Document>
+    </Document>
+</kml>

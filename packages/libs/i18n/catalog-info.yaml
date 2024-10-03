@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.ui.i18n
+  title: i18n
+  tags:
+  - javascript
+spec:
+  type: library
+  lifecycle: production
+  owner: voloiq-flight-planning-team

@@ -1,0 +1,21 @@
+export const COMMERCIAL_SCHEDULING = "/v1/commercial-scheduling";
+export const VERTIPORT_MANAGEMENT = "/vertiport-management/v1";
+export const AIRCRAFT_MANAGEMENT = "/v1/aircraft-management";
+export const FLIGHT_PLANNING = "/v1/flight-planning";
+
+export const PLAN_BASE_URL = `${COMMERCIAL_SCHEDULING}/commercial-plans`;
+export const PLAN_PROCESS_BASE_URL = `${COMMERCIAL_SCHEDULING}/commercial-plan-processes`;
+export const SCHEDULE_BASE_URL = `${COMMERCIAL_SCHEDULING}/commercial-schedules`;
+export const PRICE_BASE_URL = `${COMMERCIAL_SCHEDULING}/commercial-prices`;
+export const PRICE_ITEM_BASE_URL = `${COMMERCIAL_SCHEDULING}/commercial-price-items`;
+export const OFFER_BASE_URL = `${COMMERCIAL_SCHEDULING}/commercial-offers`;
+export const OFFER_ITEM_BASE_URL = `${COMMERCIAL_SCHEDULING}/commercial-offer-items`;
+export const PLAN_CUSTOMIZATION_BASE_URL = `${COMMERCIAL_SCHEDULING}/commercial-schedule-item-customizations`;
+export const PROMOTION_BASE_URL = `${COMMERCIAL_SCHEDULING}/promotions`;
+export const PROMOTION_ITEM_BASE_URL = `${COMMERCIAL_SCHEDULING}/promotion-items`;
+export const CONNECTION_BASE_URL = `${COMMERCIAL_SCHEDULING}/connections`;
+export const AIRCRAFT_TYPE_BASE_URL = `${AIRCRAFT_MANAGEMENT}/aircraft-types`;
+export const VERTIPORT_BASE_URL = `${COMMERCIAL_SCHEDULING}/vertiports`;
+export const REGION_BASE_URL = `${VERTIPORT_MANAGEMENT}/regions`;
+export const ROUTE_BASE_URL = `${FLIGHT_PLANNING}/routes`;
+export const ROUTE_OPTION_BASE_URL = `${FLIGHT_PLANNING}/route-options`;

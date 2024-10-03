@@ -1,0 +1,26 @@
+{
+    "select": {
+        "placeholder": "Wählen Sie eine Option",
+        "requiredErrorMessage": "Bitte wählen Sie eine Option"
+    },
+    "ftiParameterHeader": "Neuer FTI Parameter {count}",
+    "delete": "Löschen",
+    "duplicate": "Duplizieren",
+    "addAnotherParameter": "Einen neuen Parameter hinzufügen",
+    "aircraftLabel": "Flugzeug",
+    "aircraftZoneLabel": "Flugzeugzone",
+    "workgroupLabel": "Arbeitsgruppe",
+    "shortDescriptionLabel": "Kurzbeschreibung",
+    "descriptionLabel": "Beschreibung",
+    "parameterSourceLabel": "Parameterquelle",
+    "sensorTypeLabel": "Sensortyp",
+    "ataIspec2200Label": "ATA iSpec 2200",
+    "unitLabel": "Einheit",
+    "minValueLabel": "Min. Wert",
+    "maxValueLabel": "Max. Wert",
+    "accuracyValueLabel": "Genauigkeit",
+    "minimumSamplingFrequencyLabel": "Min. Abtastfrequenz",
+    "submitButton": "Hinzufügen",
+    "safetyOfFlightLabel": "Safety of Flight (SoF) Critical",
+    "maxValueError": "Der Maximalwert muss größer sein als der Minimalwert"
+}

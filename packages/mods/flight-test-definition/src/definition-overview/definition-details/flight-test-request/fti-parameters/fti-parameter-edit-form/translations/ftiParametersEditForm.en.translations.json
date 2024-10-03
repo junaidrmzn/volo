@@ -1,0 +1,33 @@
+{
+    "All": "All",
+    "FTI": "FTI",
+    "Short Description": "Short Description",
+    "Unit": "Unit",
+    "ATA iSpec 2200": "ATA iSpec 2200",
+    "Aircraft Zone": "Aircraft Zone",
+    "Sensor Type": "Sensor Type",
+    "Parameter Source": "Parameter Source",
+    "Make {ftiCode} essential": "Make {ftiCode} essential",
+    "Make {ftiCode} desirable": "Make {ftiCode} desirable",
+    "Essential": "Essential",
+    "Unselect all {workgroup} FTI Parameters": "Unselect all {workgroup} FTI Parameters",
+    "Select all {workgroup} FTI Parameters": "Select all {workgroup} FTI Parameters",
+    "{numberOfFtiParameters} FTI Parameters": "{numberOfFtiParameters} FTI Parameters",
+    "1 FTI Parameter": "1 FTI Parameter",
+    "{numberOfFtiParameters} selected": "{numberOfFtiParameters} selected",
+    "Selected ({numberOfSelectedParameters})": "Selected ({numberOfSelectedParameters})",
+    "Make all essential": "Make all essential",
+    "Make all desirable": "Make all desirable",
+    "Search for FTI Code, Aircraft Type, Aircraft Zone, Short Description, or Workgroup": "Search for FTI Code, Aircraft Type, Aircraft Zone, Short Description, or Workgroup",
+    "No FTI Parameters selected": "No FTI Parameters selected",
+    "Select {ftiCode}": "Select {ftiCode}",
+    "Unselect {ftiCode}": "Unselect {ftiCode}",
+    "Actions for {workgroup}": "Actions for {workgroup}",
+    "Select from the parameter group": "Select from the parameter group",
+    "Parameter group select": "Parameter group select",
+    "savePopover": {
+        "Cancel": "Cancel",
+        "Save": "Save",
+        "Name": "Name"
+    }
+}

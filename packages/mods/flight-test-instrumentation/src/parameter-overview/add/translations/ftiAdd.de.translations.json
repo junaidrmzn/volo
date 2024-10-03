@@ -1,0 +1,52 @@
+{
+    "header": {
+        "title": "Parameter Erstellen",
+        "addButton": "Hinzufügen",
+        "deleteButton": "Entfernen",
+        "backButtonAriaLabel": "Zurück zur Übersicht",
+        "ftiParameterHeader": "Neuer FTI Parameter {count}",
+        "ftiBulkParameterHeader": "Neuer FTI Parameter"
+    },
+    "emptyList": {
+        "text": "Fügen Sie einen neuen Parameter hinzu, indem Sie das folgende Formular verwenden."
+    },
+    "form": {
+        "aircraftLabel": "Flugzeug",
+        "aircraftZoneLabel": "Flugzeugzone",
+        "workgroupLabel": "Arbeitsgruppe",
+        "shortDescriptionLabel": "Kurzbeschreibung",
+        "descriptionLabel": "Beschreibung",
+        "parameterSourceLabel": "Parameterquelle",
+        "sensorTypeLabel": "Sensortyp",
+        "ataIspec2200Label": "ATA iSpec 2200",
+        "unitLabel": "Einheit",
+        "minValueLabel": "Min. Wert",
+        "maxValueLabel": "Max. Wert",
+        "accuracyValueLabel": "Genauigkeit",
+        "minimumSamplingFrequencyLabel": "Min. Abtastfrequenz",
+        "submitButton": "Hinzufügen",
+        "addParameters": "Parameter hinzufügen"
+    },
+    "preview": {
+        "aircraftLabel": "Flugzeug:",
+        "requesterName": "Verantwortlich:",
+        "aircraftZoneLabel": "Flugzeugzone:",
+        "workgroupLabel": "Arbeitsgruppe:",
+        "shortDescriptionLabel": "Kurzbeschreibung:",
+        "descriptionLabel": "Beschreibung:",
+        "parameterSourceLabel": "Parameterquelle:",
+        "sensorTypeLabel": "Sensortyp:",
+        "ataIspec2200Label": "ATA iSpec 2200:",
+        "unitLabel": "Einheit:",
+        "minValueLabel": "Min. Wert:",
+        "maxValueLabel": "Max. Wert:",
+        "accuracyValueLabel": "Genauigkeit:",
+        "minimumSamplingFrequencyLabel": "Min. Abtastfrequenz:",
+        "safetyOfFlightLabel": "Safety of Flight (SoF) Critical:",
+        "listAriaLabel": "Parametererstellungs-Liste"
+    },
+    "successToast": {
+        "title": "Erfolg",
+        "description": "Parameter hinzugefügt"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "filterPanel": {
+        "filters": "Filter",
+        "validFrom": "Gültig seit",
+        "validTo": "Gültig bis",
+        "productLine": {
+            "caption": "Product line",
+            "volocity": "VoloCity",
+            "volodrone": "VoloDrone",
+            "voloregion": "VoloRegion",
+            "2x": "2X"
+        },
+        "aircraftType": "Fluggerät type",
+        "from": "Seit",
+        "to": "Bis",
+        "name": "Type",
+        "leonId": "Leon-ID",
+        "passengerSeatCount": "Anzahl der Passagiersitze",
+        "activeAircraftCount": "Anzahl aktiver Flugzeuge",
+        "nullLabel": "keiner"
+    }
+}

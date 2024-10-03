@@ -1,0 +1,16 @@
+{
+    "editSegment": "Edit Segment",
+    "edit": "Edit",
+    "expand": "Expand",
+    "delete": "Delete",
+    "waypoint": "Waypoint",
+    "waypoints": "Waypoints",
+    "fields": {
+        "altitudeReference": "Altitude Reference",
+        "transitionType": "Transition Type",
+        "transitionTypeFields": {
+            "flyOver": "Fly Over",
+            "flyBy": "Fly By"
+        }
+    }
+}

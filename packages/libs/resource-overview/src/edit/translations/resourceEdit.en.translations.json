@@ -1,0 +1,13 @@
+{
+    "Edit": "Edit",
+    "Edit Resource": "Edit {resource}",
+    "Return to list": "Return to list",
+    "Save": "Save",
+    "Cancel": "Cancel",
+    "Success": "Success",
+    "Resource change saved": "The {resource} changes have been saved",
+    "Error": "Error",
+    "Something went wrong": "Something went wrong. Please try again later.",
+    "Some form fields are incorrect or invalid": "Some form fields are incorrect or invalid. Please correct them and try again.",
+    "An entry with the given unique constraints already exists.": "An entry with the given unique constraints already exists."
+}

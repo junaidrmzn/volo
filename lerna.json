@@ -1,0 +1,6 @@
+{
+    "packages": ["packages/**/*", "scripts/generator"],
+    "useWorkspaces": true,
+    "npmClient": "yarn",
+    "version": "independent"
+}

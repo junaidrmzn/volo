@@ -1,0 +1,69 @@
+{
+    "generic": {
+        "back": "Zurück",
+        "cancel": "Abbrechen",
+        "upload": "Hochladen",
+        "publish": "Veröffentlichen"
+    },
+    "promotionItem": {
+        "heading": "Codes",
+        "listLabel": "Codes",
+        "email": "E-Mail-Adresse",
+        "customer": "Kunde",
+        "bookingId": "Buchungs-ID",
+        "discount": "Rabatt",
+        "access": "Zugriff",
+        "detailAriaLabel": "Promotion Item Validation",
+        "columns": {
+            "status": "Status",
+            "codeNumber": "Code Nummer",
+            "customer": "Kunde",
+            "emailAddress": "Email Adresse",
+            "bookingId": "Buchungs ID",
+            "action": "Aktion"
+        }
+    },
+    "modal": {
+        "invalidate": {
+            "heading": "Bestätigen",
+            "subheading": "Code ungültig machen",
+            "description": "Sie sind dabei, diesen Code ungültig zu machen. Diese Aktion bedeutet, dass er von Kunden nicht mehr beansprucht und verwendet werden kann. Möchten Sie fortfahren?",
+            "button": "Ungültig machen",
+            "toast": {
+                "success": {
+                    "title": "Code ungültig gemacht",
+                    "description": "Sie haben den Aktionscode erfolgreich ungültig gemacht."
+                },
+                "error": {
+                    "title": "Code ist immer noch gültig",
+                    "description": "Beim Ungültigmachen des Aktionscodes ist ein Fehler aufgetreten."
+                }
+            }
+        },
+        "revalidate": {
+            "heading": "Bestätigen",
+            "subheading": "Code erneut validieren",
+            "description": "Sie sind dabei, diesen Code, der ungültig gemacht wurde und derzeit nicht für die Einlösung durch Kunden verwendet werden kann, erneut zu validieren. Diese Aktion bedeutet, dass er erneut an einen Kunden gesendet und wieder zur Verwendung bereit ist. Möchten Sie fortfahren?",
+            "button": "Erneut validieren",
+            "toast": {
+                "success": {
+                    "title": "Code erneut validiert",
+                    "description": "Sie haben den Aktionscode erfolgreich erneut validiert."
+                },
+                "error": {
+                    "title": "Code ist immer noch ungültig",
+                    "description": "Beim erneuten Validieren des Aktionscodes ist ein Fehler aufgetreten."
+                }
+            }
+        }
+    },
+    "publish": {
+        "toast": {
+            "title": "Promotion veröffentlichen",
+            "success": { "description": "Die Aktion wurde erfolgreich veröffentlicht" },
+            "error": {
+                "description": "Etwas ist schief gelaufen"
+            }
+        }
+    }
+}

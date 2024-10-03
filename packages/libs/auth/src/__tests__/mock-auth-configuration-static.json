@@ -1,0 +1,12 @@
+{
+    "domain": "app.qa.voloiq.io",
+    "type": "static",
+    "authorization": {
+        "mapping": [
+            {
+                "sourceId": "Admin",
+                "targetGroupName": "Admin"
+            }
+        ]
+    }
+}

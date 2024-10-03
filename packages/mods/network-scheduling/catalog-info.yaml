@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.network-scheduling.ui
+  title: network scheduling UI
+  tags:
+  - javascript
+spec:
+  type: micro-frontend
+  lifecycle: production
+  owner: voloiq-air-ops-team
+  system: voloiq.network-scheduling
+  consumesApis:
+  - voloiq.network-scheduling.api

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: voloiq.commercial-scheduling.v2-ui
+    title: Commercial Scheduling V2 UI
+    tags:
+        - javascript
+spec:
+    type: micro-frontend
+    lifecycle: production
+    owner: voloiq-ecommerce-team
+    system: voloiq.commercial-scheduling
+    consumesApis:
+        - voloiq.commercial-scheduling.api

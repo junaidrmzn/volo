@@ -1,0 +1,13 @@
+server {
+    listen 9082;
+    server_name localhost;
+
+    proxy_set_header Host $host;
+
+    location /v1/aircraft-management {
+        proxy_pass http://$AIRCRAFT_MANAGEMENT_URL:$AIRCRAFT_MANAGEMENT_PORT;
+    }
+    location /v1/network-scheduling-management {
+        proxy_pass http://$NETWORK_SCHEDULING_MANAGEMENT_URL:$NETWORK_SCHEDULING_MANAGEMENT_PORT;
+    }
+}

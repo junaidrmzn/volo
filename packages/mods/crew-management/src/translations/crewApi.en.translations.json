@@ -1,0 +1,239 @@
+{
+    "generic": {
+        "save button": "Save",
+        "create button": "Add",
+        "add button": "Add",
+        "edit button": "Edit",
+        "confirm button": "Confirm",
+        "sort button": "Sort",
+        "filter button": "Filter",
+        "details button": "Details",
+        "delete button": "Delete",
+        "apply button": "Apply",
+        "cancel button": "Cancel",
+        "back button": "Back",
+        "not available": "N/A",
+        "dropdown placeholder": "Please choose",
+        "dropdown error": "Please select a valid option",
+        "required error": "Please fill this field",
+        "maxLength error": "Please use at most ${max} characters",
+        "minLength error": "Please use at least ${min} characters",
+        "maxNumber error": "Please use a value below ${max}",
+        "minNumber error": "Please use a value above ${min}",
+        "validFrom error": "Please select a date after {minValidFromDate}",
+        "validTo error": "Please select a date after {minValidToDate}",
+        "pagination": {
+            "ariaLabel": "pagination",
+            "nextPageAriaLabel": "Next page",
+            "previousPageAriaLabel": "Previous page"
+        },
+        "delete-modal": {
+            "heading": "Delete {entityName}",
+            "body": "Do you really want to delete this {entityName}?",
+            "body-with-id": "Do you really want to delete the {entityName} {entityId}?",
+            "cancel": "Cancel",
+            "delete": "Delete"
+        },
+        "filter": {
+            "listAriaLabel": "Filter Tag List",
+            "heading": "Filter",
+            "fromLabel": "from",
+            "toLabel": "to"
+        },
+        "sortingPanel": {
+            "title": "Sort",
+            "applyButtonLabel": "Apply",
+            "backButtonAriaLabel": "Back",
+            "cancelButtonLabel": "Cancel",
+            "createdOnOption": "Created on",
+            "ascendingLabel": "Ascending",
+            "descendingLabel": "Descending",
+            "options.crewMember": {
+                "firstName": "First name",
+                "surName": "Last name"
+            }
+        },
+        "restricted": "Restricted",
+        "informationRestrictionMessage": "Leave data of crew members is not displayed, as you don't have permissions to see this information.",
+        "licenseValidationError": "Licensed for remote flights or piloted flights must be selected"
+    },
+    "crewRole": {
+        "model": {
+            "roleKey": "Role Key",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "description": "Description",
+            "requiresAircraftType": "Requires aircraft type",
+            "requiresWeight": "Requires weight",
+            "requiresLicense": "Requires license",
+            "canBecomePilotInCharge": "Can become pilot in charge",
+            "numberOfAssignments": "Number of crew members",
+            "createdBy": "Created by",
+            "updatedBy": "Updated by",
+            "createTime": "Created at",
+            "updateTime": "Updated at"
+        },
+        "overview": {
+            "heading": "Resources",
+            "subheading": "Crew Roles",
+            "preview": "Role Preview",
+            "listLabel": "Crew Roles",
+            "add button": "Add",
+            "create button": "Add",
+            "cancel button": "Cancel"
+        },
+        "create": {
+            "heading": "Add Crew Role"
+        },
+        "edit": {
+            "heading": "Edit Crew Role",
+            "update": "Update"
+        },
+        "additionalInfo": {
+            "roleKey": "Enter 3 uppercased letters to identify this crew role",
+            "description": "Enter an explanatory text what this crew role will be used for and how is assigned to this role"
+        }
+    },
+    "crewMember": {
+        "button": {
+            "add": "Add new type ratings for a crew member",
+            "revert": "Revert deletion of type ratings",
+            "delete": "Delete type rating",
+            "check": "Add type rating"
+        },
+        "model": {
+            "hrAccountName": "HR-Account name",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "publicFrom": "Public from",
+            "publicTo": "Public to",
+            "surName": "Last name",
+            "firstName": "First name",
+            "middleName": "Middle name",
+            "weight": "Weight",
+            "roles": "Roles",
+            "homeBase": "Home base",
+            "licenseValidUntil": "License is valid until",
+            "medicalCertificateValidUntil": "Medical certificate is valid until",
+            "languageProficiencyValidUntil": "Language proficiency is valid until",
+            "licensedRemotePilotedFlights": "Licensed for remote flights",
+            "licensedPilotedFlights": "Licensed for piloted flights",
+            "email": "Email",
+            "phoneNumber": "Phone number",
+            "department": "Department",
+            "entryDate": "Entry Date",
+            "exitDate": "Exit Date",
+            "createdBy": "Created by",
+            "updatedBy": "Updated by",
+            "fromHibob": "User imported from HiBob",
+            "createTime": "Created at",
+            "updateTime": "Updated at",
+            "property": "Property",
+            "changeTo": "Change to",
+            "licensed": "Licensed",
+            "unlicensed": "Unlicensed"
+        },
+        "overview": {
+            "heading": "Resources",
+            "subheading": "Crew Members",
+            "listLabel": "Crew Members",
+            "preview": "Crew Member Preview",
+            "add button": "Add",
+            "create button": "Add",
+            "cancel button": "Cancel"
+        },
+        "create": {
+            "heading": "Add Crew Member"
+        },
+        "edit": {
+            "heading": "Edit Crew Member",
+            "update": "Update"
+        },
+        "detail": {
+            "heading": "{name}"
+        },
+        "additionalInfo": {
+            "firstName": "Enter the first name of the crew member",
+            "middleName": "Enter the middle name of the crew member",
+            "lastName": "Enter the surname of the crew member",
+            "homebase": "Enter the location where this employee is employed and has his working contract. He still may operate in different regions later",
+            "weight": "Enter the estimated weight of the crew member to be used for mass and balance checks",
+            "licenseIsValidUntil": "Enter the expiration date for the crew license. Can be in the past, if already expired",
+            "email": "Enter the email address for this crew member where duty plans can be sent to"
+        }
+    },
+    "calendar": {
+        "header": "Calendar",
+        "No crew member found": "No crew member found",
+        "Zoom in": "Zoom in",
+        "Zoom out": "Zoom out",
+        "Scroll left": "Scroll left",
+        "Scroll right": "Scroll right",
+        "closeButton": "close",
+        "title": "Go To Date",
+        "go": "Go",
+        "actionButtons": {
+            "headerLabel": "Event Actions",
+            "add": "Add event",
+            "edit": "Edit event",
+            "delete": "Delete event",
+            "cancel": "Cancel event"
+        },
+        "modal": {
+            "add": "Add",
+            "edit": "Edit",
+            "delete": "Delete",
+            "event": "Event",
+            "save": "Save",
+            "cancel": "Cancel",
+            "confirm": "Confirm",
+            "deleteConfirmation": "Are you sure you want to delete this event?",
+            "startUTC": "Start (UTC)",
+            "endUTC": "End (UTC)",
+            "blockedForMissiom": "Blocked for Mission"
+        }
+    },
+    "success": {
+        "header": "All ok."
+    },
+    "error": {
+        "statusCode": "Status Code: {code}",
+        "An error occurred": "Uh-oh! An error occurred."
+    },
+    "detail": {
+        "details": "Details",
+        "tabs": {
+            "general": "General",
+            "licenses": "Licenses",
+            "roles": "Roles",
+            "other": "Other"
+        }
+    },
+    "errorTitle": "Oh Snap!",
+    "errorMessages": {
+        "listEmptyError": "At least one value must be set",
+        "maxCharacterError": "Please don't enter more than {maxCharacter} characters",
+        "maxReferencedAttributeValueError": "This value must be less than the \"{referencedAttributeLabel}\" value. The maximum value is {maxValue}",
+        "maxValueError": "This value must be less than {maxValue}",
+        "minCharacterError": "Please enter at least {minCharacter} characters",
+        "minReferencedAttributeValueError": "This value must be greater than the \"{referencedAttributeLabel}\" value. The minimum value is {minValue}",
+        "minValueError": "This value must be greater than {minValue}",
+        "numericOnlyError": "This must be a numeric value",
+        "referentialValueDependencyError": "This value is invalid as it would affect the {referencedEntitiesAttribute} of {referencedEntitiesType}",
+        "valueTakenError": "This value is already taken",
+        "validationFailedError": "This value is invalid",
+        "maxForeignReferencedAttributeValueError": "This value must be less than or equal to the \"{referencedEntityAttribute}\" attribute of the referenced entity \"{referencedEntityType}\" which is {maxForeignValue}",
+        "minForeignReferencedAttributeValueError": "This value must be greater than or equal to the \"{referencedEntityAttribute}\" attribute of the referenced entity \"{referencedEntityType}\" which is {minForeignValue}",
+        "unknownError": "An unknown error occurred",
+        "calendar": {
+            "notFound": "No Crew Member could be found"
+        }
+    },
+    "successTitle": "Yayy!",
+    "successMessages": {
+        "operation successful": "Operation successful"
+    },
+    "leon": "LEON",
+    "source": "Source",
+    "lastSynchronizedAt": "Last Synchronized At"
+}

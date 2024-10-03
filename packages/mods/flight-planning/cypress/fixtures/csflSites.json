@@ -1,0 +1,38 @@
+{
+    "isError": false,
+    "pagination": {
+      "total": null,
+      "limit": null,
+      "offset": null
+    },
+    "error": {},
+    "data": [
+      {
+        "id": 1,
+        "name": "AL S01 Field",
+        "lng": 8.558348520371064,
+        "lat": 50.046741608337726,
+        "alt": 5,
+        "type": "Aerodome",
+        "remarks": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "id": 2,
+        "name": "AL S02 Stadium",
+        "lng": 8.64565292947759,
+        "lat": 50.06812349799632,
+        "alt": 10,
+        "type": "Vertiport",
+        "remarks": "I have the high ground, Anakin!"
+      },
+      {
+        "id": 3,
+        "name": "AL S03 Harbour",
+        "lng": 8.659341848554098,
+        "lat": 50.09839201304062,
+        "alt": 0,
+        "type": "Parking Lot",
+        "remarks": "Are you alright, buddy?"
+      }
+    ]
+  }

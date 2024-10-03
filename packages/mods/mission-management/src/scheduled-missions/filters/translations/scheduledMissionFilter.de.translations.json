@@ -1,0 +1,69 @@
+{
+    "filterPanel": {
+        "filters": "Filter",
+        "flightNumber": "Flugnummer",
+        "missionStatus": {
+            "caption": "Missionstatus",
+            "CANCELLED": "Abgebrochen",
+            "CLOSED": "Abgeschlossen",
+            "PLANNED": "Geplant",
+            "BOARDING": "Einsteigen",
+            "FLYING": "Fliegend",
+            "DIVERTED": "Umgeleitet",
+            "PERFORMED": "Ausgeführt",
+            "UNKNOWN": "Unbekannt"
+        },
+        "typeOfOperation": {
+            "caption": "Art des Vorgangs",
+            "PILOTED": "Pilotiert",
+            "REMOTE_PILOTED": "Ferngesteuert",
+            "UNKNOWN": "Unbekannt"
+        },
+        "mbStatus": {
+            "caption": "Konflikte",
+            "TOTAL_TAKE_OFF_WEIGHT_EXCEEDED": "Gesamtstartgewicht überschritten",
+            "MASS_AND_BALANCE_OUT_OF_LIMITS": "Masse und Schwerpunktlage außerhalb des Grenzwertes",
+            "PILOT_WITHOUT_PILOT_SEAT_ASSIGNMENT": "Pilot ohne Pilotensitzplatzzuweisung",
+            "AIRCRAFT_ASSIGNMENT_INCOMPLETE": "Fluggerätzuweisung unvollständig",
+            "PILOT_ASSIGNMENT_INCOMPLETE": "Pilotenzuweisung unvollständig",
+            "UNKNOWN": "Unbekannt",
+            "AIRCRAFT_UNSERVICEABLE": "Flugzeug unbrauchbar",
+            "AIRCRAFT_SERVICE_TYPE_INVALID": "Flugzeugdienstart ungültig",
+            "BOOKINGS_EXCEED_SEAT_NUMBER": "Die Buchungen überschreiten die Sitzplatzanzahl",
+            "VERTIPORT_DELETED": "Vertiport gelöscht",
+            "WEATHER_OUT_OF_LIMITS": "Wetter außerhalb der Grenzen",
+            "NOTAMS_INCOMPLETE": "NOTAMs unvollständig",
+            "ROUTE_OPTION_ASSIGNMENT_INCOMPLETE": "RouteOption-Zuweisung unvollständig",
+            "ROUTE_OPTION_VALIDATION_INCOMPLETE": "RouteOption-Validierung unvollständig",
+            "PAD_ASSIGNMENT_INCOMPLETE": "Pad-Belegung unvollständig",
+            "MISSION_DURATION_MISMATCH_WITH_FLIGHT_PLAN": "Missionsdauer stimmt nicht mit Flugplan überein"
+        },
+        "service": {
+            "caption": "Leistung",
+            "PASSENGER": "Passagier",
+            "CARGO": "Fracht",
+            "TEST": "Test",
+            "TRAINING": "Ausbildung",
+            "FERRY_FLIGHT": "Flug mit der Fähre",
+            "CARPOOL": "Fahrgemeinschaft",
+            "UNKNOWN": "Unbekannt"
+        },
+        "arrivalDate": "Geplante Ankunftszeit",
+        "arrivalActual": "Aktuelle Ankunftszeit",
+        "departureDate": "Geplante Abflugszeit",
+        "departureActual": "Aktuelle Abflugszeit",
+        "validity": "Gültigkeit",
+        "from": "Seit",
+        "to": "Bis",
+        "aircraft": "Fluggerät",
+        "aircraftType": "Flugzeugtyp",
+        "pilotEmail": "Zugewiesene Pilot-E-Mail",
+        "departureVertiportCode": "Abflug-Vertiport-Code",
+        "arrivalVertiportCode": "Ankunfts-Vertiport-Code",
+        "leonId": "Leon-ID",
+        "departureRegion": "Abflugregion",
+        "arrivalRegion": "Ankunftsregion",
+        "departureVertiport": "Abfahrt Vertiport",
+        "arrivalVertiport": "Ankunft Vertiport"
+    }
+}

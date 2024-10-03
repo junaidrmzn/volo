@@ -1,0 +1,27 @@
+{
+    "name": "@voloiq/card-list-item",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "clean": "rimraf ./dist ./build-statistics ./coverage",
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit",
+        "test": "cross-env NODE_ENV=testing jest --config ./config/jest.config.ts --passWithNoTests",
+        "test:debug": "cross-env NODE_ENV=testing node --inspect-brk ../../../node_modules/jest/bin/jest.js --runInBand --config ./config/jest.config.ts"
+    },
+    "dependencies": {
+        "@volocopter/design-library-react": "42.2.0",
+        "@voloiq/utils": "1.0.0",
+        "react": "17.0.2"
+    },
+    "devDependencies": {
+        "@storybook/react": "6.5.9",
+        "@types/react": "17.0.39",
+        "cross-env": "7.0.3",
+        "eslint": "7.32.0",
+        "jest": "27.4.7",
+        "rimraf": "3.0.2",
+        "typescript": "4.5.5"
+    }
+}

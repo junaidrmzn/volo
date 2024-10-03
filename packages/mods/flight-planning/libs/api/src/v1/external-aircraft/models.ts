@@ -1,0 +1,25 @@
+export type ExternalAircraft = {
+    externalId: string;
+    msn: string;
+    technicalStatus: string;
+    homebaseVertiportId: string;
+    validFrom?: string;
+    validTo?: string;
+    createTime: string;
+    updateTime: string;
+    crewConfiguration: string;
+    service: string;
+    registration: string;
+    aircraftTypeId: string;
+    dryOperatingMass?: number;
+    nominalRange?: number;
+    nominalEndurance?: number;
+    colorAndMarkingCharacteristics?: string[];
+    survivalEquipmentClassifications?: string[];
+    lifeJacketEquipment?: string[];
+    surveillanceTransponderTypes?: string[];
+    communicationCapabilities?: string[];
+    navigationCapabilities?: string[];
+    emergencyRadioTypes?: string[];
+    performanceBasedNavigationCapabilities?: string[];
+};

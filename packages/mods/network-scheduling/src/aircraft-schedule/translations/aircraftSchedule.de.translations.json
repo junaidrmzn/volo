@@ -1,0 +1,46 @@
+{
+    "Aircraft type": "Fluggerät Typ",
+    "Schedule": "Zeitplan",
+    "No aircraft found": "Keine Fluggeräte gefunden",
+    "Zoom in": "Vergößern",
+    "Zoom out": "Verkleinern",
+    "Scroll left": "Nach links bewegen",
+    "Scroll right": "Nach rechts bewegen",
+    "closeButton": "schließen",
+    "title": "Gehen Sie zum Datum",
+    "go": "Gehen",
+    "Legend": {
+        "Mission": "Mission",
+        "Event": "Veranstaltung",
+        "Event blocked for mission": "Veranstaltung verhindert Missionen",
+        "Warning": "Warnung"
+    },
+    "Service": "Service",
+    "Passenger": "Passagier",
+    "Cargo": "Fracht",
+    "Test": "Test",
+    "Unknown": "Unbekannt",
+    "Type": "Typ",
+    "Crew configuration": "Crew Konfiguration",
+    "Crew conf.": "Konfig.",
+    "Crew": {
+        "CREWED": "Bemannt",
+        "UNCREWED": "Unbemannt"
+    },
+    "MSN": "MSN",
+    "Homebase": "Heimatbasis",
+    "Technical status": {
+        "SERVICEABLE": "Betriebsfähig",
+        "SERVICEABLE_WITH_LIMITATIONS": "Betriebsfähig mit Einschränkungen",
+        "UNSERVICEABLE": "Nicht betriebsfähig",
+        "SHORT": {
+            "SERVICEABLE": "Betriebsfähig",
+            "SERVICEABLE_WITH_LIMITATIONS": {
+                "LIMITATIONS": "Eingeschränkt"
+            },
+            "UNSERVICEABLE": "Betriebsunfähig"
+        }
+    },
+    "Some data failed to load": "Einige Daten konnten nicht geladen werden",
+    "Try again later": "Versuchen Sie es später noch einmal"
+}

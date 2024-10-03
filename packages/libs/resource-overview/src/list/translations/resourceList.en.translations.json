@@ -1,0 +1,20 @@
+{
+    "pagination": {
+        "label": "Pagination",
+        "previousPageAriaLabel": "Previous page",
+        "nextPageAriaLabel": "Next page"
+    },
+    "emptyState": {
+        "title": "No entries found",
+        "description": "Are you sure there are entries?"
+    },
+    "list": {
+        "ariaLabel": "Resource list"
+    },
+    "listHeader": {
+        "page": "page",
+        "of": "{page} of {pageCount}",
+        "entriesFound": "{count} entries found",
+        "bulkEdit": "Bulk Edit"
+    }
+}

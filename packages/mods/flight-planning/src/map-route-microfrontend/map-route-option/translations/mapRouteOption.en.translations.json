@@ -1,0 +1,14 @@
+{
+    "routes": {
+        "error": {
+            "title": "No routes found",
+            "description": "Sorry, we couldn't find any routes for this mission"
+        }
+    },
+    "notams": {
+        "error": {
+            "title": "No NOTAMs found",
+            "description": "Sorry, we couldn't find any NOTAMs for this mission"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "ErrorTitle": "Der aktuelle Plan ist noch nicht zur Veröffentlichung bereit.",
+    "ErrorDescription": "Alle Schedule Items sind für diesen Plan ungültig. Bitte überprüfen Sie die Gültigkeit von Ports/Verbindungen, bevor Sie veröffentlichen",
+    "WarningTitle":"Der aktuelle Plan hat ungültige Zeitplanpositionen.",
+    "WarningSingularDescription": "Ein Zeitplaneintrag ist für diesen Plan ungültig. Bitte überprüfen Sie die Gültigkeit von Vertiport/Verbindung, bevor Sie veröffentlichen",
+    "WarningPluralDescription": "Einige Zeitplanpositionen sind für diesen Plan ungültig. Bitte überprüfen Sie die Gültigkeit von Ports/Verbindungen, bevor Sie veröffentlichen."
+}

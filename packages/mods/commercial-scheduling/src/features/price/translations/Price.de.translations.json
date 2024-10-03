@@ -1,0 +1,106 @@
+{
+    "heading": "Preisgestaltung",
+    "subheading": "Preisgestaltung für diesen plan",
+    "allRoutes": "Alle Routen",
+    "priceForAllDays": "Preis für alle Tage",
+    "information": "Hier finden Sie die Preise für Ihren Tarif.",
+    "labels": {
+        "add": "hinzufügen",
+        "back": "Zurück",
+        "cancel": "Abbrechen",
+        "confirm": "Bestätigen Sie",
+        "edit": "bearbeiten",
+        "save": "Speichern",
+        "validFrom": "Gültig ab"
+    },
+    "dropdown": {
+        "placeholder": "Bitte wählen",
+        "errorMessage": "Bitte wählen Sie einen gültigen Eintrag"
+    },
+    "modal": {
+        "add": {
+            "heading": "hinzufügen",
+            "subheading": "Preise für diesen Zeitplan",
+            "Validity": "Gültigkeit",
+            "all days": "alle Tage",
+            "by days": "tageweise",
+            "for all routes": "für alle Routen",
+            "by routes": "nach Routen",
+            "Currency": "Währung",
+            "Standard Price": "Standard Preis",
+            "EuroCurrency": "Euro (Standard für diese Region)",
+            "successMessages": {
+                "priceAdded title": "Preisdefinition hinzugefügt",
+                "priceAdded desc": "Sie haben die Preisdefinition erfolgreich hinzugefügt."
+            },
+            "errorMessages": {
+                "priceAdded title": "Preisdefinition nicht hinzugefügt",
+                "priceAdded desc": "Beim Hinzufügen der Preisdefinition ist ein Fehler aufgetreten."
+            }
+        },
+        "edit": {
+            "heading": "bearbeiten",
+            "subheading": "Preise für diesen Zeitplan",
+            "confirm heading": "Bestätigen Sie",
+            "confirm subheading": "Bearbeitung eines eingereichten Antrags",
+            "Validity": "Gültigkeit",
+            "all days": "alle Tage",
+            "by days": "tageweise",
+            "for all routes": "für alle Routen",
+            "by routes": "nach Routen",
+            "Currency": "Währung",
+            "Standard Price": "Standard Preis",
+            "EuroCurrency": "Euro (Standard für diese Region)",
+            "confirmation text": "Sie sind dabei, eine bereits eingereichte Preisdefinition zu bearbeiten. Durch die Bearbeitung wird der Status dieser Preisdefinition wieder auf Entwurf zurückgesetzt. Die Genehmigungsanfrage wird geschlossen und Sie müssen Ihren neuen Entwurf erneut einreichen.",
+            "confirmation question": "Möchten Sie mit der Bearbeitung fortfahren?",
+            "successMessages": {
+                "priceEdited title": "Preisdefinition Bearbeitet",
+                "priceEdited desc": "Sie haben die Preisdefinition erfolgreich bearbeitet."
+            },
+            "errorMessages": {
+                "priceEdited title": "Preisdefinition nicht editiert",
+                "priceEdited desc": "Bei der Bearbeitung der Preisdefinition ist ein Fehler aufgetreten."
+            }
+        }
+    },
+    "actions": {
+        "approve": {
+            "title": "Preisgestaltung genehmigen",
+            "modal": {
+                "heading": "Informationen",
+                "subheading": "Preisdefinition genehmigen",
+                "description": "Sie sind dabei, eine Preisdefinition zu genehmigen. Möchten Sie fortfahren?",
+                "Approve": "Genehmigen"
+            },
+            "toast": {
+                "title": "Preisdefinition gebilligt",
+                "description": "Sie haben die Preisdefinition erfolgreich bestätigt"
+            }
+        },
+        "reject": {
+            "title": "Preisgestaltung ablehnen",
+            "modal": {
+                "heading": "Warnung",
+                "subheading": "Ablehnung der Preisdefinition",
+                "description": "Sie sind dabei, eine eingereichte Preisdefinition abzulehnen. Bitte fügen Sie eine kleine Notiz für Ihre Kollegen hinzu, damit sie wissen, was sie ändern müssen.",
+                "placeholder": "Geben Sie eine kleine Nachricht ein",
+                "Reject": "Ablehnen"
+            },
+            "toast": {
+                "title": "Preisdefinition Abgelehnt",
+                "description": "Sie haben die Preisdefinition erfolgreich abgelehnt"
+            }
+        },
+        "request": {
+            "title": "Antrag auf Preisgenehmigung",
+            "toast": {
+                "success": {
+                    "description": "Beantragte Preisgenehmigung erfolgreich"
+                },
+                "error": {
+                    "description": "Zurzeit kann keine Preisgenehmigung beantragt werden"
+                }
+            }
+        }
+    }
+}

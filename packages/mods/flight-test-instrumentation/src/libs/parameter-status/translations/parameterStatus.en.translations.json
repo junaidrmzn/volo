@@ -1,0 +1,24 @@
+{
+    "parameterStatusForm": {
+        "selectLabel": "Status",
+        "selectPlaceholder": "Select status",
+        "selectError": "",
+        "datePickerLabel": "Timestamp"
+    },
+    "parameterStatusSelect": {
+        "aircraftLabel": "Aircraft",
+        "saveButton": "Save status",
+        "doneButton": "Done"
+    },
+    "bulkParametersStatusSelect": {
+        "updateButton": "Update",
+        "cancelButton": "Cancel"
+    },
+    "status": {
+        "REQUESTED": "Requested",
+        "DRAFT": "Draft",
+        "RELEASED": "Released",
+        "CANCELLED": "Cancelled",
+        "FROZEN": "Frozen"
+    }
+}

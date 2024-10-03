@@ -1,0 +1,9 @@
+{
+    "add": "Add",
+    "collapse": "Collapse",
+    "close": "Close",
+    "expand": "Expand",
+    "validity": {
+        "recalculate": "Recalculate"
+    }
+}

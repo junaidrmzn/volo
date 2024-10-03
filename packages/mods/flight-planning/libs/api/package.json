@@ -1,0 +1,47 @@
+{
+    "name": "@voloiq/flight-planning-api",
+    "version": "1.0.0",
+    "exports": {
+        "./v1": "./src/v1/index.ts"
+    },
+    "typesVersions": {
+        "*": {
+            "v1": [
+                "./src/v1/index.ts"
+            ]
+        }
+    },
+    "scripts": {
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit",
+        "test:jest": "cross-env NODE_ENV=testing jest --config ./config/jest.config.ts --passWithNoTests",
+        "test:pact": "yarn test:jest 'pacttest'"
+    },
+    "dependencies": {
+        "@volocopter/design-library-react": "42.2.0",
+        "@voloiq/flight-planning-utils": "1.0.0",
+        "@voloiq/map": "1.0.0",
+        "@voloiq/routing": "1.0.0",
+        "@voloiq/service": "1.0.0",
+        "@voloiq/utils": "1.0.0",
+        "react": "17.0.2",
+        "react-query": "3.38.0"
+    },
+    "devDependencies": {
+        "@pact-foundation/pact": "9.17.3",
+        "@testing-library/react-hooks": "8.0.1",
+        "@types/react": "17.0.39",
+        "@voloiq-typescript-api/flight-planning-types": "34.2.1",
+        "@voloiq/auth": "1.0.0",
+        "@voloiq/feature-flags": "1.0.0",
+        "@voloiq/i18n": "1.0.0",
+        "@voloiq/routing": "1.0.0",
+        "@voloiq/testing": "1.0.0",
+        "cross-env": "7.0.3",
+        "eslint": "7.32.0",
+        "jest": "27.4.7",
+        "jest-pact": "0.9.4",
+        "typescript": "4.5.5"
+    }
+}

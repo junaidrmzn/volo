@@ -1,0 +1,263 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+import { Table } from "./Table";
+import { Basic } from "./Table.stories";
+
+<Meta title="Table/How to use the Table" />
+
+# How to use the `@voloiq/table` Library
+
+When adding a table to your UI, you have two options:
+
+-   use the "raw" `Table` component of `@volocopter/design-library-react` ([see its story here](?path=/story/design-system-molecules-table--basic)) or
+-   use the more sophisticated `Table` component of `@voloiq/table`
+
+The first one gives you more freedom, because you can arrange the `Table` and its containing `Td`s and `Tr`s however you like.
+But that also means that you have to implement everything from scratch!
+
+The second one offers more capabilities for the little price that you cannot decide everything.
+How that works is explained below:
+
+## Creating a Table
+
+At the first glance, the tables from `@volocopter/design-library-react` and `@voloiq/table` look exactly the same.
+That's because `@voloiq/table` uses the table components of the design library, obviously 😉.
+The difference becomes apparent when you look at how the components are used; click on "show code" to view the implementation of the table below:
+
+<Canvas>
+    <Story id="table-table--basic" />
+</Canvas>
+
+As you can see, this `Table` takes an array of columns and an array of data and displays it accordingly, no juggling with table body parts.
+
+### Data
+
+This could be your data!
+Each entry in the data array is rendered as a row in the table.
+
+**Use memoization** to avoid costly rerenders of the whole table.
+
+### Columns
+
+To add a column to your table, you add an entry to the column array.
+
+**Use memoization** to avoid costly rerenders of the whole table.
+
+Let's take a closer look at the properties of a column:
+
+#### `id`: string
+
+Each column needs an unique `id`.
+If the `accessor` or the `Header` have a string value, that string can also be defaulted to and the `id` becomes optional.
+In that case you still have to make sure that each `id` is unique, e.g. if multiple columns have the same string accessor.
+
+#### `Header`: string | ReactElement | Function
+
+The `Header` will be displayed as, well, the header of the column.
+It can be a `string` or `ReactElement`, but also be a function that takes the table instance and returns one of the two former types.
+If you don't specify a `Header` it will be left empty.
+If you use a string `Header`, you can omit the `id` prop, but make sure that it's unique!
+
+_Please keep in mind that table headers are also content that needs to be translated._
+
+#### `accessor`: string | Function
+
+This property specifies which part of the data should be accessed by the column.
+
+```ts
+const columns: Column<CrewMember> = [
+    {
+        Header: "E-Mail",
+        // for shallow data entries (like entry.email) you can use a string accessor
+        accessor: "email",
+    },
+    {
+        Header: "First Name",
+        // for nested data entries (like entry.name.first) you need to use a function accessor
+        accessor: (entry) => entry.name.first,
+        // in this case, you also need an id
+        id: "firstName",
+    },
+];
+```
+
+The parameters passed to the function accessor are the data of the row ("entry") and the index of the row.
+So a column that only shows the index of the row looks like this:
+
+```ts
+{
+    Header: "#",
+    accessor: (_, index) => index,
+}
+```
+
+If you use a string accessor, you can omit the `id` prop, but make sure that it's unique!
+
+#### `Cell`: Function
+
+By default, each cell renders the accessed data (as specified by the accessor) as a string:
+
+```ts
+{
+    Header: "E-Mail",
+    accessor: "email",
+    // the default cell renderer
+    Cell: (cell) => String(cell.value),
+}
+```
+
+You can render a custom cell by setting the `Cell` property.
+It should return a `string`, `number` or `ReactElement`, but then you'll end up with a column where each row has the same value...
+
+The `Cell` property can also be a function that takes the table instance and returns one of the three types.
+
+You could, for instance, use a custom cell to visualize a boolean value with icons:
+
+```ts
+{
+    Header: "Verified",
+    accessor: "isVerified",
+    Cell: (cell) => {
+        const { value } = cell;
+        return <Icon icon={value ? "check" : "xMark"} />;
+    },
+}
+```
+
+## Creating a Table with selectable rows
+
+This `Table` takes as usual the two arrays of columns and data. Additionally the `Table` takes the object `rowSelectProps` where you can set `isRowSelectable`, `toggleAllRowsSelectLabel`, `toggleRowSelectLabel` and `onRowSelect`.
+
+<Canvas>
+    <Story id="table-table--table-with-selectable-rows" />
+</Canvas>
+
+#### isRowSelectable
+
+Toggles whether the rows of the table should be selectable or not. If `isRowSelectable` is set, then the other properties also need to be set.
+
+#### toggleAllRowsSelectLabel
+
+Labels the checkbox in the header of the table.
+
+#### toggleRowSelectLabel
+
+Labels the checkboxes in the body of the table.
+
+#### onRowSelect
+
+Defines the action when rows are selected.
+
+### Selecting rows initially
+
+<Canvas>
+    <Story id="table-table--table-with-some-rows-preselected" />
+</Canvas>
+
+You might want to preselect the rows of your table programmatically. The following properties allow you to to so:
+
+#### initialSelectAllRows
+Toggles whether every row in your table is preselected or not.
+
+#### initialSelectedIds
+Here you can specify an array with unique ids of the data sets you want to preselect.
+
+#### uniqueIdentifier
+Here you can specify which one of the data keys is the unique key.
+
+**TIP:** If you want to preselect only a few rows, you have to work with `initialSelectedIds` and `uniqueIdentifier`. 
+If one of these properties is missing, the rows won't be preselected.
+
+**IMPORTANT:** In the rare case the data you want to display **does not** have a unique id AND you want preselect some rows, 
+you'll have to extend the data and add an id yourself. 
+
+## Creating a Table with pagination
+
+There a two ways to manage the pagination for a Table. **Server-Sided Pagination** and **Client-Sided Pagination**.
+
+Please use the one most convenient method for your data.
+**Server-Sided Pagination** can handle a large amount of data while **Client-Sided Pagination** can only handle a small amount.
+
+### Client-Sided Pagination
+
+For the Client-Sided Pagination you need to add the object `paginationProps` with the following properties to your Table: `hasClientSidePagination`, `paginationAriaLabel`, `previousPageAriaLabel`, `nextPageAriaLabel` and `itemsPerPage`.
+
+<Canvas>
+    <Story id="table-table--table-with-client-side-pagination" />
+</Canvas>
+
+#### hasClientSidePagination
+
+Toggles whether the table uses the Client-Sided Pagination or not.
+
+#### paginationAriaLabel
+
+Labels the pagination element.
+
+#### nextPageAriaLabel
+
+Labels the button navigating to the next page.
+
+#### previousPageAriaLabel
+
+Labels the button navigating to the previous page.
+
+#### itemsPerPage
+
+Specifies how many rows are displayed in one page.
+
+### Server-Sided Pagination
+
+The Server-Sided Pagination uses also the object `paginationProps` with almost the same properties than the Client-Sided pagination plus some extra properties.
+Instead of `hasClientSidePagination` you can use `hasServerSidePagination` and additionally you have to use the properties `isLoading`, `fetchData` and `totalItems`.
+
+<Canvas>
+    <Story id="table-table--table-with-server-side-pagination" />
+</Canvas>
+
+#### hasServerSidePagination
+
+Toggles whether the table uses the Server-Sided Pagination or not.
+
+#### totalItems
+
+Specifies the total amount of data in your Table.
+
+#### isLoading
+
+Indicates if data is fetched.
+
+#### fetchData
+
+Fetches an amount of data using itemsPerPage and the current pageIndex.
+
+## Sorting the Table
+
+You can sort the columns of a Table by clicking on the header of the column.
+In order to enable/disable the sorting for your table you need to set the object `sortingProps` with the prop `isSortable`.
+
+#### isSortable
+
+Toggles whether the data in the table is sortable.
+
+### Server-Side
+
+If you want to sort your data on the Server-Side, you have to implement the sorting function manually.
+
+**TIP**: `sortBy` uses the properties id and desc to find the data you want to sort. e.g. `{id: "example", desc: false}`.
+For its id it uses the column id, if you don't have a column id, it uses the accessor of the column as long as the accessor
+is not a function and as a last resort if there is no compatible column id or accessor, it uses the column header as its id.
+Please make sure that the id of `sortBy` matches the access keys of your data in order to find and sort the values.
+
+E.g.:
+
+```ts
+const columns: Column<CrewMember>[] = [
+    { Header: "First Name", accessor: (data) => data.name.first, id: "name.first" }, // => sortBy.id = "name.first"
+    { Header: "Last Name", accessor: (data) => data.name.last }, // => sortBy.id = "Last Name"
+    { Header: "E-Mail", accessor: "email" }, // => sortBy.id = "email"
+];
+```
+
+### Client-Side
+
+Aside from `sortingProps` with `isSortable` you don't need to implement anything for the Client-Side. The table takes care of the sorting.

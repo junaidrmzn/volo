@@ -1,0 +1,99 @@
+{
+    "general": {
+        "header": "General",
+        "generalView": {
+            "aircraftLabel": "Aircraft",
+            "timeOfFlightLabel": "Time of Flight",
+            "fcSoftwareLabel": "FC Software",
+            "locationLabel": "Location",
+            "crewPilotLabel": "Pilots",
+            "crewSupervisorLabel": "Supervisors",
+            "remarksLabel": "Remarks",
+            "numberOfFiles": "Number of files",
+            "flightTestOrder": "Flight Test Order",
+            "telemetryData": "TM Data",
+            "onBoardData": "Onboard Data"
+        }
+    },
+    "statistics": {
+        "header": "Statistics",
+        "statisticsView": {
+            "unknownValue": "N/A",
+            "flightDuration": "Flight Duration",
+            "maxAltitude": "Max. Altitude",
+            "altitudeText": "{altitude} m",
+            "maxVelocity": "Max. Velocity",
+            "velocityText": "{velocity} m/s",
+            "pendingText": "Statistics are available when at least one log file is available and all files have been processed."
+        }
+    },
+    "files": {
+        "header": "Files",
+        "uploadButton": "Add file",
+        "fileList": {
+            "createTime": "Create time",
+            "updateTime": "Update time",
+            "emptyList": "No files are available",
+            "statusPopover": {
+                "error": "Error",
+                "retryButtonText": "Retry processing",
+                "closeButton": "Close"
+            },
+            "downloadButtonAriaLabel": "Download file",
+            "playButtonAriaLabel": "Play"
+        },
+        "videoModal": {
+            "modalHeader": "{fileName} is playing",
+            "noSupportMessage": "This Browser is not supported"
+        }
+    },
+    "exports": {
+        "header": "Exports",
+        "requestExportButton": "Export",
+        "exportFilterSelect": {
+            "meOption": "Created by me",
+            "allOption": "All"
+        },
+        "exportList": {
+            "fileTypes": {
+                "CSV": "CSV",
+                "HDF5": "H5",
+                "PARQUET": "PQ"
+            },
+            "emptyList": "No exports are available",
+            "startTime": "Start time",
+            "endTime": "End time",
+            "sampleRate": "Sample rate",
+            "parameterPopover": {
+                "parameterCount": "{count} Parameters",
+                "header": "Included Parameters",
+                "copyDoneMessage": "Copied",
+                "copyButtonLabel": "Copy"
+            },
+            "downloadButtonAriaLabel": "Download export"
+        }
+    },
+    "statusInfo": {
+        "uploadRequested": "Upload in progress...",
+        "processing": "Processing ...",
+        "processed": "Processed",
+        "queued": "Queued"
+    },
+    "uploadFiles": {
+        "header": {
+            "parentTitle": "Log",
+            "uploadButtonText": "Upload",
+            "backButtonAriaLabel": "Back",
+            "titleText": "Upload files"
+        },
+        "uploadCancelledDescription": "The remaining files were not uploaded.",
+        "cancelUploadModal": {
+            "description": "The files that have already been uploaded will still be accessible."
+        },
+        "backToLogButton": "Back to log",
+        "finishedText": "Files successfully uploaded",
+        "finishedPartiallyText": "Files partially uploaded",
+        "erroneousFilesText": "The following files could not be uploaded correctly:",
+        "erroneousFilesRetryText": "Please try to upload the files again."
+    }
+}

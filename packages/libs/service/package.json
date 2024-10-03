@@ -1,0 +1,60 @@
+{
+    "name": "@voloiq/service",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "bin": {
+        "generate-service": "src/generator/generateService.js"
+    },
+    "scripts": {
+        "clean": "rimraf ./dist ./build-statistics ./coverage ./src/api",
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit",
+        "test:hooks": "cross-env NODE_ENV=testing jest --config ./config/jest-jsdom.config.ts",
+        "test:generator": "cross-env NODE_ENV=testing jest --config ./config/jest-node.config.ts",
+        "test": "yarn test:hooks && yarn test:generator",
+        "test:debug": "cross-env NODE_ENV=testing node --inspect-brk ../../../node_modules/jest/bin/jest.js --runInBand --config ./config/jest.config.ts"
+    },
+    "devDependencies": {
+        "@jest/types": "27.4.2",
+        "@mswjs/data": "0.8.4",
+        "@testing-library/react": "12.1.5",
+        "@testing-library/react-hooks": "8.0.1",
+        "@types/faker": "5.5.3",
+        "@types/react": "17.0.39",
+        "commander": "9.0.0",
+        "cross-env": "7.0.3",
+        "dotenv": "16.0.0",
+        "eslint": "7.32.0",
+        "faker": "5.5.3",
+        "jest": "27.4.7",
+        "mock-fs": "5.1.2",
+        "msw": "0.36.8",
+        "orval": "6.5.3",
+        "prettier": "2.7.1",
+        "rimraf": "3.0.2",
+        "ts-node": "10.9.1",
+        "typescript": "4.5.5",
+        "wait-for-expect": "3.0.2"
+    },
+    "dependencies": {
+        "@chakra-ui/react": "1.8.9",
+        "@emotion/react": "11.7.1",
+        "@emotion/styled": "11.6.0",
+        "@volocopter/design-library-react": "42.2.0",
+        "@volocopter/filter-react": "48.1.0",
+        "@voloiq/auth": "1.0.0",
+        "@voloiq/filter-panel": "1.0.0",
+        "@voloiq/i18n": "1.0.0",
+        "@voloiq/utils": "1.0.0",
+        "axios": "0.25.0",
+        "axios-hooks": "3.0.0",
+        "framer-motion": "5.6.0",
+        "loglevel": "1.8.0",
+        "qs": "6.10.3",
+        "react": "17.0.2",
+        "react-use": "17.3.2",
+        "ts-pattern": "3.3.5",
+        "uuid": "9.0.0"
+    }
+}

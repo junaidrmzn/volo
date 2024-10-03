@@ -1,0 +1,53 @@
+{
+    "name": "@voloiq/flight-monitoring",
+    "version": "1.0.0",
+    "main": "src/index.tsx",
+    "scripts": {
+        "start": "cross-env NODE_ENV=development webpack serve --config ./config/webpack.development.ts",
+        "start:module": "cross-env NODE_ENV=development webpack serve --config ./config/webpackModuleDevelopment.config.ts",
+        "build": "cross-env NODE_ENV=production webpack-cli --color --config ./config/webpackModuleProduction.config.ts",
+        "clean": "rimraf ./dist ./build-statistics ./coverage ./src/api",
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit",
+        "test": "cross-env NODE_ENV=testing jest --config ./config/jest.config.ts --passWithNoTests",
+        "test:debug": "cross-env NODE_ENV=testing node --inspect-brk ../../../node_modules/jest/bin/jest.js --runInBand --config ./config/jest.config.ts"
+    },
+    "dependencies": {
+        "@chakra-ui/react": "1.8.9",
+        "@emotion/react": "11.7.1",
+        "@emotion/styled": "11.6.0",
+        "@turf/turf": "6.5.0",
+        "@volocopter/design-library-react": "42.2.0",
+        "@voloiq/app-shell": "1.0.0",
+        "@voloiq/feature-flags": "1.0.0",
+        "@voloiq/i18n": "1.0.0",
+        "@voloiq/map": "1.0.0",
+        "@voloiq/routing": "1.0.0",
+        "@voloiq/service": "1.0.0",
+        "echarts": "5.4.0",
+        "framer-motion": "5.6.0",
+        "lodash": "4.17.21",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-select": "5.5.6",
+        "react-use-websocket": "3.0.0"
+    },
+    "devDependencies": {
+        "@types/react": "17.0.39",
+        "@types/react-dom": "17.0.11",
+        "@voloiq-typescript-api/flight-monitoring-types": "2.0.0",
+        "@voloiq-typescript-api/flight-planning-types": "8.1.1",
+        "@voloiq/testing": "1.0.0",
+        "cross-env": "7.0.3",
+        "eslint": "7.32.0",
+        "identity-obj-proxy": "3.0.0",
+        "jest": "27.4.7",
+        "maplibre-gl": "3.5.1",
+        "rimraf": "3.0.2",
+        "ts-node": "10.9.1",
+        "typescript": "4.5.5",
+        "webpack": "5.68.0",
+        "webpack-cli": "5.1.4"
+    }
+}

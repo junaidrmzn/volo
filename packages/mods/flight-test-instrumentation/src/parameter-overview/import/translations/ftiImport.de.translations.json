@@ -1,0 +1,38 @@
+{
+    "header": {
+        "parentTitle": "Parameters",
+        "title": "Importieren",
+        "backButtonTooltip": "Zurück zur Übersicht",
+        "importButton": "Importieren"
+    },
+    "form": {
+        "aircraftLabel": "Luftfahrzeug",
+        "attachmentLabel": "CSV Datei",
+        "select": {
+            "placeholder": "Wählen Sie eine Option",
+            "requiredErrorMessage": "Bitte wählen Sie eine Option"
+        },
+        "fileInput": {
+            "deleteFileAriaLabel": "Löschen",
+            "selectFilesLabel": "Wählen Sie eine Datei aus",
+            "selectMultipleFilesLabel": "Wählen Sie Dateien aus",
+            "dropFileLabel": "Legen Sie eine Datei hier ab",
+            "orLabel": "oder",
+            "dropMultipleFilesLabel": "Legen Sie Dateien hier ab",
+            "rejectedFilesErrorMessage": "Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie Dateien der folgenden Typen: {acceptedFiles}.",
+            "requiredErrorMessage": "Bitte wählen Sie einen Anhang",
+            "requiredMultipleErrorMessage": "Bitte wählen Sie mindestens einen Anhang"
+        },
+        "multiSelect": {
+            "placeholder": "Wählen Sie Optionen"
+        }
+    },
+    "uploadProgress": {
+        "text": "Datei {fileName} hochladen...",
+        "processingText": "Upload abgeschlossen. Verarbeitung der CSV-Datei..."
+    },
+    "successToast": {
+        "title": "Erfolg",
+        "description": "{parameterCount} Parameter wurden importiert"
+    }
+}

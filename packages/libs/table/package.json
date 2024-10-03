@@ -1,0 +1,42 @@
+{
+    "name": "@voloiq/table",
+    "version": "1.0.0",
+    "main": "dist/voloiq-table.cjs.js",
+    "module": "dist/voloiq-table.esm.js",
+    "types": "dist/voloiq-table.cjs.d.ts",
+    "scripts": {
+        "build": "preconstruct build",
+        "clean": "rimraf ./dist ./build-statistics ./coverage",
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit",
+        "test": "cross-env NODE_ENV=testing jest --config ./config/jest.config.ts",
+        "test:debug": "cross-env NODE_ENV=testing node --inspect-brk ../../../node_modules/jest/bin/jest.js --runInBand --config ./config/jest.config.ts"
+    },
+    "dependencies": {
+        "@chakra-ui/react": "1.8.9",
+        "@emotion/react": "11.7.1",
+        "@emotion/styled": "11.6.0",
+        "@volocopter/design-library-react": "42.2.0",
+        "@voloiq/utils": "1.0.0",
+        "framer-motion": "5.6.0",
+        "react": "17.0.2",
+        "react-table": "7.7.0",
+        "react-use": "17.3.2",
+        "ts-pattern": "3.3.5"
+    },
+    "devDependencies": {
+        "@preconstruct/cli": "2.1.5",
+        "@storybook/addon-actions": "6.4.18",
+        "@storybook/react": "6.4.18",
+        "@types/react": "17.0.39",
+        "@types/react-table": "7.7.11",
+        "@voloiq/testing": "1.0.0",
+        "cross-env": "7.0.3",
+        "eslint": "7.32.0",
+        "jest": "27.4.7",
+        "lodash": "4.17.21",
+        "rimraf": "3.0.2",
+        "typescript": "4.5.5"
+    }
+}

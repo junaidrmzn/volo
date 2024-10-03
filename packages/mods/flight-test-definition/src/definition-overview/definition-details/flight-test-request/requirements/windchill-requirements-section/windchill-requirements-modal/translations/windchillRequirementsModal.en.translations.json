@@ -1,0 +1,15 @@
+{
+    "Requirements From Windchill": "Requirements From Windchill",
+    "Edit": "Edit",
+    "Show more": "Show more",
+    "All": "All",
+    "Done": "Done",
+    "Selected": "Selected",
+    "Description": "Description",
+    "Pass / Fail Criteria": "Pass / Fail Criteria",
+    "Windchill Requirement {documentId}-{windchillId}": "Windchill Requirement {documentId}-{windchillId}",
+    "Windchill Requirement {documentId}-{windchillId} Pass/Fail Criteria": "Windchill Requirement {documentId}-{windchillId} Pass/Fail Criteria",
+    "Assigned Windchill Requirement {documentId}-{windchillId}": "Assigned Windchill Requirement {documentId}-{windchillId}",
+    "Assigned Windchill Requirement {documentId}-{windchillId} Pass/Fail Criteria": "Assigned Windchill Requirement {documentId}-{windchillId} Pass/Fail Criteria",
+    "Windchill Requirement Container": "Windchill Requirement Container"
+}

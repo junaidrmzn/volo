@@ -1,0 +1,29 @@
+{
+    "name": "@voloiq/distance-unit-input",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "clean": "rimraf ./dist ./build-statistics ./coverage",
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@storybook/react": "6.4.18",
+        "@testing-library/react": "12.1.5",
+        "@volocopter/design-library-react": "42.2.0",
+        "cross-env": "7.0.3",
+        "eslint": "7.32.0",
+        "jest": "27.4.7",
+        "rimraf": "3.0.2",
+        "typescript": "4.5.5"
+    },
+    "dependencies": {
+        "@chakra-ui/react": "1.8.9",
+        "@emotion/react": "11.7.1",
+        "@emotion/styled": "11.6.0",
+        "@volocopter/unit-inputs-react": "13.0.0",
+        "react": "17.0.2",
+        "ts-pattern": "4.0.5"
+    }
+}

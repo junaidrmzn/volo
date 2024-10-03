@@ -1,0 +1,17 @@
+import ReactDOM from "react-dom";
+import { AppShell } from "@voloiq/app-shell";
+import { App } from "./App";
+
+const AppWithBackendUrl = () => {
+    const serviceUrl = "/";
+    const backendBaseUrl = `${BACKEND_BASE_URL}${serviceUrl}`;
+
+    return <App backendBaseUrl={backendBaseUrl} />;
+};
+
+ReactDOM.render(
+    <AppShell withTheme withI18n withRouter>
+        <AppWithBackendUrl />
+    </AppShell>,
+    document.querySelector("#app")
+);

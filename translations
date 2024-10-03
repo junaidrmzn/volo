@@ -1,0 +1,117 @@
+#! /bin/bash
+
+joinBy() { 
+  local IFS="$1"; shift; echo "$*";
+}
+
+uploadAllTranslationFiles() {
+  path=$1
+  echo "Uploading all translation files in $path to https://app.lokalise.com/project/$LOKALISE_PROJECT_ID/"
+  echo ""
+
+  translationFiles=$(find $path -name *translations.json)
+
+  for relativeFilename in $translationFiles; do
+      # split the filename at the slashes 
+      IFS='/' read -a path <<< "$relativeFilename"
+      # use the second and third segment as tags. They will come out as [mods, aircraft-management] or [libs, resource-overview] or similar
+      tags=(\"${path[2]}\" \"${path[3]}\")
+      # extract the language code from the last segment
+      IFS='.' read -a parts <<< "${path[-1]}"
+      isoCode=${parts[-3]}
+
+      uploadTranslationFile $relativeFilename $isoCode tags[@]
+  done
+}
+
+# uploaded files are tagged with the second and third sub directory name. e.g mods, apps, libs and aircraft-management, battery-management etc.
+uploadTranslationFile() {
+  filename=$1
+  lang_iso=$2
+  tags=$(joinBy ',' ${!3})
+  printf "\n\nuploading filename: $filename with isoCode: $lang_iso, tags:${tags}\n"
+
+  contentEncoded=$(cat $filename | base64 -w 0)
+  # For additional options see: https://developers.lokalise.com/reference/download-files
+  payload="{ \"tags\":[$tags], \"filename\":\"${filename:2}\", \"lang_iso\":\"$lang_iso\", \"data\":\"$contentEncoded\", \"distinguish_by_file\": true}"
+
+  curl --request POST \
+      --url https://api.lokalise.com/api2/projects/$LOKALISE_PROJECT_ID/files/upload \
+      --header "X-Api-Token: $LOKALISE_API_TOKEN" \
+      --header 'accept: application/json' \
+      --header 'content-type: application/json' \
+      --data "$payload"
+}
+
+
+downloadTranslationFiles() {
+  quoatedTags=()
+  for i in ${!1}; do
+    quoatedTags+=(\"$i\")
+  done
+  echo "download translation files with tags: ${quoatedTags[*]}"
+
+  joinedTags=$(joinBy ',' ${quoatedTags[*]})
+    # For additional options see: https://developers.lokalise.com/reference/upload-a-file
+  payload="{ \"include_tags\": [$joinedTags],\"original_filenames\": true, \"format\":\"json\", \"directory_prefix\":\".\", \"placeholder_format\": \"icu\", \"export_sort\": \"a_z\"}"
+  response=$(curl --request POST \
+       --url https://api.lokalise.com/api2/projects/$LOKALISE_PROJECT_ID/files/download \
+       --header "X-Api-Token: $LOKALISE_API_TOKEN" \
+       --header 'accept: application/json' \
+       --header 'content-type: application/json' \
+       --data "$payload")
+  
+  bundle_url_pattern='"bundle_url":"([a-zA-Z0-9+-_\/\.]+)"'
+
+  if [[ $response =~ $bundle_url_pattern ]];
+  then
+      url=${BASH_REMATCH[1]//\\/}
+      curl -o translations.zip  $url 
+      unzip -o -q translations.zip
+      rm translations.zip
+  else
+      echo "$response"
+  fi
+}
+
+printHelp() {
+    printf "\n"
+    printf "Upload or download translation files to or from lokalise\n"
+    printf "\n"
+    printf "Usage: translations <command> [<args>]\n"
+    printf "\n"
+    printf "Environment Variables:\n"
+    printf "    LOKALISE_PROJECT_ID    the project id\n"
+    printf "    LOKALISE_API_TOKEN     your API token. You can get it from https://app.lokalise.com/profile API tokens\n"
+    printf "\n"
+    printf "Commands:\n"
+    printf "    download [tags]        downloads translation files matching zero, one or more space separated tags\n"
+    printf "    upload   [path]        uploads all translation files in the repository root or optionally a subdirectory\n"
+    printf "\n"
+    printf "Choose wisely my friend.\n"
+}
+
+# Set working directoy to directory of this script 
+# so that filenames stored in lokalize dont mess things up when downloaded into their original locations.
+cd "$(dirname "$0")"
+
+if [[ ! -v LOKALISE_PROJECT_ID ]]; 
+then
+    printHelp
+    exit 1
+fi
+if [[ ! -v LOKALISE_API_TOKEN ]]; 
+then
+    printHelp
+    exit 1
+fi
+args=($@)
+command=${args[0]}
+if [ "$command" = "download" ]; then
+    tags=("${args[@]:1}")
+    downloadTranslationFiles tags[@]
+elif [ "$command" = "upload" ]; then
+    uploadAllTranslationFiles "${2:-./}"
+else
+  printHelp
+fi

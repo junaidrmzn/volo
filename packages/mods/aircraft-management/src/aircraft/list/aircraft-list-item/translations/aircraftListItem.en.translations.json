@@ -1,0 +1,23 @@
+{
+    "service": "Service",
+    "passenger": "Passenger",
+    "cargo": "Cargo",
+    "test": "Test",
+    "training": "Training",
+    "ferry flight": "Ferry Flight",
+    "carpool": "Carpool",
+    "unknown": "Unknown",
+    "technical status": "Technical status",
+    "serviceable": "Serviceable",
+    "unserviceable": "Unserviceable",
+    "limited": "Limited",
+    "homebase": "Homebase",
+    "crew configuration": "Configuration",
+    "crewed": "Crewed",
+    "uncrewed": "Uncrewed",
+    "valid from": "Valid From",
+    "valid to": "Valid To",
+    "registration": "Registration",
+    "aircraft type name": "Aircraft Type Name",
+    "msn": "MSN"
+}

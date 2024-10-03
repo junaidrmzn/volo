@@ -1,0 +1,20 @@
+{
+    "pagination": {
+        "label": "Paginierung",
+        "previousPageAriaLabel": "Vorherige Seite",
+        "nextPageAriaLabel": "Nächste Seite"
+    },
+    "emptyState": {
+        "title": "Keine Einträge gefunden",
+        "description": "Bist du sicher, dass Einträge vorhanden sind?"
+    },
+    "list": {
+        "ariaLabel": "Ressourcenliste"
+    },
+    "listHeader": {
+        "page": "Seite",
+        "of": "{page} von {pageCount}",
+        "entriesFound": "{count} Einträge gefunden",
+        "bulkEdit": "Massenbearbeitung"
+    }
+}

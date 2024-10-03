@@ -1,0 +1,58 @@
+{
+    "Title": "Title",
+    "Summary": "Summary",
+    "Scope": "Scope",
+    "Test Article": {
+        "Name": "Test Article / Specific Aircraft Configuration",
+        "Subtitle": "added and/or changed from the design baseline"
+    },
+    "Msn": "MSN",
+    "Ata": "ATA",
+    "Test Number": "Test Number",
+    "Revision": "Revision",
+    "Select Master Model": "Select Master Model",
+    "Select Msn": "Select MSN",
+    "Select Test Type": "Select Test Type",
+    "This value must be x characters": "This value must be {value} characters",
+    "Minimum Value Error": "{field} must be greater than {min}",
+    "Maximum Value Error": "{field} must be less than {max}",
+    "Dropdown Error": "Please select {label}",
+    "Test Type": {
+        "Name": "Test Type",
+        "Ground": "Ground",
+        "Flight": "Flight"
+    },
+    "Master Model": {
+        "Name": "Master Model",
+        "2X": "2X",
+        "VC2-1": "VC2-1",
+        "VD150": "VD150"
+    },
+    "MSN": {
+        "2X": {
+            "01": "01",
+            "02": "02",
+            "03": "03",
+            "04": "04",
+            "05": "05"
+        },
+        "VC2-1": {
+            "B0-01": "B0-01",
+            "B0-02": "B0-02",
+            "MSN01": "MSN01",
+            "MSN03": "MSN03",
+            "MSN04": "MSN04",
+            "MSN05": "MSN05",
+            "MSN06": "MSN06"
+        },
+        "VD150": {
+            "01": "01",
+            "02": "02"
+        },
+        "SIM": {
+            "02": "MSN02"
+        }
+    },
+    "Ftd Id": "FTD ID",
+    "Invalid Value Error": "{field} is invalid"
+}

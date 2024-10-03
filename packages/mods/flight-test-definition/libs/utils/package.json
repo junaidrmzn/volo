@@ -1,0 +1,27 @@
+{
+    "name": "@voloiq/flight-test-definition-utils",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit",
+        "test": "cross-env NODE_ENV=testing jest --config ./config/jest.config.ts --passWithNoTests"
+    },
+    "dependencies": {
+        "@voloiq/feature-flags": "1.0.0",
+        "@voloiq/i18n": "1.0.0",
+        "@voloiq/testing": "1.0.0",
+        "react": "17.0.2",
+        "ts-pattern": "4.2.1",
+        "uuid": "9.0.0"
+    },
+    "devDependencies": {
+        "@types/react": "17.0.39",
+        "cross-env": "7.0.3",
+        "eslint": "7.32.0",
+        "jest": "27.4.7",
+        "jest-pact": "0.9.4",
+        "typescript": "4.5.5"
+    }
+}

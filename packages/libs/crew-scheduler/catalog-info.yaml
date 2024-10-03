@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: voloiq.ui.crew-scheduler
+    title: crew scheduler
+    tags:
+        - javascript
+spec:
+    type: library
+    lifecycle: production
+    owner: voloiq-air-ops-team

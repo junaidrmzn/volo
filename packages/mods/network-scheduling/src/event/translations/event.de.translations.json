@@ -1,0 +1,106 @@
+{
+    "model": {
+        "name": "Event",
+        "startDate": "Start (UTC)",
+        "endDate": "Ende (UTC)",
+        "description": "Beschreibung",
+        "blockedForMission": "Geblockt für Mission",
+        "aircraft": "Fluggerät",
+        "no assignment": "Nicht zugewiesen",
+        "property": "Eigentum",
+        "changeTo": "Wechseln zu",
+        "blocked": "Geblockt",
+        "not blocked": "Nicht Geblockt"
+    },
+    "create": {
+        "heading": "Event hinzufügen"
+    },
+    "preview": {
+        "heading": "Event Vorschau"
+    },
+    "detail": {
+        "heading": "Event Etails - {name}"
+    },
+    "edit": {
+        "heading": "Event editieren"
+    },
+    "overview": {
+        "title-primary": "Network Schedule Planning",
+        "title-secondary": "Events",
+        "empty-list": "Keine Events gefunden",
+        "empty-list-second": "Ändern Sie ihre Filtereinstellungen oder fügen Sie ein Event hinzu.",
+        "pagination": {
+            "ariaLabel": "pagination",
+            "nextPageAriaLabel": "Nächste Seite",
+            "previousPageAriaLabel": "Vorherige Seite"
+        }
+    },
+    "delete": {
+        "modal-header": "Event löschen?",
+        "modal-body": "Sind Sie sicher, dass Sie das Event {eventName} löschen möchten?"
+    },
+    "sortingPanel": {
+        "title": "Sortieren",
+        "applyButtonLabel": "Anwenden",
+        "backButtonAriaLabel": "Zurück",
+        "cancelButtonLabel": "Abbrechen",
+        "createdOnOption": "Erstellungsdatum",
+        "ascendingLabel": "Aufsteigend",
+        "descendingLabel": "Absteigend",
+        "options": {
+            "name": "Eventname",
+            "startDate": "Startdatum",
+            "endDate": "Enddatum",
+            "blockedForMission": "Für Mission geblocked",
+            "description": "Beschreibung",
+            "aircraft": "Fluggerät"
+        }
+    },
+    "buttons": {
+        "filter": "Filter",
+        "save": "Speichern",
+        "sort": "Sortierung",
+        "add": "Hinzufügen",
+        "edit": "Bearbeiten",
+        "details": "Details",
+        "delete": "Löschen",
+        "cancel": "Abbrechen",
+        "back": "Zurück",
+        "apply": "Anwenden"
+    },
+    "generic": {
+        "dropdown error": "Bitte wählen Sie einen gültigen Eintrag",
+        "dropdown placeholder": "Bitte wählen",
+        "dropdown empty-option": "---",
+        "required error": "Bitte füllen Sie dieses Feld aus",
+        "maxLength error": "Bitte nutzen Sie nicht mehr als ${max} Zeichen",
+        "success": {
+            "header": "Alles ok."
+        },
+        "error": {
+            "statusCode": "Statuscode: {code}",
+            "An error occurred": "Hoppla! Es ist ein Fehler aufgetreten."
+        }
+    },
+    "errorTitle": "Hoppla!",
+    "errorMessages": {
+        "listEmptyError": "Es muss mindestens ein Wert angegeben werden",
+        "maxCharacterError": "Es dürfen nicht mehr als {maxCharacter} Zeichen eingegeben werden",
+        "maxReferencedAttributeValueError": "Dieser Wert ist größer als der Wert von \"{referencedAttributeLabel}\", der {maxValue} beträgt",
+        "maxValueError": "Dieser Wert muss kleiner als {maxValue} sein",
+        "minCharacterError": "Es müssen mehr als {minCharacter} Zeichen eingegeben werden",
+        "minReferencedAttributeValueError": "Dieser Wert ist größer als der Wert von \"{referencedAttributeLabel}\", der {minValue} beträgt",
+        "minValueError": "Dieser Wert muss größer als {minValue} sein",
+        "numericOnlyError": "Dieser Wert muss numerisch sein",
+        "referentialValueDependencyError": "Dieser Wert ist ungültig, da er {referencedEntitiesAttribute} von {referencedEntitiesType} beeinflussen würde",
+        "valueTakenError": "Dieser Wert ist bereits vergeben",
+        "validationFailedError": "Dieser Wert ist ungültig",
+        "maxForeignReferencedAttributeValueError": "Dieser Wert muss kleiner oder gleich dem Wert des \"{referencedEntityAttribute}\" Attributs der referenzierten Entität \"{referencedEntityType}\" sein, welcher {maxForeignValue} beträgt",
+        "minForeignReferencedAttributeValueError": "Dieser Wert muss größer oder gleich dem Wert des \"{referencedEntityAttribute}\"  Attributs der referenzierten Entität \"{referencedEntityType}\" sein, welcher {minForeignValue} beträgt",
+        "unknownError": "Ein unbekannter Fehler ist aufgetreten"
+    },
+    "successTitle": "Juhu!",
+    "successMessages": {
+        "operation successful": "Aktion erfolgreich"
+    }
+}

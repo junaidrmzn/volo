@@ -1,0 +1,80 @@
+{
+    "title": "Filter",
+    "minValue": {
+        "displayName": "Min. Wert",
+        "fromLabel": "Von",
+        "toLabel": "Bis"
+    },
+    "maxValue": {
+        "displayName": "Max. Wert",
+        "fromLabel": "Von",
+        "toLabel": "Bis"
+    },
+    "minimumSamplingFrequency": {
+        "displayName": "Min. Abtastfrequenz",
+        "fromLabel": "Von",
+        "toLabel": "Bis"
+    },
+    "requesterName": {
+        "displayName": "Antragsteller Name"
+    },
+    "aircraftZone": {
+        "displayName": "Flugzeugzone"
+    },
+    "status": {
+        "displayName": "Status"
+    },
+    "shortDescription": {
+        "displayName": "Kurzbeschreibung"
+    },
+    "ftiCode": {
+        "displayName": "FTI Code"
+    },
+    "workgroup": {
+        "displayName": "Arbeitsgruppe"
+    },
+    "parameterSource": {
+        "displayName": "Parameterquelle"
+    },
+    "ataIspec2200": {
+        "displayName": "ATA iSpec 2200"
+    },
+    "sensorType": {
+        "displayName": "Sensortyp"
+    },
+    "accuracy": {
+        "displayName": "Accuracy",
+        "fromLabel": "Von",
+        "toLabel": "Bis"
+    },
+    "description": {
+        "displayName": "Beschreibung"
+    },
+    "aircraft": {
+        "displayName": "Flugzeug"
+    },
+    "unit": {
+        "displayName": "Einheit"
+    },
+    "isSafetyOfFlightCritical": {
+        "displayName": "Safety of Flight (SoF) Critical",
+        "neutralLabel": "Any",
+        "falseLabel": "No",
+        "trueLabel": "Yes"
+    },
+    "msn": {
+        "title": "MSN",
+        "01": "01",
+        "02": "02",
+        "03": "03",
+        "04": "04",
+        "05": "05",
+        "B0-01": "B0-01",
+        "B0-02": "B0-02",
+        "MSN01": "MSN01",
+        "MSN03": "MSN03",
+        "MSN04": "MSN04",
+        "MSN05": "MSN05",
+        "MSN06": "MSN06"
+    }
+}

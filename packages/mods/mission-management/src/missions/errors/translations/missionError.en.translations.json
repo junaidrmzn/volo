@@ -1,0 +1,21 @@
+{
+    "Oh Snap": "Oh Snap!",
+    "statusCode": "Status Code: {code}",
+    "An error occurred": "Uh-oh! An error occurred.",
+    "errorMessages": {
+        "listEmptyError": "At least one value must be set",
+        "maxCharacterError": "Please don't enter more than {maxCharacter} characters",
+        "maxReferencedAttributeValueError": "This value must be less than the \"{referencedAttributeLabel}\" value. The maximum value is {maxValue}",
+        "maxValueError": "This value must be less than {maxValue}",
+        "minCharacterError": "Please enter at least {minCharacter} characters",
+        "minReferencedAttributeValueError": "This value must be greater than the \"{referencedAttributeLabel}\" value. The minimum value is {minValue}",
+        "minValueError": "This value must be greater than {minValue}",
+        "numericOnlyError": "This must be a numeric value",
+        "referentialValueDependencyError": "This value is invalid as it would affect the {referencedEntitiesAttribute} of {referencedEntitiesType}",
+        "valueTakenError": "This value is already taken",
+        "validationFailedError": "This value is invalid",
+        "maxForeignReferencedAttributeValueError": "This value must be less than or equal to the \"{referencedEntityAttribute}\" attribute of the referenced entity \"{referencedEntityType}\" which is {maxForeignValue}",
+        "minForeignReferencedAttributeValueError": "This value must be greater than or equal to the \"{referencedEntityAttribute}\" attribute of the referenced entity \"{referencedEntityType}\" which is {minForeignValue}",
+        "unknownError": "An unknown error occurred"
+    }
+}

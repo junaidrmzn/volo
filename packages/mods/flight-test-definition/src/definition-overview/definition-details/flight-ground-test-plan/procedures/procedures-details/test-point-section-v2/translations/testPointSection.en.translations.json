@@ -1,0 +1,20 @@
+{
+    "Test Point": "Test Point",
+    "Test Points": "Test Points",
+    "Add": "Add",
+    "Edit": "Edit",
+    "Add Test Points": "Add Test Points",
+    "Comments": "Comments",
+    "Applicability": "Applicability",
+    "Development": "Development",
+    "Certification": "Certification",
+    "Agency": "Agency",
+    "Build Up": "Build Up",
+    "Unassigned": "Unassigned",
+    "Gross Weight": "Gross Weight",
+    "C.G.": "C.G.",
+    "Test Point Parameters {testPointParametersCount}": "Test Point Parameters {testPointParametersCount}",
+    "Uh-oh!": "Uh-oh!",
+    "Something went wrong while updating the test point parameters": "Something went wrong while updating the test point parameters",
+    "Something went wrong while updating the test points": "Something went wrong while updating the test points"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "@voloiq/resource-overview-cypress-page-objects",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "lint": "eslint \"**/*.{js,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@cypress/react": "5.12.5",
+        "@testing-library/cypress": "9.0.0",
+        "@volocopter/filter-react": "48.1.0",
+        "cypress": "12.3.0",
+        "date-fns": "2.28.0",
+        "react": "17.0.2"
+    },
+    "devDependencies": {
+        "@types/react": "17.0.39",
+        "eslint": "7.32.0",
+        "typescript": "4.5.5"
+    }
+}

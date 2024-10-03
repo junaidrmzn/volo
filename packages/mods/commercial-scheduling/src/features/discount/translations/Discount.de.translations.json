@@ -1,0 +1,61 @@
+{
+    "labels": {
+        "upload": "Hochladen",
+        "cancel": "Abbrechen"
+    },
+    "overview": {
+        "heading": "Ermäßigungen",
+        "information": "Hier finden Sie alle Rabatt-Aktionen.",
+        "listLabel": "Rabatte",
+        "new": "Neu",
+        "filterPanel": {
+            "filters": "Filter",
+            "region": "Region",
+            "archived": "Archiviert"
+        },
+        "validFrom": "gültig ab",
+        "amountOfCodes": "anzahl der codes",
+        "amountOfDiscount": "höhe des rabatts",
+        "off": "aus"
+    },
+    "modal": {
+        "subheading": "Neuer Rabatt",
+        "create": {
+            "promotionName": "Aktion Name",
+            "validFrom": "Gültig von",
+            "validTo": { "label": "Gültig bis", "errorMessage": "Bitte wählen Sie ein Datum später als Gültig ab" },
+            "discountCodeList": "Rabattcode-Liste",
+            "region": {
+                "placeholder": "Region auswählen",
+                "label": "Region",
+                "errorMessage": "Bitte wählen Sie eine gültige Region"
+            },
+            "discountType": {
+                "label": "Ermäßigung",
+                "options": {
+                    "amount": "betrag",
+                    "percentage": "prozentsatz"
+                }
+            },
+            "currency": {
+                "label": "Währung",
+                "placeholder": "Währung auswählen",
+                "options": {
+                    "euro": "Euro (Standard für diese Region)"
+                },
+                "errorMessage": "Bitte wählen Sie eine gültige Währung"
+            },
+            "value": "Wert",
+            "toast": {
+                "title": "Rabatt hochladen",
+                "success": { "description": "Rabatt erfolgreich hochgeladen" },
+                "error":{
+                    "duplicate": "Duplizierter Aktionscode kann nicht hinzugefügt werden",
+                    "invalid": "Der angegebene Aktionscode ist nicht gültig (nur alphanumerisch)",
+                    "unique": "Dieser Name existiert bereits, versuchen Sie einen anderen Codenamen",
+                    "unknown" :"Unbekannter Fehler ist aufgetreten"
+                }
+            }
+        }
+    }
+}

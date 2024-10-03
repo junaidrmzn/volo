@@ -1,0 +1,45 @@
+{
+    "common": { "notFound": "Not found" },
+    "flightMonitoring": {
+        "toggleFocusButton": "Focus",
+        "selectAircraft": "Select Aircraft",
+        "noAircraftSelected": "No Aircraft Selected",
+        "deselect": "Deselect"
+    },
+    "telemetryData": {
+        "header": "Telemetry Data",
+        "airspeed": "Airspeed",
+        "groundspeed": "Groundspeed",
+        "stateOfCharge": "State of Charge",
+        "altitude": "Altitude",
+        "verticalSpeed": "Vertical Speed",
+        "remainingEnergy": "Remaining Energy"
+    },
+    "verticalProfile": {
+        "altitude": "Altitude"
+    },
+    "flightInformation": {
+        "vtolRegistration": "VTOL Registration",
+        "flightNumber": "Flight Number",
+        "vtolType": "VTOL Type",
+        "startTime": "Start Time",
+        "scheduledArrivalTime": "Sched. Arrival"
+    },
+    "errors": {
+        "websocket": {
+            "error": "there was an error establishing websocket connection"
+        },
+        "webPubSub": {
+            "accessToken": "Error fetching access token for live Aircraft data",
+            "accessTokenBird": "Error fetching access token for Birdstrike data",
+            "joinGroup": "Error joining group '{groupName}'",
+            "leaveGroup": "Error leaving group '{groupName}'",
+            "flightPath": "Error fetching flight path data"
+        },
+        "flightPlanningApi": {
+            "timeout": "API call timed out",
+            "noFlightForVtolFound": "No recent flight for vtol with ID '{vtolId}' found"
+        }
+    },
+    "error": "Error"
+}

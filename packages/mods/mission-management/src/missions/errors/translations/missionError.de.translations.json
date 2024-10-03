@@ -1,0 +1,21 @@
+{
+    "Oh Snap": "Hoppla!",
+    "statusCode": "Statuscode: {code}",
+    "An error occurred": "Hoppla! Es ist ein Fehler aufgetreten.",
+    "errorMessages": {
+        "listEmptyError": "Es muss mindestens ein Wert angegeben werden",
+        "maxCharacterError": "Es dürfen nicht mehr als {maxCharacter} Zeichen eingegeben werden",
+        "maxReferencedAttributeValueError": "Dieser Wert ist größer als der Wert von \"{referencedAttributeLabel}\", der {maxValue} beträgt",
+        "maxValueError": "Dieser Wert muss kleiner als {maxValue} sein",
+        "minCharacterError": "Es müssen mehr als {minCharacter} Zeichen eingegeben werden",
+        "minReferencedAttributeValueError": "Dieser Wert ist größer als der Wert von \"{referencedAttributeLabel}\", der {minValue} beträgt",
+        "minValueError": "Dieser Wert muss größer als {minValue} sein",
+        "numericOnlyError": "Dieser Wert muss numerisch sein",
+        "referentialValueDependencyError": "Dieser Wert ist ungültig, da er {referencedEntitiesAttribute} von {referencedEntitiesType} beeinflussen würde",
+        "valueTakenError": "Dieser Wert ist bereits vergeben",
+        "validationFailedError": "Dieser Wert ist ungültig",
+        "maxForeignReferencedAttributeValueError": "Dieser Wert muss kleiner oder gleich dem Wert des \"{referencedEntityAttribute}\" Attributs der referenzierten Entität \"{referencedEntityType}\" sein, welcher {maxForeignValue} beträgt",
+        "minForeignReferencedAttributeValueError": "Dieser Wert muss größer oder gleich dem Wert des \"{referencedEntityAttribute}\"  Attributs der referenzierten Entität \"{referencedEntityType}\" sein, welcher {minForeignValue} beträgt",
+        "unknownError": "Ein unbekannter Fehler ist aufgetreten"
+    }
+}

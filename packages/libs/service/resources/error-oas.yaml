@@ -1,0 +1,121 @@
+openapi: 3.0.3
+info:
+    title: VoloIQ JSON API
+    description: "This is the JSON API provided by the VoloIQ plattform."
+    version: 0.1.0
+externalDocs:
+    description: Find out more about Swagger
+    url: https://swagger.io
+paths:
+    /to-be-deleted:
+        get:
+            summary: This path only serves as placeholder.
+            responses:
+                200:
+                    description: Successful
+                    content:
+                        application/json:
+                            schema:
+                                type: string
+components:
+    schemas:
+        ErrorStatus:
+            type: string
+            description: |
+                The canonical error codes for the API.
+                'CANCELLED': The operation was cancelled, typically by the caller. HTTP Mapping: 499 Client Closed Request
+                'UNKNOWN': Unknown error occurred. HTTP Mapping: 500 Internal Server Error
+                'INVALID_ARGUMENT': The client specified an invalid argument. HTTP Mapping: 400 Bad Request
+                'DEADLINE_EXCEEDED': The deadline expired before the operation could complete. HTTP Mapping: 504 Gateway Timeout
+                'NOT_FOUND': Some requested entity was not found. HTTP Mapping: 404 Not Found
+                'ALREADY_EXISTS': The entity that a client attempted to create already exists. HTTP Mapping: 409 Conflict
+                'PERMISSION_DENIED': The caller does not have permission to execute the specified operation. HTTP Mapping: 
+                403 Forbidden
+                'UNAUTHENTICATED': The request does not have valid authentication credentials for the operation: HTTP Mapping: 
+                401 Unauthorized
+                'RESOURCE_EXHAUSTED': Some resource has been exhausted, perhaps a per-user quota, or perhaps the entire file 
+                system is out of space. HTTP Mapping: 429 Too Many Requests
+                'FAILED_PRECONDITION': The operation was rejected because the system is not in a state required for the 
+                operation's execution. For example, the directory to be deleted is non-empty. HTTP Mapping: 400 Bad Request
+                'ABORTED': The operation was aborted, typically due to a concurrency issue such as a sequencer check failure or 
+                transaction abort. HTTP Mapping: 409 Conflict
+                'OUT_OF_RANGE': The operation was attempted past the valid range.  E.g., seeking or reading past end-of-file.
+                HTTP Mapping: 400 Bad Request
+                'UNIMPLEMENTED': The operation is not implemented or is not supported/enabled in this service. HTTP Mapping: 
+                501 Not Implemented
+                'INTERNAL': Internal errors.  This means that some invariants expected by the underlying system have been 
+                broken.  This error code is reserved for serious errors. HTTP Mapping: 500 Internal Server Error
+                'UNAVAILABLE': The service is currently unavailable. HTTP Mapping: 503 Service Unavailable
+                'DATA_LOSS': Unrecoverable data loss or corruption. HTTP Mapping: 500 Internal Server Error
+            enum:
+                - CANCELLED
+                - UNKNOWN
+                - INVALID_ARGUMENT
+                - DEADLINE_EXCEEDED
+                - NOT_FOUND
+                - ALREADY_EXISTS
+                - PERMISSION_DENIED
+                - UNAUTHENTICATED
+                - RESOURCE_EXHAUSTED
+                - FAILED_PRECONDITION
+                - ABORTED
+                - OUT_OF_RANGE
+                - UNIMPLEMENTED
+                - INTERNAL
+                - UNAVAILABLE
+                - DATA_LOSS
+        ValidationError:
+            type: object
+            required:
+                - attribute
+            properties:
+                attribute:
+                    description: The attribute causing the validation error.
+                    type: string
+                value:
+                    description: The value causing the validation error.
+                    type: string
+                message:
+                    description: Additional information to the validation error.
+        Error:
+            description: Error schema for the application's JSON HTTP API.
+            type: object
+            required:
+                - id
+                - code
+                - timestamp
+                - message
+                - status
+            properties:
+                id:
+                    description: ID of the error for logging and persisting usage.
+                    type: string
+                    format: uuid
+                timestamp:
+                    description: Occurrence of the error.
+                    type: string
+                    format: date-time
+                code:
+                    description: Error HTTP status code of the response to the caller.
+                    type: integer
+                    minimum: 400
+                    maximum: 599
+                message:
+                    description: Description of the error.
+                    type: string
+                status:
+                    $ref: "#/components/schemas/ErrorStatus"
+                details:
+                    description: Set of detailed error information causing the error.
+                    type: array
+                    items:
+                        $ref: "#/components/schemas/ErrorDetail"
+        ErrorDetail:
+            description: Error detail schema for the application's JSON HTTP API.
+            type: object
+            required:
+                - message
+            properties:
+                message:
+                    description: Description of the error.
+                    type: string

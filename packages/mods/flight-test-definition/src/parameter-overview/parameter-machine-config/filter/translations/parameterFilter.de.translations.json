@@ -1,0 +1,10 @@
+{
+    "FilterPanel": {
+        "General": "Allgemein",
+        "Name": "Name",
+        "Unit": "Einheit",
+        "Acronym": "Abkürzung",
+        "Search": "Suche",
+        "Filters": "Filter"
+    }
+}

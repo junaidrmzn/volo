@@ -1,0 +1,106 @@
+{
+    "model": {
+        "name": "Event",
+        "startDate": "Start (UTC)",
+        "endDate": "End (UTC)",
+        "description": "Description",
+        "blockedForMission": "Blocked for Mission",
+        "aircraft": "Aircraft",
+        "no assignment": "Not assigned",
+        "property": "Property",
+        "changeTo": "Change to",
+        "blocked": "Blocked",
+        "not blocked": "Not blocked"
+    },
+    "create": {
+        "heading": "Add Event"
+    },
+    "preview": {
+        "heading": "Event Preview"
+    },
+    "detail": {
+        "heading": "Event Details - {name}"
+    },
+    "edit": {
+        "heading": "Edit Event"
+    },
+    "overview": {
+        "title-primary": "Network Schedule Planning",
+        "title-secondary": "Events",
+        "empty-list": "No Events found",
+        "empty-list-second": "Please change filter settings or add an event.",
+        "pagination": {
+            "ariaLabel": "pagination",
+            "nextPageAriaLabel": "Next page",
+            "previousPageAriaLabel": "Previous page"
+        }
+    },
+    "delete": {
+        "modal-header": "Remove event?",
+        "modal-body": "Are you sure you want to remove the event {eventName}?"
+    },
+    "sortingPanel": {
+        "title": "SORT",
+        "applyButtonLabel": "Apply",
+        "backButtonAriaLabel": "Back",
+        "cancelButtonLabel": "Cancel",
+        "createdOnOption": "Created on",
+        "ascendingLabel": "Ascending",
+        "descendingLabel": "Descending",
+        "options": {
+            "name": "Eventname",
+            "startDate": "Start date",
+            "endDate": "End date",
+            "blockedForMission": "Blocked for mission",
+            "description": "Description",
+            "aircraft": "Aircraft"
+        }
+    },
+    "buttons": {
+        "filter": "Filter",
+        "save": "Save",
+        "sort": "Sort",
+        "add": "Add",
+        "edit": "Edit",
+        "details": "Details",
+        "delete": "Delete",
+        "cancel": "Cancel",
+        "back": "Back",
+        "apply": "Apply"
+    },
+    "generic": {
+        "dropdown error": "Please select a valid option",
+        "dropdown placeholder": "Please choose",
+        "dropdown empty-option": "---",
+        "required error": "Please fill this field",
+        "maxLength error": "Please use at most ${max} characters",
+        "success": {
+            "header": "All ok."
+        },
+        "error": {
+            "statusCode": "Status Code: {code}",
+            "An error occurred": "Uh-oh! An error occurred."
+        }
+    },
+    "errorTitle": "Oh Snap!",
+    "errorMessages": {
+        "listEmptyError": "At least one value must be set",
+        "maxCharacterError": "Please don't enter more than {maxCharacter} characters",
+        "maxReferencedAttributeValueError": "This value must be less than the \"{referencedAttributeLabel}\" value. The maximum value is {maxValue}",
+        "maxValueError": "This value must be less than {maxValue}",
+        "minCharacterError": "Please enter at least {minCharacter} characters",
+        "minReferencedAttributeValueError": "This value must be greater than the \"{referencedAttributeLabel}\" value. The minimum value is {minValue}",
+        "minValueError": "This value must be greater than {minValue}",
+        "numericOnlyError": "This must be a numeric value",
+        "referentialValueDependencyError": "This value is invalid as it would affect the {referencedEntitiesAttribute} of {referencedEntitiesType}",
+        "valueTakenError": "This value is already taken",
+        "validationFailedError": "This value is invalid",
+        "maxForeignReferencedAttributeValueError": "This value must be less than or equal to the \"{referencedEntityAttribute}\" attribute of the referenced entity \"{referencedEntityType}\" which is {maxForeignValue}",
+        "minForeignReferencedAttributeValueError": "This value must be greater than or equal to the \"{referencedEntityAttribute}\" attribute of the referenced entity \"{referencedEntityType}\" which is {minForeignValue}",
+        "unknownError": "An unknown error occurred"
+    },
+    "successTitle": "Yayy!",
+    "successMessages": {
+        "operation successful": "Operation successful"
+    }
+}

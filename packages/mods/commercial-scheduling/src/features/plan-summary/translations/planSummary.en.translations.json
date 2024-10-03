@@ -1,0 +1,109 @@
+{
+    "generic": {
+        "Cancel": "Cancel",
+        "Confirm": "Confirm",
+        "dropdown": {
+            "placeholder": "Please choose",
+            "errorMessage": "Please select a valid option"
+        }
+    },
+    "overview": {
+        "Plan": "Plan",
+        "ChangeRequest": "Change Request",
+        "invalid": "Invalid",
+        "listLabel": "summary items",
+        "cardLabel": "summary item",
+        "actionsAriaLabel": "Actions",
+        "editAriaLabel": "Edit",
+        "Price": "Price",
+        "Offer Runway": "Offer Runway",
+        "noOffer": "No Offer",
+        "filterPanel": {
+            "filters": "Filters",
+            "departureVertiport": "Departure Vertiport",
+            "arrivalVertiport": "Arrival Vertiport",
+            "departureDate": "Departure Date",
+            "from": "from",
+            "to": "to",
+            "aircraftType": "Aircraft Type"
+        },
+        "actions": {
+            "approve": {
+                "title": "Approve Plan",
+                "modal": {
+                    "heading": "Confirmation",
+                    "subheading": "Approve Plan",
+                    "description": "You are about to approve the entire Plan and its manual changes. It will NOT be visible in the Customer App as long as it is not “published”. Do you want to proceed?",
+                    "Approve": "Approve"
+                },
+                "toast": {
+                    "title": "Commercial Plan Approved",
+                    "description": "You successfully confirmed the commercial plan."
+                }
+            },
+            "reject": {
+                "title": "Reject Plan",
+                "modal": {
+                    "heading": "Confirmation",
+                    "subheading": "Rejecting Plan",
+                    "description": "You are about to reject the entire Plan. This will reset all manual changes to the plan outside the set price and runway. Do you want to proceed?",
+                    "placeholder": "Type in a little message",
+                    "Reject": "Reject"
+                },
+                "toast": {
+                    "title": "Commercial Plan Rejected",
+                    "description": "You successfully rejected the commercial plan"
+                }
+            },
+            "request": {
+                "title": "Request Plan Approval",
+                "modal": {
+                    "heading": "Warning",
+                    "subheading": "Items Invalid",
+                    "description": "You are about to ask for approval for a plan with invalid Items, do you want to proceed? By publishing the plan invalid Items will not be shown and automatically deleted."
+                },
+                "toast": {
+                    "title": "Requested for Plan Approval",
+                    "success": {
+                        "description": "You successfully requested for the plan approval"
+                    },
+                    "error": {
+                        "description": "Could not request approval for the commercial plan having incompleted commercial price/offer"
+                    }
+                }
+            }
+        },
+        "sidePanel": {
+            "changeRequests": "Change Requests",
+            "changeHistory": "Change History",
+            "approveAll": "Approve All",
+            "modal": {
+                "heading": "Confirmation",
+                "approveAllConfirm": "You are about to approve all changes at once. Do you want to proceed?",
+                "approve": "Approve"
+            }
+        },
+        "information": "This is the detail of the Network Schedule for the Commercial Plan “{planName}”. You find all the ordered, booked and performed missions for this commercial setup here."
+    },
+    "modal": {
+        "edit": {
+            "heading": "Edit",
+            "heading overwrite": "Overwrite",
+            "subheading": "Schedule Item",
+            "flightNumber": "Flight Number",
+            "days": "Days",
+            "customPrice": "Custom Price",
+            "customOfferRunway": "Custom Offer Runway",
+            "isNoCustomOffer": "do not offer this in the customer app",
+            "editComment": "Edit Comment",
+            "commentPlaceholder": "Type in a little message to explain your changes",
+            "resetToDefault": "Reset to default"
+        }
+    },
+    "units": {
+        "HOURS": "Hour(s)",
+        "DAYS": "Day(s)",
+        "WEEKS": "Week(s)",
+        "MONTHS": "Month(s)"
+    }
+}

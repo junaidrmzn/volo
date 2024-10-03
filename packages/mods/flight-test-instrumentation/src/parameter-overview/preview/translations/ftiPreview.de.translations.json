@@ -1,0 +1,41 @@
+{
+    "requestedByName": "Angefordert von",
+    "description": "Beschreibung",
+    "parameterSource": "Parameter Quelle",
+    "ataIspec2200": "ATA iSpec 2200",
+    "unit": "Einheit",
+    "minValue": "Min. Wert",
+    "maxValue": "Max. Wert",
+    "accuracy": "Genauigkeit",
+    "minimumSamplingFrequency": "Min. Abtastfrequenz",
+    "aircraftZone": "Flugzone",
+    "sensorType": "Sensortyp",
+    "isSafetyOfFlightCritical": "Safety of Flight (SoF) Critical",
+    "Yes": "Ja",
+    "No": "Nein",
+    "successToast": {
+        "title": "Erfolg",
+        "description": "ParameterStatus aktualisiert"
+    },
+    "errorToast": {
+        "title": "Fehler",
+        "description": "Parameter-Status kann nicht aktualisiert werden"
+    },
+    "previewLabels": {
+        "general": "General",
+        "aircraftZone": "Aircraft Zone",
+        "sensorType": "Sensor Type",
+        "ataIspec2200": "ATA iSpec 2200",
+        "parameterSource": "Parameter Source",
+        "requestedBy": "Requested By",
+        "unit": "Unit",
+        "minValue": "Min. Value",
+        "maxValue": "Max. Value",
+        "accuracy": "Accuracy",
+        "minSamplingFrequency": "Min. Sampling Frequency",
+        "description": "Description",
+        "safetyOfFlight": "Safety of Flight (SoF) Critical",
+        "editIconAriaLabel": "Edit Button",
+        "requestedOn": "Requested on"
+    }
+}

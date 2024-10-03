@@ -1,0 +1,9 @@
+{
+    "Test Point Parameter": "Test Point Parameter",
+    "Test Point Parameters": "Test Point Parameters",
+    "Flight Test": "Flight Test",
+    "Test Point Parameter _name_": "Test Point Parameter {name}",
+    "Delete test point parameter _name_": "Delete test point parameter {name}",
+    "Are you sure you want to delete the test point parameter _name_ permanently": "Are you sure you want to delete the test point parameter {name} permanently?",
+    "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+}

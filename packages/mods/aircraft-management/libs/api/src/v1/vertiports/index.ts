@@ -1,0 +1,1 @@
+export { useGetVertiportsQuery } from "./useGetVertiportsQuery";

@@ -1,0 +1,61 @@
+{
+    "labels": {
+        "upload": "Upload",
+        "cancel": "Cancel"
+    },
+    "overview": {
+        "heading": "Discounts",
+        "information": "Here you find all Discount Promotions.",
+        "listLabel": "discounts",
+        "new": "New",
+        "filterPanel": {
+            "filters": "Filters",
+            "region": "Region",
+            "archived": "Archived"
+        },
+        "validFrom": "valid from",
+        "amountOfCodes": "amount of codes",
+        "amountOfDiscount": "amount of discount",
+        "off": "off"
+    },
+    "modal": {
+        "subheading": "New Discount",
+        "create": {
+            "promotionName": "Promotion Name",
+            "validFrom": "Valid From",
+            "validTo": { "label": "Valid To", "errorMessage": "Please choose a date later than Valid From" },
+            "discountCodeList": "Discount Code List",
+            "region": {
+                "placeholder": "Select Region",
+                "label": "Region",
+                "errorMessage": "Please select a valid region"
+            },
+            "discountType": {
+                "label": "Reduction",
+                "options": {
+                    "amount": "amount",
+                    "percentage": "percentage"
+                }
+            },
+            "currency": {
+                "label": "Currency",
+                "placeholder": "Select Currency",
+                "options": {
+                    "euro": "Euro (Standard for this Region)"
+                },
+                "errorMessage": "Please select a valid currency"
+            },
+            "value": "Value",
+            "toast": {
+                "title": "Upload Discount",
+                "success": { "description": "Discount uploaded successfully" },
+                "error":{
+                    "duplicate": "Cannot add duplicate promotion code",
+                    "invalid": "Promotion code provided not valid (Alphanumeric Only)",
+                    "unique": "This name already exists, try another code name",
+                    "unknown": "Unknown error occured"
+                }
+            }
+        }
+    }
+}

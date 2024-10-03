@@ -1,0 +1,15 @@
+{
+    "extends": "../../../tsconfig.json",
+    "include": [
+        "global.d.ts",
+        "src",
+        "cypress",
+        "config"
+    ],
+    "compilerOptions": {
+        "types": [
+            "cypress",
+            "@testing-library/cypress"
+        ]
+    },
+}

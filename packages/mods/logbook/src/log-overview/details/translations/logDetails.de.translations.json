@@ -1,0 +1,99 @@
+{
+    "general": {
+        "header": "Allgemein",
+        "generalView": {
+            "aircraftLabel": "Flugzeug",
+            "timeOfFlightLabel": "Flugdauer",
+            "fcSoftwareLabel": "FC Software",
+            "locationLabel": "Standort",
+            "crewPilotLabel": "Piloten",
+            "crewSupervisorLabel": "Aufsichtspersonen",
+            "remarksLabel": "Anmerkungen",
+            "numberOfFiles": "Anzahl von Dateien",
+            "flightTestOrder": "Flugtestauftrag",
+            "telemetryData": "TM Daten",
+            "onBoardData": "Bordseitige Daten"
+        }
+    },
+    "statistics": {
+        "header": "Metriken",
+        "statisticsView": {
+            "unknownValue": "K.A.",
+            "flightDuration": "Flugdauer",
+            "maxAltitude": "Max. Höhe",
+            "altitudeText": "{altitude} m",
+            "maxVelocity": "Max. Geschwindigkeit",
+            "velocityText": "{velocity} m/s",
+            "pendingText": "Statistiken sind verfügbar, wenn mindestens eine Protokolldateien verfügbar ist und alle Dateien verarbeitet wurden."
+        }
+    },
+    "files": {
+        "header": "Dateien",
+        "uploadButton": "Datei hinzufügen",
+        "fileList": {
+            "createTime": "Entstehungszeitpunkt",
+            "updateTime": "Aktualisierungszeitpunkt",
+            "emptyList": "Es sind keine Dateien verfügbar",
+            "statusPopover": {
+                "error": "Fehler",
+                "retryButtonText": "Erneute Verarbeitung versuchen",
+                "closeButton": "Schließen"
+            },
+            "downloadButtonAriaLabel": "Datei herunterladen",
+            "playButtonAriaLabel": "Abspielen"
+        },
+        "videoModal": {
+            "modalHeader": "{fileName} wird abgespielt",
+            "noSupportMessage": "Dieser Browser wird nicht unterstützt"
+        }
+    },
+    "exports": {
+        "header": "Exporte",
+        "requestExportButton": "Export",
+        "exportFilterSelect": {
+            "meOption": "Von mir erstellt",
+            "allOption": "Alle"
+        },
+        "exportList": {
+            "fileTypes": {
+                "CSV": "CSV",
+                "HDF5": "H5",
+                "PARQUET": "PQ"
+            },
+            "emptyList": "Es sind keine Exporte verfügbar",
+            "startTime": "Startzeit",
+            "endTime": "Endzeit",
+            "sampleRate": "Abtastrate",
+            "parameterPopover": {
+                "parameterCount": "{count} Parameter",
+                "header": "Enthaltene Parameter",
+                "copyDoneMessage": "Kopiert",
+                "copyButtonLabel": "Kopieren"
+            },
+            "downloadButtonAriaLabel": "Export herunterladen"
+        }
+    },
+    "statusInfo": {
+        "uploadRequested": "Hochladen läuft...",
+        "processing": "Verarbeitung...",
+        "processed": "Verarbeitet",
+        "queued": "Wartet auf Verarbeitung..."
+    },
+    "uploadFiles": {
+        "header": {
+            "parentTitle": "Protokoll",
+            "uploadButtonText": "Hochladen",
+            "backButtonAriaLabel": "Zurück",
+            "titleText": "Dateien hochladen"
+        },
+        "uploadCancelledDescription": "Die übrigen Dateien wurden nicht hochgeladen.",
+        "cancelUploadModal": {
+            "description": "Die bereits hochgeladenen Dateien sind weiterhin zugänglich."
+        },
+        "backToLogButton": "Zurück zu Protokoll",
+        "finishedText": "Dateien erfolgreich hochgeladen",
+        "finishedPartiallyText": "Teilweise hochgeladene Dateien",
+        "erroneousFilesText": "Die folgenden Dateien konnten nicht korrekt hochgeladen werden:",
+        "erroneousFilesRetryText": "Bitte versuchen Sie, die Dateien erneut hochzuladen."
+    }
+}

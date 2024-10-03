@@ -1,0 +1,59 @@
+{
+    "generic": {
+        "upload": "Upload",
+        "cancel": "Cancel"
+    },
+    "overview": {
+        "heading": "Early Access",
+        "information": "Here you find all Early Access Promotions.",
+        "listLabel": "early accesses",
+        "new": "New",
+        "validFrom": "valid from",
+        "amountOfCodes": "amount of codes",
+        "offerRunwayExtension": "offer runway extension",
+        "accessType": {
+            "HOURS": "hours",
+            "DAYS": "days",
+            "WEEKS": "weeks",
+            "MONTHS": "months"
+        }
+    },
+    "modal": {
+        "create": {
+            "subheading": "New Early Access Codes",
+            "promotionName": "Promotion Name",
+            "validFrom": "Valid From",
+            "validTo": { "label": "Valid To", "errorMessage": "Please choose a date later than Valid From" },
+            "accessCodeList": "Access Code List",
+            "region": {
+                "placeholder": "Select Region",
+                "label": "Region",
+                "errorMessage": "Please select a valid region"
+            },
+            "value": "Offer Runway Extension",
+            "offerRunwayUnit": {
+                "label": "Offer Runway Unit",
+                "placeholder": "Select Unit",
+                "options": {
+                    "units": {
+                        "HOURS": "Hour(s)",
+                        "DAYS": "Day(s)",
+                        "WEEKS": "Week(s)",
+                        "MONTHS": "Month(s)"
+                    }
+                },
+                "errorMessage": "Please select a valid unit"
+            },
+            "toast": {
+                "title": "Upload Early Access Codes",
+                "success": { "description": "Early access codes uploaded successfully" },
+                "error":{
+                    "duplicate": "Cannot add duplicate promotion code",
+                    "invalid": "Promotion code provided not valid (Alphanumeric Only)",
+                    "unique": "This name already exists, try another code name",
+                    "unknown": "Unknown error occured"
+                }
+            }
+        }
+    }
+}

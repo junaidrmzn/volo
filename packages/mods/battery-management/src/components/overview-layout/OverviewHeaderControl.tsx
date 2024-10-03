@@ -1,0 +1,55 @@
+import { Button } from "@volocopter/design-library-react";
+import { useNavigate } from "@voloiq/routing";
+import { useIdSelectionContext } from "../../hooks";
+import { useResourcesTranslation } from "../../translations/useResourcesTranslation";
+
+export type OverviewHeaderControlProps = {
+    addButtonLabel?: string;
+    editButtonLabel?: string;
+    deleteButtonLabel?: string;
+};
+
+// OverviewHeaderProps are passed via OverviewPageLayout, but the delete property is added in OverviewPageLayoutContent
+// if this would be in OverviewHeaderProps, we would need to pass an empty function when rendering OverviewPageLayout
+export type OverviewHeaderWithDeleteProps = {
+    hideDeleteButton: boolean;
+    onDelete: () => void;
+} & OverviewHeaderControlProps;
+
+export const OverviewHeaderControl: FCC<OverviewHeaderWithDeleteProps> = (props) => {
+    const { deleteButtonLabel, editButtonLabel, addButtonLabel, hideDeleteButton = false, onDelete } = props;
+    const { selectedId } = useIdSelectionContext();
+    const { t } = useResourcesTranslation();
+    const navigation = useNavigate();
+
+    const selectedHeaderButtons = (
+        <>
+            {!hideDeleteButton && (
+                <Button variant="secondary" onClick={onDelete}>
+                    {deleteButtonLabel ?? t("generic.delete button")}
+                </Button>
+            )}
+            <Button
+                variant="primary"
+                onClick={() => {
+                    navigation(`edit/${selectedId}`);
+                }}
+            >
+                {editButtonLabel ?? t("generic.edit button")}
+            </Button>
+        </>
+    );
+
+    const defaultHeaderButtons = (
+        <Button
+            variant="primary"
+            onClick={() => {
+                navigation("create");
+            }}
+        >
+            {addButtonLabel ?? t("generic.add button")}
+        </Button>
+    );
+
+    return selectedId !== undefined ? selectedHeaderButtons : defaultHeaderButtons;
+};

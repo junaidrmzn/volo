@@ -1,0 +1,410 @@
+{
+    "generic": {
+        "save button": "Save",
+        "create button": "Add",
+        "add button": "Add",
+        "edit button": "Edit",
+        "not available": "N/A",
+        "confirm button": "Confirm",
+        "details button": "Details",
+        "delete button": "Delete",
+        "cancel button": "Cancel",
+        "filter button": "Filter",
+        "sort button": "Sort",
+        "back button": "Back",
+        "dropdown placeholder": "Please choose",
+        "dropdown error": "Please select a valid option",
+        "icaoCodeLength error": "ICAO Code must be exactly {length} characters",
+        "iataCodeLength error": "IATA Code must be exactly {length} characters",
+        "cityLength error": "City can be between 0 and {length} characters.",
+        "required error": "Please fill this field",
+        "maxLength error": "Please use at most ${max} characters",
+        "minLength error": "Please use at least ${min} characters",
+        "maxDate error": "{label} must be less than or equal to {maxDateLabel} date",
+        "minDate error": "{label} must be greater than or equal to {minDateLabel} date",
+        "distance error": "Distance between {label1} and {label2} must be less than or equal to {distance}",
+        "countryCode error": "Country code should have two uppercase letters",
+        "validFrom": "Valid from",
+        "validTo": "Valid to",
+        "publicFrom": "Public from",
+        "publicTo": "Public to",
+        "pagination": {
+            "ariaLabel": "pagination",
+            "nextPageAriaLabel": "Next page",
+            "previousPageAriaLabel": "Previous page"
+        },
+        "delete-modal": {
+            "heading": "Delete {entityName}",
+            "bodyRegion": "Do you really want to delete the region {entityName}?",
+            "bodyVertiport": "Do you really want to delete the vertiport {entityName}?",
+            "body": "Shall this {entityName} be deleted?",
+            "body-with-id": "Do you really want to delete the {entityName}?",
+            "cancel": "Cancel",
+            "delete": "Delete"
+        },
+        "filter": {
+            "listAriaLabel": "Filter Tag List",
+            "heading": "Filter",
+            "fromLabel": "from",
+            "toLabel": "to"
+        },
+        "sortingPanel": {
+            "title": "Sort",
+            "applyButtonLabel": "Apply",
+            "backButtonAriaLabel": "Back",
+            "cancelButtonLabel": "Cancel",
+            "createdOnOption": "Created on",
+            "ascendingLabel": "Ascending",
+            "descendingLabel": "Descending",
+            "options.vertiport": {
+                "validFrom": "Valid from",
+                "validTo": "Valid to",
+                "name": "Name",
+                "code": "Code",
+                "iataCode": "IATA Code",
+                "icaoCode": "ICAO Code",
+                "shortName": "Short name"
+            },
+            "options.region": {
+                "validFrom": "Valid from",
+                "validTo": "Valid to",
+                "name": "Name"
+            }
+        }
+    },
+    "region": {
+        "model": {
+            "name": "Name",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "validFromTo": "Valid from / to",
+            "publicFrom": "Public from",
+            "publicTo": "Public to",
+            "coordinates": "Coordinates",
+            "center": "Center",
+            "longitude": "Longitude",
+            "latitude": "Latitude",
+            "createdBy": "Created by",
+            "updatedBy": "Updated by",
+            "createTime": "Created at",
+            "updateTime": "Updated at",
+            "property": "Property",
+            "changeTo": "Change to"
+        },
+        "preview": {
+            "heading": "Region Preview"
+        },
+        "overview": {
+            "heading": "Resources",
+            "subheading": "Regions",
+            "listLabel": "Regions",
+            "add button": "Add",
+            "create button": "Add",
+            "cancel button": "Cancel"
+        },
+        "create": {
+            "heading": "Add Region"
+        },
+        "edit": {
+            "heading": "Edit Region",
+            "update": "Update"
+        },
+        "additionalInfo": {
+            "name": "The name of this region in English language",
+            "validFrom": "Select a date after which this region can be used. Vertiports cannot be valid before this date",
+            "validTo": "Select a date until this region can be used. Vertiports cannot be valid after this date",
+            "publicFrom": "Select a date when this region can be displayed in the customer app. If left empty, the region will be hidden from customers. Vertiports cannot be public before this date",
+            "publicTo": "Select a date when this region shall no longer be displayed to the customers. Vertiports cannot be public after this date"
+        }
+    },
+    "vertiport": {
+        "csfl": "CSFL",
+        "model": {
+            "name": "Name",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "validFromTo": "Valid from / to",
+            "publicFrom": "Public from",
+            "publicTo": "Public to",
+            "names": "Names (lokalise)",
+            "images": "Images",
+            "iataCode": "IATA Code",
+            "icaoCode": "ICAO Code",
+            "countryCode": "Country Code",
+            "code": "Code",
+            "shortName": "Short name",
+            "regionId": "Region ID",
+            "regionName": "Region",
+            "timeZone": "Time zone",
+            "elevation": "Elevation (above sea level)",
+            "location": "Location",
+            "services": "Services",
+            "operation": "Operations",
+            "fatos": "Number of Fatos",
+            "stands": "Number of Stands",
+            "MinGroundTimePre": "Operation time pre flight",
+            "preFlightBatteryHandling": "Pre flight battery handling",
+            "postFlightBatteryHandling": "Post flight battery handling",
+            "preFlightPassengerHandling": "Pre flight passenger handling",
+            "postFlightPassengerHandling": "Post flight passenger handling",
+            "preFlightPilotBriefing": "Pre flight pilot briefing",
+            "postFlightPilotBriefing": "Post flight pilot briefing",
+            "preFlightAircraftHandling": "Pre flight aircraft handling",
+            "postFlightAircraftHandling": "Post flight aircraft handling",
+            "MinGroundTimePost": "Operation time post flight",
+            "fatoBlockingTimePre": "Fato blocking time pre flight",
+            "fatoBlockingTimePost": "Fato blocking time post flight",
+            "additionalFiles": "Additional files",
+            "serviceHours": "Service hours",
+            "address": "Address",
+            "country": "Country",
+            "state": "State",
+            "city": "City",
+            "zipCode": "ZIP code",
+            "addressLine1": "Address line 1",
+            "addressLine2": "Address line 2",
+            "popularity": "Popularity",
+            "dataModelVersion": "Version of data model",
+            "longitude": "Longitude",
+            "latitude": "Latitude",
+            "passengerCheckinType": "Passenger Checkin Type",
+            "lokaliseLastUpdatedTime": "Last Update Time (lokalise)",
+            "lokaliseErrorMessage": "Error Message (lokalise)",
+            "goAroundEnergies": "Go Around Energies",
+            "goAroundEnergy": "Go Around Energy",
+            "direction": "Direction",
+            "coordinates": "Coordinates",
+            "createdBy": "Created by",
+            "updatedBy": "Updated by",
+            "createTime": "Created at",
+            "updateTime": "Updated at",
+            "approachDirections": "Approach Directions",
+            "property": "Property",
+            "changeTo": "Change to"
+        },
+        "preview": {
+            "heading": "Vertiport Preview"
+        },
+        "overview": {
+            "general": "General",
+            "location": "Location",
+            "operationalData": "Operational Data",
+            "marketingData": "Marketing Data",
+            "heading": "Resources",
+            "subheading": "Vertiports",
+            "listLabel": "Vertiports",
+            "add button": "Add",
+            "create button": "Add",
+            "cancel button": "Cancel"
+        },
+        "create": {
+            "heading": "Add Vertiport"
+        },
+        "edit": {
+            "heading": "Edit Vertiport",
+            "update": "Update"
+        },
+        "detail": {
+            "heading": "Vertiport Details - {name} - {code}"
+        },
+        "additionalInfo": {
+            "name": "The full name of this vertiport in English language",
+            "validFrom": "Select a date after which this vertiport can be used",
+            "validTo": "Select a date until this vertiport can be used",
+            "publicFrom": "Select a date when this vertiport can be displayed in the customer app. If left empty, the vertiport will be hidden from customers",
+            "publicTo": "Select a date when this vertiport shall no longer be displayed in the customer app",
+            "iataCode": "Enter three uppercased letters for this vertiport. Leave empty if no official IATA code has been assigned yet",
+            "icaoCode": "Enter four uppercased letters for this vertiport. Leave empty if no official ICAO code has been assigned yet",
+            "code": "Enter a 3 letter city code followed by a dash and a three letter abbreviation. (e.g. PAR-CDG for Paris - Charles de Gaulle). If an IATA code has been assigned, you can also only use the IATA code here instead",
+            "shortName": "Enter a shorter name for this vertiport to be displayed if space is short in the UI",
+            "timezone": "Enter the local timezone of this vertiport. (e.g. Europe/Paris) Must be an official timezone name",
+            "coordinates": "Enter the coordinates of this vertiport",
+            "region": "Enter the region code where this vertiport belongs to. If coordinates have been filled out, this field is calculated automatically",
+            "elevation": "Enter the altitude of this vertiport (e.g. when on top of a building)",
+            "services": "Enter the services available at a vertiport",
+            "batterySwapPre": "Enter the duration to perform a battery swap before a mission",
+            "passengerHandlingPre": "Enter the minimum time to perform a passenger handling and boarding before a mission",
+            "pilotBriefingPre": "Enter the minimum time the pilot needs to prepare the flight",
+            "aircraftHandlingPre": "Enter the minimum time for ground operations to prepare the flight",
+            "batterySwapPost": "Enter the duration to perform a battery swap / removal after a flight",
+            "passengerHandlingPost": "Enter the duration to deboard the passenger after a flight",
+            "pilotDebriefing": "Enter the duration the pilot need to close the mission",
+            "aircraftHandlingPost": "Enter the duration ground ops needs after every mission",
+            "fatoBlockingTimeDeparture": "Enter the minimum time needed to clear the FATO. Starting when moving from stand to FATO, hover and flying until a different CSFL site is in reach",
+            "fatoBlockingTimeArrival": "Enter the minimum time needed for an approach, land and taxi to a stand",
+            "serviceHours": "Describe when this vertiport is open to customers (e.g. 'MON-SUN 8.00-18.00' or 'MON-FRI 8.00-18.00 and SAT-SUN 8.00-20.00') Refers to local times at the vertiport",
+            "country": "The country name where this vertiport is located (English)",
+            "state": "The name of the state where this vertiport is located (English, only when applicable (U.S.))",
+            "city": "The name of the city where this vertiport is located (English)",
+            "zipcode": "The zip code of the vertiport",
+            "addressLine1": "E.g. Street and house number",
+            "addressLine2": "Additional description (optional)",
+            "popularity": "Describe how popular this vertiport is compared to other vertiport in the same region. Higher popularity scores will be displayed on top. Value goes from 0 (low) to 1 (high)",
+            "passengerCheckinType": "Please specify if this vertiport supports biometric checkin or if checkin needs to be done manually.",
+            "countryCode": "The two-letter code is used for invoicing and billing purposes. If left empty the code will be calculated automatically based on the coordinates."
+        },
+        "passengerCheckinType": {
+            "NOT_ALLOWED": "Not Allowed",
+            "BIOMETRIC": "Biometric",
+            "UNKNOWN": "Unknown"
+        },
+        "leon": "LEON",
+        "source": "Source",
+        "lastSynchronizedAt": "Last Synchronized At",
+        "sita": "SITA",
+        "sitaId": "SITA Id"
+    },
+    "detail": {
+        "details": "Details",
+        "tabs": {
+            "general": "General",
+            "location": "Location",
+            "operations": "Operations",
+            "localisation": "Localisation",
+            "resources": "Resources",
+            "fatosStand": "FATOs & Stands",
+            "equipment": "Equipment"
+        }
+    },
+    "buttons": {
+        "filter": "Filter",
+        "sort": "Sort",
+        "add": "Add",
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "details": "Details",
+        "delete": "Remove",
+        "back": "Back",
+        "apply": "Apply",
+        "addFatoStand": "Add FATO / Stand",
+        "close": "Close",
+        "done": "Done",
+        "addApproachDirection": "Add Approach Direction",
+        "editApproachDirection": "Edit Approach Direction",
+        "deleteApproachDirection": "Delete Approach Direction",
+        "checkApproachDirection": "Check Approach Direction"
+    },
+    "units": {
+        "radian": "radian",
+        "kWh": "kWh"
+    },
+    "success": {
+        "header": "All ok."
+    },
+    "error": {
+        "statusCode": "Status Code: {code}",
+        "An error occurred": "Uh-oh! An error occurred.",
+        "errorMessages": {
+            "listEmptyError": "At least one value must be set",
+            "maxCharacterError": "Please don't enter more than {maxCharacter} characters",
+            "exactCharacterError": "Please enter exactly {exactCharacter} characters",
+            "maxReferencedAttributeValueError": "This value must be less than the \"{referencedAttributeLabel}\" value. The maximum value is {maxValue}",
+            "maxValueError": "This value must be less than {maxValue}",
+            "minCharacterError": "Please enter at least {minCharacter} characters",
+            "minReferencedAttributeValueError": "This value must be greater than the \"{referencedAttributeLabel}\" value. The minimum value is {minValue}",
+            "minValueError": "This value must be greater than {minValue}",
+            "numericOnlyError": "This must be a numeric value",
+            "referentialValueDependencyError": "This value is invalid as it would affect the {referencedEntitiesAttribute} of {referencedEntitiesType}",
+            "valueTakenError": "This value is already taken",
+            "validationFailedError": "This value is invalid",
+            "maxForeignReferencedAttributeValueError": "This value must be less than or equal to the \"{referencedEntityAttribute}\" attribute of the referenced entity \"{referencedEntityType}\" which is {maxForeignValue}",
+            "minForeignReferencedAttributeValueError": "This value must be greater than or equal to the \"{referencedEntityAttribute}\" attribute of the referenced entity \"{referencedEntityType}\" which is {minForeignValue}",
+            "unknownError": "An unknown error occurred",
+            "alphanumericOnlyError": "This must be alphanumeric value",
+            "alphanumericWithUpperCaseLettersError": "This must be alphanumeric value with uppercase letters",
+            "commaSeparatedValues": "This must be 2 comma separated values"
+        }
+    },
+    "fatoStand": {
+        "label": "FATO / Stands",
+        "heading _name_": "FATO / Stands at {name}",
+        "actions": {
+            "label": "FATO / Stands Actions",
+            "deleteFatoStand": "Delete FATO / Stand",
+            "editFatoStand": "Edit FATO / Stand",
+            "addEvent": "Add Event"
+        },
+        "services": {
+            "fato": "FATO",
+            "stand": "STAND",
+            "overnightParking": "OVERNIGHT-PARKING"
+        },
+        "model": {
+            "fatoStandKey": "Key",
+            "validFrom": "Valid from",
+            "validTo": "Valid to",
+            "externalId": "External Id",
+            "longitude": "Longitude",
+            "latitude": "Latitude",
+            "height": "Height",
+            "services": "Services",
+            "coordinates": "Coordinates"
+        },
+        "delete": {
+            "message": "Are you sure you want to delete {padKey} permanently?"
+        },
+        "timeSchedular": {
+            "zoomIn": "Zoom in",
+            "zoomOut": "Zoom out",
+            "scrollLeft": "Scroll left",
+            "scrollRight": "Scroll right",
+            "closeButton": "close",
+            "title": "Go To Date",
+            "go": "Go"
+        },
+        "additionalInfo": {
+            "key": "Enter a short readable identifier for this stand or fato. (e.g. F1) Must be unique at this vertiport",
+            "externalId": "If connected to an external vertiport management system that assigns stands and FATOs to a mission you can input foreign ids of external systems here. Must be unique per vertiport",
+            "services": "Enter the capabilities of this area at the vertiport. If the same area can be used for FATO and stand, you may choose multiple options at once",
+            "coordinates": "The exact coordinate of the described area at the vertiport",
+            "height": "The elevation of the area",
+            "validFrom": "Select a date after which this area can be used. Vertiport cannot be valid after this date",
+            "validTo": "Select a date until this area can be used. Vertiport cannot be valid before this date"
+        }
+    },
+    "fatoStandEvent": {
+        "label": "FATO / Stands Event",
+        "actions": {
+            "label": "Event Actions",
+            "deleteEvent": "Delete Event"
+        },
+        "model": {
+            "title": "Title",
+            "subTitle": "Sub Title",
+            "startDateTime": "Start Date Time",
+            "endDateTime": "End Date Time",
+            "eventType": "Event Type"
+        },
+        "types": {
+            "ACParking": "ACParking",
+            "General": "General",
+            "PostBuffer": "PostBuffer",
+            "PreBuffer": "PreBuffer",
+            "Weather": "Weather"
+        },
+        "delete": {
+            "message": "Are you sure you want to delete {title} permanently?"
+        }
+    },
+    "equipment": {
+        "label": "Equipment",
+        "header": "Equipments",
+        "addEquipment": "Add Equipment",
+        "actions": {
+            "header": "Actions",
+            "label": "Equipment Actions",
+            "deleteEquipment": "Delete Equipment",
+            "editEquipment": "Edit Equipment"
+        },
+        "model": {
+            "deviceId": "Device id",
+            "name": "Name",
+            "location": "Location",
+            "validFrom": "Valid from",
+            "validTo": "Valid to"
+        },
+        "delete": {
+            "message": "Are you sure you want to delete {name} permanently?"
+        }
+    }
+}

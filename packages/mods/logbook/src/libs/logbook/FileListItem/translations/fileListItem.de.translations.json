@@ -1,0 +1,7 @@
+{
+    "dateError": "Der Zeitpunkt des Protokolls konnte nicht ermittelt werden",
+    "loadingTimestamp": "Lade Zeitspempel",
+    "editButton": "Dateityp bearbeiten",
+    "deleteButton": "Dateieintrag entfernen",
+    "submitFileTypeButton": "Dateityp senden"
+}

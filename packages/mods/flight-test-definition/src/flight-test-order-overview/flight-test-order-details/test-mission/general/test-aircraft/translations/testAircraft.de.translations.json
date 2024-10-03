@@ -1,0 +1,22 @@
+{
+    "Test Aircraft": "Test Aircraft",
+    "Model": "Model",
+    "Applicability": "Applicability",
+    "Aircraft Callsign": "Aircraft Callsign",
+    "Flight Conditions": "Flight Conditions",
+    "Rev.": "Rev.",
+    "Issue Date for Flight Conditions": "Issue Date for Flight Conditions",
+    "Permit to Fly": "Permit to Fly",
+    "Issue Date for Permit to Fly": "Issue Date for Permit to Fly",
+    "Issue Date for Permit": "Issue Date for Permit",
+    "Valid Until": "Valid Until",
+    "Manned": "Manned",
+    "Unmanned": "Unmanned",
+    "Please select": "Please select",
+    "Please select a value": "Please select a value",
+    "Select Master Model": "Select Master Model",
+    "Dropdown Error": "Please select a value",
+    "Master Model": "Master Model",
+    "MSN": "MSN",
+    "Test Aircraft & Configuration": "Test Aircraft & Configuration"
+}

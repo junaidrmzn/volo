@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: voloiq.notifications.ui
+  title: notifications UI
+  tags:
+  - javascript
+spec:
+  type: micro-frontend
+  lifecycle: production
+  owner: voloiq-vc-devs
+  system: voloiq.notifications
+  consumesApis:
+  - voloiq.notifications.api

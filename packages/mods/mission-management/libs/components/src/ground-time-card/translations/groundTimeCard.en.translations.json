@@ -1,0 +1,9 @@
+{
+    "headerLabel": "Ground Time",
+    "actionLabel": "Ground Time Action",
+    "minutes": "min",
+    "fatoLabel": "FATO",
+    "standLabel": "Stand",
+    "inboundLabel": "Inbound",
+    "outboundLabel": "Outbound"
+}

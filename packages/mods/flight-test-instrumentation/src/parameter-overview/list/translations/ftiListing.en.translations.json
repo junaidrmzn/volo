@@ -1,0 +1,12 @@
+{
+    "card": {
+        "cardTitle": {
+            "title": "FTI Parameter Title",
+            "generalTitle": "FTI Request",
+            "shortDescription": "Short Description",
+            "workgroup": "Workgroup",
+            "msn": "MSN",
+            "openRequest": "Open Request"
+        }
+    }
+}

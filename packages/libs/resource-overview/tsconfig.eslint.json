@@ -1,0 +1,4 @@
+{
+    "extends": "./tsconfig.json",
+    "include": ["src", "config", "global.d.ts", "cypress", "cypress.config.ts"]
+}

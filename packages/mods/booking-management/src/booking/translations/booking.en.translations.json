@@ -1,0 +1,93 @@
+{
+    "generic": {
+        "from": "From",
+        "to": "To",
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+    },
+    "title": "Bookings",
+    "overview": {
+        "heading": "Sales",
+        "subheading": "Bookings",
+        "listLabel": "Bookings",
+        "cardLabel": "Booking",
+        "filterPanel": {
+            "Filters": "Filters",
+            "bookingCode": "Booking Code",
+            "bookingDate": "Booking Date",
+            "connection": "Connection",
+            "departureDateTime": "Departure Date & Time",
+            "region": "Region",
+            "status": "Status"
+        },
+        "list": {
+            "bookedOn": "Booked on"
+        },
+        "detail": {
+            "notSelected": {
+                "title": "Select a Booking to get started.",
+                "subtitle": "We provided you with your daily Overview down below."
+            },
+            "resendEmailToPassenger": "Resend Email to Passenger",
+            "initiateRefund": "Initiate Refund",
+            "cancelBooking": "Cancel Booking",
+            "bookingInformation": {
+                "title": "Booking Information",
+                "code": "Code",
+                "codeNumber": "Code Number",
+                "ticketPrice": "Ticket Price",
+                "paymentMethod": "Payment Method",
+                "dateOfBooking": "Date of Booking",
+                "cancelledBy": "Cancelled By",
+                "dateOfCancellation": "Date of Cancellation",
+                "refundAmount": "Refund Amount",
+                "refundInPercentage": "Refund in %",
+                "dateOfRefund": "Date of Refund"
+            },
+            "customerInformation": {
+                "title": "Customer Information",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "email": "E-mail",
+                "dateOfBirth": "Date of Birth",
+                "reason": "Reason",
+                "invoiceAddress": "Invoice Address",
+                "BookedFor": "Booked for"
+            },
+            "flightInformation": {
+                "title": "Flight Information",
+                "msn": "MSN",
+                "aircraftType": "Aircraft Type",
+                "acRegistration": "AC Registration",
+                "passengerSeats": "Passenger Seats",
+                "configurations": "Configurations",
+                "homebase": "Homebase",
+                "departureVertiport": "Departure Vertiport",
+                "arrivalVertiport": "Arrival Vertiport"
+            },
+            "refundPolicy": {
+                "title": "Refund Policy",
+                "upTo72Hours": "Up to 72 hours prior to departure or more : Refund is 100%",
+                "lessThan72Hours": "less than 72 hours: Booking is cancelled and No Refund is processed",
+                "ifVolocopterCancel": "If Volocopter has to Cancel: Refund is 100%"
+            }
+        },
+        "actions": {
+            "cancelBooking": {
+                "title": "Cancel Booking",
+                "selectionMessage": "Please select for whom you are canceling",
+                "information": "By confirming Cancel Booking the Booking will be irreversibly canceled.",
+                "subInformation": "This process cannot be reversed.",
+                "cancelForVolocopter": {
+                    "title": "Cancel for Volocopter",
+                    "passengerEmailMessage": "The Passenger will get an email with the next steps about the refunding",
+                    "refundTriggerMessage": "The refund will be automatically triggered"
+                },
+                "cancelForPassenger": {
+                    "title": "Cancel for Passenger",
+                    "confirmationEmailMessage": "The Passenger will get a confirmation email"
+                }
+            }
+        }
+    }
+}

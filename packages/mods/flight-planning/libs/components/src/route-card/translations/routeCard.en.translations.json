@@ -1,0 +1,22 @@
+{
+  "notAvailable": "n.a.",
+  "routeDetail": "Route Detail",
+  "nm": "NM",
+  "status": {
+    "valid": "valid",
+    "invalid": "invalid",
+    "limited": "limited",
+    "not_yet_validated": "Not Validated"
+  },
+  "menu": {
+    "open": "Open Menu",
+    "editName": "Edit Name",
+    "saveAsTemplate": "Save as Template",
+    "deleteRoute": "Delete Route",
+    "uploadSimulatorCSV": "Upload Simulator CSV",
+    "exportRouteKml": "Export Route Kml",
+    "exportRouteCsv": "Export Route CSV",
+    "exportRouteExcel": "Export Route Excel",
+    "computeAltitudeProfile": "Compute Altitude Profile"
+  }
+}
